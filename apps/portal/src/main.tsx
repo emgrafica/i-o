@@ -1,69 +1,46 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import { ApolloProvider } from '@apollo/react-common';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import '@i-o/design-system/design/tokens.css';
+import '@i-o/ui/styles.css';
+import './portal.css';
+import './i18n';
+import { IoProvider } from './io';
+import { Shell } from './Shell';
+import { HomePage } from './pages/HomePage';
+import { HelpPage } from './pages/HelpPage';
+import { RequestsPage } from './pages/RequestsPage';
+import { RequestPage } from './pages/RequestPage';
+import { TechnologyPage } from './pages/TechnologyPage';
+import { AssetPage } from './pages/AssetPage';
+import { CatalogItemPage, CatalogPage } from './pages/CatalogPages';
+import { ArticlePage, NotFoundPage, PreferencesPage, SearchPage } from './pages/OtherPages';
 
-/**
- * Providers.
- */
-import { LumosTheme, ToastProvider } from '@lumos/core';
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Shell />,
+    children: [
+      { index: true, element: <HomePage /> },
+      { path: 'help', element: <HelpPage /> },
+      { path: 'requests', element: <RequestsPage /> },
+      { path: 'requests/:id', element: <RequestPage /> },
+      { path: 'technology', element: <TechnologyPage /> },
+      { path: 'technology/:id', element: <AssetPage /> },
+      { path: 'catalog', element: <CatalogPage /> },
+      { path: 'catalog/:id', element: <CatalogItemPage /> },
+      { path: 'knowledge/:id', element: <ArticlePage /> },
+      { path: 'search', element: <SearchPage /> },
+      { path: 'preferences', element: <PreferencesPage /> },
+      { path: '*', element: <NotFoundPage /> },
+    ],
+  },
+]);
 
-/**
- * Components.
- */
-import { App } from './components';
-
-/**
- * Containers
- */
-//import AuthContainer from './containers/AuthContainer';
-
-/**
- * Other.
- */
-import * as serviceWorker from './serviceWorker';
-
-/**
- * Configuration.
- */
-import 'i18n';
-//import apolloClient from './store/apollo';
-import { env, gtmId } from './utils/env';
-
-/**
- * Google Tag Manager
- * Learn more about react-gtm: https://github.com/alinemorelli/react-gtm
- */
-import TagManager, { TagManagerArgs } from 'react-gtm-module';
-import lumosTheme from 'utils/lumosTheme';
-import GlobalStyle from 'utils/globalStyle';
-import WelcomeModal from 'components/WelcomeModal';
-import { OPENSANS_FONT_FACES, loadFonts } from './assets/fonts/fonts';
-
-const tagManagerArgs: TagManagerArgs = {
-  gtmId: env(gtmId),
-};
-
-TagManager.initialize(tagManagerArgs);
-
-const styleId1 = 'OPENSANS_FONT_FACES';
-loadFonts(OPENSANS_FONT_FACES, styleId1);
-
-ReactDOM.render(
-  <LumosTheme theme={lumosTheme}>
-    {/* <AuthContainer> */}
-    {/* <ApolloProvider client={apolloClient}> */}
-    <ToastProvider placement="top-right" autoDismissTimeout={5000}>
-      <GlobalStyle />
-      <WelcomeModal />
-      <App />
-    </ToastProvider>
-    {/* </ApolloProvider> */}
-    {/* </AuthContainer> */}
-  </LumosTheme>,
-  document.getElementById('root'),
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <IoProvider>
+      <RouterProvider router={router} />
+    </IoProvider>
+  </StrictMode>,
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

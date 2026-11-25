@@ -1,0 +1,241 @@
+{
+  "brand": {
+    "name": "systems",
+    "tagline": "Intelligent Operations Systems"
+  },
+  "shell": {
+    "skip": "Zum Inhalt springen",
+    "search": "Suche",
+    "searchPlaceholder": "Anfragen, Geräte, Hilfe durchsuchen…"
+  },
+  "nav": {
+    "label": "Hauptmenü",
+    "home": "Start",
+    "help": "Hilfe",
+    "requests": "Anfragen",
+    "technology": "Meine Technik",
+    "catalog": "Katalog",
+    "preferences": "Profil und Einstellungen"
+  },
+  "footer": {
+    "sample": "Beispielorganisation Oakline"
+  },
+  "common": {
+    "all": "Alle",
+    "back": "Zurück",
+    "dismiss": "Ausblenden",
+    "error": "Etwas ist schiefgelaufen",
+    "no": "Nein",
+    "open": "Öffnen",
+    "retry": "Erneut versuchen",
+    "seeAll": "Alle anzeigen",
+    "sending": "Wird gesendet…",
+    "view": "Ansehen",
+    "yes": "Ja"
+  },
+  "home": {
+    "eyebrow": "Ihr Arbeitsplatz an einem Ort",
+    "greeting": "Hallo {{name}}, was brauchen Sie?",
+    "greetingAnon": "Was brauchen Sie?",
+    "ask": "i-o fragen",
+    "askPlaceholder": "Beschreiben Sie es in eigenen Worten: „Mein VPN bricht ständig ab“",
+    "askButton": "Fragen",
+    "suggest1": "Mein Laptop-Akku ist schnell leer",
+    "suggest2": "Einen Monitor bestellen",
+    "suggest3": "Passwort zurücksetzen",
+    "attention": "Braucht Ihre Aufmerksamkeit",
+    "approvalWaiting": "Genehmigung offen: {{title}}",
+    "replyWaiting": "{{number}} wartet auf Ihre Antwort",
+    "openRequests": "Offene Anfragen",
+    "noOpen": "Nichts offen.",
+    "status": "Dienststatus",
+    "allGood": "Alle Dienste laufen normal.",
+    "myTechnology": "Meine Technik",
+    "refreshDue": "Ihr {{name}} kann ersetzt werden",
+    "popular": "Beliebte Hilfe"
+  },
+  "help": {
+    "title": "Wie können wir helfen?",
+    "lead": "Suchen Sie zuerst nach Antworten. Wenn das nicht hilft, sagen Sie uns Bescheid.",
+    "searchLabel": "Hilfe durchsuchen",
+    "searchPlaceholder": "Hilfeartikel durchsuchen",
+    "results_one": "{{count}} Artikel",
+    "results_other": "{{count}} Artikel",
+    "popular": "Beliebte Artikel",
+    "noResults": "Keine passenden Artikel. Beschreiben Sie das Problem unten.",
+    "stillNeed": "Brauchen Sie weiterhin Hilfe?",
+    "form": {
+      "title": "Was ist das Problem?",
+      "titlePlaceholder": "z. B. Keine VPN-Verbindung von zu Hause",
+      "details": "Details",
+      "detailsHint": "Seit wann? Gibt es eine Fehlermeldung?",
+      "device": "Welches Gerät?",
+      "noDevice": "Betrifft kein Gerät",
+      "submit": "Anfrage senden"
+    }
+  },
+  "requests": {
+    "title": "Anfragen",
+    "lead": "Alles, was Sie angefragt haben, und was auf Sie wartet.",
+    "filter": "Anfragen filtern",
+    "search": "Anfragen durchsuchen",
+    "tabs": {
+      "open": "Offen",
+      "approvals": "Genehmigungen",
+      "closed": "Abgeschlossen",
+      "all": "Alle"
+    },
+    "empty": "Keine Anfragen.",
+    "updated": "aktualisiert {{when}}"
+  },
+  "request": {
+    "approvalAsk": "Diese Anfrage wartet auf Ihre Entscheidung.",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "addComment": "Kommentar hinzufügen",
+    "commentPlaceholder": "Dem Team antworten…",
+    "send": "Senden",
+    "facts": {
+      "opened": "Erstellt",
+      "due": "Erwartet bis",
+      "resolved": "Gelöst",
+      "priority": "Priorität",
+      "assignee": "Bei",
+      "source": "Quellsystem"
+    },
+    "unassigned": "Noch nicht zugewiesen",
+    "relatedDevice": "Zugehöriges Gerät",
+    "attachments": "Anhänge",
+    "reopen": "Erneut öffnen",
+    "reopenWhy": "Was ist noch nicht in Ordnung?",
+    "cancel": "Anfrage stornieren",
+    "cancelWhy": "Grund (optional)",
+    "confirmCancel": "Anfrage stornieren"
+  },
+  "technology": {
+    "title": "Meine Technik",
+    "lead": "Geräte, Software und Zugänge, die Ihnen zugewiesen sind.",
+    "empty": "Ihnen ist noch nichts zugewiesen.",
+    "groups": {
+      "devices": "Geräte",
+      "software": "Software",
+      "access": "Konten und Zugänge"
+    },
+    "serial": "Seriennummer",
+    "since": "Ihres seit {{date}}",
+    "warranty": "Garantie bis",
+    "refreshFrom": "Ersatz möglich ab",
+    "warrantySoon_one": "Garantie endet morgen",
+    "warrantySoon_other": "Garantie endet in {{count}} Tagen",
+    "refreshEligible": "Sie können ein neues Gerät anfordern.",
+    "needSomething": "Brauchen Sie etwas?",
+    "relatedRequests": "Anfragen zu diesem Gerät",
+    "lastSeen": "Wo und wann hatten Sie es zuletzt?",
+    "details": "Details",
+    "detailsHint": "Alles, was uns schneller hilft.",
+    "submit": "Senden",
+    "actions": {
+      "refresh": "Ersatz anfordern"
+    },
+    "reports": {
+      "broken": {
+        "title": "Problem melden",
+        "hint": "Funktioniert nicht richtig",
+        "explain": "Beschreiben Sie das Problem. Wir prüfen die aktuellen Gerätedaten und melden uns."
+      },
+      "lost-or-stolen": {
+        "title": "Verloren oder gestohlen",
+        "hint": "Jetzt sperren und Daten schützen",
+        "explain": "Wir sperren das Gerät sofort und deaktivieren seine Anmeldungen. Ein Ersatz kann in der Anfrage bestellt werden."
+      },
+      "return": {
+        "title": "Zurückgeben",
+        "hint": "Austritt oder nicht mehr benötigt",
+        "explain": "Wir senden Ihnen ein vorfrankiertes Rücksendeetikett. Melden Sie sich vorher von privaten Konten ab."
+      },
+      "refresh": {
+        "title": "Ersatz anfordern",
+        "hint": "Auf ein aktuelles Modell wechseln",
+        "explain": "Wir bestellen ein aktuelles Modell und senden ein Etikett für die Rückgabe."
+      }
+    }
+  },
+  "catalog": {
+    "title": "Katalog",
+    "lead": "Geräte, Zubehör, Software und Arbeitsplatzdienste.",
+    "search": "Katalog durchsuchen",
+    "free": "Kostenlos",
+    "approval": "Genehmigung nötig",
+    "note": "Möchten Sie uns etwas mitteilen?",
+    "order": "Bestellen",
+    "leadTime_one": "In der Regel {{count}} Arbeitstag",
+    "leadTime_other": "In der Regel {{count}} Arbeitstage",
+    "approvalExplain": "Ihre Führungskraft genehmigt dies vor der Bestellung.",
+    "noApproval": "Keine Genehmigung nötig."
+  },
+  "article": {
+    "helpful": "War das hilfreich?",
+    "thanks": "Danke für Ihr Feedback.",
+    "stats": "{{views}} Aufrufe · {{yes}} fanden es hilfreich",
+    "updated": "Aktualisiert am {{date}}",
+    "stillStuck": "Weiterhin Probleme? Hilfe anfordern"
+  },
+  "search": {
+    "title": "Ergebnisse für „{{q}}“",
+    "empty": "Nichts gefunden.",
+    "askHelp": "Beschreiben Sie es stattdessen unter Hilfe",
+    "kinds": {
+      "request": "Anfrage",
+      "asset": "Meine Technik",
+      "knowledge": "Hilfeartikel",
+      "catalog": "Katalog",
+      "person": "Person",
+      "place": "Ort"
+    }
+  },
+  "prefs": {
+    "title": "Profil und Einstellungen",
+    "email": "E-Mail",
+    "location": "Standort",
+    "language": "Sprache"
+  },
+  "notFound": {
+    "title": "Diese Seite gibt es nicht."
+  },
+  "status": {
+    "new": "Neu",
+    "in-progress": "In Bearbeitung",
+    "waiting-on-you": "Wartet auf Sie",
+    "resolved": "Gelöst",
+    "closed": "Geschlossen",
+    "cancelled": "Storniert"
+  },
+  "kind": {
+    "incident": "Störung",
+    "order": "Bestellung",
+    "approval": "Genehmigung"
+  },
+  "priority": {
+    "low": "Niedrig",
+    "normal": "Normal",
+    "high": "Hoch",
+    "critical": "Kritisch"
+  },
+  "assetKind": {
+    "laptop": "Laptop",
+    "desktop": "Desktop",
+    "phone": "Telefon",
+    "tablet": "Tablet",
+    "monitor": "Monitor",
+    "peripheral": "Zubehör",
+    "software": "Software",
+    "account": "Zugang"
+  },
+  "assetStatus": {
+    "in-use": "In Gebrauch",
+    "in-stock": "Auf Lager",
+    "in-repair": "In Reparatur",
+    "lost": "Verloren",
+    "retired": "Ausgemustert"
+  }
+}

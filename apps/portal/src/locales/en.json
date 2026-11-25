@@ -1,0 +1,241 @@
+{
+  "brand": {
+    "name": "systems",
+    "tagline": "Intelligent Operations Systems"
+  },
+  "shell": {
+    "skip": "Skip to content",
+    "search": "Search",
+    "searchPlaceholder": "Search requests, devices, help…"
+  },
+  "nav": {
+    "label": "Main",
+    "home": "Home",
+    "help": "Get help",
+    "requests": "Requests",
+    "technology": "My technology",
+    "catalog": "Catalog",
+    "preferences": "Profile and preferences"
+  },
+  "footer": {
+    "sample": "Showing the Oakline sample organisation"
+  },
+  "common": {
+    "all": "All",
+    "back": "Back",
+    "dismiss": "Dismiss",
+    "error": "Something went wrong",
+    "no": "No",
+    "open": "Open",
+    "retry": "Try again",
+    "seeAll": "See all",
+    "sending": "Sending…",
+    "view": "View",
+    "yes": "Yes"
+  },
+  "home": {
+    "eyebrow": "Your workplace, in one place",
+    "greeting": "Hi {{name}}, what do you need?",
+    "greetingAnon": "What do you need?",
+    "ask": "Ask i-o",
+    "askPlaceholder": "Describe it in your own words: \"my VPN keeps dropping\"",
+    "askButton": "Ask",
+    "suggest1": "My laptop battery drains fast",
+    "suggest2": "Order a monitor",
+    "suggest3": "Reset my password",
+    "attention": "Needs your attention",
+    "approvalWaiting": "Approval waiting: {{title}}",
+    "replyWaiting": "{{number}} is waiting for your reply",
+    "openRequests": "Open requests",
+    "noOpen": "Nothing open. Nice.",
+    "status": "Service status",
+    "allGood": "All services are running normally.",
+    "myTechnology": "My technology",
+    "refreshDue": "Your {{name}} is due for a refresh",
+    "popular": "Popular help"
+  },
+  "help": {
+    "title": "How can we help?",
+    "lead": "Search answers first; if you're still stuck, tell us and we'll take it from there.",
+    "searchLabel": "Search help",
+    "searchPlaceholder": "Search help articles",
+    "results_one": "{{count}} article",
+    "results_other": "{{count}} articles",
+    "popular": "Popular articles",
+    "noResults": "No articles match. Describe the problem below and we'll help.",
+    "stillNeed": "Still need help?",
+    "form": {
+      "title": "What's wrong?",
+      "titlePlaceholder": "e.g. Cannot connect to the VPN from home",
+      "details": "Details",
+      "detailsHint": "When did it start? Any error message?",
+      "device": "Which device?",
+      "noDevice": "Not about a device",
+      "submit": "Send request"
+    }
+  },
+  "requests": {
+    "title": "Requests",
+    "lead": "Everything you've asked for, and anything waiting on you.",
+    "filter": "Filter requests",
+    "search": "Search requests",
+    "tabs": {
+      "open": "Open",
+      "approvals": "Approvals",
+      "closed": "Closed",
+      "all": "All"
+    },
+    "empty": "No requests here.",
+    "updated": "updated {{when}}"
+  },
+  "request": {
+    "approvalAsk": "This request is waiting for your decision.",
+    "approve": "Approve",
+    "reject": "Reject",
+    "addComment": "Add a comment",
+    "commentPlaceholder": "Reply to the team…",
+    "send": "Send",
+    "facts": {
+      "opened": "Opened",
+      "due": "Expected by",
+      "resolved": "Resolved",
+      "priority": "Priority",
+      "assignee": "With",
+      "source": "System of record"
+    },
+    "unassigned": "Not assigned yet",
+    "relatedDevice": "Related device",
+    "attachments": "Attachments",
+    "reopen": "Reopen",
+    "reopenWhy": "What's still wrong?",
+    "cancel": "Cancel request",
+    "cancelWhy": "Reason (optional)",
+    "confirmCancel": "Cancel request"
+  },
+  "technology": {
+    "title": "My technology",
+    "lead": "Devices, software and access assigned to you.",
+    "empty": "Nothing assigned to you yet.",
+    "groups": {
+      "devices": "Devices",
+      "software": "Software",
+      "access": "Accounts and access"
+    },
+    "serial": "Serial",
+    "since": "Yours since {{date}}",
+    "warranty": "Warranty until",
+    "refreshFrom": "Eligible for refresh from",
+    "warrantySoon_one": "Warranty ends tomorrow",
+    "warrantySoon_other": "Warranty ends in {{count}} days",
+    "refreshEligible": "You're eligible for a replacement.",
+    "needSomething": "Need something?",
+    "relatedRequests": "Requests about this",
+    "lastSeen": "Where and when did you last have it?",
+    "details": "Details",
+    "detailsHint": "Anything that helps us sort it faster.",
+    "submit": "Send",
+    "actions": {
+      "refresh": "Request a replacement"
+    },
+    "reports": {
+      "broken": {
+        "title": "Report a problem",
+        "hint": "Not working as it should",
+        "explain": "Tell us what's happening. We'll check the device's latest health data and get back to you."
+      },
+      "lost-or-stolen": {
+        "title": "Lost or stolen",
+        "hint": "Lock it and protect your data now",
+        "explain": "We'll lock the device straight away and disable its sign-ins. You can order a replacement from the request."
+      },
+      "return": {
+        "title": "Return it",
+        "hint": "Leaving, or no longer need it",
+        "explain": "We'll email a prepaid return label. Sign out of personal accounts before you send it."
+      },
+      "refresh": {
+        "title": "Request a replacement",
+        "hint": "Upgrade to a current model",
+        "explain": "We'll order a current model and send a label to return this one."
+      }
+    }
+  },
+  "catalog": {
+    "title": "Catalog",
+    "lead": "Devices, accessories, software and workplace services.",
+    "search": "Search the catalog",
+    "free": "No charge",
+    "approval": "Needs approval",
+    "note": "Anything we should know?",
+    "order": "Order",
+    "leadTime_one": "Usually {{count}} working day",
+    "leadTime_other": "Usually {{count}} working days",
+    "approvalExplain": "Your manager approves this before it's ordered.",
+    "noApproval": "No approval needed."
+  },
+  "article": {
+    "helpful": "Was this helpful?",
+    "thanks": "Thanks for the feedback.",
+    "stats": "{{views}} views · {{yes}} found it helpful",
+    "updated": "Updated {{date}}",
+    "stillStuck": "Still stuck? Get help"
+  },
+  "search": {
+    "title": "Results for \"{{q}}\"",
+    "empty": "Nothing found.",
+    "askHelp": "Describe it in Get help instead",
+    "kinds": {
+      "request": "Request",
+      "asset": "My technology",
+      "knowledge": "Help article",
+      "catalog": "Catalog",
+      "person": "Person",
+      "place": "Place"
+    }
+  },
+  "prefs": {
+    "title": "Profile and preferences",
+    "email": "Email",
+    "location": "Location",
+    "language": "Language"
+  },
+  "notFound": {
+    "title": "That page doesn't exist."
+  },
+  "status": {
+    "new": "New",
+    "in-progress": "In progress",
+    "waiting-on-you": "Waiting on you",
+    "resolved": "Resolved",
+    "closed": "Closed",
+    "cancelled": "Cancelled"
+  },
+  "kind": {
+    "incident": "Incident",
+    "order": "Order",
+    "approval": "Approval"
+  },
+  "priority": {
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "critical": "Critical"
+  },
+  "assetKind": {
+    "laptop": "Laptop",
+    "desktop": "Desktop",
+    "phone": "Phone",
+    "tablet": "Tablet",
+    "monitor": "Monitor",
+    "peripheral": "Accessory",
+    "software": "Software",
+    "account": "Access"
+  },
+  "assetStatus": {
+    "in-use": "In use",
+    "in-stock": "In stock",
+    "in-repair": "In repair",
+    "lost": "Lost",
+    "retired": "Retired"
+  }
+}

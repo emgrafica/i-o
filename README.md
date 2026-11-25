@@ -10,20 +10,21 @@ This monorepo holds the i-o design system and the first **surfaces** (portal, ca
 
 | Path | Package | What it is | State |
 |---|---|---|---|
-| `packages/design-system` | `@i-o/design-system` | 63 React components (tickets, devices, knowledge, software, outages), DTCG tokens (`--io-*`), Storybook 8, Figma token export | **Rebuilt** (Vite, Storybook 8). Run it now. |
-| `packages/design-system-classic` | `@i-o/design-system-classic` | The earlier component library used by `apps/hub` (18 stories) | Imported; modernised in phase 3 |
-| `apps/portal` | `@i-o/portal` | Workplace self-service portal: home, get support, orders and incidents, devices (refresh, return, lost or stolen, broken), technology, search, preferences. React + TypeScript, 12 languages | Imported; first client of the i-o API in phase 2 |
-| `apps/catalog` | `@i-o/catalog` | Catalog, item pages, checkout, confirmation and approvals (GraphQL), plus the portal pages it shared. 12 languages | Imported; phase 3 |
-| `apps/hub` | `@i-o/hub` | Marketplace, my devices, knowledge articles, support history and ticket details. React + Redux | Imported; phase 3 |
+| `packages/api` | `@i-o/api` | **The i-o API contract**: one vendor-neutral model of an organisation (people, places, assets, requests, knowledge, catalog, events, search) plus the HTTP client | v0.1 |
+| `packages/connector-mock` | `@i-o/connector-mock` | Connector over the fictional **Oakline** sample organisation; runs in the browser | v0.1, 15 smoke checks |
+| `packages/ui` | `@i-o/ui` | React 18 building blocks on the `--io-*` tokens | v0.1 |
+| `packages/design-system` | `@i-o/design-system` | Design tokens (DTCG, Figma export) and the 63-component React 17 library with Storybook 8 | Rebuilt |
+| `apps/portal` | `@i-o/portal` | **The first surface**: home, get help, requests and approvals, my technology, catalog, knowledge, search. English and German | v0.1 |
+| `packages/design-system-classic` | n/a | Earlier component library; folded into the design system in phase 3 | Not built |
+| `reference/` | n/a | The 2021 portal, catalog and hub, kept as design reference only | Not built |
 
-Only `packages/design-system` is in the npm workspace for now, so `npm install` at the root works. The apps join the workspace as each one is modernised.
-
-## Run the design system
+## Run it
 
 ```bash
 npm install
-npm run storybook          # http://localhost:6006
-npm run build:design-system
+npm run dev                # portal on http://localhost:5173, sample organisation
+npm test                   # connector smoke checks
+npm run storybook          # design system on http://localhost:6006
 ```
 
 ## Guards

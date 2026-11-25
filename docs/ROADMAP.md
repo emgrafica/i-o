@@ -8,7 +8,12 @@ The order follows [`VISION.md`](VISION.md): build the organism's core (one API o
 - First surfaces imported: `apps/portal`, `apps/catalog`, `apps/hub`, plus `packages/design-system-classic`.
 - Retired working-title names removed (`NAMING.md`, `npm run check:names`). Secrets, customer CI and private-registry lockfiles left out.
 
-## Phase 2: the i-o API contract and the portal as its first client
+## Phase 2: the i-o API contract and the portal as its first client ✓ v0.1 (2026-11-25)
+
+Done: `@i-o/api` (contract + HTTP client), `@i-o/connector-mock` (Oakline sample organisation), `@i-o/ui` (React 18 components on the tokens), and a **new** `apps/portal` built from scratch (the 2021 portal depended on a private third-party UI library, so it stays in `reference/` as the design reference). Still to do: an OpenAPI document for the contract, the remaining 10 languages, and accessibility and visual QA.
+
+Plan as written:
+
 
 1. **`packages/api`**: the i-o domain model and contract (TypeScript types + OpenAPI): **people, assets, requests (orders and incidents), knowledge, catalog, places, events**. It's vendor-neutral: no ITSM-, identity- or cloud-specific shapes leak through.
 2. **`packages/connectors/mock`**: the first connector. It implements the contract with realistic sample data (built from the portal's existing mock data, with customer names removed), so every surface runs offline.

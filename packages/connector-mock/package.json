@@ -1,0 +1,21 @@
+{
+  "name": "@i-o/connector-mock",
+  "version": "0.1.0",
+  "description": "i-o connector with an in-memory sample organisation (Oakline). Runs in the browser; used for demos, design and tests.",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@i-o/api": "*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p .",
+    "test": "tsx test/smoke.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "~5.7.0"
+  }
+}

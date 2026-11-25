@@ -6,13 +6,23 @@
   "license": "UNLICENSED",
   "homepage": "https://i-o.systems",
   "workspaces": [
-    "packages/design-system"
+    "packages/api",
+    "packages/connector-mock",
+    "packages/ui",
+    "packages/design-system",
+    "apps/portal"
   ],
   "scripts": {
+    "dev": "npm run dev -w @i-o/portal",
+    "build": "npm run build -w @i-o/portal",
+    "typecheck": "npm run typecheck -w @i-o/api -w @i-o/connector-mock -w @i-o/portal",
+    "test": "npm test -w @i-o/connector-mock",
     "storybook": "npm run storybook -w @i-o/design-system",
     "build:design-system": "npm run build -w @i-o/design-system",
     "check:names": "bash scripts/check-names.sh",
     "check:brand": "npm run check:brand -w @i-o/design-system"
   },
-  "engines": { "node": ">=20.11" }
+  "engines": {
+    "node": ">=20.11"
+  }
 }
