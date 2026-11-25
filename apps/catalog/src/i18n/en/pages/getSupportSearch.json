@@ -1,0 +1,20 @@
+{
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+
+  "title": "Get Support",
+  "subtitle": "Access self-service solutions to IT issues",
+
+  "businessApplicationsTabTitle": "Business Applications",
+  "knowledgeArticlesTabTitle": "Knowledge Articles",
+  "businessFiltersLabel": "Business",
+  "viewAllLabel": "View All",
+
+  "punchOutModal": {
+    "title": "Business application support outside i-o",
+    "message": "Support for this business application is available outside of i-o's incident creation process. Follow the link below, which will open the application's related external url for you to proceed with getting support.",
+    "action": "Get Support"
+  },
+  "showingEnglishResults": "Business Application results are currently available in English only",
+  "showingResultsFor": "Showing {{totalItems}} results for \"{{keywords}}\"",
+  "noResults": "Sorry, no results match your search term."
+}

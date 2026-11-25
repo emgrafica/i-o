@@ -1,0 +1,6 @@
+{
+  "date": "{{date DATE}}",
+  "datetime": "{{date DATETIME}}",
+  "id": "0634e634-8129-440c-91cf-f4879eef85c0",
+  "time": "{{date TIME}}"
+}

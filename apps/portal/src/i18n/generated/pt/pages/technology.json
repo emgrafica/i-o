@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "Dispositivo está quebrado",
+    "editUsage": "Editar uso",
+    "issuedDate": "Emitido",
+    "moreActions": "Mais Ações",
+    "reassign": "Reatribuir",
+    "refresh": "atualizar",
+    "refreshEligibleBadge": "Atualizar elegível",
+    "refreshEligibleLabel": "Atualizar elegível",
+    "registerOwnership": "Registrar Propriedade",
+    "reportBroken": "Relatório Quebrado",
+    "reportMissing": "Relatório desaparecido",
+    "reportOwnershipError": "Erro de propriedade do relatório",
+    "return": "retornar",
+    "usage": "uso",
+    "wipeComputer": "Limpar computador"
+  },
+  "checkout": {
+    "agreementTitle": "Leia a seguinte mensagem",
+    "cancelModal": {
+      "content": "Cancelar o pedido limpará suas entradas e o devolverá à página Tecnologia.",
+      "title": "Confirmar cancelamento de pedidos"
+    },
+    "failureMessage": "A submissão falhou. Por favor, tente de novo.",
+    "leaveModal": {
+      "content": "Se você quiser continuar o processo de devolução mais tarde, volte para o menu Gerenciar. Você quer continuar?",
+      "title": "Você está deixando o processo de retorno"
+    },
+    "orderDetails": {
+      "asset": "Dispositivo a ser devolvido",
+      "header": "Detalhes do pedido",
+      "reason": "Motivo para retorno"
+    },
+    "subtitle": "Revise e envie uma ordem",
+    "title": "caixa"
+  },
+  "editUsage": {
+    "buttonLabel": "Selecione o tipo de uso",
+    "header": "Editar uso",
+    "label": "Uso do dispositivo",
+    "update": "atualização"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "Você atualmente não tem tecnologia atribuída, por favor, verifique novamente mais tarde.",
+  "orderConfirmation": {
+    "subtitle": "Revise os detalhes do seu pedido",
+    "title": "Confirmação do pedido"
+  },
+  "reassign": {
+    "header": "Dispositivo de redesignação",
+    "ineligibleUser": "Usuário encontrado, mas não elegível.",
+    "lookupLabel": "Procure um colega para redesignar este computador para",
+    "p1": "Computadores só podem ser remanejados dentro do mesmo país.",
+    "p2": "O novo atribuído ao usuário deve estar dentro do mesmo negócio.",
+    "p3": "O novo atribuído ao usuário deve ter direito à funcionalidade i-o Computers.",
+    "title": "As redesignações de computador são habilitadas de acordo com as políticas de negócios e as seguintes regras.",
+    "warning": "Este computador será reatribuído para {{assignedTo}} imediatamente após o envio."
+  },
+  "recommendAsset": {
+    "altImage": "recomendar dispositivo"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "Confirmo que preciso que este computador fique designado para mim.",
+    "alertMessage": {
+      "contactServiceDesk": "Entre em contato com o ServiceDesk para obter mais assistência",
+      "reportComputerMissing": "Denuncie o computador desaparecido.",
+      "reportOwnershipError": "Relatar um erro de propriedade ou",
+      "title": "Não é seu computador ou não está mais em sua posse?"
+    },
+    "header": "Registrar Propriedade",
+    "instructions": "Verifique a caixa abaixo e envie seu registro para confirmar que este computador está em sua posse e você está usando-o ativamente. Isso garantirá que o computador permaneça corretamente atribuído a você."
+  },
+  "replace": {
+    "businessRecommended": "Dispositivo recomendado para negócios",
+    "header": "Dispositivo de atualização",
+    "messageWithRecommended": "CONTINUE com o dispositivo recomendado para os negócios ou PROCEDA AO CATÁLOGO para selecionar um dispositivo de substituição diferente",
+    "messageWithoutRecommended": "PROCEDA AO CATÁLOGO para selecionar um dispositivo de substituição.",
+    "toCatalog": "Prossiga para o catálogo"
+  },
+  "reportBroken": {
+    "agreementMessage": "Confirmo que o OEM Dispatch foi descartado através de solução de problemas e um dispositivo de substituição é necessário.",
+    "details": {
+      "label": "Por favor, forneça detalhes do problema do computador",
+      "placeholder": ""
+    },
+    "header": "Dispositivo quebrado do relatório",
+    "incident": {
+      "label": "Número de incidente relacionado",
+      "placeholder": "Número do incidente"
+    },
+    "p1": "Uma solicitação de um dispositivo de substituição só deve ser apresentada após um reparo do OEM ser descartado como uma possível solução. Ao prosseguir, você confirma que seguiu o processo de despacho OEM e um dispositivo de substituição é necessário neste caso. ",
+    "p2": "Verificaremos se você é um membro do grupo de atribuição atribuído ao incidente de reparo de hardware para o computador relacionado. Todas as outras ordens serão recusadas.",
+    "title": "Leia a seguinte mensagem"
+  },
+  "reportMissing": {
+    "alert": "Relatar este computador como desaparecido notificará a equipe de suporte da sua empresa para tentar localizar o dispositivo. O computador permanecerá designado para você até que a equipe de suporte conclua sua investigação.",
+    "caseNumber": {
+      "label": "número de caso do iReport de segurança DXC",
+      "placeholder": "Ex: 900703471"
+    },
+    "details": {
+      "label": "Por favor, forneça mais detalhes",
+      "placeholder": ""
+    },
+    "geSecurityLink": "Visite DXC Security.",
+    "header": "Dispositivo de falta de relatório",
+    "p1": "Informe os dispositivos desaparecidos primeiro no DXC Security e, em seguida, retorne a esta ação com o número do seu caso do iReport. ",
+    "replacementAlert": "Continue com uma ordem de substituição perdida, que também notificará a equipe de suporte da sua empresa para tentar localizar o computador desaparecido.",
+    "replacementComputer": "Você precisa de um computador substituto?"
+  },
+  "reportOwnershipError": {
+    "alert": "Esta ação criará um incidente para a equipe apropriada para analisar o problema. O computador permanecerá designado até que a investigação de suporte esteja completa.",
+    "details": "Detalhes adicionais",
+    "header": "Erro de propriedade do relatório"
+  },
+  "return": {
+    "deviceBroken": "Dispositivo está quebrado",
+    "header": "Dispositivo de retorno",
+    "notRequired": "Não é mais necessário",
+    "other": "outro",
+    "reasonDetails": "Por favor, forneça mais detalhes",
+    "reasonForReturn": "Razão para o retorno",
+    "userLeft": "Atribuído ao usuário que deixou a empresa"
+  },
+  "submission": {
+    "failed": "A submissão falhou. Por favor, tente de novo.",
+    "succeeded": "Ação submetida com sucesso."
+  },
+  "subtitle": "Exibir e gerenciar a tecnologia atribuída",
+  "title": "Tecnologia",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "Eu entendo e reconheço",
+      "eraseDriveContentBodyOne": "Em seguida, você instalará um pacote de software que apagará com segurança os dados do seu disco rígido. Depois que o software realizar uma pré-verificação bem sucedida na abertura, você começará o processo, que pode levar uma hora ou mais. Consulte <1>este artigo</1> para obter instruções passo a passo sobre o processo de limpeza de dados.",
+      "eraseDriveContentBodyTwo": "Esse processo, uma vez iniciado a partir do pacote de software, não pode ser revertido e seus arquivos não podem ser recuperados. Apenas clique <1>em Iniciar processo</1> depois de abrir o pacote de software baixado enquanto estiver no computador listado acima que precisa ser apagado. Quando o processo estiver concluído, seu dispositivo estará pronto para envio.",
+      "initiate": "baixar",
+      "thisArticle": "este artigo ",
+      "title": "Apaguei as instruções do disco rígido"
+    },
+    "header": "Limpar computador",
+    "saveRequiredContent": "Para proteger as informações do negócio, seu disco rígido precisa ser apagado com segurança antes do envio. Um guia de <1>transferência de dados</1> de autoajuda está disponível para ajudá-lo a remover quaisquer arquivos necessários do disco rígido antes de apagá-lo.",
+    "title": "Salvar informações necessárias"
+  }
+}

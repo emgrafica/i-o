@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "L’appareil est cassé",
+    "editUsage": "Modifier l’utilisation",
+    "issuedDate": "Délivré",
+    "moreActions": "Plus d’actions",
+    "reassign": "réaffecter",
+    "refresh": "rafraîchir",
+    "refreshEligibleBadge": "Actualiser éligible",
+    "refreshEligibleLabel": "Actualiser éligible",
+    "registerOwnership": "Enregistrer la propriété",
+    "reportBroken": "Rapport rompu",
+    "reportMissing": "Signaler un rapport manquant",
+    "reportOwnershipError": "Erreur de propriété du rapport",
+    "return": "rendre",
+    "usage": "usage",
+    "wipeComputer": "Effacer l’ordinateur"
+  },
+  "checkout": {
+    "agreementTitle": "Veuillez lire le message suivant",
+    "cancelModal": {
+      "content": "L’annulation de la commande effacera vos entrées et vous renverra à la page Technologie.",
+      "title": "Confirmer l’annulation de la commande"
+    },
+    "failureMessage": "Échec de la soumission. Veuillez réessayer.",
+    "leaveModal": {
+      "content": "Si vous souhaitez poursuivre le processus de retour ultérieurement, revenez dans le menu Gérer. Voulez-vous continuer?",
+      "title": "Vous quittez le processus de retour"
+    },
+    "orderDetails": {
+      "asset": "Appareil à retourner",
+      "header": "Détails de la commande",
+      "reason": "Raison du retour"
+    },
+    "subtitle": "Examiner et soumettre une commande",
+    "title": "caisse"
+  },
+  "editUsage": {
+    "buttonLabel": "Sélectionner le type d’utilisation",
+    "header": "Modifier l’utilisation",
+    "label": "Utilisation de l’appareil",
+    "update": "mettre à jour"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "Vous n’avez actuellement aucune technologie assignée, veuillez vérifier à nouveau plus tard.",
+  "orderConfirmation": {
+    "subtitle": "Passez en revue les détails de votre commande",
+    "title": "Confirmation de commande"
+  },
+  "reassign": {
+    "header": "Réaffecter l’appareil",
+    "ineligibleUser": "Utilisateur trouvé mais non éligible.",
+    "lookupLabel": "Rechercher un collègue pour réaffecter cet ordinateur",
+    "p1": "Les ordinateurs ne peuvent être réaffectés qu’à l’intérieur d’un même pays.",
+    "p2": "Le nouvel utilisateur affecté doit faire partie de la même entreprise.",
+    "p3": "Le nouveau affecté à l’utilisateur doit avoir droit à la fonctionnalité i-o Computers.",
+    "title": "Les réaffectations d’ordinateur sont activées conformément à vos stratégies d’entreprise et aux règles suivantes.",
+    "warning": "Cet ordinateur sera réaffecté à {{assignedTo}} immédiatement après la soumission."
+  },
+  "recommendAsset": {
+    "altImage": "recommander l’appareil"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "Je confirme que j’ai activement besoin de cet ordinateur pour rester assigné à moi.",
+    "alertMessage": {
+      "contactServiceDesk": "Contactez le ServiceDesk pour obtenir de l’aide",
+      "reportComputerMissing": "Signaler l’ordinateur manquant",
+      "reportOwnershipError": "Signaler une erreur de propriété ou",
+      "title": "Pas votre ordinateur ou plus en votre possession?"
+    },
+    "header": "Enregistrer la propriété",
+    "instructions": "Cochez la case ci-dessous et soumettez votre inscription pour confirmer que cet ordinateur est en votre possession et que vous l’utilisez activement. Cela garantira que l’ordinateur reste correctement attribué à vous."
+  },
+  "replace": {
+    "businessRecommended": "Appareil recommandé par l’entreprise",
+    "header": "Actualiser l’appareil",
+    "messageWithRecommended": "CONTINUER avec l’appareil recommandé par l’entreprise ou PASSER AU CATALOGUE pour sélectionner un autre appareil de remplacement",
+    "messageWithoutRecommended": "PASSEZ AU CATALOGUE pour sélectionner un périphérique de remplacement.",
+    "toCatalog": "Passer au catalogue"
+  },
+  "reportBroken": {
+    "agreementMessage": "Je confirme que l’expédition OEM a été exclue par dépannage et qu’un périphérique de remplacement est requis.",
+    "details": {
+      "label": "Veuillez fournir des détails sur le problème informatique",
+      "placeholder": ""
+    },
+    "header": "Signaler un périphérique cassé",
+    "incident": {
+      "label": "Numéro d’incident connexe",
+      "placeholder": "Numéro d’incident"
+    },
+    "p1": "Une demande d’un dispositif de remplacement ne doit être soumise qu’après qu’une réparation par l’OEM a été exclue comme solution possible. En poursuivant, vous confirmez que vous avez suivi le processus d’expédition OEM et qu’un périphérique de remplacement est requis dans ce cas. ",
+    "p2": "Nous vérifierons que vous êtes membre du groupe d’affectation affecté à l’incident de réparation matérielle pour l’ordinateur associé. Toutes les autres commandes seront refusées.",
+    "title": "Veuillez lire le message suivant"
+  },
+  "reportMissing": {
+    "alert": "Signaler cet ordinateur comme manquant informera l’équipe de support de votre entreprise pour essayer de localiser l’appareil. L’ordinateur restera assigné à vous jusqu’à ce que l’équipe de support termine son enquête.",
+    "caseNumber": {
+      "label": "DXC Security iReport Numéro de dossier",
+      "placeholder": "Ex : 900703471"
+    },
+    "details": {
+      "label": "Veuillez fournir de plus amples détails.",
+      "placeholder": ""
+    },
+    "geSecurityLink": "Visitez DXC Sécurité.",
+    "header": "Signaler un périphérique manquant",
+    "p1": "Signalez d’abord les appareils manquants dans DXC Sécurité, puis revenez à cette action avec votre numéro de dossier iReport. ",
+    "replacementAlert": "Continuez à procéder à une commande de remplacement manquante, qui informera également l’équipe d’assistance de votre entreprise pour essayer de localiser l’ordinateur manquant.",
+    "replacementComputer": "Avez-vous besoin d’un ordinateur de remplacement?"
+  },
+  "reportOwnershipError": {
+    "alert": "Cette action créera un incident pour l’équipe appropriée pour examiner le problème. L’ordinateur restera affecté jusqu’à ce que l’enquête de support soit terminée.",
+    "details": "Détails supplémentaires",
+    "header": "Erreur de propriété du rapport"
+  },
+  "return": {
+    "deviceBroken": "L’appareil est cassé",
+    "header": "Dispositif de retour",
+    "notRequired": "N’est plus nécessaire",
+    "other": "autre",
+    "reasonDetails": "Veuillez fournir de plus amples détails.",
+    "reasonForReturn": "Raison du retour",
+    "userLeft": "Affecté à l’utilisateur qui a quitté l’entreprise"
+  },
+  "submission": {
+    "failed": "Échec de la soumission. Veuillez réessayer.",
+    "succeeded": "Action soumise avec succès."
+  },
+  "subtitle": "Afficher et gérer la technologie affectée",
+  "title": "Technologie",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "Je comprends et je reconnais",
+      "eraseDriveContentBodyOne": "Ensuite, vous allez installer un logiciel qui effacera en toute sécurité les données de votre disque dur. Une fois que le logiciel a effectué une pré-vérification réussie à l’ouverture, vous commencerez le processus, ce qui peut prendre une heure ou plus. Reportez-vous à <1>cet article</1> pour obtenir des instructions étape par étape sur le processus d’effacement des données.",
+      "eraseDriveContentBodyTwo": "Ce processus, une fois lancé à partir du progiciel, ne peut pas être inversé et vos fichiers ne peuvent pas être récupérés. Cliquez uniquement sur <1>Lancer le processus</1> après avoir ouvert le progiciel téléchargé sur l’ordinateur répertorié ci-dessus qui doit être effacé. Lorsque le processus est terminé, votre appareil sera prêt pour l’expédition.",
+      "initiate": "télécharger",
+      "thisArticle": "cet article ",
+      "title": "Effacer les instructions du disque dur"
+    },
+    "header": "Effacer l’ordinateur",
+    "saveRequiredContent": "Pour protéger les informations de l’entreprise, votre disque dur doit être effacé en toute sécurité avant l’expédition. Un utilitaire d’auto-assistance <1>DATA TRANSFER GUIDE</1> est disponible pour vous aider à supprimer tous les fichiers requis du disque dur avant de l’effacer.",
+    "title": "Enregistrer les informations requises"
+  }
+}

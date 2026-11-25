@@ -1,0 +1,75 @@
+@import '../../styles/scss/variable.scss';
+
+.time-line {
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: solid 1px $black;
+  border-bottom: solid 1px $black;
+  .ttl-time {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    .MuiSvgIcon-root {
+      margin-left: 5px;
+      font-size: 17px;
+    }
+  }
+  .MuiCircularProgress-root {margin: 0 auto;}
+  .MuiAccordionSummary-root {
+    display: inline-block;
+    min-height: auto !important;
+    padding: 0;
+  }
+  .MuiAccordionSummary-content {margin: 0 !important;}
+  .MuiPaper-elevation1 {box-shadow: none;}
+
+  .show-time {display: flex;}
+  .hide-time {display: none;}
+  > .Mui-expanded {
+    .show-time {display: none;}
+    .hide-time {display: flex;}
+  }
+  
+  .block {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+  }
+  .ttl-comment {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .content-comment {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+  .att-file {
+    margin: 10px 0 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      display: flex;
+      align-items: flex-start;
+      line-height: 1.4;
+    }
+    span {
+      padding-left: 5px;
+      font-size: 13px;
+      word-break: break-word;
+    }
+    img {
+      position: relative;
+      top: -2px;
+      width: 16px;
+    }
+  }
+  .MuiTimeline-root {
+    > li:nth-child(even) {
+      .att-file {float: right;}
+    }
+  }
+}

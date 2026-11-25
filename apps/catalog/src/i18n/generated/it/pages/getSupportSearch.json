@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "Applicazioni aziendali",
+  "businessFiltersLabel": "Azienda",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "DOCUMENTI TECNICI DI BASE",
+  "noResults": "Siamo spiacenti, nessun risultato corrisponde al termine di ricerca.",
+  "punchOutModal": {
+    "action": "Richiedi supporto",
+    "message": "Questa applicazione non è inclusa nel processo di gestione degli incidenti di i-o. Per avere il supporto di cui hai bisogno, segui il link qui sotto, ti si aprirà il collegamento esterno all'applicazione ed al suo sistema di supporto specifico.",
+    "title": "Applicazione aziendale non gestita in i-o"
+  },
+  "showingEnglishResults": "I risultati delle applicazioni aziendali sono attualmente disponibili solo in inglese",
+  "showingResultsFor": "Trovati {{totalItems}} risultati per \"{{keywords}}\"",
+  "subtitle": "Trova le soluzioni ai problemi IT in completa autonomia",
+  "title": "Richiedi supporto",
+  "viewAllLabel": "Visualizza tutto"
+}

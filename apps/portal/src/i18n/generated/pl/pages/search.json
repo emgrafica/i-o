@@ -1,0 +1,15 @@
+{
+  "id": "d7ab0c9d-b719-4d01-9323-ba6214c0961e",
+  "keywords": {
+    "placeholder": "Numer do nip"
+  },
+  "searchBy": {
+    "criteria": {
+      "asset": "atut",
+      "user": "użytkownik"
+    },
+    "label": "Szukaj według"
+  },
+  "subtitle": "Przeglądanie i działanie na aktywach & bilety",
+  "title": "szukać"
+}

@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "Aplikacje biznesowe",
+  "businessFiltersLabel": "Biznes:",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "Artykuły merytoryczne",
+  "noResults": "Niestety, żadne wyniki nie pasują do wyszukiwago hasła.",
+  "punchOutModal": {
+    "action": "Uzyskaj wsparcie",
+    "message": "Obsługa tej aplikacji biznesowej nie jest dostępna w i-o. Skorzystaj z poniższego linku, który otworzy związany z aplikacją zewnętrzny adres URL, aby otrzymać pomoc techniczną.",
+    "title": "Obsługa tej aplikacji biznesowej nie jest dostępna w i-o"
+  },
+  "showingEnglishResults": "Wyniki aplikacji biznesowych są obecnie dostępne tylko w języku angielskim",
+  "showingResultsFor": "Znaleziono {{totalItems}} rezultatów dla \"{{keywords}}\"",
+  "subtitle": "Dostęp do narzędzi umożliwiających samodzielne rozwiązanie problemów informatycznych",
+  "title": "Uzyskaj wsparcie",
+  "viewAllLabel": "Zobacz wszystkie"
+}

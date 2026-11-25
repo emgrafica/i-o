@@ -1,0 +1,71 @@
+{
+  "approvals": {
+    "status": "Ausstehende",
+    "title": "Genehmigungen"
+  },
+  "comingSoon": "Demnächst...",
+  "computer": {
+    "action": "Computer",
+    "subtitle": "Suchen Sie den richtigen Katalog für die Bestellung.",
+    "title": "Müssen Sie etwas anfordern?"
+  },
+  "error": {
+    "loadingError": "Fehler beim Laden der Vorschau",
+    "quickLinksLoadingError": "Fehler beim Laden von Schnelllinks",
+    "retry": "Wiederholen"
+  },
+  "explore": {
+    "action": "Technologie anzeigen ",
+    "comingSoonMessage1": "Beim Wiederaufbau unserer Plattform werden wir jede Komponente des Tools schrittweise freigeben und würden <1>uns über Ihr frühes Feedback zum neuen Design freuen.</1>",
+    "comingSoonMessage2": "In der Zwischenzeit können Sie weiterhin auf alle i-o-Funktionen auf <1>unserer bestehenden Website</1>zugreifen. Wir freuen uns auf Ihr Feedback zu der neuen Erfahrung, die uns dabei hilft, i-o so zu gestalten, dass es Ihren Bedürfnissen am besten entspricht!",
+    "subtitle": "Anzeigen und Verwalten Ihrer zugewiesenen Assets an einem Ort",
+    "title": "Verwalten Sie Ihre Technologie",
+    "titleComingSoon": "Willkommen beim neuen i-o! "
+  },
+  "feedback": {
+    "action": "FEEDBACK SENDEN",
+    "subtitle": "Sage unserem Team, was gut funktioniert und wie wir die i-o verbessern können ",
+    "title": "Teile Dein Feedback "
+  },
+  "feedbackButton": {
+    "label": "Feedback"
+  },
+  "getAssistance": {
+    "action": "Support erhalten",
+    "subtitle": "Finde Lösungen für häufige Probleme oder wende Dich an den {{helpdeskName}} für direkten Support ",
+    "title": "Technischen Support erhalten "
+  },
+  "greeting": {
+    "afternoon": "Guten Nachmittag",
+    "evening": "Guten Abend",
+    "morning": "Guten Morgen"
+  },
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+  "incidents": {
+    "status": "Offen ",
+    "title": "Störungen"
+  },
+  "obo": {
+    "action": "Suchbenutzer",
+    "title": "Bestellung für einen anderen Benutzer"
+  },
+  "orders": {
+    "action": "Anforderungen anzeigen",
+    "status": "Offen ",
+    "title": "Bestellungen"
+  },
+  "quickLinks": {
+    "subtitle": "auf hilfreiche unternehmensinterne Links",
+    "title": "Schnellzugriff "
+  },
+  "search": {
+    "action": "Jetzt suchen",
+    "title": "Suchen nach Assets und Tickets eines anderen Benutzers"
+  },
+  "title": "Startseite",
+  "userLookup": {
+    "description": "Auf diese Weise können Sie bestimmte Aktionen im Namen eines Kollegen ausführen. Dabei haben Sie eingeschränkten Zugriff auf die Website.",
+    "impersonate": "Identität",
+    "title": "Für wen möchten Sie handeln?"
+  }
+}

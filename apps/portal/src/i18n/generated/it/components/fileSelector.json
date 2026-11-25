@@ -1,0 +1,10 @@
+{
+  "browseButton": "CARICA",
+  "clearSelectionButton": "Rimuovere tutti i file",
+  "fileNotSupportedErrorMessage": "Il tipo di file non è supportato",
+  "fileNotSupportedHelpMessage": "Caricare i tipi di file da uno dei seguenti elementi:",
+  "fileSizeErrorMessage": "Il file supera {{limit}}MB",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Trascinare qui il file o",
+  "maxNumberOfFilesExceededMessage": "I file superano il limite di {{limit}}"
+}

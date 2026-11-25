@@ -1,0 +1,26 @@
+@import '../../styles/scss/variable.scss';
+
+.footer {
+    background: $footer-bg-color;
+    color: $color-white-tone;
+    font-size: 12px;
+    padding: 60px 150px;
+    min-height: 220px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .quick-link-header {
+    font-weight: bold;
+  }
+  
+  .quick-link-items {
+    margin: 0;
+  }
+  
+  .footer-link {
+    color: $color-white-tone;
+    font-size: inherit;
+    letter-spacing: 0.3px;
+    margin-top: 5px;
+  }

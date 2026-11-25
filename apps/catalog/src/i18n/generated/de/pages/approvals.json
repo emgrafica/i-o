@@ -1,0 +1,42 @@
+{
+  "approvalError": "Die Genehmigung ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+  "approve": "Genehmigen",
+  "approved": "Genehmigt",
+  "decline": "Ablehnen",
+  "declineModal": {
+    "label": "Bitte geben Sie einen Grund für den Rückgang an",
+    "placeholder": "Hier ist der Grund für den Rückgang.",
+    "title": "Decline Reason"
+  },
+  "declineSuccess": "Die Anforderung wurde erfolgreich abgelehnt.",
+  "declined": "Abgelehnt",
+  "filterBox": {
+    "accessories": "Zubehör",
+    "computers": "Computer",
+    "mobility": "Mobilität",
+    "title": "Kategorien"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "Es sind keine genehmigten Aufträge vorhanden.",
+  "noDeclinedOrders": "Es gibt keine abgelehnten Bestellungen.",
+  "noFilterResults": "Leider stimmen keine Ergebnisse mit Ihrem Filter überein.",
+  "noPendingOrders": "Es sind noch keine Bestellungen vorhanden, die ihre Genehmigung ausstehen.",
+  "order": {
+    "approvalReason": "Genehmigungsgrund",
+    "approvedLabel": "Genehmigt",
+    "businessJustification": "Geschäftsbegründung",
+    "declineReason": "Abgelehnter Grund",
+    "declinedLabel": "Abgelehnt",
+    "for": "Für",
+    "imageAlt": "Angeforderter Vermögenswert",
+    "orderNumber": "Bestellnummer",
+    "price": "Preis",
+    "replacedDevice": "Ersetztes Gerät",
+    "requestReason": "Anfragegrund",
+    "returnDate": "Rückgabedatum",
+    "submittedLabel": "Eingereicht"
+  },
+  "pending": "Ausstehende",
+  "subtitle": "Anzeigen und Ergreifen von Maßnahmen für Anforderungen",
+  "title": "Zulassungen"
+}

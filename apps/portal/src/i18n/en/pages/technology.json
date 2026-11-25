@@ -1,0 +1,146 @@
+{
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+
+  "title": "Technology",
+  "subtitle": "View and manage assigned technology",
+  "noAssets": "You currently have no assigned technology, please check again later.",
+  "submission": {
+    "succeeded": "Action successfully submitted.",
+    "failed": "Submission failed. Please try again."
+  },
+  "editUsage": {
+    "header": "Edit Usage",
+    "label": "Device Usage",
+    "buttonLabel": "Select Usage Type",
+    "update": "Update"
+  },
+  "registerOwnership": {
+    "header": "Acknowledge Device",
+    "instructions": "Check the box below and submit your registration to confirm this computer is in your possession and you are actively using it. This will ensure the computer remains correctly assigned to you.",
+    "alertMessage": {
+      "title": "Not your computer or no longer in your possession?",
+      "reportComputerMissing": "Report the computer missing",
+      "reportOwnershipError":"Report an acknowledge device error or",
+      "contactServiceDesk": "Contact the ServiceDesk for further assistance"
+    },
+    "acknowledgementMessage": "I confirm I actively require this computer to stay assigned to me."
+  },
+  "return": {
+    "header": "Return Device",
+    "reasonForReturn": "Reason for Return",
+    "userLeft": "Assigned to user that has left the company",
+    "notRequired": "No longer required",
+    "deviceBroken": "Device is broken",
+    "other": "Other",
+    "reasonDetails": "Please provide further details"
+  },
+  "reportBroken": {
+    "header": "Report Broken Device",
+    "title": "Please read the following message",
+    "p1": "A request for a replacement device should only be submitted after a repair by the OEM is ruled out as a possible solution. By proceeding you confirm that you have followed the OEM Dispatch process and a replacement device is required in this case. ",
+    "p2": "We will verify that you are a member of the assignment group assigned to the hardware repair incident for the related computer. All other orders will be declined.",
+    "incident": {
+      "label": "Related incident number",
+      "placeholder": "Incident number"
+    },
+    "details": {
+      "label": "Please provide details of the computer issue",
+      "placeholder": ""
+    },
+    "agreementMessage": "I confirm that OEM Dispatch has been ruled out through troubleshooting and a replacement device is required."
+  },
+  "reportMissing": {
+    "header": "Report Missing Device",
+    "p1": "Report missing devices first at DXC Security, then return to this action with your iReport Case Number. ",
+    "geSecurityLink": "Visit DXC Security.",
+    "caseNumber": {
+      "label": "DXC Security iReport Case Number",
+      "placeholder": "Ex: 900703471"
+    },
+    "details": {
+      "label": "Please provide further details",
+      "placeholder": ""
+    },
+    "replacementComputer": "Do you need a replacement computer?",
+    "alert": "Reporting this computer as missing will notify your business' support team to try and locate the device. The computer will remain assigned to you until the support team concludes their investigation.",
+    "replacementAlert": "Continue to proceed with a missing replacement order, which will also notify your business' support team to try and locate the missing computer."
+  },
+  "reportOwnershipError": {
+    "header": "Acknowledge Device Error",
+    "details": "Additional details",
+    "alert": "This action will create an incident to the appropriate team to look into the issue. The computer will remain assigned until the support investigation is complete."
+  },
+  "replace": {
+    "header": "Refresh Device",
+    "businessRecommended": "Business recommended device",
+    "messageWithRecommended": "CONTINUE with business recommended device or PROCEED TO CATALOG to select a different replacement device",
+    "messageWithoutRecommended": "PROCEED TO CATALOG to select a replacement device.",
+    "toCatalog": "Proceed to catalog"
+  },
+  "recommendAsset": {
+    "altImage": "recommend device"
+  },
+  "reassign": {
+    "header": "Reassign Device",
+    "title": "Computer reassignments are enabled in line with your business policies and the following rules.",
+    "p1": "Computers can only be reassigned within the same country.",
+    "p2": "The new assigned to user must be within the same business.",
+    "p3": "The new assigned to user must be entitled to i-o Computers functionality.",
+    "lookupLabel": "Lookup a colleague to reassign this computer to",
+    "warning": "This computer will be reassigned to {{assignedTo}} immediately after submission.",
+    "ineligibleUser": "User found but not eligible."
+  },
+  "wipeComputer": {
+    "header" : "Wipe Computer",
+    "title": "Save Required Information",
+    "saveRequiredContent": "To protect business information, your hard drive needs to be securely erased prior to shipment. A self-help utility <1>DATA TRANSFER GUIDE</1> is available to assist you with removing any required files off the hard drive before erasing it.",
+    "eraseContent": {
+      "title": "Erase Hard Drive Instructions",
+      "eraseDriveContentBodyOne": "Next, you will install a software package that will securely erase data from your hard drive. After the software conducts a successful pre-check on opening, you will begin the process, which could take an hour or more. Please refer to <1>this article</1> for step by step instructions on the data wiping process.",
+      "thisArticle": "this article ",
+      "eraseDriveContentBodyTwo": "This process, once initiated from within the software package, cannot be reversed and your files cannot be recovered. Only click <1>Initiate Process</1> after opening the downloaded software package while on the computer listed above that needs to be erased. When the process is complete, your device will be ready for shipment.",
+      "acknowledgementStatement":"I understand and acknowledge",
+      "initiate": "Download"
+    }
+  },
+  "card": {
+    "deviceBroken": "Device is Broken",
+    "refreshEligibleLabel": "Refresh Eligible",
+    "refreshEligibleBadge": "Refresh Eligible",
+    "issuedDate": "Issued",
+    "moreActions": "More Actions",
+    "reassign": "Reassign",
+    "refresh": "Refresh",
+    "reportBroken": "Report Broken",
+    "reportMissing": "Report Missing",
+    "reportOwnershipError": "Acknowledge Device Error",
+    "return": "Return",
+    "usage": "Usage",
+    "editUsage": "Edit Usage",
+    "wipeComputer": "Wipe Computer",
+    "registerOwnership": "Acknowledge Device"
+  },
+  "orderConfirmation": {
+    "title": "Order Confirmation",
+    "subtitle": "Review your order details"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "subtitle": "Review and submit an order",
+    "cancelModal": {
+      "title": "Confirm Order Cancellation",
+      "content": "Canceling the order will clear your inputs and return you to the Technology page."
+    },
+    "leaveModal": {
+      "title": "You are leaving the return process",
+      "content": "If you would like to continue the return process at a later time go back into the Manage menu. Do you want to proceed?"
+    },
+    "orderDetails": {
+      "header": "Order Details",
+      "asset": "Device to be returned",
+      "reason": "Reason for return"
+    },
+    "agreementTitle": "Please read the following message",
+    "failureMessage": "Submission failed. Please try again."
+  }
+}

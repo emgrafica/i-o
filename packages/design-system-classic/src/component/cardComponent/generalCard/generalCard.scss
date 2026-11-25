@@ -1,0 +1,114 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+.LargeCard {
+  .general-card {
+    height: 280px;
+    .ant-card-body {
+      padding: $dls-s02-0 $dls-s02-0 $dls-s04-0 $dls-s04-0;
+    }
+    .general-card-link {
+      margin: 0;
+    }
+    .generalImg-cover {
+      height: 121px;
+      display: flex;
+      align-items: flex-end;
+      .general-card-icon {
+        height: $dls-s07-0;
+        width: $dls-s07-0;
+      }
+    }
+  }
+}
+@include media-breakpoint-medium-desktop {
+  .LargeCard {
+    .general-card {
+      height: 288px;
+    }
+  }
+}
+.general-card {
+  height: 136px;
+  background: $color-white;
+  .ant-card-body {
+    padding: $dls-s02-0 $dls-s02-0 $dls-s02-0 $dls-s02-5;
+    height: 100%;
+  }
+  .deviceImg-cover {
+    height: 62px;
+    width: 112px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .title-cover {
+    min-height: 89px;
+    width: 184px;
+    margin: $dls-s02-0 0 $dls-s03-0;
+  }
+  h4 {
+    color: $black;
+    min-height: 89px;
+    @include max2lines;
+    -webkit-line-clamp: 2;
+  }
+  h6 {
+    margin: $dls-s02-0 0 0;
+    color: $black;
+    min-height: 36px;
+    @include max2lines;
+    -webkit-line-clamp: 2;
+  }
+  .bodySemibold,
+  .captionSemibold {
+    @include max2lines;
+    -webkit-line-clamp: 1 !important;
+    color: $color-gray-dark;
+    margin-right: $dls-s01-0;
+  }
+  .bodySemibold {
+    @include bodySemibold;
+  }
+  .captionSemibold {
+    @include captionSemibold;
+  }
+  .generalImg-cover {
+    height: $dls-s06-5;
+    display: flex;
+    align-items: flex-end;
+    .general-card-icon {
+      height: $dls-s05-0;
+      width: $dls-s05-0;
+    }
+  }
+  
+  .general-card-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: $dls-s02-5 0 0;
+    .general-card-icon-cover {
+      display: flex;
+      align-items: center;
+      .general-card-icon {
+        width: $dls-s02-5;
+        height: $dls-s02-5;
+        color: $color-gray-dark;
+        position: relative;
+        bottom: 0px;
+      }
+    }
+  }
+}
+.device-card {
+  h6 {
+    margin: $dls-s01-0 0 0;
+  }
+  .general-card-link {
+    margin: 0;
+  }
+}

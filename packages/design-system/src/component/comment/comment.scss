@@ -1,0 +1,61 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.comments-wrap {
+  .cmt-form {
+    position: relative;
+    box-shadow: none;
+  }
+  .input {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #cacaca;
+    border-radius: 32px;
+    height: 40px;
+  }
+  .MuiInputBase-input {
+    border-bottom: 0;
+  }
+  .submit-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: rotate(90deg) translateX(-50%);
+    padding: 0;
+    &.submit-active-btn {
+      .MuiSvgIcon-root {
+        color: #000000;
+      }
+    }
+  }
+
+  .cmt-buttons {
+    .MuiButton-root {
+      text-transform: unset;
+    }
+    img,
+    svg {
+      width: 20px;
+      margin: 0 5px 0 0;
+      color: #000000;
+    }
+  }
+  .buttonLink {
+    @include buttonLink;
+  }
+  .num-likes {
+    img {
+      margin: 0 0 0 5px;
+    }
+    display: flex;
+    align-items: center;
+  }
+  .comment {
+    padding: 13px 0 0;
+    .MuiAvatar-root {
+      color: #00c9ff;
+      border: solid 2px #00c9ff;
+      background-color: transparent;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import './../../../styles/scss/variable.scss';
+
+.attachment-container{
+    /* UI/gray-container */
+    background: $color-gray-container;
+    border-radius: 26px;
+    min-width: 270px;
+
+    .list-content{
+        padding:24px 32px;
+    }
+
+    a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-purple-main !important;
+        text-decoration-line: none;
+    }
+    
+    a:hover{
+        text-decoration-line: underline;
+        font-weight: bold;  
+    }
+
+    .list-content {
+        width: 100%;
+    }
+
+    .attachment-title h6{
+        font-weight: bold;
+        margin-bottom: $dls-s03-0;
+    }
+
+    .word-break{
+        word-wrap: break-word;
+    }
+
+    ul {
+        width: 100%;
+        padding-inline-start: 24px;
+        margin-bottom: 0px;
+        li{
+            width: 100%;
+            padding-top: 12px;
+        }
+        li:last-child{
+            width: 100%;
+            padding-bottom: 0px;
+        }
+        li:first-child{
+            width: 100%;
+            padding-top: 0px;
+        }
+    }
+}

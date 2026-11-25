@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "El dispositivo está roto",
+    "editUsage": "Editar uso",
+    "issuedDate": "emitido",
+    "moreActions": "Más acciones",
+    "reassign": "reasignar",
+    "refresh": "actualizar",
+    "refreshEligibleBadge": "Elegible para actualización",
+    "refreshEligibleLabel": "Elegible para actualización",
+    "registerOwnership": "Registrar la propiedad",
+    "reportBroken": "Informe roto",
+    "reportMissing": "Informe que falta",
+    "reportOwnershipError": "Error de propiedad del informe",
+    "return": "devolución",
+    "usage": "uso",
+    "wipeComputer": "Borrar equipo"
+  },
+  "checkout": {
+    "agreementTitle": "Por favor, lea el siguiente mensaje",
+    "cancelModal": {
+      "content": "La cancelación del pedido borrará sus entradas y lo devolverá a la página tecnología.",
+      "title": "Confirmar cancelación de pedido"
+    },
+    "failureMessage": "Error de envío. Inténtelo de nuevo.",
+    "leaveModal": {
+      "content": "Si desea continuar con el proceso de devolución en un momento posterior, vuelva al menú Administrar. ¿Desea continuar?",
+      "title": "Estás saliendo del proceso de devolución"
+    },
+    "orderDetails": {
+      "asset": "Dispositivo que se va a devolver",
+      "header": "Detalles del pedido",
+      "reason": "Motivo de la devolución"
+    },
+    "subtitle": "Revisar y enviar un pedido",
+    "title": "caja"
+  },
+  "editUsage": {
+    "buttonLabel": "Seleccionar tipo de uso",
+    "header": "Editar uso",
+    "label": "Uso del dispositivo",
+    "update": "actualizar"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "Actualmente no tiene ninguna tecnología asignada, por favor compruebe de nuevo más tarde.",
+  "orderConfirmation": {
+    "subtitle": "Revise los detalles de su pedido",
+    "title": "Confirmación del pedido"
+  },
+  "reassign": {
+    "header": "Reasignar dispositivo",
+    "ineligibleUser": "Usuario encontrado pero no elegible.",
+    "lookupLabel": "Buscar un compañero para reasignar este equipo a",
+    "p1": "Los equipos sólo se pueden reasignar dentro del mismo país.",
+    "p2": "El nuevo asignado al usuario debe estar dentro del mismo negocio.",
+    "p3": "El nuevo asignado al usuario debe tener derecho a la funcionalidad de i-o Computers.",
+    "title": "Las reasignaciones de equipos están habilitadas de acuerdo con las directivas empresariales y las siguientes reglas.",
+    "warning": "Este equipo se reasignará a {{assignedTo}} inmediatamente después del envío."
+  },
+  "recommendAsset": {
+    "altImage": "recomendar dispositivo"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "Confirmo que necesito activamente que este equipo permanezca asignado a mí.",
+    "alertMessage": {
+      "contactServiceDesk": "Póngase en contacto con el ServiceDesk para obtener más ayuda",
+      "reportComputerMissing": "Informar de que falta el equipo",
+      "reportOwnershipError": "Informar de un error de propiedad o",
+      "title": "¿No es su computadora o ya no está en su posesión?"
+    },
+    "header": "Registrar la propiedad",
+    "instructions": "Marque la casilla de abajo y envíe su registro para confirmar que esta computadora está en su posesión y que la está utilizando activamente. Esto garantizará que el equipo permanece correctamente asignado a usted."
+  },
+  "replace": {
+    "businessRecommended": "Dispositivo recomendado por la empresa",
+    "header": "Actualizar dispositivo",
+    "messageWithRecommended": "CONTINUAR con el dispositivo recomendado por la empresa o PROCEDER AL CATÁLOGO para seleccionar un dispositivo de reemplazo diferente",
+    "messageWithoutRecommended": "VAYA AL CATÁLOGO para seleccionar un dispositivo de sustitución.",
+    "toCatalog": "Proceder al catálogo"
+  },
+  "reportBroken": {
+    "agreementMessage": "Confirmo que el envío del OEM se ha descartado con el troubleshooting y se requiere un dispositivo del reemplazo.",
+    "details": {
+      "label": "Sírvase proporcionar detalles del problema informático",
+      "placeholder": ""
+    },
+    "header": "Informe del dispositivo roto",
+    "incident": {
+      "label": "Número de incidente relacionado",
+      "placeholder": "Número de incidente"
+    },
+    "p1": "Una solicitud de un dispositivo de reemplazo solo debe enviarse después de que se descarte una reparación por parte del OEM como una posible solución. Al continuar, confirma que ha seguido el proceso de envío de OEM y que se requiere un dispositivo de reemplazo en este caso. ",
+    "p2": "Comprobaremos que es miembro del grupo de asignación asignado al incidente de reparación de hardware para el equipo relacionado. Todos los demás pedidos serán rechazados.",
+    "title": "Por favor, lea el siguiente mensaje"
+  },
+  "reportMissing": {
+    "alert": "Informar de que este equipo falta notificará al equipo de soporte de su empresa para que intente localizar el dispositivo. El equipo permanecerá asignado a usted hasta que el equipo de soporte concluya su investigación.",
+    "caseNumber": {
+      "label": "número de caso de iReport de seguridad GE",
+      "placeholder": "Por ejemplo: 900703471"
+    },
+    "details": {
+      "label": "Sírvanse proporcionar más detalles",
+      "placeholder": ""
+    },
+    "geSecurityLink": "Visita GE Seguridad.",
+    "header": "Informe de la falta de dispositivo",
+    "p1": "Informe primero de los dispositivos que faltan en GE Security y, a continuación, vuelva a esta acción con su número de caso de iReport. ",
+    "replacementAlert": "Continúe con una orden de reemplazo que falta, que también notificará al equipo de soporte de su empresa para tratar de localizar el equipo que falta.",
+    "replacementComputer": "¿Necesita un equipo de reemplazo?"
+  },
+  "reportOwnershipError": {
+    "alert": "Esta acción creará un incidente para que el equipo adecuado examine el problema. El equipo permanecerá asignado hasta que se complete la investigación de soporte técnico.",
+    "details": "Detalles adicionales",
+    "header": "Error de propiedad del informe"
+  },
+  "return": {
+    "deviceBroken": "El dispositivo está roto",
+    "header": "Dispositivo de devolución",
+    "notRequired": "Ya no es necesario",
+    "other": "Otro",
+    "reasonDetails": "Sírvanse proporcionar más detalles",
+    "reasonForReturn": "Motivo de la devolución",
+    "userLeft": "Asignado al usuario que ha abandonado la empresa"
+  },
+  "submission": {
+    "failed": "Error de envío. Inténtelo de nuevo.",
+    "succeeded": "La acción se ha enviado correctamente."
+  },
+  "subtitle": "Ver y administrar la tecnología asignada",
+  "title": "Tecnología",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "Entiendo y reconozco",
+      "eraseDriveContentBodyOne": "A continuación, instalará un paquete de software que borrará de forma segura los datos de su disco duro. Después de que el software lleve a cabo una comprobación previa exitosa en la apertura, comenzará el proceso, que podría tomar una hora o más. Consulte <1>este artículo</1> para obtener instrucciones paso a paso sobre el proceso de borrado de datos.",
+      "eraseDriveContentBodyTwo": "Este proceso, una vez iniciado desde dentro del paquete de software, no se puede revertir y sus archivos no se pueden recuperar. Sólo haga clic en <1>Iniciar proceso</1> después de abrir el paquete de software descargado, mientras que en la computadora enumerada anteriormente que necesita ser borrado. Cuando se complete el proceso, su dispositivo estará listo para el envío.",
+      "initiate": "descargar",
+      "thisArticle": "Este artículo ",
+      "title": "Borrar instrucciones del disco duro"
+    },
+    "header": "Borrar equipo",
+    "saveRequiredContent": "Para proteger la información comercial, su disco duro debe borrarse de forma segura antes del envío. Una utilidad de autoayuda <1>GUÍA DE TRANSFERENCIA DE DATOS</1> está disponible para ayudarle con la eliminación de los archivos necesarios del disco duro antes de borrarlo.",
+    "title": "Guardar la información necesaria"
+  }
+}

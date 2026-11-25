@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "Geschäftsanwendungen",
+  "businessFiltersLabel": "Business",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "Wissensartikel",
+  "noResults": "Es tut uns leid, keine Ergebnisse stimmen mit Ihrem Suchbegriff überein.",
+  "punchOutModal": {
+    "action": "Support erhalten",
+    "message": "Der Support für diese Geschäftsanwendung ist außerhalb von i-o verfügbar. Folge dem Link, damit Du den Support in Anspruch nehmen kannst.",
+    "title": "Unterstützung von Geschäftsanwendungen außerhalb von i-o"
+  },
+  "showingEnglishResults": "Die Ergebnisse der Geschäftsanwendung sind derzeit nur in englischer Sprache verfügbar.",
+  "showingResultsFor": "Anzeigen von {{totalItems}} Ergebnisse für \"{{keywords}}\"",
+  "subtitle": "Zugriff auf Self-Service-Lösungen für IT-Probleme",
+  "title": "Support erhalten",
+  "viewAllLabel": "Alle anzeigen"
+}

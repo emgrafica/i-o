@@ -1,0 +1,118 @@
+// @import "../../styles/scss/variable.scss";
+// @import "../../styles/scss/mixin.scss";
+
+
+// %my-stuff-small-card {
+//   height: 136px;
+//   background: $color-white;
+// }
+
+// .my-stuff-small-card-end {
+//   .ant-card {
+//     @extend %my-stuff-small-card;
+//     background: $color-purple-tint;
+//   }
+// }
+
+// // small card
+// .my-stuff-small-card-icon {
+//   height: 25px;
+//   font-weight: bold;
+// }
+
+// .my-stuff-small-card-image {
+//   height: 28px;
+//   font-weight: bold;
+// }
+// .my-stuff-small-card-body-name {
+//   margin: $dls-s02-0 0 0;
+//   color: $black;
+//   min-height: 36px;
+//   @include max2lines;
+//   -webkit-line-clamp: 2;
+// }
+
+// .my-stuff-small-card-body-link-wrapper {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   margin: $dls-s02-5 0 0;
+//   .my-stuff-small-card-icon-link {
+//     width: $dls-s02-5;
+//     height: $dls-s02-5;
+//     color: $color-gray-dark;
+//     position: relative;
+//     bottom: 0px;
+//   }
+
+//   .my-stuff-small-card-body-link {
+//     @include captionSemibold;
+//     @include max2lines;
+//     -webkit-line-clamp: 1 !important;
+//     color: $color-gray-dark;
+//     margin-right: $dls-s01-0;
+//     p {
+//       margin: 0;
+//     }
+//   }
+// }
+
+// .my-stuff-small-card {
+//   .ant-card-body {
+//     padding: 20px 12px 20px 12px;
+//   }
+// }
+
+// .my-stuff-small-card-body-link {
+//   @include captionSemibold;
+//   color: $color-gray-dark;
+//   margin-right: $dls-s01-0;
+// }
+
+// .my-stuff-small-card {
+//   .ant-card {
+//     background: $color-white;
+//     border-radius: 21px;
+//   }
+// }
+
+// .my-stuff-small-card-end {
+//   position: relative;
+//   &:before {
+//     content: "";
+//     position: absolute;
+//     bottom: $dls-s03-0;
+//     right: 14px;
+//     z-index: 5;
+//     width: $dls-s04-0;
+//     height: $dls-s04-0;
+//     background: url("./../../assets/icons/arrow-right-purple.svg") no-repeat 50%
+//       50%;
+//   }
+//   .ant-card {
+//     background: $color-purple-tint;
+//     border-radius: 21px;
+//   }
+//   .ant-card-body {
+//     padding: $dls-s05-0 $dls-s02-5 $dls-s03-0;
+//     height: 100%;
+//   }
+
+//   .my-stuff-small-card-end-body-link-content {
+//     min-height: $dls-s07-0;
+//     h5 {
+//       color: $color-purple-main;
+//       margin: 0;
+//     }
+//   }
+
+//   .my-stuff-small-card-end-body-link-arrow {
+//     color: $color-purple-main;
+//     display: flex;
+//     justify-content: flex-end;
+//     .my-stuff-small-card-end-body-link-arrow-outline {
+//       height: $dls-s03-0;
+//       width: $dls-s03-5;
+//     }
+//   }
+// }

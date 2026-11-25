@@ -1,0 +1,42 @@
+{
+  "approvalError": "A aprovação falhou. Por favor, tente de novo.",
+  "approve": "aprovar",
+  "approved": "aprovado",
+  "decline": "declinar",
+  "declineModal": {
+    "label": "Por favor, forneça uma razão para o declínio",
+    "placeholder": "Aqui está a razão do declínio.",
+    "title": "Razão de declínio"
+  },
+  "declineSuccess": "O pedido foi recusado com sucesso.",
+  "declined": "Recusou",
+  "filterBox": {
+    "accessories": "Acessórios",
+    "computers": "Computadores",
+    "mobility": "mobilidade",
+    "title": "Categorias"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "Não há ordens aprovadas.",
+  "noDeclinedOrders": "Não há ordens recusadas.",
+  "noFilterResults": "Desculpe, nenhum resultado bate com o filtro.",
+  "noPendingOrders": "Não há ordens até sua aprovação.",
+  "order": {
+    "approvalReason": "Razão de aprovação",
+    "approvedLabel": "aprovado",
+    "businessJustification": "Justificativa de Negócios",
+    "declineReason": "Razão Recusada",
+    "declinedLabel": "Recusou",
+    "for": "durante",
+    "imageAlt": "Ativo solicitado",
+    "orderNumber": "Número do pedido",
+    "price": "preço",
+    "replacedDevice": "Dispositivo substituído",
+    "requestReason": "Motivo de solicitação",
+    "returnDate": "Data de retorno",
+    "submittedLabel": "Enviada"
+  },
+  "pending": "pendente",
+  "subtitle": "Ver e agir sobre solicitações",
+  "title": "Aprovações"
+}

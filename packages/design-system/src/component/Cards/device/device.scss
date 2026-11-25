@@ -1,0 +1,202 @@
+@import "./../../../styles/scss/mixin.scss";
+@import "./../../../styles/scss/variable.scss";
+
+
+.io-device-primary {
+    background-color: $color-white;
+    color: $black;
+    min-height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px !important;
+
+
+    .show{
+        opacity: 1;
+    }
+
+    .hide {
+        opacity: 0;
+    }
+    
+    .MuiCardHeader-root{
+        padding-bottom: $dls-s02-0;
+        padding-top: $dls-s02-0;
+    }
+
+    .device-card-header {
+        font-size: $font-size-body-desktop;
+        font-weight: bold;
+        margin-top: $dls-s02-0;
+
+        .device-card-header-status-green {
+            color: $color-green;
+            float: left;
+            display: flex;
+            align-items: center;
+        }
+
+        .device-card-header-status-orange {
+            color: $color-orange;
+            float: left;
+            display: flex;
+            align-items: center;
+        }
+
+        .device-card-header-name{
+            color: $black;
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+    }
+
+    .device-card-content{
+        margin-top: 0px;
+        margin-bottom: $dls-s02-0;
+        padding-top: 0px;
+        padding-bottom: $dls-s02-0;
+
+
+
+        .device-card-content-refresh {
+            color: $color-purple-plum;
+            font-size: $font-size-body-desktop;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            font-weight: bold;
+            position: relative;
+            top: $dls-s03-5;
+            left: -$dls-s02-0;
+            z-index: 2;
+
+            .device-card-content-refresh-icon{
+                font-size: $font-size-h3-desktop;
+            }
+        }
+
+        .device-card-content-image {
+            display: flex;
+            align-items: flex-end;
+            position: relative;
+            top: -40px;
+
+            .device-card-content-CardMedia-refresh{
+                height: 0;
+                padding-top: 67.25%;
+                position: relative;
+                top: -12px;
+                right: -12px;
+                background-size: 100px;
+            }
+
+            .device-card-content-CardMedia{
+                height: 0;
+                padding-top: 67.25%;
+                position: relative;
+                right: 60px;
+                background-size: 130px;
+            }
+            
+
+            .device-card-content-image-brand{
+                color: black;
+                font-size: $font-size-h5-desktop;
+                padding-bottom: 10%;
+                padding-left: $dls-s02-5;
+
+            }
+        }
+
+        .device-card-configuration{
+            padding-left: $dls-s02-5;
+            position: relative;
+            top: -$dls-s06-5;
+
+            .device-card-deviceBrand{
+                font-size: $font-size-eyebrow-desktop;
+                color: $color-gray-dark;
+            }
+
+            .device-card-deviceName{
+                font-weight: bold;
+                font-size: $line-height-h5-desktop;
+                margin-bottom: $dls-s01-0;
+            }
+
+            .device-card-configuration-item{
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                font-size: $font-size-eyebrow-desktop;
+                margin-bottom: $dls-s01-0;
+
+                .MuiSvgIcon-root {
+                    display: inline-block;
+                      width: $dls-s02-5;
+                      height: $dls-s02-5;
+                      margin-right: $dls-s02-0;
+                   }
+
+                   .device-card-configuration-item-header{
+                    font-weight: bold;
+                    margin-right: $dls-s01-0;
+                }
+                .device-card-configuration-item-content{
+                    color: $color-gray-dark;
+                }
+            }
+        }
+    }
+
+
+    .device-card-footer{
+        font-weight: bold;
+        position: relative;
+        bottom: 60px;
+        left: 24px;
+        cursor: pointer;
+
+        .device-card-footer-link{
+            color: $black;
+            font-size: 14px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .device-card-footer-refresh-link{
+            color:  $color-purple-plum;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 14px;
+            padding-left: $dls-s02-0;
+            margin-bottom: $dls-s00-5;
+        }
+    }
+
+    .device-card-footer-eligible{
+        font-weight: bold;
+        position: relative;
+        bottom: 60px;
+        left: 3px;
+        cursor: pointer;
+
+        .device-card-footer-link{
+            color: $black;
+            font-size: $font-size-body-mobile;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .device-card-footer-refresh-link{
+            color:  $color-purple-plum;
+            font-size: $font-size-body-mobile;
+            text-decoration: underline;
+            font-weight: bold;
+            padding-left: $dls-s03-0;
+            // margin-bottom: $dls-s00-5;
+
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "设备已损坏",
+    "editUsage": "编辑用法",
+    "issuedDate": "发出",
+    "moreActions": "更多操作",
+    "reassign": "分配",
+    "refresh": "刷新",
+    "refreshEligibleBadge": "刷新符合条件",
+    "refreshEligibleLabel": "刷新符合条件",
+    "registerOwnership": "注册所有权",
+    "reportBroken": "报告已损坏",
+    "reportMissing": "报告丢失",
+    "reportOwnershipError": "报告所有权错误",
+    "return": "返回",
+    "usage": "用法",
+    "wipeComputer": "擦拭计算机"
+  },
+  "checkout": {
+    "agreementTitle": "请阅读以下消息",
+    "cancelModal": {
+      "content": "取消订单将清除您的输入并返回到技术页面。",
+      "title": "确认订单取消"
+    },
+    "failureMessage": "提交失败。请重试。",
+    "leaveModal": {
+      "content": "如果您希望稍后继续返回过程，请返回到\"管理\"菜单。你想继续吗？",
+      "title": "您将离开返回流程"
+    },
+    "orderDetails": {
+      "asset": "要返回的设备",
+      "header": "订单详情",
+      "reason": "返回原因"
+    },
+    "subtitle": "审核并提交订单",
+    "title": "收款处"
+  },
+  "editUsage": {
+    "buttonLabel": "选择使用类型",
+    "header": "编辑用法",
+    "label": "设备使用情况",
+    "update": "更新"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "您目前没有指定的技术，请稍后再次检查。",
+  "orderConfirmation": {
+    "subtitle": "查看您的订单详细信息",
+    "title": "订单确认"
+  },
+  "reassign": {
+    "header": "重新分配设备",
+    "ineligibleUser": "用户已找到但不符合资格。",
+    "lookupLabel": "查找同事将这台计算机重新分配给",
+    "p1": "计算机只能在同一国家/地区重新分配。",
+    "p2": "分配给用户的新用户必须在同一业务范围内。",
+    "p3": "分配给用户的新用户必须有权使用 i-o 计算机功能。",
+    "title": "计算机重新分配符合您的业务政策和以下规则。",
+    "warning": "提交后，此计算机将立即重新分配给 {{assignedTo}} 。"
+  },
+  "recommendAsset": {
+    "altImage": "推荐设备"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "我确认我主动要求这台计算机保持分配给我。",
+    "alertMessage": {
+      "contactServiceDesk": "联系服务台以获得进一步帮助",
+      "reportComputerMissing": "报告计算机丢失",
+      "reportOwnershipError": "报告所有权错误或",
+      "title": "不是你的电脑或不再在你的手中？"
+    },
+    "header": "注册所有权",
+    "instructions": "检查下面的框，并提交您的注册，以确认这台计算机是在你的手中，你正在积极使用它。这将确保计算机保持正确分配给您。"
+  },
+  "replace": {
+    "businessRecommended": "业务推荐设备",
+    "header": "刷新设备",
+    "messageWithRecommended": "继续使用业务推荐的设备或继续目录以选择其他替换设备",
+    "messageWithoutRecommended": "继续选择更换设备。",
+    "toCatalog": "继续编目"
+  },
+  "reportBroken": {
+    "agreementMessage": "我确认 OEM 调度已通过故障排除，需要更换设备。",
+    "details": {
+      "label": "请提供计算机问题的详细信息",
+      "placeholder": ""
+    },
+    "header": "报告设备损坏",
+    "incident": {
+      "label": "相关事件编号",
+      "placeholder": "事件编号"
+    },
+    "p1": "只有在 OEM 的维修排除为可能的解决方案后，才应提交更换设备的请求。通过继续，您确认您已遵循 OEM 调度流程，在这种情况下需要更换设备。 ",
+    "p2": "我们将验证您是分配给相关计算机硬件维修事件的任务组的成员。所有其他订单将被拒绝。",
+    "title": "请阅读以下消息"
+  },
+  "reportMissing": {
+    "alert": "报告此计算机丢失将通知您的企业支持团队尝试定位设备。在支持团队完成调查之前，计算机将继续分配给您。",
+    "caseNumber": {
+      "label": "GE 安全i报告案例编号",
+      "placeholder": "前： 900703471"
+    },
+    "details": {
+      "label": "请提供更多详情",
+      "placeholder": ""
+    },
+    "geSecurityLink": "访问 GE 安全。",
+    "header": "报告设备丢失",
+    "p1": "先在 GE 安全部门报告丢失的设备，然后使用 iReport 案例编号返回此操作。 ",
+    "replacementAlert": "继续执行丢失的更换订单，该订单还将通知您的业务支持团队尝试查找丢失的计算机。",
+    "replacementComputer": "你需要更换电脑吗？"
+  },
+  "reportOwnershipError": {
+    "alert": "此操作将创建一个事件，由适当的团队来调查该问题。在支持调查完成之前，计算机将继续分配。",
+    "details": "其他详细信息",
+    "header": "报告所有权错误"
+  },
+  "return": {
+    "deviceBroken": "设备已损坏",
+    "header": "返回设备",
+    "notRequired": "不再需要",
+    "other": "其他",
+    "reasonDetails": "请提供更多详情",
+    "reasonForReturn": "返回原因",
+    "userLeft": "分配给已离开公司的用户"
+  },
+  "submission": {
+    "failed": "提交失败。请重试。",
+    "succeeded": "成功提交了行动。"
+  },
+  "subtitle": "查看和管理指定的技术",
+  "title": "科技",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "我理解并承认",
+      "eraseDriveContentBodyOne": "接下来，您将安装一个软件包，该软件包将安全地从硬盘驱动器中清除数据。软件在打开时进行成功的预检后，您将开始这个过程，这可能需要一个小时或更长的时间。有关数据擦除过程的分步说明，请参阅 <1>本文</1> 。",
+      "eraseDriveContentBodyTwo": "此过程一旦从软件包中启动，就无法反转，无法恢复您的文件。只有在打开下载的软件包后，在上面列出的需要擦除的计算机上，才能单击 <1>启动过程</1> 。当流程完成后，您的设备将准备好装运。",
+      "initiate": "下载",
+      "thisArticle": "本文 ",
+      "title": "擦除硬盘指令"
+    },
+    "header": "擦拭计算机",
+    "saveRequiredContent": "为了保护业务信息，硬盘驱动器需要在装运前安全擦除。自助实用工具 <1>数据传输指南</1> 可用于在擦除硬盘之前帮助您从硬盘驱动器上删除任何所需的文件。",
+    "title": "保存所需信息"
+  }
+}

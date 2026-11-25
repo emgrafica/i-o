@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Anwendungsname",
+  "backLink": "Zurück zum Support",
+  "businessLabel": "Business",
+  "filesAlertMessageLong": "Die Datei konnte nicht hochgeladen werden, da das Anforderungszeitüberschreitungszeitsystem aufgetreten ist. Bitte versuchen Sie es erneut.",
+  "filesAlertMessageLong_plural": "Dateien konnten nicht hochgeladen werden, da das Anforderungszeitüberschreitungszeitprogramm angezeigt wurde. Bitte versuchen Sie es erneut.",
+  "filesAlertMessageShort": "Datei konnte nicht hochgeladen werden",
+  "filesAlertMessageShort_plural": "Dateien konnten nicht hochgeladen werden",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Details zu Ihrem Problem",
+  "incidentTitleLabel": "Titel",
+  "pageAlertMessage": "Vorfall erfolgreich erstellt! Ihre Vorfallnummer ist {{tenantDisplayId}}",
+  "retryAllButton": "Wiederholen Sie alle",
+  "retryButton": "Wiederholen",
+  "subtitle": "Zugriff auf Self-Service-Lösungen für IT-Probleme",
+  "title": "Erhalten Sie Support",
+  "uploadedFilesLabel": "Hochgeladene Dateien"
+}

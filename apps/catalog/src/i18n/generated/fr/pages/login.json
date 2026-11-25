@@ -1,0 +1,10 @@
+{
+  "email": "Messagerie électronique",
+  "emailPlaceholder": "email@email.com",
+  "id": "ba8017df-0366-42c7-b728-5f0b70bf6c91",
+  "invalidDomain": "Nous ne reconnaissons pas les e-mails de votre entreprise. Veuillez contacter votre administrateur système",
+  "invalidEmail": "Entrez une adresse e-mail valide",
+  "login": "connectez-vous",
+  "subtitle": "Entrez vos coordonnées ci-dessous",
+  "title": "s'identifier"
+}

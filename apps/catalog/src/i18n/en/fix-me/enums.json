@@ -1,0 +1,44 @@
+{
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271",
+
+  "RequestStatusType": {
+    "Approval": "Approval",
+    "InProgress": "In Progress",
+    "Pending": "Pending",
+    "Completed": "Completed",
+    "Cancelled": "Cancelled",
+    "Declined": "Declined",
+    "Error": "Error",
+    "OnHold": "On Hold"
+  },
+  "ReasonForRequest": {
+    "NewAccessory": "New accessory",
+    "Primary": "Primary",
+    "Additional": "Additional",
+    "Temporary": "Temporary",
+    "Broken": "Broken",
+    "Missing": "Missing",
+    "Replace": "Replace",
+    "OwnerInactive": "Owner is inactive",
+    "DeviceNotRequired": "Device no longer required",
+    "DeviceBroken": "Device is broken",
+    "Other": "Other"
+  },
+  "ReasonForRequestLabel": {
+    "primary": "Primary",
+    "additional": "Additional",
+    "temporary": "Temporary",
+    "newGcomService": "New GCom Service",
+    "refreshReplacement": "Refresh Replacement",
+    "earlyReplacement": "Early Replacement",
+    "missingReplacement": "Missing Replacement",
+    "brokenReplacement": "Broken Replacement",
+    "return": "Return",
+    "reassign": "Reassign",
+    "specialRequest": "Special Request",
+    "changeExistingService": "Change Existing Service",
+    "specialChangeRequest": "Special Change Request",
+    "terminateService": "Terminate Service",
+    "newAccessory": "New Accessory"
+  }
+}

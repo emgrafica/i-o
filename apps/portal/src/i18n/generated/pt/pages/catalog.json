@@ -1,0 +1,19 @@
+{
+  "error": {
+    "catalogError": "Desculpe, tivemos um problema recuperando seus resultados. Por favor, tente de novo.",
+    "filtersError": "Filtros de carregamento de erros",
+    "retry": "Repetir"
+  },
+  "id": "8759acde-0e57-4c81-ace1-b6642fe55b88",
+  "sortBy": {
+    "nameAtoZ": "Nome: A a Z",
+    "nameZtoA": "Nome: Z a A",
+    "priceHighToLow": "Preço: Alto a Baixo",
+    "priceLowToHigh": "Preço: Baixo a Alto"
+  },
+  "unentitled": {
+    "contact": "Se você acredita que isso é um erro, entre em contato com um agente do Service Desk.",
+    "goHome": "VOLTE PARA CASA.",
+    "noItems": "Não há <1>{{catalog}}</1> itens disponíveis para <3>{{name}}</3> com base em uma regra de configuração de negócios."
+  }
+}

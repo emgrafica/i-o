@@ -1,0 +1,28 @@
+@import '../../styles/scss/variable.scss';
+
+.address-block {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  > li {
+    margin-left: 20px;
+    padding: 20px;
+    border: solid 1px $color-gray-dark;
+    border-radius: 10px;
+    &:first-child {margin-left: 0;}
+  }
+  .ttl-add {
+    margin: 0;
+    font-weight: 700;
+  }
+  .info-add {
+    margin: 5px 0 0;
+    > span {
+      display: block;
+      color: $color-gray-dark;
+      line-height: 1.4;
+    }
+  }
+}

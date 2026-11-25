@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Название приложения",
+  "backLink": "Возвращение для поддержки",
+  "businessLabel": "дело",
+  "filesAlertMessageLong": "Файл не удалось загрузить из-за времени запроса. Пожалуйста, попробуйте еще раз.",
+  "filesAlertMessageLong_plural": "Файлы не удалось загрузить из-за запроса сроки. Пожалуйста, попробуйте еще раз.",
+  "filesAlertMessageShort": "Файл не удалось загрузить",
+  "filesAlertMessageShort_plural": "Файлы не загружены",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Подробная информация для вашего вопроса",
+  "incidentTitleLabel": "титул",
+  "pageAlertMessage": "Инцидент успешно создан! Ваш номер инцидента {{tenantDisplayId}}",
+  "retryAllButton": "Повторить все",
+  "retryButton": "снова пробовать",
+  "subtitle": "Доступ к решениям самообслуживания для решения ИТ-проблем",
+  "title": "Получить поддержку",
+  "uploadedFilesLabel": "Загруженные файлы"
+}

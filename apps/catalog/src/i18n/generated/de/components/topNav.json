@@ -1,0 +1,17 @@
+{
+  "getSupport": "Support erhalten",
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "logOut": "Abmelden",
+  "logOutMessage": "Diese Aktion meldet Sie aus GE EXP ab.",
+  "manage": "Verwalten",
+  "punchOutModal": {
+    "closeButton": "Dialog schließen",
+    "getSupportMessage": "Live-Support von SOLV Desk ist für Ihr Unternehmen oder Ihre Region außerhalb von GEverfügbar.",
+    "mobileMessage": "Das Anfordern von Mobile ist für Ihr Unternehmen oder Ihre Region außerhalb von GE Exp verfügbar. Klicken Sie auf Weiter, um auf diesen Dienst zuzugreifen, auf einer neuen Registerkarte.",
+    "remoteAccessMessage": "Das Anfordern von Remotezugriff ist für Ihr Unternehmen oder Ihre Region außerhalb von GE Exp verfügbar. Klicken Sie auf Weiter, um auf diesen Dienst zuzugreifen, auf einer neuen Registerkarte.",
+    "softwareMessage": "Das Anfordern von Software ist für Ihr Unternehmen oder Ihre Region außerhalb von GE Exp verfügbar. Klicken Sie auf Weiter, um auf diesen Dienst zuzugreifen, auf einer neuen Registerkarte.",
+    "title": "Wichtige Informationen"
+  },
+  "request": "Anfordern",
+  "signOut": "Abmelden"
+}

@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Nome applicazione",
+  "backLink": "Torna a ottenere supporto",
+  "businessLabel": "Azienda",
+  "filesAlertMessageLong": "Impossibile caricare il file a causa del tempo di temporizzazione della richiesta. Riprova.",
+  "filesAlertMessageLong_plural": "Impossibile caricare i file a causa del tempo di temporizzazione della richiesta. Riprova.",
+  "filesAlertMessageShort": "Impossibile caricare il file",
+  "filesAlertMessageShort_plural": "Impossibile caricare i file",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Dettagli per il problema",
+  "incidentTitleLabel": "titolo",
+  "pageAlertMessage": "Incidente creato con successo! Il tuo numero di incidente è {{tenantDisplayId}}",
+  "retryAllButton": "Riprova tutto",
+  "retryButton": "ripetere",
+  "subtitle": "Accesso alle soluzioni self-service ai problemi IT",
+  "title": "Ottenere supporto",
+  "uploadedFilesLabel": "File caricati"
+}

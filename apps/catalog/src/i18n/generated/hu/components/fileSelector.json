@@ -1,0 +1,10 @@
+{
+  "browseButton": "böngészik",
+  "clearSelectionButton": "Az összes fájl eltávolítása",
+  "fileNotSupportedErrorMessage": "A fájltípus nem támogatott",
+  "fileNotSupportedHelpMessage": "Kérjük, töltse fel a fájltípusokat az alábbiak egyikéből:",
+  "fileSizeErrorMessage": "A fájl meghaladja a {{limit}}MB-ot",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Fájl húzása itt vagy",
+  "maxNumberOfFilesExceededMessage": "Az akták túllépik a {{limit}} határát"
+}

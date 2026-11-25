@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "응용 프로그램 이름",
+  "backLink": "지원 받기로 돌아가기",
+  "businessLabel": "사업",
+  "filesAlertMessageLong": "요청 타이밍 으로 인해 파일을 업로드하지 못했습니다. 다시 시도하십시오.",
+  "filesAlertMessageLong_plural": "요청 타이밍 으로 인해 파일을 업로드하지 못했습니다. 다시 시도하십시오.",
+  "filesAlertMessageShort": "파일을 업로드하지 못했습니다.",
+  "filesAlertMessageShort_plural": "파일을 업로드하지 못했습니다.",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "문제에 대한 세부 정보",
+  "incidentTitleLabel": "타이틀",
+  "pageAlertMessage": "인시던트 성공적으로 생성되었습니다! 인시던트 번호는 {{tenantDisplayId}}",
+  "retryAllButton": "모두 다시 시도",
+  "retryButton": "재시도",
+  "subtitle": "IT 문제에 대한 셀프 서비스 솔루션 액세스",
+  "title": "지원 받기",
+  "uploadedFilesLabel": "업로드된 파일"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "629e9640-f1c7-4dd9-a68f-b4ebf8404eea",
+
+  "title": "Share Feedback",
+  "subtitle": "Help us better serve you...",
+  "message": "We are always working to improve your i-o experience. Let our team know what is working well and how we can improve the site.",
+  "disclaimer": "Feedback is voluntary and will attributed to you.",
+
+  "dropdownFeedback": "What is your feedback about?",
+  "pleaseSelect": "Please Select",
+  "inputFeedback": "Share your Feedback",
+  "feedbackPlaceholder": "Tell us more. What went well? How can we improve?",
+
+  "submit": "Submit Feedback",
+  "successTitle": "Thank you for your feedback!",
+  "successMessage": "We appreciate your time and value your opinions.",
+  "submissionError": "Feedback submission failed. Please try again."
+}

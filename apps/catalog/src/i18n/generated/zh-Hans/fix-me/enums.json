@@ -1,0 +1,43 @@
+{
+  "ReasonForRequest": {
+    "Additional": "附加",
+    "Broken": "破碎",
+    "DeviceBroken": "设备已损坏",
+    "DeviceNotRequired": "不再需要设备",
+    "Missing": "失踪",
+    "NewAccessory": "新配件",
+    "Other": "其他",
+    "OwnerInactive": "所有者处于非活动状态",
+    "Primary": "主要",
+    "Replace": "取代",
+    "Temporary": "临时"
+  },
+  "ReasonForRequestLabel": {
+    "additional": "附加",
+    "brokenReplacement": "破碎的替换",
+    "changeExistingService": "更改现有服务",
+    "earlyReplacement": "早期更换",
+    "missingReplacement": "缺少替换",
+    "newAccessory": "新配件",
+    "newGcomService": "新的 Gcom 服务",
+    "primary": "主要",
+    "reassign": "分配",
+    "refreshReplacement": "刷新替换",
+    "return": "返回",
+    "specialChangeRequest": "特殊更改请求",
+    "specialRequest": "特殊请求",
+    "temporary": "临时",
+    "terminateService": "终止服务"
+  },
+  "RequestStatusType": {
+    "Approval": "批准",
+    "Cancelled": "取消",
+    "Completed": "完成",
+    "Declined": "拒绝",
+    "Error": "错误",
+    "InProgress": "正在进行中",
+    "OnHold": "暂停",
+    "Pending": "待定"
+  },
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271"
+}

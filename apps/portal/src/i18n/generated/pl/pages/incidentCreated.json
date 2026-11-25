@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Nazwa aplikacji",
+  "backLink": "Powrót do pomocy technicznej",
+  "businessLabel": "biznes",
+  "filesAlertMessageLong": "Nie można przesłać pliku z powodu przeterminowania żądania. Spróbuj ponownie.",
+  "filesAlertMessageLong_plural": "Nie można przesłać plików z powodu przeterminowania żądania. Spróbuj ponownie.",
+  "filesAlertMessageShort": "Nie można przesłać pliku",
+  "filesAlertMessageShort_plural": "Nie można przesłać plików",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Szczegóły dotyczące problemu",
+  "incidentTitleLabel": "tytuł",
+  "pageAlertMessage": "Incydent pomyślnie utworzony! Twój numer zdarzenia jest {{tenantDisplayId}}",
+  "retryAllButton": "Ponów próbę wszystkich",
+  "retryButton": "Ponów próbę",
+  "subtitle": "Dostęp do samoobsługowych rozwiązań w zakresie problemów informatycznych",
+  "title": "Uzyskaj pomoc techniczną",
+  "uploadedFilesLabel": "Przesłane pliki"
+}

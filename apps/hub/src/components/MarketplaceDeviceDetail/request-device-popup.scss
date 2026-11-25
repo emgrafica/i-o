@@ -1,0 +1,77 @@
+@import "./../../styles/scss/mixin.scss";
+@import './../../styles/scss/variable.scss';
+
+// .request-device-popup-content{
+//     // position: absolute;
+//     // width: 744px;
+//     // height: 751px;
+//     // left: 0px;
+//     // top: 0px;
+
+//     background: #FFFFFF;
+//     border-radius: 16px;
+//     z-index: 2000;
+
+//     margin: auto;
+//     background: #fff;
+//     width: 744px;
+//     padding: 5px;
+//     border: 1px solid #d7d7d7;
+    
+// }
+
+.request-device-popup-overlay {
+    .popup-content {
+        margin: auto;
+        background: $color-white;
+        width: 744px;
+        padding: $dls-s01-0;
+        padding-left: $dls-s02-5;
+        border: 1px solid #d7d7d7;
+        border-radius: $dls-s03-0;
+        z-index: 2000;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 90%;
+    }
+}
+
+
+
+
+
+//Iphone Plus
+@media screen and (min-width: 376px) and (max-width: 415px) {
+   .request-device-form{
+       position: relative;
+       left: $dls-s02-0;
+   }
+}
+
+//Iphone X
+@media screen and (max-width: 376px) {
+    .request-device-form{
+        position: relative;
+        left: $dls-s01-0;
+    }
+ }
+
+ //Ipad
+ @media only screen and (min-width: 767px) and (max-width: 1025px){
+    .request-device-popup-overlay {
+        .popup-content {
+            padding: $dls-s01-0  !important;
+            padding-left: $dls-s02-5  !important;
+            height: 80%;
+        }
+    }
+ }
+
+ //large screen
+ @media only screen and (min-width: 1030px){
+    .request-device-popup-overlay {
+        .popup-content {
+            height: 90% !important;
+        }
+    }
+}

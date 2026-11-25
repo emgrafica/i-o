@@ -1,0 +1,9 @@
+{
+  "cancel": "Annullare l'azione per conto di un altro utente",
+  "cancelDescription": "Confermare l'annullamento dell'azione per conto di un altro utente. In questo modo si fermerà la funzione e si tornerà alla home page.",
+  "id": "8a0ee769-50fb-4a20-a08f-70492c63c50c",
+  "subtitle": "La tua esperienza i-o sarà limitata alle aree a cui puoi accedere mentre agisci per conto di un collega.",
+  "title": "L'utente agisce per conto di:",
+  "update": "Conferma per conto dell'aggiornamento dell'utente",
+  "updateDescription": "Confermare di interrompere l'azione per conto {{currentOBOUserName}} e inserire il processo di ricerca per agire per conto di un utente diverso."
+}

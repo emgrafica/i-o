@@ -1,0 +1,213 @@
+{
+  "id": "c513f062-c89f-4d37-8dc9-132dda32c6c2",
+
+  "error": {
+    "defaultErrorMessage": "An error has occurred."
+  },
+  "accessoryDetails":{
+    "title": "Accessory"
+  },
+  "errorBoundary": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong,",
+    "body": "But no need to panic. Try again now, come back later, or if the error persists, contact our support team.",
+    "refreshButton": "Refresh page",
+    "goBackHomeButton": "Go back home"
+  },
+  "request": {
+    "checkout": {
+      "title": {
+        "computers": "Computers Checkout",
+        "accessories": "Accessories Checkout",
+        "reportBroken": "Checkout"
+      },
+      "deviceUsage": "Device Usage",
+      "cancelOrder": "Cancel Order",
+      "submitOrder": "Submit Order",
+      "requestedFor": "Requested For",
+      "billedTo": "Billed To",
+      "reasonForRequest": "Reason for Request",
+      "replacementOrderFor": "Order for <1>{{name}}</1> complete. Return to <3>SEARCH</3> to lookup another asset or ticket.",
+      "replacementMessage": "The replacement device will match the general specifications of the device being replaced. Replacements will be made with available inventory to mitigate costs. Thank you for your understanding as we work toward meeting company financial goals.",
+      "header": {
+        "computerTitleSubmit": "Computers Checkout",
+        "accessoryTitleSubmit": "Accessories Checkout",
+        "mobileTitleSubmit": "Mobility Checkout",
+        "standardTitle": "Checkout",
+        "standardSubtitle": "Review and submit an order",
+        "titleSuccess": "Order Confirmation",
+        "subtitleSubmit": "Review all the information before submitting your request",
+        "subtitleSuccess": "Review your order details"
+      },
+      "productDetails": {
+        "header": {
+          "computer": "Computer",
+          "accessory": "Accessory",
+          "mobileDevice": "Mobile Device",
+          "standard": "Device"
+        }
+      },
+      "modal": {
+        "cancel": {
+          "header": "Confirm Order Cancellation",
+          "message": "Canceling the order will clear your product selections and return you to the {{returnTo}}.",
+          "stayOnPage": "Stay on Page",
+          "cancelOrder": "Cancel Order"
+        }
+      }
+    },
+    "accessories": {
+      "header": {
+        "title": "Accessories Catalog",
+        "subtitle": "Supporting devices to go with your computer"
+      },
+      "card": {
+        "viewButton": "View"
+      },
+      "title": "Accessories",
+      "subTitle": "Devices to meet all of your business needs",
+      "backButton": "Accessories Catalog",
+      "accessoryDetails": {
+        "title": "Accessories Details",
+        "configuration": {
+          "title": "Configuration Details",
+          "keyboard": "Keyboard",
+          "plugType": "Plug Type"
+        },
+        "requestReason": {
+          "title": "Reason For Your Request"
+        }
+      },
+      "checkoutButton": "Proceed to Checkout"
+    },
+    "mobility": {
+      "header": {
+        "title": "Mobility Catalog",
+        "subtitle": "Devices to meet all of your business needs"
+      },
+      "mobilityDetails": {
+        "title": "Mobility Details",
+        "configuration": {
+          "title": "Configuration Details"
+        },
+        "carrier": "Carrier",
+        "storage": "Storage",
+        "color": "Color",
+        "plans": "Plans",
+        "features": "Features",
+        "plan": "Plan",
+        "hardwareSelectionQueryError": "Sorry, we ran into an issue finding selected hardware. Please try again.",
+        "configurationStockMessage": "Configuration for this model will be determined by the fulfillment team based on available stock.",
+        "requestReason": {
+          "title": "Reason For Your Request"
+        },
+        "businessJustification": {
+          "deviceUsage": "Select a device usage",
+          "justificationHint": "Describe your business need for this device",
+          "acknowledgementLabel": "I understand",
+          "acknowledgementHint": "Please read the following message"
+        }
+      }
+    },
+    "gcom": {
+      "header": {
+        "title": "GCom Catalog",
+        "subtitle": "Modern alternatives to traditional phone services"
+      },
+      "accountInformation": {
+        "label": "Account Information",
+        "hint": "Define who will use the service and who will be charged for the service",
+        "assignedTo": "ASSIGNED TO",
+        "assignedToDescription": "Person who will be using the service",
+        "billedTo": "BILLED TO",
+        "billedToDescription": "Person who will be accountable for billing in country where used",
+        "changeUser": "CHANGE USER",
+        "notEligible": "The billed to user is not eligible",
+        "banCheckError": "Error checking user eligibility. Please try again."
+      },
+      "locationOfService": {
+        "label": "Location of Service",
+        "hint": "Define GCom-enabled location",
+        "countryTooltip":"Country is tied to the Billed To user, who must be located in the country where the service will be used.",
+        "countryLabel": "Country",
+        "stateLabel": "State",
+        "cityLabel": "City",
+        "siteLabel": "Site",
+        "selectStateLPlaceholder": "Select State",
+        "selectCityPlaceholder": "Select City",
+        "selectSitePlaceholder": "Site address",
+        "selectStateQueryError": "Sorry, we ran into an issue finding eligible states. Please try again.",
+        "selectCityQueryError": "Sorry, we ran into an issue finding eligible cities. Please try again.",
+        "selectSiteQueryError": "Sorry, we ran into an issue finding eligible sites. Please try again.",
+        "noSiteAvailableMessage" : "There are no GCom enabled sites available for the selected location"
+      },
+      "productSelection": {
+        "label": "Product Selection",
+        "hint": "Define a core offering to order",
+        "productOptions": "What product are you looking for?",
+        "selectProductOption": "Select",
+        "helpMeDecide": "Help me decide",
+        "summaryTitle": "New product to be associated with this service:",
+        "notEligible": "You are not eligible for this product.",
+        "productSelectionQueryError": "Sorry, we ran into an issue finding eligible products. Please try again."
+      },
+      "helpMeDecide": {
+        "title": "Product Information",
+        "analogLine": "Analog Line - It is used for fax connection, franking machines, door keepers, and lifts. This product does not provide phone. Select option related to voicemail (Yes/No).",
+        "conferenceRoomPhone": "Conference room phone - This product is for meeting rooms.",
+        "deskPhone": "Desk phone - Select options related to voicemail (Yes/No), and expansion module (used for call forwarding).",
+        "predefinedSku": "Predefined SKU - Select this option if you are a Power user, and you are familiar with the specific SKU required by your team (ex: call center). Use the text box to provide the required SKU.",
+        "teamsDialtone": "Teams Dialtone - This product enables you to call external phone numbers from Teams. When available, this will be the default product that is pre-selected. Select options from the available drop-down options.",
+        "specialRequest": "Special Request - Select this option when you need assistance to select a product. Use the text box to provide details about your request."
+      },
+      "userLookup": {
+        "title": "Change User",
+        "description": "Search for another user"
+      }
+    },
+    "computers": {
+      "header": {
+        "title": "Computers Catalog",
+        "subtitle": "Devices to meet all your business needs"
+      },
+      "card": {
+        "viewButton": "View"
+      },
+      "computerDetails": {
+        "title": "Computers Details",
+        "configurationStockMessage": "Configuration for this model will be determined by the fulfillment team based on available stock.",
+        "plugType": "Plug Type",
+        "plugLabel": "Select Plug Type",
+        "os": "Operating System",
+        "osLabel": "Select Operating System",
+        "selectConfiguration": "Configuration Details",
+        "keyboard": "Keyboard",
+        "keyboardLabel": "Select keyboard language",
+        "language": "Language",
+        "modelSpecifications": "Model Specifications",
+        "requestDetails": "Request Details",
+        "requestReason": "Select a reason for request",
+        "replaceFlowRequestReasonTooltip": "Value is associated with the action being taken and cannot be edited",
+        "selectReturn": "Select a return date",
+        "shortTermHint": "Cannot select a return date later than 90 days from request date",
+        "checkout": "Proceed to Checkout",
+        "replaceDevice": {
+          "broken": "Broken Device",
+          "missing": "Missing Device",
+          "replaceLabel": "Select a device to replace",
+          "replaceReason": "Select a reason for replacing device"
+        },
+        "businessJustification": {
+          "deviceUsage": "Select a device usage",
+          "justificationHint": "Describe your business need for this device",
+          "acknowledgementLabel": "I understand",
+          "acknowledgementHint": "Please read the following message"
+        }
+      }
+    },
+    "leaveModal": {
+      "title": "You are leaving the replace process",
+      "content": "If you would like to continue the replace process at a later time go back into the Manage menu. Do you want to proceed?"
+    }
+  }
+}

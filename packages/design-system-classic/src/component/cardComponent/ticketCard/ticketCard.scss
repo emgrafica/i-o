@@ -1,0 +1,44 @@
+@import './../../../styles/variable.scss';
+@import './../../../styles/mixin.scss';
+
+.support-ticket-card.ant-card {
+  min-height: 120px;
+  position: relative;
+  overflow: hidden;
+  padding: $dls-s02-5 $dls-s03-0;
+  .status-text {margin: 0;}
+  .ant-card-head {
+    border: 0;
+    padding: 0;
+    min-height: auto;
+    .ant-card-head-title {padding: 0;}
+  }
+  .ant-card-body {padding: 0;}
+  .ticket-number {
+    margin: 0;
+    color: $color-gray-dark;
+    @include captionSemibold;
+  }
+  .time-stamp {
+    margin: 0;
+    color: $color-gray-medium;
+    @include captionRegular;
+    img, span {
+     display: inline-block;
+     vertical-align: middle; 
+    }
+    .icon-calendar {margin-right: 5px;}
+  }
+
+  .ticket-footer {
+    position: absolute;
+    left: $dls-s03-0;
+    right: $dls-s03-0;
+    bottom: 10px;
+    z-index: 5;
+    .inner {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

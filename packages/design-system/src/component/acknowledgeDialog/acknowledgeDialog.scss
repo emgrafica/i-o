@@ -1,0 +1,45 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles//scss/mixin.scss";
+
+.acknowledge-container.MuiPaper-elevation1.MuiPaper-rounded{
+    width: 300px;
+    height: 350px;
+    border-radius: 0px;
+    .acknowledge-header{
+        background: $color-purple-light-1;        
+        .MuiTypography-body1{
+            font-size: $font-size-h4-desktop;            
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+    }
+    .acknowledge-card-content{
+        font-family: $font-opensans;
+        text-align: center;
+        .MuiGrid-item{
+            img{
+                height: 80%;
+            }
+        }
+        .acknowledge-content{
+            font-size: $font-size-base;
+        }
+        .acknowledge-desc{
+            font-size: $font-size-base;
+        }
+        .acknowledge-button{
+            text-align: center;
+            Button{
+                color: white;
+                background: $color-purple-light-1;       
+                margin-top: 20px;
+                width: 85px;
+                height: 40px;
+                border-radius: 4px;
+                font-weight: bold; 
+                text-transform:revert;     
+            }
+        }
+    }
+}

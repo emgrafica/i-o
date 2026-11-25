@@ -1,0 +1,36 @@
+@import '../../styles//scss/variable.scss';
+
+.shortcut-container{
+    height: 145px;
+    width: 145px;
+    .shortcut-card {
+        padding: $dls-s02-0;
+        height: 145px;
+        .shortcut-icon {
+            text-align: center;
+            font-size: 100px;
+            height: 90px;
+        }
+        .shortcut-name{
+            text-align: center;
+            font-family: $font-opensans;
+            font-size: $font-size-base;        
+            font-weight: bold;
+            color: $black;
+            margin-top: 10px;
+            text-decoration-color: black;
+            text-decoration-line: underline;
+        }
+        .shortcut-supname{
+            text-align: center;
+            margin: 0px;
+            font-style: italic;
+            font-family: $font-opensans;
+            font-size: 10px;        
+        }
+    }
+}
+
+.MuiPaper-rounded{
+    border-radius: 12px !important;
+}

@@ -1,0 +1,42 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+
+
+.io-upload {
+    .ant-upload.ant-upload-drag {
+      height: 120px;
+      background: transparent;
+      border: 1px dashed #cacaca;
+      p.ant-upload-drag-icon {
+        margin-bottom: 0px;
+      }
+      p.ant-upload-text {
+        @include captionRegular;
+        a {
+          color: #1890ff;
+        }
+      }
+    }
+    .ant-upload-list {
+      .ant-upload-list-item {
+        height: auto;
+        padding: 0;
+        border: none;
+      }
+      
+      .ant-upload-list-item-thumbnail,
+      .small-icons {
+        height: 16px;
+        width: 16px;
+      }
+      .ant-upload-list-item-name{
+        height: 22px;
+        line-height: 22px;
+      }
+      .remove {
+        font-size: 14px;
+      }
+    }
+  
+   
+  }

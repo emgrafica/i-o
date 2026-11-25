@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "アプリケーション名:",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "({{count}} 添付ファイル)",
+      "fileCount_plural": "({{count}} 添付ファイル)",
+      "maxSizeInfo": "ファイルあたりの最大サイズ: {{limit}}.0 MB",
+      "optionalLabel": "(オプション)",
+      "title": "ファイルの添付"
+    },
+    "instructions": "サポートエージェントが問題を解決するのに役立つ {{limit}} 関連ドキュメントを添付します。"
+  },
+  "businessLabel": "ビジネス：",
+  "descriptionSection": {
+    "details": {
+      "label": "問題の詳細を入力する",
+      "placeholder": "エージェントができるだけ早く支援できるように、問題を詳細に説明する"
+    },
+    "header": "形容",
+    "title": {
+      "label": "タイトル",
+      "placeholder": "概要"
+    }
+  },
+  "directions": "以下のフォームに記入し、インシデントリクエストを送信します。適切なサポートチームが問題を確認して解決いたします。",
+  "formTitle": "業務アプリケーション インシデント フォーム",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "インシデントの作成と添付ファイルのアップロード",
+  "loadingMessageWithoutFiles": "インシデントの作成",
+  "searchedTopicLabel": "検索内容:",
+  "subtitle": "IT関連の問題をセルフサービスで解決",
+  "title": "サポートを受ける"
+}

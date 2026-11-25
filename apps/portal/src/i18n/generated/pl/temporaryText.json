@@ -1,0 +1,53 @@
+{
+  "comingSoon": {
+    "title": "Wkrótce!"
+  },
+  "id": "40bc9c50-1176-4162-bc49-0f75f775a4c4",
+  "showWipAccessories": {
+    "content1": "Za pośrednictwem tego katalogu można wyświetlać, porównywać i zamawiać elementy, aby zaspokoić indywidualne potrzeby w zakresie produktywności i współpracy.",
+    "content2": "Potrzebujesz akcesorium teraz? <1>Odwiedź istniejący katalog akcesoriów i-o</1>.",
+    "subtitle": "Zamawianie akcesoriów jest już prawie gotowe!",
+    "title": "Wkrótce!"
+  },
+  "showWipApprovals": {
+    "content1": "Za pośrednictwem tej strony można podejmować akcje oczekujące zamówienia i wyświetlać zarchiwizowane zatwierdzenia, dzięki przeprojektowanej karcie, która zapewnia potrzebny kontekst do podejmowania ważnych decyzji zatwierdzania.",
+    "content2": "Chcesz teraz zatwierdzić otwarte zamówienie? <1>Odwiedź istniejące moje działania i-o.</1>",
+    "subtitle": "Zatwierdzenia są już prawie gotowe!",
+    "title": "Wkrótce!"
+  },
+  "showWipCollaboration": {
+    "content1": "Dowiedz się więcej o zespołach",
+    "content2": "Zapisz się na sesję treningową dla zespołów",
+    "description": "DXC wprowadziła niedawno microsoft teams jako platformę współpracy nowej generacji. Zespoły obejmują wiele narzędzi zwiększających produktywność, od czatu, przez wideokonferencje, po zaawansowane integracje aplikacji.",
+    "downloadTitle": "Pobieranie zespołów",
+    "forMac": "Dla komputerów Mac",
+    "forWindows": "Dla systemu Windows",
+    "title": "kolaboracja"
+  },
+  "showWipComputers": {
+    "content1": "Za pośrednictwem tego katalogu można przeglądać, porównywać i zamawiać odpowiedni komputer, aby pomóc Ci wykonać zadanie. Nasz nowy katalog będzie miał czystszy wyświetlacz produktów, bogatsze filtrowanie i ulepszony przepływ zamówień, aby pomóc Ci podjąć świadomą decyzję.",
+    "content2": "Potrzebujesz teraz komputera? <1>Odwiedź istniejący katalog komputerów i-o.</1>",
+    "subtitle": "Zamawianie komputera jest już prawie gotowe!",
+    "title": "Wkrótce!"
+  },
+  "showWipGcom": {
+    "content1": "Za pośrednictwem tego katalogu można przeglądać, porównywać i zamawiać odpowiednią usługę GCom, aby zoptymalizować współpracę. Nasz nowy katalog będzie miał czystszy przepływ zamówień, aby pomóc Ci podjąć świadomą decyzję.",
+    "content2": "Potrzebujesz GCom teraz? <1>Odwiedź istniejący katalog współpracy i-o.</1>",
+    "subtitle": "Zamówienie GCom jest już prawie gotowe!"
+  },
+  "showWipMobility": {
+    "description": "Za pośrednictwem tego katalogu możesz przeglądać, porównywać i zamawiać odpowiednie urządzenie mobilne, aby pomóc Ci wykonać zadanie. Nasz nowy katalog będzie miał czystszy wyświetlacz produktów, bogatsze filtrowanie i ulepszony przepływ zamówień, aby pomóc Ci podjąć świadomą decyzję.",
+    "redirect": "Potrzebujesz mobilności teraz? ",
+    "redirectLink": "Odwiedź istniejący katalog mobilności i-o.",
+    "subtitle": "Zamawianie mobilności jest już prawie gotowe!"
+  },
+  "showWipSoftware": {
+    "description": "Za pośrednictwem tego katalogu można przeglądać, porównywać i zamawiać odpowiednie tytuły oprogramowania, aby wykonać swoją pracę. Nasz nowy katalog będzie miał bardziej intuicyjny proces wyszukiwania, bogatsze filtrowanie i ulepszony przepływ zamówień, aby pomóc Ci podjąć świadomą decyzję.",
+    "redirect": "Potrzebujesz teraz oprogramowania? ",
+    "redirectLink": "Odwiedź istniejący katalog oprogramowania i-o.",
+    "subtitle": "Zamawianie oprogramowania jest już prawie gotowe!"
+  },
+  "showWipTopNav": {
+    "title": "Wkrótce"
+  }
+}

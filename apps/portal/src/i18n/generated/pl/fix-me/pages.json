@@ -1,0 +1,212 @@
+{
+  "accessoryDetails": {
+    "title": "akcesoria"
+  },
+  "error": {
+    "defaultErrorMessage": "Wystąpił błąd."
+  },
+  "errorBoundary": {
+    "body": "Ale nie trzeba panikować. Spróbuj ponownie teraz, wróć później lub jeśli błąd będzie się powtarzał, skontaktuj się z naszym zespołem pomocy technicznej.",
+    "goBackHomeButton": "Wróć do domu",
+    "refreshButton": "Odśwież stronę",
+    "subtitle": "Coś poszło nie tak,",
+    "title": "Oops!"
+  },
+  "id": "c513f062-c89f-4d37-8dc9-132dda32c6c2",
+  "request": {
+    "accessories": {
+      "accessoryDetails": {
+        "configuration": {
+          "keyboard": "klawiatura",
+          "plugType": "Typ wtyczki",
+          "title": "Szczegóły konfiguracji"
+        },
+        "requestReason": {
+          "title": "Powód twojej prośby"
+        },
+        "title": "Szczegóły akcesoriów"
+      },
+      "backButton": "Katalog akcesoriów",
+      "card": {
+        "viewButton": "widok"
+      },
+      "checkoutButton": "Przejdź do realizacji transakcji",
+      "header": {
+        "subtitle": "Urządzenia pomocnicze do pracy z komputerem",
+        "title": "Katalog akcesoriów"
+      },
+      "subTitle": "Urządzenia spełniające wszystkie potrzeby biznesowe",
+      "title": "Akcesoria"
+    },
+    "checkout": {
+      "billedTo": "Rozliczane do",
+      "cancelOrder": "Anuluj zamówienie",
+      "deviceUsage": "Użycie urządzenia",
+      "header": {
+        "accessoryTitleSubmit": "Kasa z akcesoriami",
+        "computerTitleSubmit": "Kasa komputerów",
+        "mobileTitleSubmit": "Mobility Checkout",
+        "standardSubtitle": "Przejrzyj i złóż zamówienie",
+        "standardTitle": "kasa",
+        "subtitleSubmit": "Przejrzyj wszystkie informacje przed przesłaniem wniosku",
+        "subtitleSuccess": "Sprawdź szczegóły zamówienia",
+        "titleSuccess": "Potwierdzenie zamówienia"
+      },
+      "modal": {
+        "cancel": {
+          "cancelOrder": "Anuluj zamówienie",
+          "header": "Potwierdź anulowanie zamówienia",
+          "message": "Anulowanie zamówienia spowoduje wyczyszczenie wybranych produktów i odesłanie do {{returnTo}}.",
+          "stayOnPage": "Pozostań na stronie"
+        }
+      },
+      "productDetails": {
+        "header": {
+          "accessory": "akcesoria",
+          "computer": "komputer",
+          "mobileDevice": "Urządzenie mobilne",
+          "standard": "urządzenie"
+        }
+      },
+      "reasonForRequest": "Powód żądania",
+      "replacementMessage": "Urządzenie zastępcze będzie zgodne z ogólnymi specyfikacjami wymienianego urządzenia. Zamienniki zostaną dokonane z dostępnych zapasów w celu zmniejszenia kosztów. Dziękujemy za zrozumienie, jak pracujemy na rzecz osiągnięcia celów finansowych firmy.",
+      "replacementOrderFor": "Zamówienie <1>na{{name}}</1> kompletne. Wróć do <3>wyszukiwania,</3> aby wyszukać inny zasób lub bilet.",
+      "requestedFor": "Wniosek o",
+      "submitOrder": "Złóż zamówienie",
+      "title": {
+        "accessories": "Kasa z akcesoriami",
+        "computers": "Kasa komputerów",
+        "reportBroken": "kasa"
+      }
+    },
+    "computers": {
+      "card": {
+        "viewButton": "widok"
+      },
+      "computerDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Prosimy o przeczytanie poniższej wiadomości",
+          "acknowledgementLabel": "Rozumiem",
+          "deviceUsage": "Wybieranie użycia urządzenia",
+          "justificationHint": "Opisz swoje potrzeby biznesowe dotyczące tego urządzenia"
+        },
+        "checkout": "Przejdź do realizacji transakcji",
+        "configurationStockMessage": "Konfiguracja dla tego modelu zostanie określona przez zespół realizacji na podstawie dostępnych zapasów.",
+        "keyboard": "klawiatura",
+        "keyboardLabel": "Wybieranie języka klawiatury",
+        "language": "Język",
+        "modelSpecifications": "Dane techniczne modelu",
+        "os": "System operacyjny",
+        "osLabel": "Wybierz system operacyjny",
+        "plugLabel": "Wybierz typ wtyczki",
+        "plugType": "Typ wtyczki",
+        "replaceDevice": {
+          "broken": "Uszkodzone urządzenie",
+          "missing": "Brakujące urządzenie",
+          "replaceLabel": "Wybierz urządzenie do wymiany",
+          "replaceReason": "Wybierz przyczynę wymiany urządzenia"
+        },
+        "replaceFlowRequestReasonTooltip": "Wartość jest skojarzona z podejmowaną akcją i nie można jej edytować",
+        "requestDetails": "Szczegóły żądania",
+        "requestReason": "Wybierz przyczynę żądania",
+        "selectConfiguration": "Szczegóły konfiguracji",
+        "selectReturn": "Wybieranie daty powrotu",
+        "shortTermHint": "Nie można wybrać daty zwrotu później niż 90 dni od daty żądania",
+        "title": "Szczegóły dotyczące komputerów"
+      },
+      "header": {
+        "subtitle": "Urządzenia spełniające wszystkie potrzeby biznesowe",
+        "title": "Katalog komputerów"
+      }
+    },
+    "gcom": {
+      "accountInformation": {
+        "assignedTo": "PRZYPISANY DO",
+        "assignedToDescription": "Osoba, która będzie korzystać z usługi",
+        "banCheckError": "Błąd podczas sprawdzania uprawnień użytkownika. Spróbuj ponownie.",
+        "billedTo": "ROZLICZANE DO",
+        "billedToDescription": "Osoba, która będzie odpowiedzialna za rozliczenia w kraju, w którym",
+        "changeUser": "ZMIEŃ UŻYTKOWNIKA",
+        "hint": "Określ, kto będzie korzystał z usługi i kto zostanie obciążony opłatą za usługę",
+        "label": "Informacje o koncie",
+        "notEligible": "Naliczane użytkownikowi nie kwalifikują się"
+      },
+      "header": {
+        "subtitle": "Nowoczesne alternatywy dla tradycyjnych usług telefonicznych",
+        "title": "Katalog GCom"
+      },
+      "helpMeDecide": {
+        "analogLine": "Linia analogowa - służy do podłączania faksów, maszyn do frankowania, uchwytów drzwi i wind. Ten produkt nie zapewnia telefonu. Wybierz opcję związaną z pocztą głosową (Tak/Nie).",
+        "conferenceRoomPhone": "Telefon do sali konferencyjnej - Ten produkt przeznaczony jest do sal konferencyjnych.",
+        "deskPhone": "Telefon stacjonarny — wybierz opcje związane z pocztą głosową (Tak/Nie) i modułem rozszerzeń (używanym do przekazywania połączeń).",
+        "predefinedSku": "Wstępnie zdefiniowana jednostka SKU — wybierz tę opcję, jeśli jesteś użytkownikiem zasilania i znasz określoną jednostkę SKU wymaganą przez zespół (np. centrum obsługi). Użyj pola tekstowego, aby podać wymaganą jednostkę SKU.",
+        "specialRequest": "Zapytanie specjalne — wybierz tę opcję, gdy potrzebujesz pomocy, aby wybrać produkt. Użyj pola tekstowego, aby podać szczegółowe informacje o swoim żądaniu.",
+        "teamsDialtone": "Teams Dialtone — ten produkt umożliwia dzwonienie na zewnętrzne numery telefonów z usługi Teams. Jeśli jest dostępny, będzie to produkt domyślny, który jest wstępnie wybrany. Wybierz opcje z dostępnych opcji rozwijanych.",
+        "title": "Informacje o produkcie"
+      },
+      "locationOfService": {
+        "cityLabel": "miasto",
+        "countryLabel": "kraj",
+        "countryTooltip": "Kraj jest powiązany z użytkownikiem rozliczanym, który musi znajdować się w kraju, w którym usługa będzie używana.",
+        "hint": "Definiowanie lokalizacji z włączoną funkcją GCom",
+        "label": "Lokalizacja usługi",
+        "noSiteAvailableMessage": "Dla wybranej lokalizacji nie ma dostępnych witryn z włączoną funkcją GCom",
+        "selectCityPlaceholder": "Wybierz miasto",
+        "selectCityQueryError": "Niestety, najedziemy na problem ze znalezieniem kwalifikujących się miast. Spróbuj ponownie.",
+        "selectSitePlaceholder": "Adres witryny",
+        "selectSiteQueryError": "Niestety, natknęliśmy się na problem ze znalezieniem kwalifikujących się witryn. Spróbuj ponownie.",
+        "selectStateLPlaceholder": "Wybierz stan",
+        "selectStateQueryError": "Niestety, najedziemy na problem ze znalezieniem kwalifikujących się stanów. Spróbuj ponownie.",
+        "siteLabel": "miejsce",
+        "stateLabel": "stan"
+      },
+      "productSelection": {
+        "helpMeDecide": "Pomóż mi podjąć decyzję",
+        "hint": "Definiowanie podstawowej oferty na zamówienie",
+        "label": "Wybór produktu",
+        "notEligible": "Nie kwalifikujesz się do korzystania z tego produktu.",
+        "productOptions": "Jakiego produktu szukasz?",
+        "productSelectionQueryError": "Niestety, najedziemy na problem ze znalezieniem kwalifikujących się produktów. Spróbuj ponownie.",
+        "selectProductOption": "wybrać",
+        "summaryTitle": "Nowy produkt, który ma być skojarzony z tą usługą:"
+      },
+      "userLookup": {
+        "description": "Wyszukiwanie innego użytkownika",
+        "title": "Zmienianie użytkownika"
+      }
+    },
+    "leaveModal": {
+      "content": "Jeśli chcesz kontynuować proces zastępowania w późniejszym czasie, wróć do menu Zarządzaj. Czy chcesz kontynuować?",
+      "title": "Opuszczasz proces wymiany"
+    },
+    "mobility": {
+      "header": {
+        "subtitle": "Urządzenia spełniające wszystkie potrzeby biznesowe",
+        "title": "Katalog mobilności"
+      },
+      "mobilityDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Prosimy o przeczytanie poniższej wiadomości",
+          "acknowledgementLabel": "Rozumiem",
+          "deviceUsage": "Wybieranie użycia urządzenia",
+          "justificationHint": "Opisz swoje potrzeby biznesowe dotyczące tego urządzenia"
+        },
+        "carrier": "przewoźnik",
+        "color": "Kolor",
+        "configuration": {
+          "title": "Szczegóły konfiguracji"
+        },
+        "configurationStockMessage": "Konfiguracja dla tego modelu zostanie określona przez zespół realizacji na podstawie dostępnych zapasów.",
+        "features": "Funkcje",
+        "hardwareSelectionQueryError": "Niestety, najechaliśmy na problem ze znalezieniem wybranego sprzętu. Spróbuj ponownie.",
+        "plan": "plan",
+        "plans": "Plany",
+        "requestReason": {
+          "title": "Powód twojej prośby"
+        },
+        "storage": "składowanie",
+        "title": "Szczegóły dotyczące mobilności"
+      }
+    }
+  }
+}

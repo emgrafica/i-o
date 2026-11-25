@@ -1,0 +1,3 @@
+#* text eol=lf # Commented out until we come up with a solution that doesn't add random files to the git changes
+*.png binary
+*.jpg binary

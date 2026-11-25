@@ -1,0 +1,31 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.announcements-card-container{
+    height: 145px;
+    width: 300px;
+    font-family: $font-opensans ;
+    .announcements-card-header{
+        .chip{
+            min-height: 18px;
+        }   
+    }
+    .announcements-card-body{        
+    .announcements-card-title{
+        @include heading5;
+        @include max2lines;
+        color: $black;
+        -webkit-line-clamp: 2;
+        margin-top: 8px;
+    }
+    .announcements-card-content{
+        @include captionRegular;
+        @include max2lines;
+        margin-top: 8px;
+        min-height: 36px;
+        -webkit-line-clamp: 2;
+        color: $color-gray-dark;        
+    }
+    
+    }
+}

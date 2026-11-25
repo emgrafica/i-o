@@ -1,0 +1,10 @@
+{
+  "browseButton": "navegar",
+  "clearSelectionButton": "Remova todos os arquivos",
+  "fileNotSupportedErrorMessage": "O tipo de arquivo não é suportado",
+  "fileNotSupportedHelpMessage": "Por favor, carregue os tipos de arquivos de um dos seguintes:",
+  "fileSizeErrorMessage": "Arquivo excede {{limit}}MB",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Arraste um arquivo aqui ou",
+  "maxNumberOfFilesExceededMessage": "Arquivos excedem limite de {{limit}}"
+}

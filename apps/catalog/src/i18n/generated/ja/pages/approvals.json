@@ -1,0 +1,42 @@
+{
+  "approvalError": "承認に失敗しました。もう一度やり直してください。",
+  "approve": "承認する",
+  "approved": "承認",
+  "decline": "断る",
+  "declineModal": {
+    "label": "辞退の理由を記入してください",
+    "placeholder": "ここに辞退理由があります。",
+    "title": "拒否理由"
+  },
+  "declineSuccess": "要求が正常に拒否されました。",
+  "declined": "減少",
+  "filterBox": {
+    "accessories": "小物",
+    "computers": "コンピューター",
+    "mobility": "機動力",
+    "title": "カテゴリ"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "承認された注文はありません。",
+  "noDeclinedOrders": "辞退された注文はありません。",
+  "noFilterResults": "フィルタに一致する結果はありません。",
+  "noPendingOrders": "現在、承認待ちの注文はありません。",
+  "order": {
+    "approvalReason": "承認理由",
+    "approvedLabel": "承認",
+    "businessJustification": "ビジネスの正当性",
+    "declineReason": "拒否された理由",
+    "declinedLabel": "減少",
+    "for": "対して",
+    "imageAlt": "要求された資産",
+    "orderNumber": "注文番号",
+    "price": "価格",
+    "replacedDevice": "交換されたデバイス",
+    "requestReason": "リクエスト理由",
+    "returnDate": "返却日",
+    "submittedLabel": "提出"
+  },
+  "pending": "ペンディング",
+  "subtitle": "要求の表示と処理",
+  "title": "承認"
+}

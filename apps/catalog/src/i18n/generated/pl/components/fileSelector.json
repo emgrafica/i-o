@@ -1,0 +1,10 @@
+{
+  "browseButton": "przeglądać",
+  "clearSelectionButton": "Usuń wszystkie pliki",
+  "fileNotSupportedErrorMessage": "Typ pliku nie jest obsługiwany",
+  "fileNotSupportedHelpMessage": "Prosimy o przesłanie typów plików z jednego z następujących elementów:",
+  "fileSizeErrorMessage": "Plik przekracza {{limit}}MB",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Przeciągnij plik tutaj lub",
+  "maxNumberOfFilesExceededMessage": "Pliki przekraczają limit {{limit}}"
+}

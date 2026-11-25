@@ -1,0 +1,43 @@
+{
+  "ReasonForRequest": {
+    "Additional": "additionnel",
+    "Broken": "cassé",
+    "DeviceBroken": "L’appareil est cassé",
+    "DeviceNotRequired": "L’appareil n’est plus nécessaire",
+    "Missing": "manquant",
+    "NewAccessory": "Nouvel accessoire",
+    "Other": "autre",
+    "OwnerInactive": "Le propriétaire est inactif",
+    "Primary": "primaire",
+    "Replace": "remplacer",
+    "Temporary": "temporaire"
+  },
+  "ReasonForRequestLabel": {
+    "additional": "additionnel",
+    "brokenReplacement": "Remplacement cassé",
+    "changeExistingService": "Modifier le service existant",
+    "earlyReplacement": "Remplacement anticipé",
+    "missingReplacement": "Remplacement manquant",
+    "newAccessory": "Nouvel accessoire",
+    "newGcomService": "Nouveau service GCom",
+    "primary": "primaire",
+    "reassign": "réaffecter",
+    "refreshReplacement": "Actualiser le remplacement",
+    "return": "rendre",
+    "specialChangeRequest": "Demande de modification spéciale",
+    "specialRequest": "Demande spéciale",
+    "temporary": "temporaire",
+    "terminateService": "Mettre fin au service"
+  },
+  "RequestStatusType": {
+    "Approval": "approbation",
+    "Cancelled": "annulé",
+    "Completed": "terminé",
+    "Declined": "décliné",
+    "Error": "erreur",
+    "InProgress": "en cours",
+    "OnHold": "En attente",
+    "Pending": "en instance"
+  },
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271"
+}

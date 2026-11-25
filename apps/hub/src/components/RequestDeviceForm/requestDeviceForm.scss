@@ -1,0 +1,146 @@
+@import "./../../styles/scss/mixin.scss";
+@import "./../../styles/scss/variable.scss";
+
+.request-device-popup {
+  .close {
+    float: right;
+    font-size: $dls-s06-5;
+    font-weight: 700;
+    line-height: 1;
+    color: $color-gray-dark;
+    text-shadow: 0 $dls-s00-5 0 $color-white;
+    opacity: 0.5;
+    margin-right: $dls-s03-5;
+    margin-top: $dls-s03-0;
+  }
+}
+
+.request-device-form-header {
+  margin-bottom: $dls-s04-0;
+  text-align: center;
+  color: $color-purple-main;
+  padding: $dls-s04-0;
+  font-weight: 500 !important;
+  border-bottom: 1px solid $color-gray-light;
+}
+
+.request-device-form-title {
+  color: $black;
+  margin-bottom: $dls-s04-0;
+}
+
+.dynamic-form {
+  .ant-form-item-label {
+    label {
+      @include eyebrow;
+      letter-spacing: 0.2px;
+      text-transform: uppercase;
+      color: $color-gray-dark;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px $dls-s02-0;
+      margin-bottom: $dls-s01-0;
+      height: $dls-s02-0;
+    }
+    label:after {
+      content: "";
+    }
+  }
+
+  .ant-input,
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input
+  {
+    height: $dls-s06-0;
+    font-size: 14px;
+  }
+
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: $dls-s06-0;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: $dls-s01-0;
+    background: $color-white;
+  }
+
+  .ant-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: $color-white;
+    box-sizing: border-box;
+    border-radius: $dls-s01-0;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .ant-form-item-explain.ant-form-item-explain-error {
+    @include captionRegular;
+    color: $color-red;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: $dls-s01-0 0px;
+  }
+
+  .ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+  .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    top: 10%;
+  }
+}
+
+.request-device-form-crossbar-end {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  left: 0px;
+  bottom: $dls-s08-0;
+  background-size: auto 100%;
+  border: 1px solid $color-gray-light;
+}
+
+.request-device-information {
+  display: flex;
+  align-items: center;
+  margin-bottom: $dls-s06-0;
+
+  .request-device-information-image {
+    width: 88px;
+    margin-right: $dls-s02-0;
+  }
+
+  .request-device-information-display-content {
+    .request-device-information-display-name {
+      font-weight: 500 !important;
+      color: $black;
+    }
+
+    .request-device-information-display-comment {
+      @include captionRegular;
+      color: $color-gray-dark;
+      font-weight: normal !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1025px) {
+  .request-device-information {
+    margin-bottom: $dls-s04-0;
+  }
+
+  .request-device-form-title {
+    margin-bottom: $dls-s03-0;
+  }
+
+  .dynamic-form .ant-form-item-label label {
+    margin: 0px $dls-s02-0;
+    margin-bottom: $dls-s02-0;
+  }
+
+  .dynamic-forms-buttons-wrapper {
+    margin-top: $dls-s07-0 !important;
+  }
+}

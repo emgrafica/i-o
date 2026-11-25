@@ -1,0 +1,53 @@
+{
+  "comingSoon": {
+    "title": "¡Próximamente!"
+  },
+  "id": "40bc9c50-1176-4162-bc49-0f75f775a4c4",
+  "showWipAccessories": {
+    "content1": "A través de este catálogo puede ver, comparar y pedir elementos para apoyar sus necesidades individuales de productividad y colaboración.",
+    "content2": "¿Necesitas un accesorio ahora? <1>Visite el catálogo de accesorios i-o existente.</1>",
+    "subtitle": "¡El pedido de accesorios está casi listo!",
+    "title": "¡Próximamente!"
+  },
+  "showWipApprovals": {
+    "content1": "A través de esta página puede actuar órdenes pendientes y ver aprobaciones archivadas, con un aspecto de tarjeta rediseñado que le brinda el contexto necesario para tomar decisiones de aprobación importantes.",
+    "content2": "¿Necesita aprobar una orden abierta ahora? <1>Visite i-o My Actions existente.</1>",
+    "subtitle": "¡Las aprobaciones están casi listas!",
+    "title": "¡Próximamente!"
+  },
+  "showWipCollaboration": {
+    "content1": "Más información sobre los equipos",
+    "content2": "Registrarse para una sesión de entrenamiento de Teams",
+    "description": "DXC ha presentado recientemente Microsoft Teams como su plataforma de colaboración de próxima generación. Teams incluye una variedad de herramientas de productividad, desde chat hasta videoconferencias y potentes integraciones de aplicaciones.",
+    "downloadTitle": "Descargar Equipos",
+    "forMac": "Para Mac",
+    "forWindows": "Para Windows",
+    "title": "colaboración"
+  },
+  "showWipComputers": {
+    "content1": "A través de este catálogo puede ver, comparar y ordenar el equipo adecuado para ayudarle a realizar su trabajo. Nuestro nuevo catálogo tendrá una pantalla de productos más limpia, un filtrado más rico y un flujo de pedidos mejorado para ayudarlo a tomar una decisión informada.",
+    "content2": "¿Necesita una computadora ahora? <1>Visite el catálogo de computadoras i-o existente.</1>",
+    "subtitle": "¡El pedido de computadoras está casi listo!",
+    "title": "¡Próximamente!"
+  },
+  "showWipGcom": {
+    "content1": "A través de este catálogo puede ver, comparar y ordenar el servicio GCom adecuado para optimizar su colaboración. Nuestro nuevo catálogo tendrá un flujo de pedidos más limpio para ayudarlo a tomar una decisión informada.",
+    "content2": "¿Necesita GCom ahora? <1>Visite el catálogo de colaboración io existente.</1>",
+    "subtitle": "¡El pedido de GCom está casi listo!"
+  },
+  "showWipMobility": {
+    "description": "A través de este catálogo puede ver, comparar y pedir el dispositivo móvil adecuado para ayudarle a realizar su trabajo. Nuestro nuevo catálogo tendrá una pantalla de productos más limpia, un filtrado más rico y un flujo de pedidos mejorado para ayudarlo a tomar una decisión informada.",
+    "redirect": "¿Necesita movilidad ahora? ",
+    "redirectLink": "Visite el catálogo de movilidad i-o existente.",
+    "subtitle": "¡El pedido de movilidad está casi listo!"
+  },
+  "showWipSoftware": {
+    "description": "A través de este catálogo puede ver, comparar y ordenar los títulos de software adecuados para realizar su trabajo. Nuestro nuevo catálogo tendrá un proceso de búsqueda más intuitivo, un filtrado más rico y un flujo de pedidos mejorado para ayudarlo a tomar una decisión informada.",
+    "redirect": "¿Necesita software ahora? ",
+    "redirectLink": "Visite el catálogo de software io existente.",
+    "subtitle": "¡El pedido de software está casi listo!"
+  },
+  "showWipTopNav": {
+    "title": "Próximamente"
+  }
+}

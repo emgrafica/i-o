@@ -1,0 +1,71 @@
+{
+  "approvals": {
+    "status": "待定",
+    "title": "批准"
+  },
+  "comingSoon": "即将推出。。。",
+  "computer": {
+    "action": "计算机",
+    "subtitle": "查找合适的目录以下订单请求。",
+    "title": "需要请求什么？"
+  },
+  "error": {
+    "loadingError": "错误加载预览",
+    "quickLinksLoadingError": "错误加载快速链接",
+    "retry": "重试"
+  },
+  "explore": {
+    "action": "查看技术 ",
+    "comingSoonMessage1": "随着我们重建我们的平台，我们将逐步释放工具的每个组件，我们希望 <1>您早日反馈新的设计</1>。",
+    "comingSoonMessage2": "同时，您可以继续访问 <1>我们现有站点</1>中的所有 i-o 功能。我们期待您对新体验的反馈，以帮助我们塑造 i-o，以最好地满足您的需求！",
+    "subtitle": "在一个地方查看和管理您分配的资产",
+    "title": "管理您的技术",
+    "titleComingSoon": "欢迎来到新的迈克科技！"
+  },
+  "feedback": {
+    "action": "分享反馈",
+    "subtitle": "让我们的团队知道哪些技术运作良好，以及我们如何改进您的 i-o 体验",
+    "title": "分享您的反馈"
+  },
+  "feedbackButton": {
+    "label": "反馈"
+  },
+  "getAssistance": {
+    "action": "获取支持",
+    "subtitle": "查找常见问题的解决方案或与 {{helpdeskName}} 联系以获得实时支持",
+    "title": "获得技术支持"
+  },
+  "greeting": {
+    "afternoon": "下午好",
+    "evening": "晚上好",
+    "morning": "早上好"
+  },
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+  "incidents": {
+    "status": "打开",
+    "title": "故障单"
+  },
+  "obo": {
+    "action": "查找用户",
+    "title": "为其他用户订购"
+  },
+  "orders": {
+    "action": "查看请求",
+    "status": "打开",
+    "title": "订单"
+  },
+  "quickLinks": {
+    "subtitle": "访问有用的内部公司链接",
+    "title": "快速链接"
+  },
+  "search": {
+    "action": "立即搜索",
+    "title": "搜索其他用户的资产和Tickets"
+  },
+  "title": "主页",
+  "userLookup": {
+    "description": "这将允许您代表同事执行特定操作。这样做，您将有限地访问该网站。",
+    "impersonate": "模拟",
+    "title": "你想代表谁行事？"
+  }
+}

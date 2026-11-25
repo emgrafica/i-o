@@ -1,0 +1,46 @@
+import React from 'react';
+import { Button } from './Button';
+import { withDesign } from 'storybook-addon-designs'
+
+export default {
+  title: 'Example/Button',
+  component: Button,
+  argTypes: {
+    backgroundColor: { control: 'color' },
+  },
+  decorators: [withDesign],
+};
+
+// export const Template = (args) => <Button {...args} />;
+export const Template = (args) => <Button primary='true' label='Button' />;
+
+Template.parameters = {
+  design: {
+    type: 'figma',
+    // url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931',
+    url: 'https://www.figma.com/file/jjPtq8705hVDR4777rDESZ?node-id=368%3A430'
+  },
+}
+
+// export const Primary = Template.bind({});
+// Primary.args = {
+//   primary: true,
+//   label: 'Button',
+// };
+
+// export const Secondary = Template.bind({});
+// Secondary.args = {
+//   label: 'Button',
+// };
+
+// export const Large = Template.bind({});
+// Large.args = {
+//   size: 'large',
+//   label: 'Button',
+// };
+
+// export const Small = Template.bind({});
+// Small.args = {
+//   size: 'small',
+//   label: 'Button',
+// };

@@ -1,0 +1,89 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+.io-article-ticket {
+    height: 100%;
+    .io-article-item {
+        display: flex;
+        padding: 0;
+        border: none;
+        min-height: 144px;
+        background: $color-white;
+        height: 100%;
+        &:hover {
+            cursor: pointer;
+        }
+        .article-left {
+            min-width: 115px;
+            min-height: 144px;
+            display: flex;
+            justify-content: center;
+            background-color: $color-purple-light-4;
+            border-radius: $dls-s02-5 0 0 $dls-s02-5;
+            img {
+                width: 50px;
+            }
+        }
+
+        .article-eyebrow {
+            @include eyebrow;
+            border-radius: $dls-s02-5 $dls-s02-5 0 0;
+            background-color: $color-purple-light-4;
+            padding-left: $dls-s03-0;
+            padding-top: $dls-s02-5;
+            font-weight: bold;
+            letter-spacing: 0.2px;
+            text-transform: uppercase;
+            color: $color-gray-dark;
+          }
+
+
+        .article-right {
+            padding: $dls-s02-5 $dls-s03-0;
+            .article-type {
+                @include eyebrow;
+                color: $color-gray-dark;
+            }
+            .knowledge-card-desc {
+                @include bodyRegular;
+                margin-bottom: 0;
+            }
+            .article-title {
+              margin-top: 4px;
+          }
+        }
+    }
+    .io-article-item-vertical {
+        .ant-card-body {
+            display: block !important;
+        }
+        .article-left {
+            border-radius: $dls-s02-5 $dls-s02-5 0 0;
+            // border-radius: 0 0 0 0;
+            min-width: 100%;
+            min-height: 80px;
+            img {
+                width: 40px;
+            }
+        }
+        .article-right {
+            padding: 12px 16px 20px 16px;
+            
+            .article-title {
+                min-height: 45px;
+                margin: 0 0 12px 0;
+            }
+        }
+    }
+    .number-of-line-1{
+      -webkit-line-clamp: 1;
+    }
+    .number-of-line-2{
+      -webkit-line-clamp: 2;
+    }
+    .number-of-line-3{
+      -webkit-line-clamp: 3;
+    }
+    .number-of-line-4{
+      -webkit-line-clamp: 4;
+    }
+}

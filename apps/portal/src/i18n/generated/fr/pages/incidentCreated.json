@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Nom de l’application",
+  "backLink": "Retour à Obtenir de l’aide",
+  "businessLabel": "affaire",
+  "filesAlertMessageLong": "Le téléchargement du fichier a échoué en raison de l’expiration du délai d’expiration de la demande. Veuillez réessayer.",
+  "filesAlertMessageLong_plural": "Les fichiers n’ont pas pu être téléchargés en raison de l’expiration du délai d’expiration de la demande. Veuillez réessayer.",
+  "filesAlertMessageShort": "Échec du téléchargement du fichier",
+  "filesAlertMessageShort_plural": "Le téléchargement des fichiers a échoué",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Détails de votre problème",
+  "incidentTitleLabel": "titre",
+  "pageAlertMessage": "Incident créé avec succès! Votre numéro d’incident est {{tenantDisplayId}}",
+  "retryAllButton": "Réessayer tout",
+  "retryButton": "réessayer",
+  "subtitle": "Accéder à des solutions en libre-service aux problèmes informatiques",
+  "title": "Obtenir de l’aide",
+  "uploadedFilesLabel": "Fichiers téléchargés"
+}

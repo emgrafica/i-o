@@ -1,0 +1,71 @@
+{
+  "approvals": {
+    "status": "pendiente",
+    "title": "Aprobaciones"
+  },
+  "comingSoon": "Próximamente...",
+  "computer": {
+    "action": "ordenador",
+    "subtitle": "Encuentre el catálogo adecuado para realizar una solicitud de pedido.",
+    "title": "¿Necesita solicitar algo?"
+  },
+  "error": {
+    "loadingError": "Error al cargar la vista previa",
+    "quickLinksLoadingError": "Error al cargar vínculos rápidos",
+    "retry": "reintentar"
+  },
+  "explore": {
+    "action": "Ver tecnología ",
+    "comingSoonMessage1": "A medida que reconstruimos nuestra plataforma, estaremos liberando incrementalmente cada componente de la herramienta y nos <1>encantaría sus primeros comentarios sobre el nuevo diseño.</1>",
+    "comingSoonMessage2": "Mientras tanto, puede continuar accediendo a todas las funciones de i-o en <1>nuestro sitio existente.</1> ¡Esperamos sus comentarios sobre la nueva experiencia para ayudarnos a dar forma a i-o para satisfacer mejor sus necesidades!",
+    "subtitle": "Ver y administrar los activos asignados en un solo lugar",
+    "title": "Administre su tecnología",
+    "titleComingSoon": "¡Bienvenido al nuevo i-o!"
+  },
+  "feedback": {
+    "action": "Comparta sus comentarios",
+    "subtitle": "Deje que nuestro equipo sepa lo que está funcionando bien y cómo podemos mejorar su experiencia io",
+    "title": "Comparte tus comentarios"
+  },
+  "feedbackButton": {
+    "label": "retroalimentación"
+  },
+  "getAssistance": {
+    "action": "OBTENER SOPORTE",
+    "subtitle": "Encuentre soluciones a problemas comunes o póngase en contacto con el {{helpdeskName}} para obtener soporte en vivo",
+    "title": "Obtenga soporte técnico"
+  },
+  "greeting": {
+    "afternoon": "Buenas tardes",
+    "evening": "Buenas noches",
+    "morning": "Buenos días"
+  },
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+  "incidents": {
+    "status": "abrir",
+    "title": "Incidentes"
+  },
+  "obo": {
+    "action": "Usuario de búsqueda",
+    "title": "Pedido para otro usuario"
+  },
+  "orders": {
+    "action": "Ver solicitudes",
+    "status": "abrir",
+    "title": "Solicitudes"
+  },
+  "quickLinks": {
+    "subtitle": "Acceda a enlaces internos útiles de la empresa",
+    "title": "Enlaces rápidos"
+  },
+  "search": {
+    "action": "Buscar ahora",
+    "title": "Buscar activos y tickets de otro usuario"
+  },
+  "title": "hogar",
+  "userLookup": {
+    "description": "Esto le permitirá realizar acciones específicas en nombre de un colega. Al hacerlo, tendrá acceso limitado al sitio.",
+    "impersonate": "suplantar",
+    "title": "¿A quién le gustaría actuar en nombre?"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "approvalError": "Zatwierdzenie nie powiodło się. Spróbuj ponownie.",
+  "approve": "zatwierdzić",
+  "approved": "zatwierdzony",
+  "decline": "odrzucać",
+  "declineModal": {
+    "label": "Proszę podać przyczynę spadku",
+    "placeholder": "Oto przyczyna spadku.",
+    "title": "Przyczyna odrzucenia"
+  },
+  "declineSuccess": "Żądanie pomyślnie odrzucone.",
+  "declined": "Odrzucona",
+  "filterBox": {
+    "accessories": "Akcesoria",
+    "computers": "Komputery",
+    "mobility": "ruchliwość",
+    "title": "Kategorie"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "Nie ma zatwierdzonych zamówień.",
+  "noDeclinedOrders": "Nie ma odrzuconych zamówień.",
+  "noFilterResults": "Niestety, żadne wyniki nie pasują do filtra.",
+  "noPendingOrders": "Obecnie nie ma żadnych zamówień oczekujących na zatwierdzenie.",
+  "order": {
+    "approvalReason": "Powód zatwierdzenia",
+    "approvedLabel": "zatwierdzony",
+    "businessJustification": "Uzasadnienie biznesowe",
+    "declineReason": "Odrzucony powód",
+    "declinedLabel": "Odrzucona",
+    "for": "dla",
+    "imageAlt": "Żądany zasób",
+    "orderNumber": "Numer zamówienia",
+    "price": "cena",
+    "replacedDevice": "Wymienione urządzenie",
+    "requestReason": "Powód żądania",
+    "returnDate": "Data zwrotu",
+    "submittedLabel": "Przekazywane"
+  },
+  "pending": "Oczekujące",
+  "subtitle": "Wyświetlanie i podejmowanie działań w sprawie żądań",
+  "title": "Zatwierdzeń"
+}

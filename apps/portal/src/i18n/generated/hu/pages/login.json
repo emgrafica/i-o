@@ -1,0 +1,10 @@
+{
+  "email": "E-mail",
+  "emailPlaceholder": "email@email.com",
+  "id": "ba8017df-0366-42c7-b728-5f0b70bf6c91",
+  "invalidDomain": "Nem ismerjük fel a céges e-mailjét. Kérjük, vegye fel a kapcsolatot a rendszergazdával",
+  "invalidEmail": "Érvényes e-mail cím megadása",
+  "login": "bejelentkezés",
+  "subtitle": "Adja meg adatait az alábbiakban",
+  "title": "bejelentkezés"
+}

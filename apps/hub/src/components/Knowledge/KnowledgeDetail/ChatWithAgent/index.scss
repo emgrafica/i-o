@@ -1,0 +1,32 @@
+@import './../../../../styles/scss/variable.scss';
+
+.chat-box {
+  background: #f5f5ff;
+  border-radius: 16px;
+  color: #1f2020;
+}
+
+.chat-content {
+  padding: 24px 32px;
+  .center {
+    justify-content: center;
+  }
+  .chat-content-title h6 {
+    font-family: $font-gtwalsheim_pro_medium;
+    margin-bottom: $dls-s03-0;
+    font-weight: normal;
+  }
+  .chat-content-body a {
+    width: 100%;
+  }
+}
+
+.btn-chat {
+  background: #7229c0 !important;
+  color: $color-white !important;
+  border-color: #7229c0 !important;
+  width: 100%;
+  img {
+    margin-right: 5px;
+  }
+}

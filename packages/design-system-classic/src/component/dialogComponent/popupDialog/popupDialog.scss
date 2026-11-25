@@ -1,0 +1,52 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+ 
+  .ant-modal.io-popup-dialog {
+    display: flex;
+    justify-content: center;
+    top: 24vh;
+    width: 700px !important;
+    .ant-modal-content {
+      border-radius: 16px;
+      position: relative;
+      // height: 290px;
+      .ant-modal-body {
+        text-align: center;
+        padding: 40px 125px 20px;
+      }
+      .header {
+        // font-weight: 500;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+      .content {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 22px;
+      }
+      .link {
+        font-size: 20px;
+        line-height: 22px;
+        color: #977dff;
+      }
+      .ant-modal-header {
+        border-radius: 16px;
+        padding: 24px;
+        .ant-modal-title {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          color: #5f249f;
+        }
+      }
+    }
+    .ant-modal-footer {
+      text-align: center;
+      border: none;
+    }
+  }
+

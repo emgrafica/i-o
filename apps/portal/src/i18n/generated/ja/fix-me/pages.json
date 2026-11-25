@@ -1,0 +1,212 @@
+{
+  "accessoryDetails": {
+    "title": "アクセサリー"
+  },
+  "error": {
+    "defaultErrorMessage": "エラーが発生しました。"
+  },
+  "errorBoundary": {
+    "body": "しかし、パニックになる必要はありません。もう一度やり直すか、後で戻るか、エラーが解決しない場合は、サポート チームにお問い合わせください。",
+    "goBackHomeButton": "ホーム画面に戻る",
+    "refreshButton": "ページの更新",
+    "subtitle": "何かがうまくいかなかった、",
+    "title": "おっと！"
+  },
+  "id": "c513f062-c89f-4d37-8dc9-132dda32c6c2",
+  "request": {
+    "accessories": {
+      "accessoryDetails": {
+        "configuration": {
+          "keyboard": "キーボード",
+          "plugType": "プラグタイプ",
+          "title": "構成の詳細"
+        },
+        "requestReason": {
+          "title": "リクエストの理由"
+        },
+        "title": "アクセサリー詳細"
+      },
+      "backButton": "アクセサリーカタログ",
+      "card": {
+        "viewButton": "眺める"
+      },
+      "checkoutButton": "チェックアウトに進む",
+      "header": {
+        "subtitle": "コンピュータに合わせてデバイスをサポートする",
+        "title": "アクセサリーカタログ"
+      },
+      "subTitle": "すべてのビジネス・ニーズに対応するデバイス",
+      "title": "周辺機器"
+    },
+    "checkout": {
+      "billedTo": "請求対象",
+      "cancelOrder": "注文のキャンセル",
+      "deviceUsage": "デバイスの使用状況",
+      "header": {
+        "accessoryTitleSubmit": "アクセサリーのチェックアウト",
+        "computerTitleSubmit": "コンピュータのチェックアウト",
+        "mobileTitleSubmit": "モビリティチェックアウト",
+        "standardSubtitle": "注文の確認と送信",
+        "standardTitle": "チェックアウト",
+        "subtitleSubmit": "リクエストを送信する前にすべての情報を確認する",
+        "subtitleSuccess": "ご注文の詳細を確認する",
+        "titleSuccess": "注文確認"
+      },
+      "modal": {
+        "cancel": {
+          "cancelOrder": "注文のキャンセル",
+          "header": "注文キャンセルの確認",
+          "message": "注文をキャンセルすると、製品の選択がクリアされ、 {{returnTo}}に戻ります。",
+          "stayOnPage": "ページに留まる"
+        }
+      },
+      "productDetails": {
+        "header": {
+          "accessory": "アクセサリー",
+          "computer": "コンピュータ",
+          "mobileDevice": "モバイル デバイス",
+          "standard": "デバイス"
+        }
+      },
+      "reasonForRequest": "要求の理由",
+      "replacementMessage": "交換装置は交換する装置の一般仕様と一致します。コストを軽減するために、利用可能な在庫で交換が行われます。会社の財務目標達成に向けてご理解いただき、ありがとうございます。",
+      "replacementOrderFor": "<1>完了</1>{{name}}の注文。別のアセットまたはチケットを検索するには<3>、検索</3>に戻ります。",
+      "requestedFor": "要求された対象",
+      "submitOrder": "注文の送信",
+      "title": {
+        "accessories": "アクセサリーのチェックアウト",
+        "computers": "コンピュータのチェックアウト",
+        "reportBroken": "チェックアウト"
+      }
+    },
+    "computers": {
+      "card": {
+        "viewButton": "眺める"
+      },
+      "computerDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "以下のメッセージをお読みください",
+          "acknowledgementLabel": "分かりました",
+          "deviceUsage": "デバイスの使用状況を選択する",
+          "justificationHint": "このデバイスに対するビジネス ニーズを説明する"
+        },
+        "checkout": "チェックアウトに進む",
+        "configurationStockMessage": "このモデルの構成は、利用可能在庫に基づいてフルフィルメント チームによって決定されます。",
+        "keyboard": "キーボード",
+        "keyboardLabel": "キーボードの言語を選択する",
+        "language": "言語",
+        "modelSpecifications": "モデル仕様",
+        "os": "オペレーティング システム",
+        "osLabel": "オペレーティング システムの選択",
+        "plugLabel": "プラグの種類の選択",
+        "plugType": "プラグタイプ",
+        "replaceDevice": {
+          "broken": "壊れたデバイス",
+          "missing": "デバイスが見つかりません",
+          "replaceLabel": "置き換えるデバイスを選択してください",
+          "replaceReason": "デバイスを交換する理由を選択する"
+        },
+        "replaceFlowRequestReasonTooltip": "値は実行されるアクションに関連付けられており、編集できません",
+        "requestDetails": "リクエストの詳細",
+        "requestReason": "要求の理由を選択",
+        "selectConfiguration": "構成の詳細",
+        "selectReturn": "返却日を選択",
+        "shortTermHint": "要求日から 90 日より後の返品日を選択することはできません",
+        "title": "コンピュータの詳細"
+      },
+      "header": {
+        "subtitle": "すべてのビジネスニーズに対応するデバイス",
+        "title": "コンピュータカタログ"
+      }
+    },
+    "gcom": {
+      "accountInformation": {
+        "assignedTo": "アサイン先",
+        "assignedToDescription": "サービスを利用するユーザー",
+        "banCheckError": "ユーザーの資格を確認中にエラーが発生しました。もう一度やり直してください。",
+        "billedTo": "請求対象",
+        "billedToDescription": "使用する国で請求の責任を負う人",
+        "changeUser": "ユーザーの変更",
+        "hint": "サービスを使用するユーザーとサービスに対して課金されるユーザーを定義します。",
+        "label": "アカウント情報",
+        "notEligible": "請求対象ユーザーは対象外です"
+      },
+      "header": {
+        "subtitle": "従来の電話サービスに代わる現代的な選択肢",
+        "title": "GComカタログ"
+      },
+      "helpMeDecide": {
+        "analogLine": "アナログライン - ファックス接続、フランクマシン、ドアキーパー、リフトに使用されます。本製品は電話を提供していません。ボイスメールに関連するオプションを選択します(はい/いいえ)。",
+        "conferenceRoomPhone": "会議室の電話 - この製品は会議室用です。",
+        "deskPhone": "デスクフォン - ボイスメール(Yes/No)、拡張モジュール(コール転送に使用)に関連するオプションを選択します。",
+        "predefinedSku": "定義済みの SKU - パワー ユーザーで、チームが必要とする特定の SKU (コール センターなど) に精通している場合は、このオプションを選択します。テキスト ボックスを使用して、必要な SKU を指定します。",
+        "specialRequest": "特別要求 - 製品を選択する際に支援が必要な場合は、このオプションを選択します。テキスト ボックスを使用して、要求の詳細を入力します。",
+        "teamsDialtone": "チーム ダイヤルトーン - この製品を使用すると、チームから外部の電話番号を呼び出します。使用可能な場合、これは事前に選択されたデフォルトの製品になります。使用可能なドロップダウン オプションからオプションを選択します。",
+        "title": "製品情報"
+      },
+      "locationOfService": {
+        "cityLabel": "都市",
+        "countryLabel": "国",
+        "countryTooltip": "国は請求先ユーザーに関連付けられて、サービスが使用される国に所在する必要があります。",
+        "hint": "GCom 対応の場所を定義する",
+        "label": "サービスの場所",
+        "noSiteAvailableMessage": "選択した場所に GCom が有効なサイトがありません",
+        "selectCityPlaceholder": "都市の選択",
+        "selectCityQueryError": "申し訳ありませんが、私たちは適格な都市を見つける問題に遭遇しました。もう一度やり直してください。",
+        "selectSitePlaceholder": "サイト アドレス",
+        "selectSiteQueryError": "申し訳ありませんが、対象となるサイトを見つける問題が発生しました。もう一度やり直してください。",
+        "selectStateLPlaceholder": "状態の選択",
+        "selectStateQueryError": "申し訳ありませんが、適格な状態を見つける問題に遭遇しました。もう一度やり直してください。",
+        "siteLabel": "敷地",
+        "stateLabel": "状態"
+      },
+      "productSelection": {
+        "helpMeDecide": "私が決めるのを手伝ってください",
+        "hint": "注文するコアオファリングの定義",
+        "label": "製品の選択",
+        "notEligible": "この製品の対象外です。",
+        "productOptions": "どのような製品をお探しですか?",
+        "productSelectionQueryError": "申し訳ありませんが、対象となる製品を見つける問題が発生しました。もう一度やり直してください。",
+        "selectProductOption": "選ぶ",
+        "summaryTitle": "このサービスに関連付ける新製品:"
+      },
+      "userLookup": {
+        "description": "別のユーザーを検索する",
+        "title": "ユーザーの変更"
+      }
+    },
+    "leaveModal": {
+      "content": "後で置換プロセスを続行する場合は、[管理] メニューに戻ります。続行しますか?",
+      "title": "置換プロセスを離れる"
+    },
+    "mobility": {
+      "header": {
+        "subtitle": "すべてのビジネス・ニーズに対応するデバイス",
+        "title": "モビリティカタログ"
+      },
+      "mobilityDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "以下のメッセージをお読みください",
+          "acknowledgementLabel": "分かりました",
+          "deviceUsage": "デバイスの使用状況を選択する",
+          "justificationHint": "このデバイスに対するビジネス ニーズを説明する"
+        },
+        "carrier": "キャリア",
+        "color": "色",
+        "configuration": {
+          "title": "構成の詳細"
+        },
+        "configurationStockMessage": "このモデルの構成は、利用可能在庫に基づいてフルフィルメント チームによって決定されます。",
+        "features": "顔立ち",
+        "hardwareSelectionQueryError": "申し訳ありませんが、選択したハードウェアが見つかから、問題が発生しました。もう一度やり直してください。",
+        "plan": "計画",
+        "plans": "計画",
+        "requestReason": {
+          "title": "リクエストの理由"
+        },
+        "storage": "貯蔵",
+        "title": "モビリティの詳細"
+      }
+    }
+  }
+}

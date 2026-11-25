@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "Az eszköz hibás",
+    "editUsage": "Használat szerkesztése",
+    "issuedDate": "Kiadott",
+    "moreActions": "További műveletek",
+    "reassign": "Átcsoportosítás",
+    "refresh": "felfrissít",
+    "refreshEligibleBadge": "Támogatható frissítés",
+    "refreshEligibleLabel": "Támogatható frissítés",
+    "registerOwnership": "Tulajdonjog bejegyzése",
+    "reportBroken": "Jelentés hibás",
+    "reportMissing": "Hiányzó jelentés",
+    "reportOwnershipError": "Tulajdonosi hiba jelentése",
+    "return": "visszatérés",
+    "usage": "használat",
+    "wipeComputer": "Számítógép törlése"
+  },
+  "checkout": {
+    "agreementTitle": "Kérjük, olvassa el a következő üzenetet",
+    "cancelModal": {
+      "content": "A megrendelés lemondása törli a bemeneteket, és visszaküldi Önt a Technológia oldalra.",
+      "title": "Megrendelés törlésének megerősítése"
+    },
+    "failureMessage": "A benyújtás sikertelen volt. Kérem, próbálkozzon újra.",
+    "leaveModal": {
+      "content": "Ha később szeretné folytatni a visszaküldési folyamatot, lépjen vissza a Kezelés menübe. Szeretné folytatni?",
+      "title": "Elhagyja a visszaküldési folyamatot"
+    },
+    "orderDetails": {
+      "asset": "Visszaküldendő eszköz",
+      "header": "Rendelés részletei",
+      "reason": "A visszaküldés oka"
+    },
+    "subtitle": "Megrendelés áttekintése és elküldése",
+    "title": "pénztár"
+  },
+  "editUsage": {
+    "buttonLabel": "A használat típusának kiválasztása",
+    "header": "Használat szerkesztése",
+    "label": "Eszközhasználat",
+    "update": "frissít"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "Jelenleg nincs hozzárendelt technológiája, kérjük, később ellenőrizze újra.",
+  "orderConfirmation": {
+    "subtitle": "Rendelési adatok áttekintése",
+    "title": "Megrendelés visszaigazolása"
+  },
+  "reassign": {
+    "header": "Eszköz újracsoportosítása",
+    "ineligibleUser": "Felhasználó talált, de nem jogosult.",
+    "lookupLabel": "Keressen egy kollégát, aki áthelyezi ezt a számítógépet a",
+    "p1": "A számítógépek csak ugyanabban az országban helyezhetők át.",
+    "p2": "A felhasználóhoz rendelt újnak ugyanabban az üzletben kell lennie.",
+    "p3": "Az új hozzárendelt felhasználónak jogosultnak kell lennie a i-o Computers funkcióra.",
+    "title": "A számítógép-átcsoportosítások az Üzletszabályzatnak és az alábbi szabályoknak megfelelően vannak engedélyezve.",
+    "warning": "Ez a számítógép a beküldés után azonnal át lesz rendelve {{assignedTo}} ."
+  },
+  "recommendAsset": {
+    "altImage": "eszköz ajánlása"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "Megerősítem, hogy aktívan szükségem van erre a számítógépre, hogy rám legyen rendelve.",
+    "alertMessage": {
+      "contactServiceDesk": "További segítségért forduljon a ServiceDesk-hez",
+      "reportComputerMissing": "A számítógép hiányának bejelentése",
+      "reportOwnershipError": "Tulajdonosi hiba bejelentése vagy",
+      "title": "Nem a számítógép, vagy már nem az Ön birtokában?"
+    },
+    "header": "Tulajdonjog bejegyzése",
+    "instructions": "Jelölje be az alábbi jelölőnégyzetet, és küldje el regisztrációját, hogy megerősítse, hogy ez a számítógép az Ön birtokában van, és aktívan használja. Ez biztosítja, hogy a számítógép továbbra is helyesen legyen hozzárendelve."
+  },
+  "replace": {
+    "businessRecommended": "Üzleti ajánlott eszköz",
+    "header": "Eszköz frissítése",
+    "messageWithRecommended": "FOLYTASSA az üzleti ajánlott eszközzel, vagy folytassa a KATALÓGUST egy másik csereeszköz kiválasztásához",
+    "messageWithoutRecommended": "FOLYTASSA A KATALÓGUST a csereeszköz kiválasztásához.",
+    "toCatalog": "Tovább a katalógushoz"
+  },
+  "reportBroken": {
+    "agreementMessage": "Megerősítem, hogy az OEM Dispatch hibaelhárítással kizárt, és csereeszközre van szükség.",
+    "details": {
+      "label": "Kérjük, adja meg a számítógépes probléma részleteit",
+      "placeholder": ""
+    },
+    "header": "Törött eszköz jelentése",
+    "incident": {
+      "label": "Kapcsolódó eseményszám",
+      "placeholder": "Incidens száma"
+    },
+    "p1": "Csereeszközre vonatkozó kérelmet csak akkor szabad benyújtani, ha az OEM által végzett javítást kizárták, mint lehetséges megoldást. Az eljárás során Ön megerősíti, hogy követte az OEM feladási folyamatot, és ebben az esetben csereeszközre van szükség. ",
+    "p2": "Ellenőrizzük, hogy Ön tagja-e a kapcsolódó számítógép hardverjavítási incidenséhez rendelt hozzárendelési csoportnak. Minden más megrendelést elutasítunk.",
+    "title": "Kérjük, olvassa el a következő üzenetet"
+  },
+  "reportMissing": {
+    "alert": "Ha a számítógép hiányzik, értesíti a vállalkozás támogatási csapatát, hogy megpróbálja megtalálni az eszközt. A számítógép mindaddig az Ön számára lesz kijelölve, amíg a támogató csoport be nem zárja a vizsgálatot.",
+    "caseNumber": {
+      "label": "DXC Biztonsági iReport ügyszám",
+      "placeholder": "Pl.: 900703471"
+    },
+    "details": {
+      "label": "Kérjük, adjon meg további részleteket",
+      "placeholder": ""
+    },
+    "geSecurityLink": "Látogasson el DXC Security-be.",
+    "header": "Hiányzó eszköz jelentése",
+    "p1": "Először jelentse a hiányzó eszközöket a DXC Security-nél, majd térjen vissza erre a műveletre az iReport ügyszámával. ",
+    "replacementAlert": "Folytassa a hiányzó csererendelést, amely értesíti a vállalkozás támogatási csapatát is, hogy megpróbálja megtalálni a hiányzó számítógépet.",
+    "replacementComputer": "Szüksége van egy csereszámítógépre?"
+  },
+  "reportOwnershipError": {
+    "alert": "Ez a művelet incidenst okoz a megfelelő csapatnak, hogy megvizsgálja a problémát. A számítógép a támogatási vizsgálat befejezéséig ki van jelölve.",
+    "details": "További részletek",
+    "header": "Tulajdonosi hiba jelentése"
+  },
+  "return": {
+    "deviceBroken": "Az eszköz meghibásodott",
+    "header": "Visszaküldött eszköz",
+    "notRequired": "Már nincs szükség",
+    "other": "más",
+    "reasonDetails": "Kérjük, adjon meg további részleteket",
+    "reasonForReturn": "A visszaküldés oka",
+    "userLeft": "A vállalatot elhagyó felhasználóhoz rendelve"
+  },
+  "submission": {
+    "failed": "A benyújtás sikertelen volt. Kérem, próbálkozzon újra.",
+    "succeeded": "A művelet sikeresen benyújtva."
+  },
+  "subtitle": "Hozzárendelt technológia megtekintése és kezelése",
+  "title": "Technológia",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "Megértem és elismerem",
+      "eraseDriveContentBodyOne": "Ezután egy olyan szoftvercsomagot telepít, amely biztonságosan törli az adatokat a merevlemezről. Miután a szoftver sikeres előzetes ellenőrzést végez a megnyitáskor, elkezdi a folyamatot, amely egy órát vagy többet is igénybe vehet. Kérjük, olvassa el ezt a <1>cikket</1> az adattörlés folyamatával kapcsolatos lépésről lépésre.",
+      "eraseDriveContentBodyTwo": "Ez a folyamat a szoftvercsomagon belülről indítva nem fordítható vissza, és a fájlok nem állíthatók helyre. Csak a letöltött szoftvercsomag megnyitása után kattintson a <1>Folyamat kezdeményezése</1> gombra, miközben a fent felsorolt számítógépen törölni kell. A folyamat befejeztével a készülék készen áll a szállításra.",
+      "initiate": "letöltés",
+      "thisArticle": "ez a cikk ",
+      "title": "Merevlemez-használati utasítás törlése"
+    },
+    "header": "Számítógép törlése",
+    "saveRequiredContent": "Az üzleti információk védelme érdekében a merevlemezt biztonságosan törölni kell a szállítás előtt. Az önsegítő segédprogram <1>adatátviteli útmutatója</1> segít önnek eltávolítani a szükséges fájlokat a merevlemezről, mielőtt törölené.",
+    "title": "Szükséges adatok mentése"
+  }
+}

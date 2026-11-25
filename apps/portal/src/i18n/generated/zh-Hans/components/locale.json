@@ -1,0 +1,6 @@
+{
+  "date": "{{date， DATE}}",
+  "datetime": "{{date， DATETIME}}",
+  "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+  "time": "{{date， TIME}}"
+}

@@ -1,0 +1,87 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+
+.io-acknowledge-pc {
+  font-family: $font-opensans;
+  background-color: $color-white;
+  color: $black;
+  min-height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  height: 300px;
+  border-radius: 10px !important;
+  .MuiCardHeader-root{
+    padding: 0px 16px;
+  }
+  .io-acknowledge-card-content {
+    padding-top: 30px;
+    padding-bottom: $dls-s02-0;
+    .io-acknowledge-card-configuration {
+      &-item-content,
+      &-item-header {
+        font-size: 12px;
+      }
+      .io-acknowledge-card-deviceBrand {
+        margin-bottom: 5px;
+        @include captionRegular;
+        color: $color-gray-dark;
+      }
+      .io-acknowledge-card-deviceName {
+        margin-bottom: 5px;
+        @include captionSemibold;
+        color: $color-gray-dark;
+        strong{
+          font-weight: bold;
+          color: $black;
+        }
+      }
+      .io-acknowledge-card-configuration-item {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: $font-size-eyebrow-desktop;
+          flex-wrap: wrap;        
+          .MuiSvgIcon-root {
+            display: inline-block;
+              width: $dls-s02-5;
+              height: $dls-s02-5;
+              margin-right: $dls-s02-0;
+           }
+           
+           .io-acknowledge-card-configuration-item-header{
+            @include captionSemibold;
+            margin-right: $dls-s01-0;
+          }
+          .io-acknowledge-card-configuration-item-content{
+            color: $color-gray-dark;
+            @include captionRegular;
+          }
+      }
+    }
+    .io-acknowledge-card-content-image {
+      .io-acknowledge-card-content-CardMedia {
+        height: 113px;
+        background-size: contain;
+      }
+      .io-acknowledge-card-content-image-brand {
+        color: black;
+        font-size: $font-size-h5-desktop;
+        padding-bottom: 10%;
+        padding-left: $dls-s02-5;
+      }
+    }
+  }
+
+  .io-acknowledge-card-footer{
+    margin-top: 10px;
+    text-align: center;
+    .io-acknowledge-link{
+      @include buttonLink;      
+      color: black;
+      &:hover{
+        color: $color-gray-dark;
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "approvalError": "A jóváhagyás sikertelen volt. Kérem, próbálkozzon újra.",
+  "approve": "jóváhagy",
+  "approved": "jóváhagyott",
+  "decline": "visszautasít",
+  "declineModal": {
+    "label": "Kérjük, adjon meg okot a hanyatlásra",
+    "placeholder": "Itt van a hanyatlás oka.",
+    "title": "Elutasítás oka"
+  },
+  "declineSuccess": "A kérést sikeresen elutasították.",
+  "declined": "Csökkent",
+  "filterBox": {
+    "accessories": "kiegészítők",
+    "computers": "Számítógépek",
+    "mobility": "mobilitás",
+    "title": "Kategóriák"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "Nincsenek jóváhagyott parancsok.",
+  "noDeclinedOrders": "Nincsenek visszautasított megrendelések.",
+  "noFilterResults": "Sajnálom, de az eredmények nem egyeznek a szűrővel.",
+  "noPendingOrders": "Jelenleg nincs megrendelés az Ön jóváhagyásáig.",
+  "order": {
+    "approvalReason": "Jóváhagyási ok",
+    "approvedLabel": "jóváhagyott",
+    "businessJustification": "Üzleti indoklás",
+    "declineReason": "Elutasított ok",
+    "declinedLabel": "Csökkent",
+    "for": "részére",
+    "imageAlt": "Kért eszköz",
+    "orderNumber": "Rendelési szám",
+    "price": "ár",
+    "replacedDevice": "Kicserélt eszköz",
+    "requestReason": "Kérelem oka",
+    "returnDate": "Visszaküldés dátuma",
+    "submittedLabel": "Beküldve"
+  },
+  "pending": "függő",
+  "subtitle": "Kérések megtekintése és intézkedés",
+  "title": "Jóváhagyások"
+}

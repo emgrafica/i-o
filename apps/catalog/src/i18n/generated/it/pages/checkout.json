@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "Utilizzo del dispositivo",
+      "incidentNumber": "Numero incidente",
+      "message": "Il dispositivo sostitutivo corrisponderà alle specifiche generali del dispositivo sostituito. Le sostituzioni verranno effettuate con l'inventario disponibile per mitigare i costi. Grazie per la comprensione con cui lavoriamo per raggiungere gli obiettivi finanziari aziendali.",
+      "reasonForRequest": "Motivo della richiesta",
+      "reasonForRequestValue": "Ritorno rotto",
+      "reasonForReturn": "Motivo del ritorno",
+      "requestedFor": "Richiesto per",
+      "situationDetails": "Dettagli situazione"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "Scarica etichetta"
+  },
+  "secureLocationRestriction": {
+    "message": "Restrizione della posizione protetta"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "impossibile verificare l'indirizzo immesso."
+    },
+    "label": "Sono fiducioso che l'indirizzo che ho inserito sia corretto",
+    "message": "Aggiornare l'indirizzo e inviarlo di nuovo oppure, se si è certi che l'indirizzo immesso sia recapitabile, selezionare la casella di controllo per procedere con l'indirizzo non verificato."
+  }
+}

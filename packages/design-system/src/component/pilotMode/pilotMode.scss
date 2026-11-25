@@ -1,0 +1,403 @@
+@import '../../styles/scss/variable.scss';
+@import '../../styles//scss//mixin.scss';
+
+.top-nav-i-o {
+  background-color: $color-purple-main;
+  height: 54px;
+  min-height: 54px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  + div {margin-top: 54px;}
+  > .outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .logo > a {
+    display: block;
+    height: 36px;
+    width: 150px;
+  }
+  .logo .img {
+    display: block;
+    height: 36px;
+    width: 150px;
+  }
+  .title-no-sub {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 54px;
+    color: $color-white;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 64px;
+    text-decoration: none;
+    &:hover {
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        height: 3px;
+        background-color: $color-white;
+      }
+    }
+  }
+  .content-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .content-right {
+    display: flex;
+    align-items: center;
+    .logout-Icon {
+        background-color: #fff;
+        background-image: url('../../assets/images/pilot/oval.png');
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+  }
+}
+.sb-main-padded.sb-show-main{
+    padding: 0px;
+}
+
+
+.pilot-container {
+    display: flex;
+    min-height: 700px;
+    width: 100%;
+    padding: 0px;   
+    background-color: #fafafa;
+    .pilot-grid-left{
+      .pilot-image{
+        text-align: center;
+        img{
+          margin-top: 35px;
+          width: 80%;
+        }
+    
+      }
+    } 
+    .pilot-grid-right{
+      .pilot-box{
+        height: 600px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: $font-gtwalsheim_pro_regular;
+        font-size: $font-size-h6-desktop;
+        .title-1{
+          font-size: $font-size-h4-desktop;
+          font-weight: 500;
+        }
+        .title-2{
+          font-weight: bold;
+        }
+        img{
+          margin-top: 8px;
+          margin-bottom: 35px;
+          width: 65%;
+        }
+        .content{
+          line-height: 1.3;
+          width: 230px;
+          margin-top: 16px;
+          a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: $font-size-base;
+          }
+        }
+      }
+    }
+}
+
+// Breakpoints from 320px to 606px
+@media (min-width: 320px) and (max-width: 606px){
+  .pilot-container {
+    flex-direction: column;
+    .pilot-grid-left{
+      flex-basis: 100%;
+      max-width: 100%;
+      .pilot-image{
+        text-align:initial;
+        img{
+          width: 35%;
+          margin-left: 80px;
+        }
+      }
+    }
+    .pilot-grid-right{
+      flex-basis: 100%;
+      max-width: 100%;
+      .pilot-box{
+        margin-top: 20px;
+        margin-left: 80px;
+        font-size: $font-size-base;
+        img{
+          width: 85%;
+        }
+        .content{
+          width: 221px;
+        }
+      }
+    }
+  }
+}
+
+// Breakpoints from 607px
+@media (min-width: 607px){
+  .pilot-container {
+    flex-direction: column;
+    .pilot-grid-left{
+      flex-basis: 100%;
+      max-width: 100%;
+      .pilot-image{
+        text-align: center;
+        img{
+          width: 30%;
+        }
+      }
+    }
+    .pilot-grid-right{
+      flex-basis: 100%;
+      max-width: 100%;
+      .pilot-box{
+        margin-top: 25px;
+        margin-left: 212px;
+        font-size: $font-size-base;
+        img{
+          width: 55%;
+        }
+        .content{
+          width: 221px;
+        }
+      }
+    }
+  }
+}
+
+
+// Breakpoints from 608px to 769px
+@include media-breakpoint-mobile-ipad {
+  .pilot-container {
+    flex-direction: row;
+    .pilot-grid-left{
+      max-width: 70%;
+      .pilot-image{
+        display: flex;
+        flex-direction: row-reverse;
+        img{
+          margin-top: 100px;
+          margin-left: 0px;
+          width: 90%;
+        }
+      }
+    }
+    .pilot-grid-right{
+      display: flex;
+      flex-direction: row-reverse;
+      flex-basis: 30%;
+      max-width: 30%;
+      .pilot-box{
+        margin-top: 25px;
+        margin-left: 0px;
+        transform: scale(0.7);
+        img{
+          width: 85%;
+        }
+      }
+    }
+  }
+}
+
+// Breakpoints min 700px
+@media (min-width: 700px){
+  .pilot-container {
+    flex-direction: row;
+    .pilot-grid-left{
+      max-width: 70%;
+      .pilot-image{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: unset;
+        img{
+          margin-top: 35px;
+          margin-left: 0px;
+          width: 90%;
+        }
+      }
+    }
+    .pilot-grid-right{
+      display: flex;
+      flex-direction: row-reverse;
+      max-width: 30%;
+      .pilot-box{
+        margin-top: 20px;
+        margin-left: 0px;
+        transform: scale(0.8);
+        img{
+          width: 85%;
+        }
+      }
+    }
+  }
+}
+
+// Breakpoints from 960px to 1023px
+@include media-breakpoint-medium-desktop-2  {
+  .pilot-container {
+    flex-direction: row;
+    .pilot-grid-left{
+      max-width: 70%;
+      .pilot-image{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: unset;
+        img{
+          margin-top: 35px;
+          margin-left: 0px;
+          width: 90%;
+        }
+      }
+    }
+    .pilot-grid-right{
+      display: flex;
+      flex-direction: row-reverse;
+      max-width: 30%;
+      .pilot-box{
+        margin-top: 20px;
+        margin-left: 0px;
+        transform: scale(0.8);
+        img{
+          width: 85%;
+        }
+      }
+    }
+  }
+}
+
+// Breakpoints up 1024px
+@include media-breakpoint-desktop {
+  .pilot-container {
+    flex-direction: row;
+    .pilot-grid-left{
+      flex-basis: 70%;
+      max-width: 70%;
+      .pilot-image{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: unset;
+        img{
+          width: 90%;
+          margin-left: 0px;
+        }
+      }
+    }
+    .pilot-grid-right{
+      display: flex;
+      flex-direction: row-reverse;
+      flex-basis: 30%;
+      max-width: 30%;
+      .pilot-box{
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: $font-size-base;
+        transform: scale(0.9);
+        img{
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+// Breakpoints up 1366px
+@media (min-width: 1366px) {
+  .pilot-container {
+    flex-direction: row;
+    .pilot-grid-left{
+      flex-basis: 70%;
+      max-width: 70%;
+      .pilot-image{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: unset;
+        img{
+          width: 85%;
+          margin-left: 0px;
+        }
+      }
+    }
+    .pilot-grid-right{
+      display: flex;
+      flex-direction: row-reverse;
+      flex-basis: 30%;
+      max-width: 30%;
+      .pilot-box{
+        margin-top: 120px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: $font-size-base;
+        transform: scale(1.1);
+        img{
+          width: 85%;
+        }
+      }
+    }
+  }
+}
+
+
+// Breakpoints up 1440px
+@include  media-breakpoint-large-desktop {
+  .pilot-container {
+    flex-direction: row;
+    .pilot-grid-left{
+      flex-basis: 75%;
+      max-width: 70%;
+      .pilot-image{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: unset;
+        img{
+          width: 80%;
+          margin-left: 0px;
+        }
+      }
+    }
+    .pilot-grid-right{
+      display: flex;
+      flex-direction: row-reverse;
+      flex-basis: 25%;
+      max-width: 30%;
+      .pilot-box{
+        height: 0px;
+        margin-top: 95px;
+        margin-left: 0px;
+        transform: scale(1.3);
+        img{
+          width: 80%;
+        }
+      }
+    }
+  }
+}

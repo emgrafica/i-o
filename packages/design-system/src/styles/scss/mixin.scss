@@ -1,0 +1,297 @@
+@import "./variable.scss";
+
+// Breakpoints up 960px
+@mixin media-breakpoint-up-typography {
+    @media (min-width: $typography-min-breakpoint) {
+        @content;
+    }
+}
+// Breakpoints from 608px to 769px
+@mixin media-breakpoint-mobile-ipad {
+    @media (min-width: $sm-1-breakpoints) and (max-width: $md-1-breakpoints) {
+        @content;
+    }
+}
+// Breakpoints up 768px
+@mixin media-breakpoint-medium-desktop {
+    @media (min-width: $md-1-breakpoints) {
+        @content;
+    }
+}
+// Breakpoints from 769px to 959px
+@mixin media-breakpoint-medium-desktop-1 {
+    @media (min-width: $md-1-breakpoints) and (max-width: $md-2-breakpoints) {
+        @content;
+    }
+}
+// Breakpoints from 960px to 1023px
+@mixin media-breakpoint-medium-desktop-2 {
+    @media (min-width: $lg-1-breakpoints) and (max-width: $lg-2-breakpoints) {
+        @content;
+    }
+}
+// Breakpoints up 1024px
+@mixin media-breakpoint-desktop {
+    @media (min-width: $xlg-breakpoints) {
+        @content;
+    }
+}
+// Breakpoints up 1440px
+@mixin media-breakpoint-large-desktop {
+    @media (min-width: $xxlg-breakpoints) {
+        @content;
+    }
+}
+// Typography
+%heading1-shared {
+    font-family: $font-gtwalsheim_pro_bold;
+    font-size: $font-size-h1-mobile;
+    line-height: $line-height-h1-mobile;
+    letter-spacing: $letter-spacing-h1-mobile;
+    font-weight: normal;
+    color: $black;
+}
+
+@mixin heading1() {
+    @extend %heading1-shared;
+    @include media-breakpoint-up-typography {
+        font-family: $font-gtwalsheim_pro_bold;
+        font-size: $font-size-h1-desktop;
+        line-height: $line-height-h1-desktop;
+        letter-spacing: $letter-spacing-h1-desktop;
+        color: $black;
+    }
+}
+
+%heading2-shared {
+    font-family: $font-gtwalsheim_pro_bold;
+    font-size: $font-size-h2-mobile;
+    line-height: $line-height-h2-mobile;
+    letter-spacing: $letter-spacing-h2-mobile;
+    font-weight: normal;
+    color: $black;
+}
+
+@mixin heading2() {
+    @extend %heading2-shared;
+    @include media-breakpoint-up-typography {
+        font-family: $font-gtwalsheim_pro_bold;
+        font-size: $font-size-h2-desktop;
+        line-height: $line-height-h2-desktop;
+        letter-spacing: $letter-spacing-h2-desktop;
+        color: $black;
+    }
+}
+
+%heading3-shared {
+    font-family: $font-gtwalsheim_pro_medium;
+    font-size: $font-size-h3-mobile;
+    line-height: $line-height-h3-mobile;
+    letter-spacing: $letter-spacing-h3-mobile;
+    font-weight: normal;
+    color: $black;
+}
+
+@mixin heading3() {
+    @extend %heading3-shared;
+    @include media-breakpoint-up-typography {
+        font-family: $font-gtwalsheim_pro_medium;
+        font-size: $font-size-h3-desktop;
+        line-height: $line-height-h3-desktop;
+        letter-spacing: $letter-spacing-h3-desktop;
+        color: $black;
+    }
+}
+
+%heading4-shared {
+    font-family: $font-gtwalsheim_pro_medium;
+    font-size: $font-size-h4-mobile;
+    line-height: $line-height-h4-mobile;
+    font-weight: normal;
+    color: $black;
+}
+
+@mixin heading4() {
+    @extend %heading4-shared;
+    @include media-breakpoint-up-typography {
+        font-family: $font-gtwalsheim_pro_medium;
+        font-size: $font-size-h4-desktop;
+        line-height: $line-height-h4-desktop;
+        color: $black;
+    }
+}
+
+%heading5-shared {
+    font-family: $font-gtwalsheim_pro_medium;
+    font-size: $font-size-h5-mobile;
+    line-height: $line-height-h5-mobile;
+    font-weight: normal;
+    color: $black;
+}
+
+@mixin heading5() {
+    @extend %heading5-shared;
+    @include media-breakpoint-up-typography {
+        font-family: $font-gtwalsheim_pro_medium;
+        font-size: $font-size-h5-desktop;
+        line-height: $line-height-h5-desktop;
+        color: $black;
+    }
+}
+
+%heading6-shared {
+    font-family: $font-opensans;
+    font-size: $font-size-h6-mobile;
+    line-height: $line-height-h6-mobile;
+    font-weight: normal;
+    color: $black;
+}
+
+@mixin heading6() {
+    @extend %heading6-shared;
+    @include media-breakpoint-up-typography {
+        font-family: $font-gtwalsheim_pro_medium;
+        font-size: $font-size-h6-desktop;
+        line-height: $line-height-h6-desktop;
+        color: $black;
+    }
+}
+
+%eyebrow-shared {
+    font-family: $font-opensans;
+    font-weight: 700;
+    font-size: $font-size-eyebrow-mobile;
+    letter-spacing: $letter-spacing-eyebrow-mobile;
+}
+
+@mixin eyebrow() {
+    @extend %eyebrow-shared;
+    @include media-breakpoint-up-typography {
+        font-family: $font-opensans;
+        font-size: $font-size-eyebrow-desktop;
+        letter-spacing: $letter-spacing-eyebrow-desktop;
+    }
+}
+
+%body-shared {
+    font-size: $font-size-body-mobile;
+    line-height: $line-height-body-mobile;
+    color: $black;
+    @include media-breakpoint-up-typography {
+        font-size: $font-size-body-desktop;
+        line-height: $line-height-body-desktop;
+        color: $black;
+    }
+}
+
+@mixin bodyRegular() {
+    @extend %body-shared;
+    font-family: $font-opensans;
+}
+
+@mixin bodySemibold() {
+    @extend %body-shared;
+    font-weight: 600;
+    font-family: $font-opensans;
+}
+
+@mixin bodyBold() {
+    @extend %body-shared;
+    font-weight: 600;
+    font-family: $font-opensans;
+}
+
+%caption-shared {
+    font-size: $font-size-caption-mobile;
+    line-height: $line-height-caption-mobile;
+    color: $black;
+    @include media-breakpoint-up-typography {
+        font-size: $font-size-caption-desktop;
+        line-height: $line-height-caption-desktop;
+        color: $black;
+    }
+}
+
+@mixin captionRegular() {
+    @extend %caption-shared;
+    font-family: $font-opensans;
+}
+
+@mixin captionSemibold() {
+    @extend %caption-shared;
+    font-weight: 600;
+    font-family: $font-opensans;
+}
+
+@mixin buttonLink() {
+    font-weight: 600;
+    font-size: $font-size-buttonLink-mobile;
+    line-height: $line-height-buttonLink-mobile;
+    font-weight: normal;
+    font-family: $font-opensans;
+    @include media-breakpoint-up-typography {
+        font-size: $font-size-buttonLink-desktop;
+        line-height: $line-height-buttonLink-desktop;
+        font-family: $font-opensans;
+    }
+}
+
+@mixin max2lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+// button style background color
+@mixin button-default-1 {
+    height: 40px;
+    background-color: $color-purple-light-1 !important;
+    border: solid 1px $color-purple-light-1;
+    border-radius: 100px;
+    color: $color-white !important;
+    font-weight: normal;
+    font-size: $font-size-buttonLink-desktop !important;
+    font-weight: 600;
+    line-height: $line-height-buttonLink-desktop !important;
+    font-family: $font-opensans;
+    @media screen and (min-width: 1024px) {
+      &:hover {
+        background-color: $color-purple-main !important;
+        border-color: $color-purple-main;
+      }
+    }
+  }
+
+
+@mixin cardTitle() {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+@mixin cardDesc() {
+    font-family: $font-opensans;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@mixin hyperlink() {
+    cursor: pointer;
+    color: $black;
+    &:hover {
+        background-color: transparent;
+        color: $color-gray-dark;
+        text-decoration-line: underline;
+    }
+}
+
+@mixin cardItem() {
+    cursor: pointer;
+    border-radius: 12px;
+    &:hover {
+        border-color: transparent;
+        box-shadow: 0 1px 2px -2px rgba(0,0,0,0.16), 0 3px 6px 0 rgba(0,0,0,0.12), 0 5px 12px 4px rgba(0,0,0,0.09);
+    }
+}

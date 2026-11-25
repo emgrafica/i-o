@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Alkalmazás neve",
+  "backLink": "Visszatérés a támogatás megszerzéséhez",
+  "businessLabel": "üzlet",
+  "filesAlertMessageLong": "A fájl feltöltése a kérés időzítése miatt nem sikerült. Kérem, próbálkozzon újra.",
+  "filesAlertMessageLong_plural": "A fájlok feltöltése a kérés időzítése miatt nem sikerült. Kérem, próbálkozzon újra.",
+  "filesAlertMessageShort": "A fájl feltöltése sikertelen volt",
+  "filesAlertMessageShort_plural": "A fájlok feltöltése sikertelen volt",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Részletek a problémához",
+  "incidentTitleLabel": "cím",
+  "pageAlertMessage": "Incidens sikeresen létre! Az incidens száma {{tenantDisplayId}}",
+  "retryAllButton": "Az összes újrafelvétele",
+  "retryButton": "Újra",
+  "subtitle": "Önkiszolgáló megoldások elérése informatikai problémákra",
+  "title": "Támogatás bekérni",
+  "uploadedFilesLabel": "Feltöltött fájlok"
+}

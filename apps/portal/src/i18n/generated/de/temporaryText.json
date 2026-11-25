@@ -1,0 +1,53 @@
+{
+  "comingSoon": {
+    "title": "Demnächst!"
+  },
+  "id": "40bc9c50-1176-4162-bc49-0f75f775a4c4",
+  "showWipAccessories": {
+    "content1": "Durch diesen Katalog können Sie Artikel anzeigen, vergleichen und bestellen, um Ihre individuellen Produktivitäts- und Kollaborationsanforderungen zu unterstützen.",
+    "content2": "Brauchen Sie jetzt ein Zubehör? <1>Besuchen Sie den bestehenden i-o Zubehörkatalog</1>.",
+    "subtitle": "Zubehörbestellung ist fast fertig!",
+    "title": "Demnächst!"
+  },
+  "showWipApprovals": {
+    "content1": "Auf dieser Seite können Sie Pending Orders einklagen und archivierte Genehmigungen anzeigen, mit einem neu gestalteten Kartenlook, der Ihnen den erforderlichen Kontext bietet, um wichtige Genehmigungsentscheidungen zu treffen.",
+    "content2": "Müssen Sie jetzt einen offenen Auftrag genehmigen? <1>Besuchen Sie bestehende i-o My Actions.</1>",
+    "subtitle": "Die Zulassungen sind fast fertig!",
+    "title": "Demnächst!"
+  },
+  "showWipCollaboration": {
+    "content1": "Erfahren Sie mehr über Teams",
+    "content2": "Registrieren Sie sich für eine Teams-Schulung",
+    "description": "DXC hat vor kurzem Microsoft Teams als die nächste Generation der Zusammenarbeit eingeführt. Teams umfasst eine Vielzahl von Produktivitätstools, vom Chat über Videokonferenzen bis hin zu leistungsstarken App-Integrationen.",
+    "downloadTitle": "Teams herunterladen",
+    "forMac": "Für Mac",
+    "forWindows": "Für Windows",
+    "title": "Zusammenarbeit"
+  },
+  "showWipComputers": {
+    "content1": "Durch diesen Katalog können Sie den richtigen Computer anzeigen, vergleichen und bestellen, damit Sie Ihre Arbeit erledigen können. Unser neuer Katalog wird eine sauberere Produktanzeige, eine umfangreichere Filterung und einen verbesserten Auftragsfluss bieten, um Ihnen zu helfen, eine fundierte Entscheidung zu treffen.",
+    "content2": "Brauchen Sie jetzt einen Computer? <1>Besuchen Sie den vorhandenen i-o-Computerkatalog.</1>",
+    "subtitle": "Computerbestellung ist fast fertig!",
+    "title": "Demnächst!"
+  },
+  "showWipGcom": {
+    "content1": "Durch diesen Katalog können Sie den richtigen GCom-Service anzeigen, vergleichen und bestellen, um Ihre Zusammenarbeit zu optimieren. Unser neuer Katalog wird einen saubereren Auftragsfluss haben, um Ihnen zu helfen, eine fundierte Entscheidung zu treffen.",
+    "content2": "Brauchen Sie jetzt GCom? <1>Besuchen Sie den vorhandenen i-o Collaboration-Katalog.</1>",
+    "subtitle": "GCom Bestellung ist fast fertig!"
+  },
+  "showWipMobility": {
+    "description": "Durch diesen Katalog können Sie das richtige Mobile-Gerät anzeigen, vergleichen und bestellen, damit Sie Ihre Arbeit erledigen können. Unser neuer Katalog wird eine sauberere Produktanzeige, eine umfangreichere Filterung und einen verbesserten Auftragsfluss bieten, um Ihnen zu helfen, eine fundierte Entscheidung zu treffen.",
+    "redirect": "Brauchen Sie jetzt Mobilität? ",
+    "redirectLink": "Besuchen Sie den bestehenden i-o Mobility-Katalog.",
+    "subtitle": "Mobilitätsbestellung ist fast fertig!"
+  },
+  "showWipSoftware": {
+    "description": "Durch diesen Katalog können Sie die richtigen Software-Titel anzeigen, vergleichen und bestellen, um Ihre Arbeit zu erledigen. Unser neuer Katalog wird einen intuitiveren Suchprozess, eine umfangreichere Filterung und einen verbesserten Auftragsfluss haben, um Ihnen zu helfen, eine fundierte Entscheidung zu treffen.",
+    "redirect": "Brauchen Sie jetzt Software? ",
+    "redirectLink": "Besuchen Sie den vorhandenen i-o Softwarekatalog.",
+    "subtitle": "Software-Bestellung ist fast fertig!"
+  },
+  "showWipTopNav": {
+    "title": "Demnächst"
+  }
+}

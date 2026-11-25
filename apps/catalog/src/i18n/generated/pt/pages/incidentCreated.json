@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Nome da aplicação",
+  "backLink": "Retornar para obter suporte",
+  "businessLabel": "negócio",
+  "filesAlertMessageLong": "O arquivo não foi carregado devido ao tempo de solicitação. Por favor, tente de novo.",
+  "filesAlertMessageLong_plural": "Os arquivos falharam no upload devido ao tempo de solicitação. Por favor, tente de novo.",
+  "filesAlertMessageShort": "O arquivo falhou no upload",
+  "filesAlertMessageShort_plural": "Os arquivos falharam no upload",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Detalhes para o seu problema",
+  "incidentTitleLabel": "título",
+  "pageAlertMessage": "Incidente criado com sucesso! Seu número de incidente é {{tenantDisplayId}}",
+  "retryAllButton": "Retry All",
+  "retryButton": "Repetir",
+  "subtitle": "Acesse soluções de autoatendimento para problemas de TI",
+  "title": "Obter suporte",
+  "uploadedFilesLabel": "Arquivos carregados"
+}

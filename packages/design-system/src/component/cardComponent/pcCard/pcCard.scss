@@ -1,0 +1,96 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+
+
+.io-device-pc {
+  font-family: $font-opensans;
+  background-color: $color-white;
+  color: $black;
+  min-height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  height: 300px;
+  border-radius: 10px !important;
+  .MuiCardHeader-root{
+    padding: 0px 16px;
+  }
+  .io-device-card-header {
+    min-height: 32px;
+  }
+  .io-device-card-content {
+    padding-top: 0px;
+    padding-bottom: $dls-s02-0;
+    &-image {
+      margin-bottom: 10px;
+    }
+    .io-device-card-configuration {
+      padding-left: 0px;
+      font-size: 12px;
+      line-height: 18px;
+      &-item-content,
+      &-item-header {
+        font-size: 12px;
+      }
+      .io-device-card-deviceBrand {
+        @include captionRegular;
+        color: $color-gray-dark;
+        margin-bottom: 5px;
+      }
+      .io-device-card-deviceName {
+        @include heading5;
+        margin-bottom: 5px;
+      }
+      .io-device-card-configuration-item{        
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: $font-size-eyebrow-desktop;
+          flex-wrap: wrap;        
+          .MuiSvgIcon-root {
+            display: inline-block;
+              width: $dls-s02-5;
+              height: $dls-s02-5;
+              margin-right: $dls-s02-0;
+           }
+           
+           .io-device-card-configuration-item-header{
+            @include captionSemibold;
+            margin-right: $dls-s01-0;
+            }
+            .io-device-card-configuration-item-content{
+              color: $color-gray-dark;
+              @include captionRegular;
+            }
+      }
+    }
+    .io-device-card-content-image {
+        display: block;
+        .io-device-card-content-CardMedia{
+            height: 113px;
+            background-size: contain;
+        }      
+        .io-device-card-content-image-brand{
+            color: black;
+            font-size: $font-size-h5-desktop;
+            padding-bottom: 10%;
+            padding-left: $dls-s02-5;
+
+        }
+    }
+  }
+  .io-device-card-footer{
+      display: flex;
+      flex-direction: row-reverse;
+      .io-device-card-button{
+          background: $color-purple-light-1;
+          color: white;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          .add-icon{
+            width: 30px;
+            height: 30px;
+          }
+      }
+  }
+}

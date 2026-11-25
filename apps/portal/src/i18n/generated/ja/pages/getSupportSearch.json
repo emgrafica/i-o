@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "ビジネスアプリケーション",
+  "businessFiltersLabel": "事",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "ナレッジベース記事",
+  "noResults": "検索結果が検索条件に一致しません。",
+  "punchOutModal": {
+    "action": "サポートを受ける",
+    "message": "ご希望のビジネスアプリケーションのサポートは、i-oのインシデント作成のプロセスの外での受付となっております。以下のサポートへのリンクをクリックいただきますと、当該アプリケーションに関連する外部ページが表示されますので、そちらに進んでいただいて、サポートをご依頼ください。",
+    "title": "i-oのサポート範囲外のビジネスアプリケーション"
+  },
+  "showingEnglishResults": "ビジネスアプリケーションの結果は現在英語でのみ利用可能です",
+  "showingResultsFor": "\"{{keywords}}\" 検索結果 {{totalItems}} 件を表示しています。",
+  "subtitle": "IT関連の問題をセルフサービスで解決",
+  "title": "サポートを受ける",
+  "viewAllLabel": "すべてを見る"
+}

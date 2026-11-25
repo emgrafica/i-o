@@ -1,0 +1,43 @@
+{
+  "ReasonForRequest": {
+    "Additional": "adicional",
+    "Broken": "roto",
+    "DeviceBroken": "El dispositivo está roto",
+    "DeviceNotRequired": "El dispositivo ya no es necesario",
+    "Missing": "desaparecido",
+    "NewAccessory": "Nuevo accesorio",
+    "Other": "Otro",
+    "OwnerInactive": "El propietario está inactivo",
+    "Primary": "primario",
+    "Replace": "reemplazar",
+    "Temporary": "temporal"
+  },
+  "ReasonForRequestLabel": {
+    "additional": "adicional",
+    "brokenReplacement": "Reemplazo roto",
+    "changeExistingService": "Cambiar servicio existente",
+    "earlyReplacement": "Reemplazo temprano",
+    "missingReplacement": "Reemplazo que falta",
+    "newAccessory": "Nuevo accesorio",
+    "newGcomService": "Nuevo servicio GCom",
+    "primary": "primario",
+    "reassign": "reasignar",
+    "refreshReplacement": "Reemplazo de actualización",
+    "return": "devolución",
+    "specialChangeRequest": "Solicitud de cambio especial",
+    "specialRequest": "Solicitud especial",
+    "temporary": "temporal",
+    "terminateService": "Terminar el servicio"
+  },
+  "RequestStatusType": {
+    "Approval": "aprobación",
+    "Cancelled": "anulado",
+    "Completed": "completado",
+    "Declined": "Disminuido",
+    "Error": "error",
+    "InProgress": "en curso",
+    "OnHold": "En espera",
+    "Pending": "pendiente"
+  },
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271"
+}

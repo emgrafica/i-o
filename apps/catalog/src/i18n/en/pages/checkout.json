@@ -1,0 +1,29 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+
+  "reportBroken": {
+    "orderDetails": {
+      "message": "The replacement device will match the general specifications of the device being replaced. Replacements will be made with available inventory to mitigate costs. Thank you for your understanding as we work toward meeting company financial goals.",
+      "requestedFor": "Requested For",
+      "reasonForRequest": "Reason For Request",
+      "reasonForRequestValue": "Return Broken",
+      "reasonForReturn": "Reason For Return",
+      "deviceUsage": "Device Usage",
+      "incidentNumber": "Incident Number",
+      "situationDetails": "Situation Details"
+    }
+  },
+  "secureLocationRestriction": {
+    "message": "Secure Location Restriction"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "was unable to verify the address as entered."
+    },
+    "message": "Please update the address and submit again, or if you are confident that the entered address is deliverable, select the checkbox to proceed with the unverified address.",
+    "label": "I am confident the address I have entered is correct"
+  },
+  "returnLabelDownload" : {
+    "submitActionButtonLabel" : "Download label"
+  }
+}

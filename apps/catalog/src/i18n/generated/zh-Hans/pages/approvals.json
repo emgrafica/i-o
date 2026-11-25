@@ -1,0 +1,42 @@
+{
+  "approvalError": "批准失败。请重试。",
+  "approve": "批准",
+  "approved": "批准",
+  "decline": "下降",
+  "declineModal": {
+    "label": "请提供拒绝的理由",
+    "placeholder": "这里是下降的原因。",
+    "title": "下降原因"
+  },
+  "declineSuccess": "请求成功拒绝。",
+  "declined": "拒绝",
+  "filterBox": {
+    "accessories": "辅料",
+    "computers": "计算机",
+    "mobility": "流动性",
+    "title": "类别"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "没有批准的订单。",
+  "noDeclinedOrders": "没有拒绝订单。",
+  "noFilterResults": "对不起，没有结果与您的筛选器匹配。",
+  "noPendingOrders": "目前没有订单等待您的批准。",
+  "order": {
+    "approvalReason": "批准理由",
+    "approvedLabel": "批准",
+    "businessJustification": "商业理由",
+    "declineReason": "拒绝原因",
+    "declinedLabel": "拒绝",
+    "for": "为",
+    "imageAlt": "请求资产",
+    "orderNumber": "订单号",
+    "price": "价格",
+    "replacedDevice": "已更换的设备",
+    "requestReason": "请求原因",
+    "returnDate": "退货日期",
+    "submittedLabel": "提交"
+  },
+  "pending": "待定",
+  "subtitle": "查看并针对请求采取行动",
+  "title": "批准"
+}

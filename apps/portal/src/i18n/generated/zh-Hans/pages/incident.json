@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "应用程序名称：",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "（{{count}} 文件附加）",
+      "fileCount_plural": "（附{{count}} 文件）",
+      "maxSizeInfo": "每个文件容量最大：{{limit}}.0 MB",
+      "optionalLabel": "（可选）",
+      "title": "附加文件"
+    },
+    "instructions": "最多附上{{limit}}个相关文件，以帮助支持的工程师解决您的问题。"
+  },
+  "businessLabel": "Business：",
+  "descriptionSection": {
+    "details": {
+      "label": "为您的问题提供详细信息",
+      "placeholder": "详细描述您的问题，以便我们的代理能够尽快提供帮助"
+    },
+    "header": "描述",
+    "title": {
+      "label": "标题",
+      "placeholder": "简介"
+    }
+  },
+  "directions": "填写以下表格，提交故障单请求，以供相应的支持团队查看并致力于解决问题。",
+  "formTitle": "Business应用程序故障单表",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "创建事件并上传附加文件",
+  "loadingMessageWithoutFiles": "创建事件",
+  "searchedTopicLabel": "搜索主题：",
+  "subtitle": "访问 IT 问题的自助解决方案",
+  "title": "获取支持"
+}

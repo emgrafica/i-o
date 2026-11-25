@@ -1,0 +1,19 @@
+
+@import "./../../styles/scss/mixin.scss";
+@import "./../../styles/scss/variable.scss";
+
+.RotateFloatButton {
+
+  .RotateFloatMainButton {
+    background-color: $color-purple-main;
+    color: $color-white;
+    font-size: 25px;
+  }
+
+  .RotateFloatChildButton{
+    background-color: $color-purple-main;
+    color: $color-white;
+    font-size: 15px;
+  }
+
+}

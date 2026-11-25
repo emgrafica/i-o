@@ -1,0 +1,212 @@
+{
+  "accessoryDetails": {
+    "title": "附属品"
+  },
+  "error": {
+    "defaultErrorMessage": "已发生错误。"
+  },
+  "errorBoundary": {
+    "body": "但没有必要惊慌。立即重试，稍后再回来，或者如果错误仍然存在，请联系我们的支持团队。",
+    "goBackHomeButton": "回家去",
+    "refreshButton": "刷新页面",
+    "subtitle": "出事了",
+    "title": "哎呀！"
+  },
+  "id": "c513f062-c89f-4d37-8dc9-132dda32c6c2",
+  "request": {
+    "accessories": {
+      "accessoryDetails": {
+        "configuration": {
+          "keyboard": "键盘",
+          "plugType": "插头类型",
+          "title": "配置详细信息"
+        },
+        "requestReason": {
+          "title": "您请求的原因"
+        },
+        "title": "配件详情"
+      },
+      "backButton": "配件目录",
+      "card": {
+        "viewButton": "查看"
+      },
+      "checkoutButton": "继续结账",
+      "header": {
+        "subtitle": "支持设备与计算机配合使用",
+        "title": "配件目录"
+      },
+      "subTitle": "满足您所有业务需要的设备",
+      "title": "辅料"
+    },
+    "checkout": {
+      "billedTo": "计费到",
+      "cancelOrder": "取消订单",
+      "deviceUsage": "设备使用情况",
+      "header": {
+        "accessoryTitleSubmit": "配件结账",
+        "computerTitleSubmit": "计算机结帐",
+        "mobileTitleSubmit": "移动结账",
+        "standardSubtitle": "审核并提交订单",
+        "standardTitle": "收款处",
+        "subtitleSubmit": "在提交请求之前，请查看所有信息",
+        "subtitleSuccess": "查看您的订单详细信息",
+        "titleSuccess": "订单确认"
+      },
+      "modal": {
+        "cancel": {
+          "cancelOrder": "取消订单",
+          "header": "确认订单取消",
+          "message": "取消订单将清除您的产品选择，并返回您到 {{returnTo}}。",
+          "stayOnPage": "留在页面上"
+        }
+      },
+      "productDetails": {
+        "header": {
+          "accessory": "附属品",
+          "computer": "计算机",
+          "mobileDevice": "移动设备",
+          "standard": "装置"
+        }
+      },
+      "reasonForRequest": "请求理由",
+      "replacementMessage": "更换设备将符合正在更换的设备的一般规格。将用可用的库存进行更换，以降低成本。感谢您在我们努力实现公司财务目标时所取得的理解。",
+      "replacementOrderFor": "订单<1>完成{{name}}。</1>返回<3>搜索</3>以查找其他资产或机票。",
+      "requestedFor": "请求",
+      "submitOrder": "提交订单",
+      "title": {
+        "accessories": "配件结账",
+        "computers": "计算机结帐",
+        "reportBroken": "收款处"
+      }
+    },
+    "computers": {
+      "card": {
+        "viewButton": "查看"
+      },
+      "computerDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "请阅读以下消息",
+          "acknowledgementLabel": "我明白",
+          "deviceUsage": "选择设备使用情况",
+          "justificationHint": "描述您对本设备的业务需求"
+        },
+        "checkout": "继续结账",
+        "configurationStockMessage": "此模型的配置将由履行团队根据可用库存确定。",
+        "keyboard": "键盘",
+        "keyboardLabel": "选择键盘语言",
+        "language": "语言",
+        "modelSpecifications": "型号规格",
+        "os": "操作系统",
+        "osLabel": "选择操作系统",
+        "plugLabel": "选择插头类型",
+        "plugType": "插头类型",
+        "replaceDevice": {
+          "broken": "损坏设备",
+          "missing": "缺少设备",
+          "replaceLabel": "选择更换设备",
+          "replaceReason": "选择更换设备的原因"
+        },
+        "replaceFlowRequestReasonTooltip": "价值与正在采取的行动相关联，无法编辑",
+        "requestDetails": "请求详细信息",
+        "requestReason": "选择请求理由",
+        "selectConfiguration": "配置详细信息",
+        "selectReturn": "选择退货日期",
+        "shortTermHint": "无法选择自请求日期后 90 天以后的退货日期",
+        "title": "计算机详细信息"
+      },
+      "header": {
+        "subtitle": "满足所有业务需要的设备",
+        "title": "计算机目录"
+      }
+    },
+    "gcom": {
+      "accountInformation": {
+        "assignedTo": "分配给",
+        "assignedToDescription": "将使用该服务的人员",
+        "banCheckError": "错误检查用户资格。请重试。",
+        "billedTo": "已计费到",
+        "billedToDescription": "在使用的国家/地区负责计费的人",
+        "changeUser": "更改用户",
+        "hint": "定义谁将使用该服务，谁将收取服务费用",
+        "label": "帐户信息",
+        "notEligible": "向用户收费不符合条件"
+      },
+      "header": {
+        "subtitle": "传统电话服务的现代替代方案",
+        "title": "GCom 目录"
+      },
+      "helpMeDecide": {
+        "analogLine": "模拟线 - 它用于传真连接、开诚布公机、门卫和升降机。本产品不提供电话。选择与语音信箱相关的选项（是/否）。",
+        "conferenceRoomPhone": "会议室电话 - 本产品用于会议室。",
+        "deskPhone": "桌面电话 - 选择与语音信箱相关的选项（是/否）和扩展模块（用于呼叫转发）。",
+        "predefinedSku": "预先定义的 SKU - 如果您是 Power 用户，请选择此选项，并且您熟悉您的团队所需的特定 SKU（如：呼叫中心）。使用文本框提供所需的 SKU。",
+        "specialRequest": "特殊请求 - 当您需要帮助选择产品时，选择此选项。使用文本框提供有关您的请求的详细信息。",
+        "teamsDialtone": "团队拨号 - 本产品允许您拨打团队的外部电话号码。可用时，这将是预先选择的默认产品。从可用的下拉选项中选择选项。",
+        "title": "产品信息"
+      },
+      "locationOfService": {
+        "cityLabel": "城市",
+        "countryLabel": "国家",
+        "countryTooltip": "国家/地区与\"计费到\"用户相关，用户必须位于将使用该服务的国家/地区。",
+        "hint": "定义支持 GCom 的位置",
+        "label": "服务地点",
+        "noSiteAvailableMessage": "所选位置没有启用 GCom 的站点",
+        "selectCityPlaceholder": "选择城市",
+        "selectCityQueryError": "很抱歉，我们在查找符合条件的城市时遇到了问题。请重试。",
+        "selectSitePlaceholder": "站点地址",
+        "selectSiteQueryError": "很抱歉，我们在查找符合条件的网站时遇到了问题。请重试。",
+        "selectStateLPlaceholder": "选择状态",
+        "selectStateQueryError": "很抱歉，我们在查找符合条件的状态时遇到了问题。请重试。",
+        "siteLabel": "网站",
+        "stateLabel": "州"
+      },
+      "productSelection": {
+        "helpMeDecide": "帮我决定",
+        "hint": "定义要订购的核心产品",
+        "label": "产品选择",
+        "notEligible": "您没有资格获得此产品。",
+        "productOptions": "您正在寻找什么产品？",
+        "productSelectionQueryError": "很抱歉，我们在查找合格产品时遇到了问题。请重试。",
+        "selectProductOption": "选择",
+        "summaryTitle": "与此服务相关的新产品："
+      },
+      "userLookup": {
+        "description": "搜索其他用户",
+        "title": "更改用户"
+      }
+    },
+    "leaveModal": {
+      "content": "如果您想在以后继续替换过程，请返回到\"管理\"菜单。你想继续吗？",
+      "title": "您将离开替换过程"
+    },
+    "mobility": {
+      "header": {
+        "subtitle": "满足您所有业务需要的设备",
+        "title": "移动目录"
+      },
+      "mobilityDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "请阅读以下消息",
+          "acknowledgementLabel": "我明白",
+          "deviceUsage": "选择设备使用情况",
+          "justificationHint": "描述您对本设备的业务需求"
+        },
+        "carrier": "载体",
+        "color": "颜色",
+        "configuration": {
+          "title": "配置详细信息"
+        },
+        "configurationStockMessage": "此模型的配置将由履行团队根据可用库存确定。",
+        "features": "特征",
+        "hardwareSelectionQueryError": "很抱歉，我们在查找选定的硬件时遇到了问题。请重试。",
+        "plan": "计划",
+        "plans": "计划",
+        "requestReason": {
+          "title": "您请求的原因"
+        },
+        "storage": "存储",
+        "title": "移动性详细信息"
+      }
+    }
+  }
+}

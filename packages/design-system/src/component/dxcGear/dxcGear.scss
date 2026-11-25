@@ -1,0 +1,46 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+.gear {
+  background-color: transparent;
+  a {
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+  .ant-card-body {
+    padding: 8px 12px 8px 12px;
+    height: 100%;
+
+    .generalImg-cover svg {
+      color: $color-purple-light-2;
+    }
+
+    h6 {
+      font-family: $font-opensans;
+      font-weight: 600 !important;
+      font-size: 16px;
+      color: $black;
+      line-height: 16px;
+      margin-top: 5px;
+      padding-bottom: 3px;
+    }
+    .general-card-link {
+      .caption {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1 !important;
+        color: $color-gray-dark;
+        margin-right: 4px;
+        font-size: 13px;
+      }
+      .general-card-icon-cover {
+        svg {
+          bottom: 2px;
+        }
+      }
+    }
+  }
+}

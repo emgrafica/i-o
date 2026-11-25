@@ -1,0 +1,60 @@
+@import '../../styles/scss/variable.scss';
+@import '../../styles/scss/mixin.scss';
+.delivery-address-dialog {
+    .phone-box{
+      padding-top: 7px;
+    }
+    .PhoneLabel {
+        transform: translate(0, 1.5px) scale(0.75);
+        transform-origin: top left;
+        color: rgba(0, 0, 0, 0.54);
+        padding: 0;
+        font-size: 1rem;
+        font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.00938em;
+    }
+    .PhoneInputInput {
+        color: #1f2020;
+        height: 40px;
+        padding: 0;
+        min-width: 0;
+        background: none;
+        box-sizing: content-box;
+        animation-name: mui-auto-fill-cancel;
+        letter-spacing: inherit;
+        animation-duration: 10ms;
+        -webkit-tap-highlight-color: transparent;
+        border-width: 0px;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(0, 0, 0, 0.42);
+    }
+    .PhoneNumberError .PhoneInputInput {
+        color: #f44336;
+        border: none;
+        border-bottom: 2px solid #f44336;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #f44336;
+    }
+    .PhoneNumberDefault .PhoneInputInput {
+        color: #1f2020 !important;
+        border: none !important;
+        border-bottom: 1px solid #1f2020 !important;
+    }
+    .err-msg{
+        color: #f44336;
+        font-size: 10px;
+        margin: 0;
+        padding-top: 5px;
+    }
+}
+.io-dialog-select-item{
+    padding: 8px 16px !important;
+    justify-content: left!important;
+    display: flex !important;
+}

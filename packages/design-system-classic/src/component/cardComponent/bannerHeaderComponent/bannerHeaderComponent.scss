@@ -1,0 +1,32 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+
+.io-banner {
+  position: relative;
+  min-height: 336px;
+  padding: $dls-s03-5;
+  background: linear-gradient(
+    125.11deg,
+    $bg-header 0.41%,
+    $bg-header-gradient 129.85%
+  );
+  color: $color-white;
+  .title-shadow {
+    z-index: 0;
+    white-space: nowrap;
+    font-family: $font-gtwalsheim_pro_medium;
+    position: absolute;
+    bottom: 0;
+    font-size: 320px;
+    letter-spacing: -1.2px;
+    color: $color-white-tone;
+    opacity: 0.1;
+    line-height: 220px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

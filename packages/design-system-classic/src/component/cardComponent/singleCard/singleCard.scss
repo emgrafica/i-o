@@ -1,0 +1,73 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+.single-card {
+    height: 144px;
+    background: $color-white;
+    .eyebrow {
+        @include eyebrow;
+        color: $color-purple-main;
+        padding: $dls-s00-5 $dls-s02-5;
+        background: $color-purple-tint;
+        border-radius: 21px;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .eyebrow-outage {
+        color: $color-red;
+        background: $color-red-tint;
+    }
+    h5 {
+        @include max2lines;
+        margin: $dls-s02-0 0 0 0;
+        min-height: 44px;
+        color: $black;
+        word-break: break-word;
+    }
+    .pcRefresh-img {
+        position: relative;
+        img {
+            width: 88px;
+            height: 60px;
+        }
+        img.newPC-img {
+            width: 64px;
+            height: 42px;
+        }
+        .state-img {
+            position: absolute;
+            z-index: 2;
+            top: 4px;
+            right: 8px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: $color-purple-light-2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 10.6px;
+                height: 10.6px;
+            }
+        }
+    }
+    
+    .captionRegular-cover {
+        margin-top: $dls-s02-0;
+        min-height: 36px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .captionRegular {
+        @include captionRegular;
+        @include max2lines;
+        color: $color-gray-dark;
+        word-break: break-word;
+    }
+    .vertical-middle {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+}

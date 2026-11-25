@@ -1,0 +1,9 @@
+{
+  "cancel": "Cancelar la actuación en nombre de otro usuario",
+  "cancelDescription": "Confirme que se cancela actuar en nombre de otro usuario. Si lo hace, se detendrá la característica y se volverá a la página de inicio.",
+  "id": "8a0ee769-50fb-4a20-a08f-70492c63c50c",
+  "subtitle": "Su experiencia en i-o se restringirá a las áreas a las que puede acceder mientras actúa en nombre de un colega.",
+  "title": "Usted actúa en nombre de:",
+  "update": "Confirmar en nombre de la actualización del usuario",
+  "updateDescription": "Confirme que debe dejar de actuar en nombre de {{currentOBOUserName}} y entre en el proceso de búsqueda para actuar en nombre de un usuario diferente."
+}

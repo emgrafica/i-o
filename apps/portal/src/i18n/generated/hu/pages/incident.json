@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "Alkalmazás neve:",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "({{count}} csatolt fájl)",
+      "fileCount_plural": "({{count}} csatolt fájlok)",
+      "maxSizeInfo": "Fájlonkénti maximális méret: {{limit}},0 MB",
+      "optionalLabel": "(Nem kötelező)",
+      "title": "Fájlok csatolása"
+    },
+    "instructions": "Csatolj maximum {{limit}} olyan fájlt, amelyek segítséget nyújtanak a probléma megoldásában."
+  },
+  "businessLabel": "Üzletág:",
+  "descriptionSection": {
+    "details": {
+      "label": "Adja meg a probléma részleteit",
+      "placeholder": "Írja le részletesen a problémát, hogy ügynökeink a lehető leggyorsabban segíthessenek"
+    },
+    "header": "leírás",
+    "title": {
+      "label": "cím",
+      "placeholder": "Rövid leírás"
+    }
+  },
+  "directions": "A probléma bejelentéséhez töltsd ki az alábbi űrlapot!",
+  "formTitle": "Üzleti alkalmazás - incidens űrlap",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "Incidens létrehozása és csatolt fájlok feltöltése",
+  "loadingMessageWithoutFiles": "Incidens létrehozása",
+  "searchedTopicLabel": "Keresett téma:",
+  "subtitle": "Önkiszolgáló megoldások keresése IT-problémákhoz",
+  "title": "Támogatás kérése"
+}

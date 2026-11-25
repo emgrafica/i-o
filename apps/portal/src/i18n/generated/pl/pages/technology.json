@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "Urządzenie jest uszkodzone",
+    "editUsage": "Edytuj użycie",
+    "issuedDate": "Wydane",
+    "moreActions": "Więcej działań",
+    "reassign": "Przypisać",
+    "refresh": "odświeżyć",
+    "refreshEligibleBadge": "Odśwież kwalifikujących się",
+    "refreshEligibleLabel": "Odśwież kwalifikujących się",
+    "registerOwnership": "Zarejestruj własność",
+    "reportBroken": "Raport uszkodzony",
+    "reportMissing": "Brak raportu",
+    "reportOwnershipError": "Błąd własności raportu",
+    "return": "wrócić",
+    "usage": "zwyczaj",
+    "wipeComputer": "Wyczyść komputer"
+  },
+  "checkout": {
+    "agreementTitle": "Prosimy o przeczytanie poniższej wiadomości",
+    "cancelModal": {
+      "content": "Anulowanie zamówienia spowoduje wyczyszczenie danych wejściowych i odesłanie do strony Technologia.",
+      "title": "Potwierdź anulowanie zamówienia"
+    },
+    "failureMessage": "Przesyłanie nie powiodło się. Spróbuj ponownie.",
+    "leaveModal": {
+      "content": "Jeśli chcesz kontynuować proces zwrotu w późniejszym czasie, wróć do menu Zarządzaj. Czy chcesz kontynuować?",
+      "title": "Opuszczasz proces zwrotu"
+    },
+    "orderDetails": {
+      "asset": "Urządzenie do zwrotu",
+      "header": "Szczegóły zamówienia",
+      "reason": "Powód zwrotu"
+    },
+    "subtitle": "Przejrzyj i złóż zamówienie",
+    "title": "kasa"
+  },
+  "editUsage": {
+    "buttonLabel": "Wybierz typ użycia",
+    "header": "Edytuj użycie",
+    "label": "Użycie urządzenia",
+    "update": "aktualizacja"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "Obecnie nie masz przypisanej technologii, sprawdź ponownie później.",
+  "orderConfirmation": {
+    "subtitle": "Sprawdź szczegóły zamówienia",
+    "title": "Potwierdzenie zamówienia"
+  },
+  "reassign": {
+    "header": "Ponowne przypisywanie urządzenia",
+    "ineligibleUser": "Użytkownik znaleziony, ale nie kwalifikuje się.",
+    "lookupLabel": "Wyszukiwanie współpracownika w celu ponownego przypisania tego komputera do",
+    "p1": "Komputery można ponownie przypisać tylko w tym samym kraju.",
+    "p2": "Nowy przypisany do użytkownika musi mieszcząć się w tej samej firmie.",
+    "p3": "Nowy przypisany do użytkownika musi być uprawniony do funkcji i-o Computers.",
+    "title": "Zmiany przypisania komputera są włączone zgodnie z zasadami biznesowymi i następującymi regułami.",
+    "warning": "Ten komputer zostanie ponownie przypisany do {{assignedTo}} natychmiast po przesłaniu."
+  },
+  "recommendAsset": {
+    "altImage": "polecać urządzenie"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "Potwierdzam, że aktywnie wymagam od tego komputera, aby pozostać przypisanym do mnie.",
+    "alertMessage": {
+      "contactServiceDesk": "Skontaktuj się z servicedesk, aby uzyskać dalszą pomoc",
+      "reportComputerMissing": "Zgłoś brak komputera",
+      "reportOwnershipError": "Zgłoś błąd własności lub",
+      "title": "Nie twój komputer lub nie jest już w posiadaniu?"
+    },
+    "header": "Zarejestruj własność",
+    "instructions": "Zaznacz poniższe pole i prześlij swoją rejestrację, aby potwierdzić, że ten komputer jest w Twoim posiadaniu i aktywnie z niego korzystasz. Zapewni to, że komputer pozostanie poprawnie przypisany do Ciebie."
+  },
+  "replace": {
+    "businessRecommended": "Urządzenie zalecane przez firmę",
+    "header": "Urządzenie odświeżania",
+    "messageWithRecommended": "KONTYNUUJ z urządzeniem zalecanym przez firmę lub PRZEJDŹ do katalogu, aby wybrać inne urządzenie zastępcze",
+    "messageWithoutRecommended": "PRZEJDŹ DO KATALOGU, aby wybrać urządzenie zastępcze.",
+    "toCatalog": "Przejdź do katalogu"
+  },
+  "reportBroken": {
+    "agreementMessage": "Potwierdzam, że OEM Dispatch został wykluczony poprzez rozwiązywanie problemów i wymagane jest urządzenie zastępcze.",
+    "details": {
+      "label": "Proszę podać szczegóły problemu z komputerem",
+      "placeholder": ""
+    },
+    "header": "Zgłoś przerwane urządzenie",
+    "incident": {
+      "label": "Powiązany numer zdarzenia",
+      "placeholder": "Numer zdarzenia"
+    },
+    "p1": "Wniosek o wymianę urządzenia należy złożyć dopiero po wykluczeniu naprawy przez producent OEM jako możliwe rozwiązanie. Postępując, potwierdzasz, że postępowałeś zgodnie z procesem wysyłki OEM i w takim przypadku wymagane jest urządzenie zastępcze. ",
+    "p2": "Firma We sprawdzimy, czy jesteś członkiem grupy przydziałów przypisanej do zdarzenia naprawy sprzętu dla powiązanego komputera. Wszystkie pozostałe zamówienia zostaną odrzucone.",
+    "title": "Prosimy o przeczytanie poniższej wiadomości"
+  },
+  "reportMissing": {
+    "alert": "Zgłoszenie tego komputera jako brakującego powiadomi zespół pomocy technicznej twojej firmy o próbie zlokalizowania urządzenia. Komputer pozostanie przypisany do Ciebie, dopóki zespół pomocy technicznej nie zakończy dochodzenia.",
+    "caseNumber": {
+      "label": "DXC numer sprawy iReport zabezpieczeń",
+      "placeholder": "Przykład: 900703471"
+    },
+    "details": {
+      "label": "Proszę podać dalsze szczegóły",
+      "placeholder": ""
+    },
+    "geSecurityLink": "Odwiedź witrynę DXC Security.",
+    "header": "Zgłoś brakujące urządzenie",
+    "p1": "Zgłoś brakujące urządzenia najpierw w DXC Security, a następnie wróć do tej akcji za pomocą numeru sprawy iReport. ",
+    "replacementAlert": "Kontynuuj kontynuowanie brakującego zlecenia wymiany, które powiadomi również zespół pomocy technicznej twojej firmy, aby spróbować zlokalizować brakujący komputer.",
+    "replacementComputer": "Czy potrzebujesz komputera zastępczego?"
+  },
+  "reportOwnershipError": {
+    "alert": "Ta akcja spowoduje utworzenie zdarzenia do odpowiedniego zespołu, aby przyjrzeć się problemowi. Komputer pozostanie przypisany do czasu zakończenia badania pomocy technicznej.",
+    "details": "Dodatkowe szczegóły",
+    "header": "Błąd własności raportu"
+  },
+  "return": {
+    "deviceBroken": "Urządzenie jest uszkodzone",
+    "header": "Urządzenie zwrotne",
+    "notRequired": "Nie jest już wymagana",
+    "other": "inny",
+    "reasonDetails": "Proszę podać dalsze szczegóły",
+    "reasonForReturn": "Powód zwrotu",
+    "userLeft": "Przypisany do użytkownika, który opuścił firmę"
+  },
+  "submission": {
+    "failed": "Przesyłanie nie powiodło się. Spróbuj ponownie.",
+    "succeeded": "Akcja została pomyślnie przesłana."
+  },
+  "subtitle": "Wyświetlanie przypisanej technologii i zarządzanie nią",
+  "title": "Technologia",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "Rozumiem i potwierdzam",
+      "eraseDriveContentBodyOne": "Następnie zainstalujesz pakiet oprogramowania, który bezpiecznie usunie dane z dysku twardego. Po pomyślnym sprawdzeniu wstępnej pracy oprogramowania rozpocznie się proces, który może potrwać godzinę lub dłużej. Zapoznaj się z <1>tym artykułem,</1> aby uzyskać instrukcje krok po kroku dotyczące procesu wycierania danych.",
+      "eraseDriveContentBodyTwo": "Tego procesu, po zainicjowaniu z wewnątrz pakietu oprogramowania, nie można cofnąć i pliki nie mogą być odzyskane. Tylko po otwarciu pobranego pakietu oprogramowania kliknij przycisk <1>Inicjuj proces</1> po otwarciu pobranego pakietu oprogramowania, gdy na komputerze wymienionym powyżej należy go wymazać. Po zakończeniu procesu urządzenie będzie gotowe do wysyłki.",
+      "initiate": "pobierać",
+      "thisArticle": "w tym artykule ",
+      "title": "Wymaż instrukcje dotyczące dysku twardego"
+    },
+    "header": "Wyczyść komputer",
+    "saveRequiredContent": "Aby chronić informacje biznesowe, dysk twardy musi zostać bezpiecznie usunięty przed wysyłką. Samopomoc narzędzie <1>DATA TRANSFER GUIDE</1> jest dostępny, aby pomóc w usunięciu wszelkich wymaganych plików z dysku twardego przed jego wymazaniem.",
+    "title": "Zapisz wymagane informacje"
+  }
+}

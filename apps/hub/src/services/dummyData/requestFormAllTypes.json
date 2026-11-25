@@ -1,0 +1,185 @@
+[
+    {
+      "id": 1,
+      "name": "First Name",
+      "key": "firstName",
+      "inputType": "text",
+      "active": true,
+      "span": 12,
+      "fieldOptions": {
+        "rules": [
+          {
+            "required": true,
+            "message": "First name is required!"
+          },
+          {
+            "max": 100,
+            "min": 10,
+            "message": "The Input should between 10 - 100"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Last Name",
+      "key": "lastName",
+      "inputType": "text",
+      "active": true,
+      "span": 12,
+      "fieldOptions": {
+        "rules": [
+          {
+            "required": true,
+            "message": "Last name is required!"
+          },
+          {
+            "max": 100,
+            "min": 10,
+            "message": "The Input should between 10 - 100"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "email",
+      "key": "email",
+      "inputType": "text",
+      "active": true,
+      "span": 24,
+      "fieldOptions": {
+        "rules": [
+          {
+            "required": true,
+            "message": "email is required!"
+          },
+          {
+            "type": "email",
+            "message": "The input is not valid E-mail!"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Country",
+      "key": "country",
+      "inputType": "dropdown",
+      "span": 24,
+      "options": [
+        {
+          "id": 1,
+          "value": "unitedStates",
+          "label": "United States"
+        },
+        {
+          "id": 2,
+          "value": "canada",
+          "label": "Canada"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Address",
+      "key": "address",
+      "inputType": "text",
+      "active": true,
+      "span": 18,
+      "fieldOptions": {}
+    },
+    {
+      "id": 5,
+      "name": "Suite",
+      "key": "suite",
+      "inputType": "text",
+      "active": true,
+      "span": 6,
+      "fieldOptions": {}
+    },
+    {
+      "id": 6,
+      "name": "City",
+      "key": "city",
+      "inputType": "text",
+      "active": true,
+      "span": 12,
+      "fieldOptions": {}
+    },
+    {
+      "id": 7,
+      "name": "State",
+      "key": "state",
+      "inputType": "dropdown",
+      "active": true,
+      "span": 4,
+      "options": [
+        {
+          "id": 1,
+          "value": "TX",
+          "label": "TX"
+        },
+        {
+          "id": 2,
+          "value": "CA",
+          "label": "CA"
+        }
+      ],
+      "fieldOptions": {}
+    },
+    {
+      "id": 8,
+      "name": "zip",
+      "key": "zip",
+      "inputType": "text",
+      "active": true,
+      "span": 8,
+      "fieldOptions": {}
+    },
+    {
+      "id": 9,
+      "name": "Phone",
+      "key": "phone",
+      "inputType": "text",
+      "active": true,
+      "span": 12,
+      "fieldOptions": {}
+    },
+    {
+      "id": 10,
+      "key": "active",
+      "name": "Active",
+      "span": 4,
+      "active": true,
+      "inputType": "bool",
+      "noLabel": false
+    },
+    {
+      "id": 11,
+      "name": "Expire Date",
+      "key": "exp_date",
+      "span": 8,
+      "inputType": "date"
+    },
+    {
+      "id": 12,
+      "name": "Complexity",
+      "key": "complexity.value",
+      "inputType": "radio",
+      "initialValue": "0",
+      "options": [
+        {
+          "id": 1,
+          "value": "0",
+          "label": "Basic"
+        },
+        {
+          "id": 2,
+          "value": "1",
+          "label": "Complex"
+        }
+      ],
+      "fieldProps": {}
+    }
+  ]

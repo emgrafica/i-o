@@ -1,0 +1,19 @@
+{
+  "error": {
+    "catalogError": "Elnézést, belefutottunk egy problémába, hogy visszaszerezzük az eredményeit. Kérem, próbálkozzon újra.",
+    "filtersError": "Hibabetöltő szűrők",
+    "retry": "Újra"
+  },
+  "id": "8759acde-0e57-4c81-ace1-b6642fe55b88",
+  "sortBy": {
+    "nameAtoZ": "Név: A-Z",
+    "nameZtoA": "Név: Z-A",
+    "priceHighToLow": "Ár: Magastól az alacsonyig",
+    "priceLowToHigh": "Ár: Alacsonytól a magasig"
+  },
+  "unentitled": {
+    "contact": "Ha úgy gondolja, hogy ez hiba, kérjük, forduljon a Service Desk ügynökéhez.",
+    "goHome": "MENJ HAZA",
+    "noItems": "Az üzleti konfigurációs szabály alapján{{catalog}}<1>elem</1> nem érhető el <3>a{{name}}</3> számára."
+  }
+}

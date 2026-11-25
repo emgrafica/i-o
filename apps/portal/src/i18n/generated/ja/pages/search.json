@@ -1,0 +1,15 @@
+{
+  "id": "d7ab0c9d-b719-4d01-9323-ba6214c0961e",
+  "keywords": {
+    "placeholder": "ID 番号"
+  },
+  "searchBy": {
+    "criteria": {
+      "asset": "資産",
+      "user": "利用者"
+    },
+    "label": "検索方法"
+  },
+  "subtitle": "アセットとチケットの表示と行動",
+  "title": "捜索"
+}

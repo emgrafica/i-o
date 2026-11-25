@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "Uso del dispositivo",
+      "incidentNumber": "Número de incidente",
+      "message": "El dispositivo de reemplazo coincidirá con las especificaciones generales del dispositivo que se está reemplazando. Los reemplazos se realizarán con el inventario disponible para mitigar los costos. Gracias por su comprensión mientras trabajamos para cumplir con los objetivos financieros de la compañía.",
+      "reasonForRequest": "Motivo de la solicitud",
+      "reasonForRequestValue": "Retorno roto",
+      "reasonForReturn": "Motivo de la devolución",
+      "requestedFor": "Solicitado para",
+      "situationDetails": "Detalles de la situación"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "Descargar etiqueta"
+  },
+  "secureLocationRestriction": {
+    "message": "Restricción de ubicación segura"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "no pudo verificar la dirección tal como se ha introducido."
+    },
+    "label": "Estoy seguro de que la dirección que he introducido es correcta",
+    "message": "Actualice la dirección y vuelva a enviarla, o si está seguro de que la dirección introducida se puede entregar, marque la casilla de verificación para continuar con la dirección no verificada."
+  }
+}

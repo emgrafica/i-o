@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "Applications métier",
+  "businessFiltersLabel": "affaire",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "Articles de la Base de connaissances",
+  "noResults": "Désolé, aucun résultat ne correspond à votre terme de recherche.",
+  "punchOutModal": {
+    "action": "Obtenir de l’aide",
+    "message": "Le dépannage pour cette application métier est accessible en sortant du processus de création d'incident de i-o. Suivez le lien ci-dessous, qui ouvrira l'url externe de l'application pour que vous puissiez obtenir de l'aide.",
+    "title": "aux applications métier en dehors de i-o"
+  },
+  "showingEnglishResults": "Les résultats des applications métier sont actuellement disponibles en anglais seulement",
+  "showingResultsFor": "Affichage {{totalItems}} résultats pour \"{{keywords}}»",
+  "subtitle": "Accéder à des solutions en libre-service aux problèmes informatiques",
+  "title": "Obtenir de l’aide",
+  "viewAllLabel": "Afficher tout"
+}

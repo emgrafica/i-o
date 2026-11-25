@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "Aplicaciones empresariales",
+  "businessFiltersLabel": "negocio",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "Artículos de conocimientos",
+  "noResults": "Lo sentimos, ningún resultado coincide con el término de búsqueda.",
+  "punchOutModal": {
+    "action": "Obtener soporte técnico",
+    "message": "El soporte para esta aplicación empresarial está disponible fuera del proceso de creación de incidentes de i-o. Siga el siguiente enlace, que abrirá la url externa relacionada con la aplicación para que pueda continuar con la obtención de soporte.",
+    "title": "Soporte de aplicaciones empresariales fuera de i-o"
+  },
+  "showingEnglishResults": "Los resultados de la aplicación empresarial están actualmente disponibles solo en inglés",
+  "showingResultsFor": "Mostrando resultados {{totalItems}} para \"{{keywords}}\"",
+  "subtitle": "Acceso a soluciones de autoservicio para problemas de TI",
+  "title": "Obtener soporte técnico",
+  "viewAllLabel": "Ver todo"
+}

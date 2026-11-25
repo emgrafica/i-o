@@ -1,0 +1,16 @@
+{
+  "id": "d7ab0c9d-b719-4d01-9323-ba6214c0961e",
+
+  "title": "Search",
+  "subtitle": "View and act on assets & tickets",
+  "searchBy": {
+    "label": "Search by",
+    "criteria" : {
+      "user": "User",
+      "asset": "Asset"
+    }
+  },
+  "keywords": {
+    "placeholder": "ID number"
+  }
+}

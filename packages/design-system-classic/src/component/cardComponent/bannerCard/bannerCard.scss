@@ -1,0 +1,45 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+
+.market-place-support {
+  .link-support {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    padding: 9px 20px;
+    > span {
+      position: relative;
+      padding-right: 18px;
+    }
+    .icon-info {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      z-index: 2;
+      width: 12px;
+      margin-top: -6px;
+    }
+  }
+  .title-article {
+    width: 150px;
+    margin-bottom: 12px;
+    color: $color-purple-main;
+  }
+  .outer {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: $color-gray-container;
+    padding: 20px !important;
+  }
+  @media (min-width: 768px) {
+    .link-support {width: auto;}
+    .title-article {margin-bottom: 0;}
+  }
+  @media (min-width: 960px) {
+    .title-article {width: 180px;}
+    .outer {margin-top: 24px;}
+  }
+}

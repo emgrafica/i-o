@@ -1,0 +1,10 @@
+{
+  "browseButton": "Durchsuchen",
+  "clearSelectionButton": "Entfernen Sie alle Dateien",
+  "fileNotSupportedErrorMessage": "Dateityp wird nicht unterstützt",
+  "fileNotSupportedHelpMessage": "Bitte laden Sie Dateitypen aus einem der folgenden Punkte hoch:",
+  "fileSizeErrorMessage": "Datei überschreitet {{limit}}MB",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Ziehe eine Datei hier her oder",
+  "maxNumberOfFilesExceededMessage": "Dateien überschreiten die Grenze von {{limit}}"
+}

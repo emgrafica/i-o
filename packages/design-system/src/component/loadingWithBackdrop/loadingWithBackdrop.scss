@@ -1,0 +1,13 @@
+@import "../../styles/scss/variable.scss";
+
+.loading-with-backdrop-container{
+    z-index: 1000 !important;
+    flex-direction: column;
+    color: $color-white;
+    .loading-with-backdrop-circular{
+        color: $color-white;
+    }
+    .loading-message{
+        font-size: 1rem;
+    }
+}

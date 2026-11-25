@@ -1,0 +1,4 @@
+export const LANGUAGE = {
+  ENGLISH_UNITED_KINGDOM: 'en-UK',
+  ENGLISH_UNITED_STATES: 'en-US',
+};

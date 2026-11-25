@@ -1,0 +1,50 @@
+@import './../../styles/scss/variable.scss';
+
+.knowledge-support-bottom .row-style {
+  .ant-col.row-col-style {
+    padding: 84px 0 !important;
+  }
+  .btn-request {
+    margin-top: 10px;
+    border: 1px solid $color-purple-main;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 6.4px 20px;
+    span {
+      color: $color-purple-light-1;
+    }
+    img {
+      margin-left: 3px;
+    }
+  }
+  .icon-tool {
+    color: $color-purple-light-2;
+    font-size: $font-size-h2-desktop;
+  }
+  h4 {
+    font-size: $font-size-h4-desktop;
+    line-height: $line-height-h3-mobile;
+  }
+  span {
+    font-size: $font-size-body-desktop;
+    line-height: $line-height-h5-desktop;
+  }
+  .line {
+    border: 0.5px solid $color-gray-medium;
+  }
+  .description-knowledge-bottom {
+    min-height: 44px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .knowledge-support-bottom .row-style {
+    .ant-col.row-col-style {
+      padding: 26px 0 !important;
+    }
+  }
+  .description-knowledge-bottom {
+    min-height: unset;
+  }
+}

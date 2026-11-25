@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "Uso do dispositivo",
+      "incidentNumber": "Número de incidentes",
+      "message": "O dispositivo de substituição corresponderá às especificações gerais do dispositivo que está sendo substituído. As substituições serão feitas com inventário disponível para mitigar custos. Obrigado por sua compreensão enquanto trabalhamos para cumprir as metas financeiras da empresa.",
+      "reasonForRequest": "Motivo de solicitação",
+      "reasonForRequestValue": "Retorno Quebrado",
+      "reasonForReturn": "Razão para o retorno",
+      "requestedFor": "Solicitado para",
+      "situationDetails": "Detalhes da situação"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "Baixar rótulo"
+  },
+  "secureLocationRestriction": {
+    "message": "Restrição de localização segura"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "não foi possível verificar o endereço como inserido."
+    },
+    "label": "Estou confiante de que o endereço que eu digitei está correto",
+    "message": "Por favor, atualize o endereço e envie novamente, ou se você estiver confiante de que o endereço inserido é entregue, selecione a caixa de seleção para prosseguir com o endereço não verificado."
+  }
+}

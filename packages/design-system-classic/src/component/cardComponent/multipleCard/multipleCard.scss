@@ -1,0 +1,38 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/mixin.scss";
+.multiple-card {
+    height: 144px;
+    background: $color-white;
+    .eyebrow {
+        @include eyebrow;
+        color: $color-purple-main;
+        padding: $dls-s00-5 $dls-s02-5;
+        background: $color-purple-tint;
+        border-radius: 21px;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .eyebrow-outage {
+        color: $color-red;
+        background: $color-red-tint;
+    }
+    h5 {
+        @include max2lines;
+        margin: $dls-s03-0 0 0 0;
+        min-height: 44px;
+        color: $black;
+        word-break: break-word;
+    }
+    .vertical-middle {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .ant-card-body {
+        height: 100%;
+    }
+    .height-full {
+        height: 100%;
+    }
+}

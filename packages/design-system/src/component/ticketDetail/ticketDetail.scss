@@ -1,0 +1,75 @@
+@import '../../styles/scss/variable.scss';
+@import '../../styles/scss/mixin.scss';
+
+.ticket-detail-block {
+  .inner {padding: 25px 20px;}
+}
+
+.info-detail {
+  position: relative;
+  min-height: 300px;
+  .link-tracking {
+    @include buttonLink;
+    text-decoration: none;
+    color: $black;
+    &:hover {
+      cursor: pointer;
+      color: $color-gray-dark;
+      text-decoration: underline;
+    }
+  }
+  .isLoadingTicketDetail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    margin: -20px 0 0 -20px;
+  }
+  p {margin: 0;}
+  .pr-20 {padding-right: 20px;}
+  .title-ticket {
+    margin: 0;
+    padding-right: 40px;
+    @include heading4();
+    font-weight: 700;
+    color: $black;
+  }
+  .ttl-bold {
+    margin-top: 14px;
+    display: block;
+    font-weight: 700;
+    color: $black;
+  }
+  .value {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+    color: $black;
+    &.state {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    &.Closed {color: $color-gray-dark}
+    &.Active, &.Open {color: $color-green;}
+  }
+  .button-default-1 {
+    margin: 15px 10px 0 0;
+    border-radius: 5px;
+  }
+}
+.desc-ticket {
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-top: solid 1px $black;
+  border-bottom: solid 1px $black;
+  .ttl-col-desc, .value-info {
+    font-size: 13px;
+    color: $color-gray-dark;
+    line-height: 1.5;
+  }
+  .ttl-col-desc {
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

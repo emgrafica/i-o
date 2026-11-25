@@ -1,0 +1,71 @@
+{
+  "approvals": {
+    "status": "függő",
+    "title": "Jóváhagyások"
+  },
+  "comingSoon": "hamarosan...",
+  "computer": {
+    "action": "számítógép",
+    "subtitle": "Keresse meg a megfelelő katalógust a megrendelési kérelem benyújtásához.",
+    "title": "Kell kérni valamit?"
+  },
+  "error": {
+    "loadingError": "Hibabetöltés előnézete",
+    "quickLinksLoadingError": "Hiba betöltése Gyorshivatkozások",
+    "retry": "Újra"
+  },
+  "explore": {
+    "action": "Technológia megtekintése ",
+    "comingSoonMessage1": "Ahogy újjáépítjük platformunkat, fokozatosan felszabadítjuk az eszköz minden egyes összetevőjét, és <1>szeretnénk, ha korai visszajelzést kapna az új kialakításról.</1>",
+    "comingSoonMessage2": "Addig is továbbra is hozzáférhet az összes i-o funkcióhoz <1>a meglévő webhelyünkön</1>. Bízunk benne, hogy visszajelzést az új tapasztalat, hogy segítsen nekünk alakja i-o, hogy a legjobban megfeleljen az Ön igényeinek!",
+    "subtitle": "A hozzárendelt eszközök megtekintése és kezelése egy helyen",
+    "title": "A technológia kezelése",
+    "titleComingSoon": "Üdvözöljük az új i-o!"
+  },
+  "feedback": {
+    "action": "Oszd meg a véleményed",
+    "subtitle": "Tudassa csapatunkkal, hogy mi működik jól, és hogyan javíthatjuk i-o élményét",
+    "title": "Oszd meg a véleményed."
+  },
+  "feedbackButton": {
+    "label": "visszacsatolás"
+  },
+  "getAssistance": {
+    "action": "Támogatás kérése",
+    "subtitle": "Keress megoldást a gyakori problémákra vagy lépj kapcsolatba a {{helpdeskName}} élő chat-en keresztül!",
+    "title": "Technikai támogatás kérése"
+  },
+  "greeting": {
+    "afternoon": "Jó napot",
+    "evening": "Jó estét",
+    "morning": "Jó reggelt"
+  },
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+  "incidents": {
+    "status": "nyitott",
+    "title": "Incidensek"
+  },
+  "obo": {
+    "action": "Keres felhasználó",
+    "title": "Rendelés más felhasználó számára"
+  },
+  "orders": {
+    "action": "Kérések megtekintése",
+    "status": "nyitott",
+    "title": "előírás"
+  },
+  "quickLinks": {
+    "subtitle": "Hasznos GE-s oldalak elérése",
+    "title": "Gyors hivatkozások"
+  },
+  "search": {
+    "action": "Keresés most",
+    "title": "Keressen egy másik felhasználó eszközeit és jegyeit"
+  },
+  "title": "otthon",
+  "userLookup": {
+    "description": "Ez lehetővé teszi, hogy konkrét műveleteket hajtson végre egy kolléga nevében. Ennek során korlátozott hozzáférése lesz a webhelyhez.",
+    "impersonate": "Megszemélyesíteni",
+    "title": "Ki nevében szeretne eljárni?"
+  }
+}

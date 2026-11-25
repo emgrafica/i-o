@@ -1,0 +1,63 @@
+.io-footer {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.6);
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  &::before {
+    content: none;
+  }
+  .io-footer-container {
+    max-width: 85%;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 50px;
+    padding: 50px 0 80px 0;
+    .io-footer-copyright {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+    }
+    .io-footer-link {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        a {
+          color: rgba(0, 0, 0, 0.6);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          text-decoration: none;
+        }
+        li:not(:last-child)::after {
+          content: '|';
+          color: rgba(0, 0, 0, 0.6);
+          padding: 0 5px;
+        }
+        a:hover {
+          color: #000000;
+        }
+      }
+    }
+    
+    @media screen and (max-width: 767px) {
+      .io-footer-copyright {
+        text-align: center;
+      }
+      .io-footer-link {
+        margin-top: 16px;
+        ul {
+          justify-content: center;
+        }
+      }
+
+      .MuiGrid-item {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

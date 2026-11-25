@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "Anwendungsname:",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "({{count}} Datei angehängt)",
+      "fileCount_plural": "({{count}} angefügten Dateien)",
+      "maxSizeInfo": "Maximale Größe pro Datei: {{limit}}.0 MB",
+      "optionalLabel": "(Optional)",
+      "title": "Anhängen von Dateien"
+    },
+    "instructions": "Füge bis zu {{limit}} relevante Dokumente hinzu, die dem Support-Team bei der Lösung Deines Problems helfen."
+  },
+  "businessLabel": "Business:",
+  "descriptionSection": {
+    "details": {
+      "label": "Details zu Ihrem Problem angeben",
+      "placeholder": "Beschreiben Sie Ihr Problem im Detail, damit unsere Agenten so schnell wie möglich helfen können"
+    },
+    "header": "Beschreibung",
+    "title": {
+      "label": "Titel",
+      "placeholder": "Kurzbeschreibung"
+    }
+  },
+  "directions": "Füllen Sie das folgende Formular aus, um eine Anfrage für den Vorfall zu senden, damit das entsprechende Supportteam das Problem überprüfen und beheben kann.",
+  "formTitle": "Formular für Geschäftsanwendungsvorfälle",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "Erstellen des Vorfalls und Hochladen angehängter Dateien",
+  "loadingMessageWithoutFiles": "Erstellen Ihres Vorfalls",
+  "searchedTopicLabel": "Gesuchtes Thema:",
+  "subtitle": "Zugriff auf Self-Service-Lösungen für IT-Probleme",
+  "title": "Support erhalten"
+}

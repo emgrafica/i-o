@@ -1,0 +1,75 @@
+@import "./../../styles/scss/variable.scss";
+
+.knowledge-support-bottom {
+  background: $color-gray-container;
+}
+
+.container {
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.knowledge-articles {
+  // .col {
+  //   padding: 0 !important;
+  // }
+}
+
+.knowledge-page {
+  .pagination-custom {
+    margin: 55px 0 116px;
+    text-align: center;
+  }
+  .empty-content {
+    margin-bottom: 40px !important;
+  }
+
+  .label {
+    margin-top: $dls-s05-0;
+    margin-bottom: $dls-s02-0;
+    line-height: 22px;
+  }
+
+
+}
+
+
+.pagination {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 116px;
+  @media (max-width: 480px) {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .knowledge-articles .custom_container {
+    max-width: calc(100vw - 40px);
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .knowledge-articles {
+    .search-container {
+      min-height: 219px;
+    }
+    .custom_container {
+      max-width: 280px;
+      margin: auto;
+    }
+    .search-bar-group-button {
+      top: 0;
+      .button-back {
+        display: none;
+      }
+    }
+  }
+  .knowledge-page {
+    .pagination-custom {
+      margin: 24px 0 40px;
+    }
+  }
+}

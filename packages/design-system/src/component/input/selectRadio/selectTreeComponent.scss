@@ -1,0 +1,36 @@
+@import "../../../styles/scss/variable.scss";
+.select-tree-component {
+  .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label{
+    background-color: transparent !important;
+  }
+    .MuiTreeItem-iconContainer {
+        width: 0;
+    }
+    .tree-item-form-checkbox{
+      width: 100%;
+      .tree-node{
+        color: $color-purple-tone;
+      }
+    }
+    .parent-treee-item {
+        margin-left: 24px;
+        .MuiTreeItem-label {
+            padding-left: 10px;
+            &:hover{
+              background-color: transparent;
+            }
+        }
+        .MuiTreeItem-group {
+            margin-left: 0px;
+        }
+        .parent-treee-item-label {
+            display: block;
+            float: left;
+            padding: 6px 0;
+        }
+        .parent-treee-item-button {
+          float: right;
+          margin: 3px;
+      }
+    }
+}

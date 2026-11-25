@@ -1,0 +1,13 @@
+@import '../../styles/scss/variable.scss';
+
+.date-picker-block {
+  .text-date {width: 100%;}
+  label {
+    font-size: 22px;
+    color: $black;
+    + div {
+      margin-top: 30px;
+      padding: 0;
+    }
+  }
+}

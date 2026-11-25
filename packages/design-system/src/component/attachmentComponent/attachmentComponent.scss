@@ -1,0 +1,98 @@
+@import "../../styles//scss/variable.scss";
+
+.attachment {
+  overflow: hidden;
+  .list-content {
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 5px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+  .remove-icon {
+    margin-right: 12px;
+    width: 10px;
+    cursor: pointer;
+  }
+  svg {
+    color: #000000;
+    width: 20px;
+  }
+  button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    img {
+      width: 22px;
+    }
+  }
+  span.title {
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration-line: none;
+    margin-left: 8px;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // display: -webkit-box;
+    // -webkit-line-clamp: 1;
+    // -webkit-box-orient: vertical;
+    // max-width: 125px;
+    > span {
+      font-size: 12px;
+      color: $color-gray-dark;
+    }
+  }
+  .file-name {
+    margin: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration-line: none;
+    &:hover {
+      cursor: pointer;
+    }
+    .start {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      flex-shrink: 1;
+    }
+    .end {
+      white-space: nowrap;
+      flex-basis: content;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+  }
+}
+.attachment-fullwidth {
+  span.title {
+    max-width: 100%;
+  }
+}
+.MuiTooltip-popper {
+  z-index: 99999999999999 !important;
+}

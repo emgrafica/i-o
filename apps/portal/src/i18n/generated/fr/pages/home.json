@@ -1,0 +1,71 @@
+{
+  "approvals": {
+    "status": "en instance",
+    "title": "Approbations"
+  },
+  "comingSoon": "À venir...",
+  "computer": {
+    "action": "ordinateur",
+    "subtitle": "Trouvez le bon catalogue pour passer une demande de commande.",
+    "title": "Besoin de demander quelque chose?"
+  },
+  "error": {
+    "loadingError": "Erreur lors du chargement de l’aperçu",
+    "quickLinksLoadingError": "Erreur lors du chargement des liens rapides",
+    "retry": "réessayer"
+  },
+  "explore": {
+    "action": "Technologie View ",
+    "comingSoonMessage1": "Au fur et à mesure que nous reconstruisons notre plate-forme, nous publierons progressivement chaque composant de l’outil et nous <1>aimerions recevoir vos premiers commentaires sur la nouvelle conception.</1>",
+    "comingSoonMessage2": "En attendant, vous pouvez continuer à accéder à toutes les fonctionnalités i-o de <1>notre site existant.</1> Nous attendons avec impatience vos commentaires sur la nouvelle expérience pour nous aider à façonner i-o pour répondre au mieux à vos besoins!",
+    "subtitle": "Afficher et gérer les ressources qui vous sont attribuées en un seul endroit",
+    "title": "Gérez votre technologie",
+    "titleComingSoon": "Bienvenue dans le nouvel espace i-o !"
+  },
+  "feedback": {
+    "action": "Partagez vos commentaires",
+    "subtitle": "Faites savoir à notre équipe ce qui fonctionne bien et ce qui pourrait améliorer votre expérience i-o",
+    "title": "Partagez vos commentaires"
+  },
+  "feedbackButton": {
+    "label": "rétroaction"
+  },
+  "getAssistance": {
+    "action": "OBTENIR DE L’AIDE",
+    "subtitle": "Trouvez des solutions aux problèmes courants ou contactez le {{helpdeskName}} pour obtenir une assistance en direct",
+    "title": "Obtenir un support technique"
+  },
+  "greeting": {
+    "afternoon": "Bonne après-midi",
+    "evening": "Bonsoir",
+    "morning": "Bonjour"
+  },
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+  "incidents": {
+    "status": "Ouvert",
+    "title": "Incidents"
+  },
+  "obo": {
+    "action": "Utilisateur de recherche",
+    "title": "Commande pour un autre utilisateur"
+  },
+  "orders": {
+    "action": "Afficher les demandes",
+    "status": "Ouvert",
+    "title": "ordres"
+  },
+  "quickLinks": {
+    "subtitle": "Accéder aux liens internes utiles de l'entreprise",
+    "title": "Accès directs"
+  },
+  "search": {
+    "action": "Rechercher maintenant",
+    "title": "Recherchez les matériels et les demandes d’un autre utilisateur"
+  },
+  "title": "domicile",
+  "userLookup": {
+    "description": "Cela vous permettra d’effectuer des actions spécifiques au nom d’un collègue. Ce faisant, vous aurez un accès limité au site.",
+    "impersonate": "Usurper",
+    "title": "Au nom de qui aimeriez-vous agir?"
+  }
+}

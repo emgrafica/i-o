@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "应用程序名称",
+  "backLink": "返回以获得支持",
+  "businessLabel": "商",
+  "filesAlertMessageLong": "由于请求的定时，文件未能上传。请重试。",
+  "filesAlertMessageLong_plural": "由于请求的定时，文件未能上传。请重试。",
+  "filesAlertMessageShort": "文件未能上传",
+  "filesAlertMessageShort_plural": "文件未能上传",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "您的问题的详细信息",
+  "incidentTitleLabel": "标题",
+  "pageAlertMessage": "事件成功创建！您的事件编号为 {{tenantDisplayId}}",
+  "retryAllButton": "重试所有",
+  "retryButton": "重试",
+  "subtitle": "访问 IT 问题的自助解决方案",
+  "title": "获取支持",
+  "uploadedFilesLabel": "上传文件"
+}

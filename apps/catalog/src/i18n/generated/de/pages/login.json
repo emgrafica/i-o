@@ -1,0 +1,10 @@
+{
+  "email": "E-Mail",
+  "emailPlaceholder": "email@email.com",
+  "id": "ba8017df-0366-42c7-b728-5f0b70bf6c91",
+  "invalidDomain": "Wir erkennen Ihre Firmen-E-Mail nicht. Wenden Sie sich an Ihren Systemadministrator",
+  "invalidEmail": "Geben Sie eine gültige E-Mail-Adresse ein",
+  "login": "einloggen",
+  "subtitle": "Geben Sie Unten Ihre Daten ein",
+  "title": "Anmelden"
+}

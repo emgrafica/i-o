@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "デバイスの使用状況",
+      "incidentNumber": "インシデント番号",
+      "message": "交換装置は交換する装置の一般仕様と一致します。コストを軽減するために、利用可能な在庫で交換が行われます。会社の財務目標達成に向けてご理解いただき、ありがとうございます。",
+      "reasonForRequest": "リクエストの理由",
+      "reasonForRequestValue": "壊れたリターン",
+      "reasonForReturn": "返品の理由",
+      "requestedFor": "要求された対象",
+      "situationDetails": "シチュエーション詳細"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "ダウンロードラベル"
+  },
+  "secureLocationRestriction": {
+    "message": "安全な場所の制限"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "入力されたアドレスを確認できませんでした。"
+    },
+    "label": "入力したアドレスが正しいと確信しています",
+    "message": "住所を更新して再度送信するか、入力したアドレスが配信可能であると確信している場合は、チェックボックスをオンにして未確認のアドレスを使用してください。"
+  }
+}

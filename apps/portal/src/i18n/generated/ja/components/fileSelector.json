@@ -1,0 +1,10 @@
+{
+  "browseButton": "ブラウズ",
+  "clearSelectionButton": "すべてのファイルを削除する",
+  "fileNotSupportedErrorMessage": "ファイルの種類はサポートされていません",
+  "fileNotSupportedHelpMessage": "次のいずれかのファイルタイプをアップロードしてください。",
+  "fileSizeErrorMessage": "ファイルが {{limit}}MB を超えています",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "ファイルをここにドラッグするか、",
+  "maxNumberOfFilesExceededMessage": "ファイルが{{limit}}の制限を超えています"
+}

@@ -1,0 +1,29 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+
+.chip{
+  .eyebrow {
+    @include eyebrow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: auto;
+    height: $dls-s03-5;
+    color: $color-purple-main;
+    padding: $dls-s00-5 $dls-s02-0;
+    font-size: $font-size-eyebrow-desktop;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: $letter-spacing-eyebrow-desktop;
+    border-radius: 21px;
+    background: $color-purple-tint;
+    font-family: $font-opensans;
+    font-style: normal;
+    line-height: $line-height-eyebrow-desktop;
+    left: $dls-s03-0;
+    top: $dls-s02-5;
+
+  }
+}

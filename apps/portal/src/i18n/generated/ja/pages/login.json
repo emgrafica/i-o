@@ -1,0 +1,10 @@
+{
+  "email": "電子メール",
+  "emailPlaceholder": "email@email.com",
+  "id": "ba8017df-0366-42c7-b728-5f0b70bf6c91",
+  "invalidDomain": "会社のメールは認識できません。システム管理者に問い合わせてください",
+  "invalidEmail": "有効な電子メール アドレスを入力してください",
+  "login": "ログイン",
+  "subtitle": "以下に詳細を入力してください",
+  "title": "ログイン"
+}

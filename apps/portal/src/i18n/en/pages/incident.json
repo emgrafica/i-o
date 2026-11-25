@@ -1,0 +1,40 @@
+{
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+
+  "title": "Get Support",
+  "subtitle": "Access self-service solutions to IT issues",
+
+  "formTitle": "Business Application Incident Form",
+
+  "searchedTopicLabel": "Searched Topic:",
+  "applicationNameLabel": "Application Name:",
+  "businessLabel": "Business:",
+
+  "directions": "Fill out the below form to submit an incident request for the appropriate support team to review and work to resolve the issue.",
+
+  "loadingMessageWithFiles":"Creating your incident and uploading attached files",
+  "loadingMessageWithoutFiles": "Creating your incident",
+
+  "descriptionSection": {
+    "header": "Description",
+    "title": {
+      "label": "Title",
+      "placeholder": "Short Description"
+    },
+    "details": {
+      "label": "Provide details for your issue",
+      "placeholder": "Describe your issue in detail so that our agents can help as quickly as possible"
+    }
+  },
+
+  "attachFilesSection": {
+    "header": {
+      "title": "Attach Files",
+      "optionalLabel": "(Optional)",
+      "fileCount": "({{count}} File Attached)",
+      "fileCount_plural": "({{count}} Files Attached)",
+      "maxSizeInfo": "Max Size Per File: {{limit}}.0 MB"
+    },
+    "instructions": "Attach up to {{limit}} relevant documents that will aid support agents in resolving your issue."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "approvals": {
+    "status": "In Attesa",
+    "title": "Approvazioni"
+  },
+  "comingSoon": "Prossimamente...",
+  "computer": {
+    "action": "computer",
+    "subtitle": "Trova il catalogo giusto per effettuare una richiesta d'ordine.",
+    "title": "Hai bisogno di richiedere qualcosa?"
+  },
+  "error": {
+    "loadingError": "Errore durante il caricamento dell'anteprima",
+    "quickLinksLoadingError": "Errore durante il caricamento dei collegamenti rapidi",
+    "retry": "ripetere"
+  },
+  "explore": {
+    "action": "Visualizza tecnologia ",
+    "comingSoonMessage1": "Mentre ricostruiamo la nostra piattaforma, rilasceremo in modo incrementale ogni componente dello strumento e ci <1>piacerebbe il tuo feedback iniziale sul nuovo design</1>.",
+    "comingSoonMessage2": "Nel frattempo, puoi continuare ad accedere a tutte le funzionalità i-o nel <1>nostro sito esistente.</1> Non vediamo l'ora di ricevere il tuo feedback sulla nuova esperienza per aiutarci a plasmare i-o per soddisfare al meglio le tue esigenze!",
+    "subtitle": "Visualizzare e gestire le risorse assegnate in un'unica posizione",
+    "title": "Gestire la tecnologia",
+    "titleComingSoon": "Benvenuti nel nuovo i-o!"
+  },
+  "feedback": {
+    "action": "Condividi commenti e suggerimenti",
+    "subtitle": "Fai sapere al nostro team cosa funziona bene e come possiamo migliorare la tua esperienza i-o",
+    "title": "Condividi il tuo feedback"
+  },
+  "feedbackButton": {
+    "label": "Valutazione"
+  },
+  "getAssistance": {
+    "action": "Richiedi supporto",
+    "subtitle": "Cerca le soluzioni ai problemi più comuni o contatta direttamente il {{helpdeskName}} in tempo reale",
+    "title": "Richiedi supporto tecnico"
+  },
+  "greeting": {
+    "afternoon": "Buon pomeriggio",
+    "evening": "Buona sera",
+    "morning": "Buongiorno"
+  },
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+  "incidents": {
+    "status": "Aperto",
+    "title": "Incidenti"
+  },
+  "obo": {
+    "action": "Utente di ricerca",
+    "title": "Ordina per conto di un altro utente"
+  },
+  "orders": {
+    "action": "Visualizza richieste",
+    "status": "Aperto",
+    "title": "Ordini"
+  },
+  "quickLinks": {
+    "subtitle": "Accedere a utili collegamenti aziendali interni",
+    "title": "Collegamenti rapidi"
+  },
+  "search": {
+    "action": "Cerca ora",
+    "title": "Cerca asset e ticket di un altro utente"
+  },
+  "title": "Home",
+  "userLookup": {
+    "description": "Ciò ti consentirà di eseguire azioni specifiche per conto di un collega. In questo modo avrai accesso limitato al sito.",
+    "impersonate": "impersonare",
+    "title": "Di chi vorresti agire per conto?"
+  }
+}

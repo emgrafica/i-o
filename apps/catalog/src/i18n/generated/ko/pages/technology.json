@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "장치가 고장났습니다.",
+    "editUsage": "사용 법 편집",
+    "issuedDate": "발급",
+    "moreActions": "더 많은 작업",
+    "reassign": "재할당",
+    "refresh": "리프레쉬",
+    "refreshEligibleBadge": "적격 한 새로 고침",
+    "refreshEligibleLabel": "적격 한 새로 고침",
+    "registerOwnership": "소유권 등록",
+    "reportBroken": "보고서 깨진",
+    "reportMissing": "누락 된 보고",
+    "reportOwnershipError": "소유권 오류 보고",
+    "return": "돌아오다",
+    "usage": "사용법",
+    "wipeComputer": "컴퓨터 지우기"
+  },
+  "checkout": {
+    "agreementTitle": "다음 메시지를 읽어보십시오.",
+    "cancelModal": {
+      "content": "주문을 취소하면 입력이 취소되고 기술 페이지로 돌아갑니다.",
+      "title": "주문 취소 확인"
+    },
+    "failureMessage": "제출이 실패했습니다. 다시 시도하십시오.",
+    "leaveModal": {
+      "content": "나중에 반환 프로세스를 계속하려면 관리 메뉴로 돌아갑니다. 계속 하시겠습니까?",
+      "title": "반환 프로세스를 떠나는 경우"
+    },
+    "orderDetails": {
+      "asset": "반환할 장치",
+      "header": "주문 세부 정보",
+      "reason": "반품 이유"
+    },
+    "subtitle": "주문 검토 및 제출",
+    "title": "계산대"
+  },
+  "editUsage": {
+    "buttonLabel": "사용 유형 선택",
+    "header": "사용 법 편집",
+    "label": "장치 사용",
+    "update": "업데이트"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "현재 할당 된 기술이 없습니다, 나중에 다시 확인하시기 바랍니다.",
+  "orderConfirmation": {
+    "subtitle": "주문 세부 정보 검토",
+    "title": "주문 확인"
+  },
+  "reassign": {
+    "header": "장치 재할당",
+    "ineligibleUser": "사용자가 찾았지만 자격이 없습니다.",
+    "lookupLabel": "이 컴퓨터를 다시 할당하려면 동료를 찾아",
+    "p1": "컴퓨터는 같은 국가에서만 다시 할당할 수 있습니다.",
+    "p2": "사용자에게 할당된 새 새는 동일한 비즈니스 내에 있어야 합니다.",
+    "p3": "사용자에게 할당된 새 새 기능은 i-o 컴퓨터 기능을 사용할 수 있어야 합니다.",
+    "title": "컴퓨터 재할당은 비즈니스 정책 및 다음 규칙에 따라 활성화됩니다.",
+    "warning": "이 컴퓨터는 제출 직후 {{assignedTo}} 다시 할당됩니다."
+  },
+  "recommendAsset": {
+    "altImage": "장치 추천"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "나는 적극적으로 나에게 할당 된 상태를 유지하기 위해이 컴퓨터를 필요로 확인.",
+    "alertMessage": {
+      "contactServiceDesk": "자세한 내용은 서비스 데스크에 문의하십시오.",
+      "reportComputerMissing": "컴퓨터가 누락된 상태 보고",
+      "reportOwnershipError": "소유권 오류 신고 또는",
+      "title": "컴퓨터가 아니거나 더 이상 소유하지?"
+    },
+    "header": "소유권 등록",
+    "instructions": "아래 의 란을 확인하고 이 컴퓨터가 귀하의 소유에 있는지 확인하기 위해 등록을 제출하고 적극적으로 사용하고 있습니다. 이렇게 하면 컴퓨터가 올바르게 할당된 상태로 유지됩니다."
+  },
+  "replace": {
+    "businessRecommended": "비즈니스 권장 장치",
+    "header": "장치 새로 고침",
+    "messageWithRecommended": "비즈니스 권장 장치로 계속 진행하거나 카탈로그를 진행하여 다른 교체 장치를 선택합니다.",
+    "messageWithoutRecommended": "카탈로그를 진행하여 교체 장치를 선택합니다.",
+    "toCatalog": "카탈로그로 진행"
+  },
+  "reportBroken": {
+    "agreementMessage": "문제 해결을 통해 OEM 디스패치가 배제되고 교체 장치가 필요한지 확인합니다.",
+    "details": {
+      "label": "컴퓨터 문제에 대한 자세한 정보를 제공하십시오.",
+      "placeholder": ""
+    },
+    "header": "깨진 장치 보고",
+    "incident": {
+      "label": "관련 인시던트 번호",
+      "placeholder": "인시던트 번호"
+    },
+    "p1": "교체 장치에 대한 요청은 OEM의 수리가 가능한 솔루션으로 배제된 후에만 제출되어야 합니다. 진행을 통해 OEM 디스패치 프로세스를 준수했으며 이 경우 교체 장치가 필요한지 확인합니다. ",
+    "p2": "관련 컴퓨터의 하드웨어 복구 인시던트에 할당된 할당 그룹의 구성원인지 확인합니다. 다른 모든 주문은 거절됩니다.",
+    "title": "다음 메시지를 읽어보십시오."
+  },
+  "reportMissing": {
+    "alert": "이 컴퓨터를 누락된 것으로 보고하면 비즈니스 지원 팀에 장치를 찾아보라고 알립니다. 지원 팀이 조사를 마칠 때까지 컴퓨터는 사용자에게 할당된 상태로 유지됩니다.",
+    "caseNumber": {
+      "label": "GE 보안 iReport 사례 번호",
+      "placeholder": "예: 900703471"
+    },
+    "details": {
+      "label": "자세한 내용은",
+      "placeholder": ""
+    },
+    "geSecurityLink": "GE 보안 검색대 방문.",
+    "header": "누락된 장치 보고",
+    "p1": "먼저 GE 보안에서 누락된 장치를 보고한 다음 iReport 사례 번호로 이 작업으로 돌아갑니다. ",
+    "replacementAlert": "누락된 교체 주문을 계속 진행하면 비즈니스 지원 팀에 누락된 컴퓨터를 찾아보라고 알립니다.",
+    "replacementComputer": "교체 컴퓨터가 필요하십니까?"
+  },
+  "reportOwnershipError": {
+    "alert": "이 작업을 수행하면 해당 팀에 인시던트를 만들어 문제를 조사합니다. 지원 조사가 완료될 때까지 컴퓨터가 할당된 상태로 유지됩니다.",
+    "details": "추가 세부 정보",
+    "header": "소유권 오류 보고"
+  },
+  "return": {
+    "deviceBroken": "장치가 고장났습니다.",
+    "header": "반환 장치",
+    "notRequired": "더 이상 필요하지 않습니다.",
+    "other": "다른",
+    "reasonDetails": "자세한 내용은",
+    "reasonForReturn": "반품 이유",
+    "userLeft": "회사를 떠난 사용자에게 할당"
+  },
+  "submission": {
+    "failed": "제출이 실패했습니다. 다시 시도하십시오.",
+    "succeeded": "작업이 성공적으로 제출되었습니다."
+  },
+  "subtitle": "할당된 기술 보기 및 관리",
+  "title": "기술",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "나는 이해하고 인정합니다.",
+      "eraseDriveContentBodyOne": "그런 다음 하드 드라이브에서 데이터를 안전하게 지우는 소프트웨어 패키지를 설치합니다. 소프트웨어가 개구부에 대한 성공적인 사전 검사를 수행한 후 프로세스를 시작하게 되며, 이 프로세스는 1시간 이상 걸릴 수 있습니다. 데이터 지우기 프로세스에 대한 단계별 지침은 <1>이 문서를</1> 참조하십시오.",
+      "eraseDriveContentBodyTwo": "소프트웨어 패키지 내에서 시작된 이 프로세스는 되돌릴 수 없으며 파일을 복구할 수 없습니다. 위에 나열된 컴퓨터에 있는 동안 다운로드한 소프트웨어 패키지를 연 후에만 <1>프로세스 시작을</1> 클릭합니다. 프로세스가 완료되면 기기가 선적할 준비가 됩니다.",
+      "initiate": "다운로드",
+      "thisArticle": "이 문서 ",
+      "title": "하드 드라이브 지침 지우기"
+    },
+    "header": "컴퓨터 지우기",
+    "saveRequiredContent": "비즈니스 정보를 보호하려면 선적 전에 하드 드라이브를 안전하게 지워야 합니다. 자조 유틸리티 <1>데이터 전송 가이드는</1> 지우기 전에 하드 드라이브에서 필요한 파일을 제거하는 데 도움을 줄 수 있습니다.",
+    "title": "필요한 정보 저장"
+  }
+}

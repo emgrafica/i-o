@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "Utilisation de l’appareil",
+      "incidentNumber": "Numéro d’incident",
+      "message": "L’appareil de remplacement correspondra aux spécifications générales de l’appareil remplacé. Les remplacements seront effectués avec l’inventaire disponible pour atténuer les coûts. Nous vous remercions de votre compréhension alors que nous travaillons à l’atteinte des objectifs financiers de l’entreprise.",
+      "reasonForRequest": "Motif de la demande",
+      "reasonForRequestValue": "Retour cassé",
+      "reasonForReturn": "Raison du retour",
+      "requestedFor": "Demandé pour",
+      "situationDetails": "Détails de la situation"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "Télécharger l’étiquette"
+  },
+  "secureLocationRestriction": {
+    "message": "Restriction d’emplacement sécurisé"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "n’a pas pu vérifier l’adresse telle qu’elle a été saisie."
+    },
+    "label": "Je suis sûr que l’adresse que j’ai saisie est correcte",
+    "message": "Veuillez mettre à jour l’adresse et la soumettre à nouveau, ou si vous êtes sûr que l’adresse saisie est livrable, cochez la case pour continuer avec l’adresse non vérifiée."
+  }
+}

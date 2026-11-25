@@ -1,0 +1,52 @@
+@import "../../../styles//scss/variable.scss";
+@import "../../../styles//scss/fonts.scss";
+
+.unavailable-container {
+  min-height: 336px;
+
+  .title-shadow {
+    /* Label */
+    width: 1166px;
+    height: 344px;
+    top: 69px;
+    left: -33px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-size: 304px;
+    line-height: 64px;
+    /* or 21% */
+    justify-content: flex-start;
+  }
+}
+
+.card-503 {
+  position: absolute;
+  font-family: $font-opensans-regular;
+  padding: 66px 15px;
+  max-width: 440px;
+  text-align: center;
+  max-height: 212px;
+}
+//Phone display
+@media (max-width: 480px) {
+  .unavailable-container{
+    min-height: 273px !important;
+    .title-shadow {
+      width: 404px;
+      height: 273px;
+      font-size: 200px;
+      top: 55px;
+      left: -24px;     
+      letter-spacing: 12px;
+    }
+    
+  }
+  .card-503 {
+    padding: 18px 24px;
+    max-width: 320px;
+    height: 183px;
+    br{
+        display: none;
+    }
+  }
+}

@@ -1,0 +1,230 @@
+@import "./variable.scss";
+
+// Breakpoints up 960px
+@mixin media-breakpoint-up-typography {
+  @media (min-width: $typography-min-breakpoint) {
+    @content;
+  }
+}
+// Breakpoints from 608px to 769px
+@mixin media-breakpoint-mobile-ipad {
+  @media (min-width: $sm-1-breakpoints) and (max-width: $md-1-breakpoints) {
+    @content;
+  }
+}
+// Breakpoints up 769px
+@mixin media-breakpoint-medium-desktop {
+  @media (min-width: $md-1-breakpoints) {
+    @content;
+  }
+}
+// Breakpoints from 769px to 959px
+@mixin media-breakpoint-medium-desktop-1 {
+  @media (min-width: $md-1-breakpoints) and (max-width: $md-2-breakpoints) {
+    @content;
+  }
+}
+// Breakpoints from 960px to 1023px
+@mixin media-breakpoint-medium-desktop-2 {
+  @media (min-width: $lg-1-breakpoints) and (max-width: $lg-2-breakpoints) {
+    @content;
+  }
+}
+// Breakpoints up 1024px
+@mixin media-breakpoint-desktop {
+  @media (min-width: $xlg-breakpoints) {
+    @content;
+  }
+}
+// Typography
+%heading1-shared {
+  font-family: $font-gtwalsheim_pro_bold;
+  font-size: $font-size-h1-mobile;
+  line-height: $line-height-h1-mobile;
+  letter-spacing: $letter-spacing-h1-mobile;
+  font-weight: normal;
+}
+
+@mixin heading1() {
+  @extend %heading1-shared;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-h1-desktop;
+    line-height: $line-height-h1-desktop;
+    letter-spacing: $letter-spacing-h1-desktop;
+  }
+}
+
+%heading2-shared {
+  font-family: $font-gtwalsheim_pro_bold;
+  font-size: $font-size-h2-mobile;
+  line-height: $line-height-h2-mobile;
+  letter-spacing: $letter-spacing-h2-mobile;
+  font-weight: normal;
+}
+
+@mixin heading2() {
+  @extend %heading2-shared;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-h2-desktop;
+    line-height: $line-height-h2-desktop;
+    letter-spacing: $letter-spacing-h2-desktop;
+  }
+}
+
+%heading3-shared {
+  font-family: $font-gtwalsheim_pro_medium;
+  font-size: $font-size-h3-mobile;
+  line-height: $line-height-h3-mobile;
+  letter-spacing: $letter-spacing-h3-mobile;
+  font-weight: normal;
+}
+
+@mixin heading3() {
+  @extend %heading3-shared;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-h3-desktop;
+    line-height: $line-height-h3-desktop;
+    letter-spacing: $letter-spacing-h3-desktop;
+  }
+}
+
+%heading4-shared {
+  font-family: $font-gtwalsheim_pro_medium;
+  font-size: $font-size-h4-mobile;
+  line-height: $line-height-h4-mobile;
+  font-weight: normal;
+}
+
+@mixin heading4() {
+  @extend %heading4-shared;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-h4-desktop;
+    line-height: $line-height-h4-desktop;
+  }
+}
+
+%heading5-shared {
+  font-family: $font-gtwalsheim_pro_medium;
+  font-size: $font-size-h5-mobile;
+  line-height: $line-height-h5-mobile;
+  font-weight: normal;
+}
+
+@mixin heading5() {
+  @extend %heading5-shared;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-h5-desktop;
+    line-height: $line-height-h5-desktop;
+  }
+}
+
+%heading6-shared {
+  font-family: $font-gtwalsheim_pro_medium;
+  font-size: $font-size-h6-mobile;
+  line-height: $line-height-h6-mobile;
+  font-weight: normal;
+}
+
+@mixin heading6() {
+  @extend %heading6-shared;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-h6-desktop;
+    line-height: $line-height-h6-desktop;
+  }
+}
+
+%eyebrow-shared {
+  font-family: $font-opensans-bold;
+  font-size: $font-size-eyebrow-mobile;
+  letter-spacing: $letter-spacing-eyebrow-mobile;
+  font-weight: normal;
+}
+
+@mixin eyebrow() {
+  @extend %eyebrow-shared;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-eyebrow-desktop;
+    letter-spacing: $letter-spacing-eyebrow-desktop;
+  }
+}
+
+%body-shared {
+  font-size: $font-size-body-mobile;
+  line-height: $line-height-body-mobile;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-body-desktop;
+    line-height: $line-height-body-desktop;
+  }
+}
+
+@mixin bodyRegular() {
+  @extend %body-shared;
+  font-family: $font-opensans-regular;
+}
+
+@mixin bodySemibold() {
+  @extend %body-shared;
+  font-family: $font-opensans-semi-bold;
+}
+
+@mixin bodyBold() {
+  @extend %body-shared;
+  font-family: $font-opensans-bold;
+}
+
+%caption-shared {
+  font-size: $font-size-caption-mobile;
+  line-height: $line-height-caption-mobile;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-caption-desktop;
+    line-height: $line-height-caption-desktop;
+  }
+}
+
+@mixin captionRegular() {
+  @extend %caption-shared;
+  font-family: $font-opensans-regular;
+}
+
+@mixin captionSemibold() {
+  @extend %caption-shared;
+  font-family: $font-opensans-semi-bold;
+}
+
+@mixin buttonLink() {
+  font-family: $font-opensans-semi-bold;
+  font-size: $font-size-buttonLink-mobile;
+  line-height: $line-height-buttonLink-mobile;
+  font-weight: normal;
+  @include media-breakpoint-up-typography {
+    font-size: $font-size-buttonLink-desktop;
+    line-height: $line-height-buttonLink-desktop;
+  }
+}
+
+@mixin max2lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+// button style background color
+@mixin button-default-1 {
+  height: 40px;
+  background-color: $color-purple-light-1 !important;
+  border: solid 1px $color-purple-light-1;
+  border-radius: 100px;
+  color: $color-white !important;
+  font-weight: normal;
+  font-size: $font-size-buttonLink-desktop !important;
+  font-family: $font-opensans-semi-bold;
+  line-height: $line-height-buttonLink-desktop !important;
+  @media screen and (min-width: 1024px) {
+    &:hover {
+      background-color: $color-purple-main !important;
+      border-color: $color-purple-main;
+    }
+  }
+}

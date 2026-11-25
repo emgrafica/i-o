@@ -1,0 +1,11 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.devices-list {
+    .heading4 {
+        @include heading4;
+        padding: 63px 0 7px;
+        margin: 0;
+    }
+    padding-bottom: 40px;
+}

@@ -1,0 +1,53 @@
+{
+  "comingSoon": {
+    "title": "hamarosan!"
+  },
+  "id": "40bc9c50-1176-4162-bc49-0f75f775a4c4",
+  "showWipAccessories": {
+    "content1": "Ezen a katalóguson keresztül megtekintheti, összehasonlíthatja és megrendelheti az elemeket, hogy támogassa az egyéni termelékenységi és együttműködési igényeket.",
+    "content2": "Szüksége van egy kiegészítőre? <1>Látogasson el a meglévő i-o kiegészítők katalógusába</1>.",
+    "subtitle": "A kiegészítő rendelés már majdnem kész!",
+    "title": "hamarosan!"
+  },
+  "showWipApprovals": {
+    "content1": "Ezen az oldalon keresztül a függőben lévő megrendeléseket és az archivált jóváhagyások megtekintését hajthatja lehetővé, az újratervezett kártya megjelenésével, amely megadja a szükséges kontextust a fontos jóváhagyási döntések meghozatalához.",
+    "content2": "Most kell jóváhagynia egy nyílt megrendelést? <1>Látogasson el a meglévő i-o Saját tevékenységek.</1>",
+    "subtitle": "A jóváhagyások majdnem készen állnak!",
+    "title": "hamarosan!"
+  },
+  "showWipCollaboration": {
+    "content1": "További információ Csapatok",
+    "content2": "Jelentkezés Csapatok edzésére",
+    "description": "A GE a közelmúltban mutatta be a Microsoft Teamst, mint a következő generációs együttműködési platformját. A csapatok számos hatékonyságnövelő eszközt tartalmaznak, a csevegéstől a videokonferenciákon át a hatékony alkalmazásintegrációkig.",
+    "downloadTitle": "Csapatok letöltése",
+    "forMac": "Mac esetében",
+    "forWindows": "Windows rendszerhez",
+    "title": "együttműködés"
+  },
+  "showWipComputers": {
+    "content1": "Ezen a katalóguson keresztül megtekintheti, összehasonlíthatja és megrendelheti a megfelelő számítógépet, hogy segítsen a munka elvégzésében. Új katalógusunk tisztább termékmegjelenítéssel, gazdagabb szűréssel és jobb rendelési folyamattal rendelkezik, hogy segítsen a megalapozott döntés meghozatalában.",
+    "content2": "Szüksége van egy számítógépre? <1>Látogasson el a meglévő i-o számítógépek katalógusába.</1>",
+    "subtitle": "A számítógépes rendelés már majdnem kész!",
+    "title": "hamarosan!"
+  },
+  "showWipGcom": {
+    "content1": "Ezen a katalóguson keresztül megtekintheti, összehasonlíthatja és megrendelheti a megfelelő GCom szolgáltatást az együttműködés optimalizálásához. Új katalógusunk tisztább rendelési folyamattal rendelkezik, hogy segítsen megalapozott döntést hozni.",
+    "content2": "Szüksége van most a GCom-ra? <1>Látogasson el a meglévő i-o együttműködési katalógusba.</1>",
+    "subtitle": "GCom rendelés majdnem kész!"
+  },
+  "showWipMobility": {
+    "description": "Ezen a katalóguson keresztül megtekintheti, összehasonlíthatja és megrendelheti a megfelelő mobileszközt, hogy segítsen a munka elvégzésében. Új katalógusunk tisztább termékmegjelenítéssel, gazdagabb szűréssel és jobb rendelési folyamattal rendelkezik, hogy segítsen a megalapozott döntés meghozatalában.",
+    "redirect": "Szüksége van a mobilitásra? ",
+    "redirectLink": "Látogasson el a meglévő i-o mobilitási katalógusba.",
+    "subtitle": "A mobilitás megrendelése majdnem kész!"
+  },
+  "showWipSoftware": {
+    "description": "Ezen a katalóguson keresztül megtekintheti, összehasonlíthatja és megrendelheti a megfelelő szoftvercímeket a munka elvégzéséhez. Új katalógusunk intuitívabb keresési folyamattal, gazdagabb szűréssel és jobb rendelési folyamattal rendelkezik, hogy segítsen megalapozott döntést hozni.",
+    "redirect": "Szoftverre van szüksége? ",
+    "redirectLink": "Látogasson el a meglévő i-o szoftverkatalógusba.",
+    "subtitle": "A szoftverrendelés már majdnem kész!"
+  },
+  "showWipTopNav": {
+    "title": "hamarosan"
+  }
+}

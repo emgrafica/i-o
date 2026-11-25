@@ -1,0 +1,12 @@
+{
+  "id": "c2c1ca7e-82c1-4e8b-9301-f36ed8ad2cb3",
+
+  "title": "Accessory and Computers ordering is now live!",
+  "firstParagraph": "Our newest release introduced the Accessory and Computer catalogs and associated order processes. This release includes:",
+  "bullet1": "A modernized look and additional functionality to the i-o order flows you are familiar with",
+  "bullet2": "Consistency between old and new i-o, where users will see the same Accessory and Computer catalog items, orders, and pending approvals in each system",
+  "bullet3": "Orders display and management on the Orders & Incidents page",
+  "bullet4": "Approver view to act on orders pending your action",
+  "bullet5": "Ability to order on behalf of another user by engaging the \"ORDER NOW\" user lookup tool from the home page",
+  "closeButton": "Let’s go!"
+}

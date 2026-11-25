@@ -1,0 +1,19 @@
+{
+  "error": {
+    "catalogError": "Es tut uns leid, wir sind auf ein Problem gestoßen, bei dem Ihre Ergebnisse abgerufen wurden. Bitte versuchen Sie es erneut.",
+    "filtersError": "Fehler beim Laden von Filtern",
+    "retry": "Wiederholen"
+  },
+  "id": "8759acde-0e57-4c81-ace1-b6642fe55b88",
+  "sortBy": {
+    "nameAtoZ": "Name: A bis Z",
+    "nameZtoA": "Name: Z bis A",
+    "priceHighToLow": "Preis: Hoch bis Niedrig",
+    "priceLowToHigh": "Preis: Niedrig bis hoch"
+  },
+  "unentitled": {
+    "contact": "Wenn Sie der Meinung sind, dass dies ein Fehler ist, wenden Sie sich bitte an einen Service Desk-Agenten.",
+    "goHome": "ZURÜCK NACH HAUSE",
+    "noItems": "Es sind keine <1>{{catalog}}</1> Elemente für <3>{{name}}</3> verfügbar, die auf einer Geschäftskonfigurationsregel basieren."
+  }
+}

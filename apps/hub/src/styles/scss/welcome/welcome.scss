@@ -1,0 +1,19 @@
+@import '../fonts.scss';
+@import '../variable.scss';
+.welcome-content{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    
+    .welcome-content-title{
+        color: $main;
+        font-size: 60px;
+         font-family: 'GT Walsheim Pro Bold';
+    }
+    .welcome-content-subtitle {
+        @extend .welcome-content-title;
+        font-size: 25px;
+        font-family: 'GT Walsheim Pro';
+    }
+}

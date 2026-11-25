@@ -1,0 +1,21 @@
+@import "../../styles/scss/variable.scss";
+
+.reopen-dialog {
+  .general-dialog-content {
+    .input-dialog {
+      min-height: 70px;
+      border: 1px solid $black;
+      background-color: #f0f0f0;
+      width: 100%;
+      textarea {
+        height: 60px !important;
+        padding: 10px;
+      }
+    }
+  }
+  .general-dialog-actions {
+    .button-dialog-disabled{
+        cursor: not-allowed;
+      }
+  }
+}

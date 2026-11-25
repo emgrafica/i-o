@@ -1,0 +1,24 @@
+@import './../../../styles/variable.scss';
+@import './../../../styles/mixin.scss';
+
+.link-see-more {display: block;}
+.see-more-card.ant-card {
+  display: block;
+  position: relative;
+  padding: 32px 14px 16px 12px;
+  height: 136px;
+  background: $color-purple-tint;
+  border-radius: 12px;
+  .icon-arrow {
+    position: absolute;
+    bottom: $dls-s03-0;
+    right: 14px;
+    z-index: 5;
+    width: 20px;
+  }
+  .ant-card-body {padding: 0;}
+  .txt-view {
+    color: $color-purple-main;
+    @extend %heading4-shared;
+  }
+}

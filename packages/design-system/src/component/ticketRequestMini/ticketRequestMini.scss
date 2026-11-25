@@ -1,0 +1,115 @@
+@import '../../styles/scss/variable.scss';
+@import '../../styles/scss/mixin.scss';
+
+.ticket-mini-item {
+  width: 100%;
+  margin-bottom: 10px;
+  @include cardItem;
+}
+.ticket-mini-card-header{
+  min-height: 32px;
+}
+.ticket-mini-card {
+  padding: 0px 16px 16px!important;
+  p, h4 {margin: 0;}
+  .Open, .Reopen {color: $color-green;}
+  .Resolved, .color-perple {color: $color-purple-main;}
+  .Action-Required {color: $color-orange;}
+  .Cancelled {color: $color-red;}
+  .status {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .title-block {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0;
+    padding-right: 20px;
+    .image {
+      position: relative;
+      margin-right: 20px;
+      img {
+        display: block;
+        width: 60px;
+      }
+    }
+    .ttl-ticket {
+      margin: 0;
+      @include cardTitle;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      height: 44px;
+    }
+    .label {
+      position: absolute;
+      top: 32px;
+      z-index: 1;
+      font-weight: 700;
+      font-size: 13px;
+      text-transform: uppercase;
+      &.RITM {left: 5px;}
+      &.INC {left: 10px;}
+    }
+  }
+
+  .status-process {
+    display: flex;
+    align-items: center;
+    p {
+      text-align: center;
+      img {height: 50px;}
+      .MuiSvgIcon-root {
+        height: 50px;
+        font-size: 40px;
+      }
+      .icon-disabled {
+        font-size: 50px;
+        color: #ccc;
+        + span {color: #ccc;}
+      }
+      .submitted {color: $color-green;}
+      .cancelled {color: $color-red;}
+    }
+    span {
+      display: block;
+      margin-top: -3px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .arrow {
+      margin: -16px 20px 0;
+      .MuiSvgIcon-root {font-size: 30px;}
+      &.disabled {
+        .MuiSvgIcon-root {color: #ccc;}
+      }
+    }
+  }
+  .btn-detail {
+    @include hyperlink();
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .number-ticket {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .last-date {
+    .MuiSvgIcon-root {
+      margin-right: 5px;
+      font-size: 25px;
+    }
+    p {line-height: 1;}
+    span {font-size: 10px;}
+    .name {font-weight: 700;}
+    .value {
+      padding-left: 5px;
+      color: $color-gray-dark;
+    }
+  }
+}

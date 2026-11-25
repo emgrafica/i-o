@@ -1,0 +1,17 @@
+{
+  "getSupport": "Támogatás kérése",
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "logOut": "kijelentkezik",
+  "logOutMessage": "Ez a művelet kijelentkezik DXC EXP-ből.",
+  "manage": "kezel",
+  "punchOutModal": {
+    "closeButton": "Párbeszédpanel bezárása",
+    "getSupportMessage": "A SOLV Desk élő támogatása GEkívüli vállalkozása vagy régiója számára érhető el.",
+    "mobileMessage": "A Mobil igénylése a DXC Exp-en kívül is elérhető vállalkozása vagy régiója számára. Kattintson a Folytatás gombra a szolgáltatás új lapon való eléréséhez.",
+    "remoteAccessMessage": "A távelérés kérése a DXC Exp-en kívül is elérhető vállalkozása vagy régiója számára. Kattintson a Folytatás gombra a szolgáltatás új lapon való eléréséhez.",
+    "softwareMessage": "A szoftver igénylése a DXC Exp-en kívül is elérhető vállalkozása vagy régiója számára. Kattintson a Folytatás gombra a szolgáltatás új lapon való eléréséhez.",
+    "title": "Fontos információk"
+  },
+  "request": "kérés",
+  "signOut": "kijelentkezés"
+}

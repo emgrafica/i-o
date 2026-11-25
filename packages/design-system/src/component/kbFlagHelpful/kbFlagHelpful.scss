@@ -1,0 +1,114 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.flag-helpful {
+  padding: $dls-s03-0 0;
+  border-top: #cacaca solid 1px;
+  border-bottom:#cacaca solid 1px;
+  .heading4 {
+    @include heading4;
+    font-weight: bold;
+    margin: 0 0 $dls-s03-0;
+  }
+  .heading6 {
+    @include heading6;
+    display: inline;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .flag-icon {
+    img {
+      width: 20px;
+    }
+  }
+  .MuiFormGroup-root {
+    display: inline;
+  }
+  .MuiFormControlLabel-root {
+    margin-left: 0;
+    display: inline-block;
+    > span {
+      padding: 0;
+    }
+  }
+  .MuiTypography-body1 {
+    @include bodyRegular;
+    display: block;
+    text-align: center;
+  }
+  .flag-icon-list {
+    display: inline;
+    .flag-icon {
+      text-transform: unset;
+      line-height: normal;
+      padding: 0;
+      min-width: 40px;
+      img {
+        width: 20px;
+      }
+      span {
+        @include captionSemibold;
+        display: block;
+        text-decoration: underline;
+      }
+    }
+    .flag-dislike-icon {
+      img {
+        transform: rotate(-180deg);
+      }
+    }
+    &.icon-disabled {
+      opacity: 0.5;
+      .flag-icon.Mui-disabled {
+        color: #000000de;
+      }
+    }
+  }
+  .icon-yes {
+    .flag-like-icon {
+      color: $color-purple-main !important;
+    }
+  }
+  .icon-no {
+    .flag-dislike-icon {
+      color: $color-purple-main !important;
+    }
+  }
+}
+.rating-section {
+  display: flex;
+  align-items: center;
+  img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  .MuiRating-root {
+    color: $color-purple-main;
+  }
+  .MuiRating-icon {
+    font-size: 20px;
+  }
+  .MuiGrid-item {
+    display: flex;
+  }
+  
+  #hideMe {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #1F2020;
+    margin-left: 10px;
+  }
+  @keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  @-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+  }
+}

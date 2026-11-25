@@ -1,0 +1,18 @@
+{
+  "name": "i-o",
+  "private": true,
+  "description": "i-o systems: an integrated workplace product over systems of record. Monorepo for the design system and the workplace apps.",
+  "author": "emgrafica (Michael Dempsey)",
+  "license": "UNLICENSED",
+  "homepage": "https://i-o.systems",
+  "workspaces": [
+    "packages/design-system"
+  ],
+  "scripts": {
+    "storybook": "npm run storybook -w @i-o/design-system",
+    "build:design-system": "npm run build -w @i-o/design-system",
+    "check:names": "bash scripts/check-names.sh",
+    "check:brand": "npm run check:brand -w @i-o/design-system"
+  },
+  "engines": { "node": ">=20.11" }
+}

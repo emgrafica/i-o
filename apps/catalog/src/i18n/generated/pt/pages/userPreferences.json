@@ -1,0 +1,11 @@
+{
+  "department": "departamento",
+  "email": "Email",
+  "id": "a796400e-58b3-476e-84ce-e0a3ace88ee4",
+  "profile": "perfil",
+  "profileInfo": "Informações do perfil",
+  "supervisor": "supervisor",
+  "title": "Preferências do usuário",
+  "updateProfileInfo": "Atualizar informações do perfil",
+  "workAddress": "Endereço de trabalho"
+}

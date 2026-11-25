@@ -1,0 +1,113 @@
+@import '../../styles/scss/variable.scss';
+@import '../../styles/scss/mixin.scss';
+.io-delivery-card {
+    font-family: 'Open Sans', sans-serif !important;
+    .card-wrap {
+        box-shadow: 4px 10px 30px 4px rgba(0, 0, 0, 0.06);
+        border-radius: 12px;
+        padding: $dls-s02-5 $dls-s04-0;
+    }
+    .io-delivery-card-body {
+        min-height: 100px;
+        width: 100%;
+    }
+    .content-box {
+        min-height: 80px;
+    }
+    .heading5 {
+        @include heading5;
+        margin: 16px 0;
+    }
+    .bodyBold {
+        @include bodyBold;
+        text-transform: uppercase;
+        margin: 0 0 $dls-s01-0;
+        line-height: 1.3;
+    }
+    .bodyRegular {
+        @include bodyRegular;
+        display: block;
+        line-height: 1.3;
+        margin: 0;
+        color: $color-gray-dark;        
+    }
+    .buttonLink {
+        @include buttonLink;
+        text-transform: unset;
+        padding: 0;
+        color: $black;
+        float: right;
+        &:hover {
+            color: $color-blue-tone;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        .MuiButton-label {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+.delivery-address-dialog {
+    .simple-dialog-title-close-btn {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        color: $color-purple-main;
+    }
+    
+    .address-dialog-cancal-button {
+        color: $color-purple-main;
+        &:hover {
+            color: $color-purple-main;
+        }
+    }
+
+    .select-address-dialog {
+        width: 100%;
+        .MuiSelect-select {
+            line-height: 40px;
+        }
+    }
+    input[type=text]{
+      border-bottom: none;
+      padding: 0px !important;
+      &::placeholder{
+        color: $color-gray-dark !important;
+      }
+    }
+    .form-container{
+        padding-bottom: 16px;
+        .form-left-title{
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            label{
+                &::after{
+                    color: $color-red;
+                    content: ' *';
+                }
+            }
+            .label-optional{
+                &::after{
+                    content: '';   
+                    padding-right: 12px;     
+                }            
+        }
+        .title-validated{
+            color: red;
+        }
+        }                 
+    } 
+}
+.loading-custome-button {
+  background-color: $color-purple-main !important;
+  &.Mui-disabled {
+    // color:red
+    background-color: $color-gray-medium !important;
+  }
+  &:hover {
+      background-color: $color-purple-main !important;
+  }
+}

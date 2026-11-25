@@ -1,0 +1,218 @@
+@import './../../styles/scss/variable.scss';
+@import './../../styles/scss/mixin.scss';
+
+.my-device-detail-component {
+  .title-section {
+    padding-top: 8px;
+    border-top: solid 1px $color-gray-light;
+  }
+  .my-device-image {
+    height: 150px;
+    margin: 20px auto 0;
+  }
+
+  .info-devices {
+    margin-top: 40px;
+    .content-info {
+      position: relative;
+      margin-top: 16px;
+    }
+  }
+
+  .my-device-manufacturer {
+    color: $color-gray-dark;
+    @include captionRegular;
+  }
+
+  .my-device-display-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: $font-gtwalsheim_pro_medium;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+  }
+
+  .my-device-refresh-available {
+    width: auto;
+    height: auto;
+    color: $color-purple-main;
+    font-family: $font-opensans-semi-bold;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .my-device-list-button {
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  .btn-refresh, .btn-return {
+    width: 100%;
+  }
+  .btn-get-help {
+    margin-top: 18px;
+  }
+
+  .my-device-configuration {
+    margin-top: 0;
+    padding-top: 100px;
+    .device-content {
+      position: relative;
+      margin-top: 5px;
+      padding-left: 20px;
+      color: $color-gray-dark;
+      @include captionRegular;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 0;
+        z-index: 3;
+        width: 12px;
+        height: 12px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center center;
+      }
+      &.icon-duration:before {
+        background-image: url('./../../../src/assets/icons/icon-duration.png');
+      }
+      &.icon-processor:before {
+        background-image: url('./../../../src/assets/icons/icon-processor.png');
+      }
+      &.icon-nvidia:before {
+        background-image: url('./../../../src/assets/icons/icon-nvidia.png');
+      }
+      &.icon-ram:before {
+        background-image: url('./../../../src/assets/icons/icon-ram.png');
+      }
+      &.icon-hard-drive:before {
+        background-image: url('./../../../src/assets/icons/icon-hard-drive.png');
+      }
+      &.icon-os:before {
+        background-image: url('./../../../src/assets/icons/icon-os.png');
+      }
+      &.icon-placeholder:before {
+        background-image: url('./../../../src/assets/icons/icon-placeholder-square.png');
+      }
+      &.icon-home:before {
+        background-image: url('./../../../src/assets/icons/icon-home.png');
+      }
+      &.icon-serial:before {
+        background-image: url('./../../../src/assets/icons/icon-serial.png');
+      }
+    }
+
+    .text-bold-black {
+      font-weight: bold !important;
+      color: $black;
+    }
+  }
+  .description-content {
+    margin-top: 10px;
+    ul {
+      padding-left: 0;
+      list-style-type: none;
+      li {
+        position: relative;
+        padding-left: 15px;
+        margin-top: 8px;
+        @include captionRegular;
+        &:before {
+          content: '';
+          position: absolute;
+          top: 7px;
+          left: 0;
+          z-index: 1;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background-color: $black;
+        }
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  .article-description {
+    margin-top: 72px;
+    ul li {
+      margin-top: 20px;
+    }
+  }
+  .article-spec {
+    margin-top: 32px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .content-info {
+      padding-right: 35px;
+    }
+    .my-device-image {
+      margin-top: 56px;
+    }
+    .info-devices {
+      margin-top: 0;
+    }
+    .my-device-manufacturer {
+      font-size: 14px;
+    }
+  
+    .my-device-display-name {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .my-device-list-button {
+      display: flex;
+      position: static;
+      margin-top: 30px;
+      align-items: baseline;
+    }
+    .btn-return, .btn-refresh {
+      width: 212px;
+      margin-right: 16px;
+    }
+
+    .my-device-configuration {
+      padding-top: 0;
+    }
+    .description-content {
+      margin-top: $dls-s03-5;
+      ul li {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 22px;
+        &:before {
+          top: 8px;
+        }
+      }
+    }
+    .article-description {
+      margin-top: 88px;
+    }
+
+    .article-spec {
+      margin-top: 56px;
+      .description-content {
+        > div:not(.article-empty-card) {
+          overflow: hidden;
+          > div {
+            width: 50%;
+            float: left;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+}
+

@@ -1,0 +1,42 @@
+{
+  "approvalError": "승인이 실패했습니다. 다시 시도하십시오.",
+  "approve": "승인",
+  "approved": "승인",
+  "decline": "거절하다",
+  "declineModal": {
+    "label": "거절사유를 제시해 주세요.",
+    "placeholder": "여기에 쇠퇴 이유입니다.",
+    "title": "거절 이유"
+  },
+  "declineSuccess": "요청이 성공적으로 거부되었습니다.",
+  "declined": "거부",
+  "filterBox": {
+    "accessories": "액세서리",
+    "computers": "컴퓨터",
+    "mobility": "기동성",
+    "title": "카테고리"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "승인된 주문은 없습니다.",
+  "noDeclinedOrders": "거절된 주문은 없습니다.",
+  "noFilterResults": "죄송합니다, 어떤 결과 필터와 일치하지 않습니다.",
+  "noPendingOrders": "현재 승인 보류 중인 주문은 없습니다.",
+  "order": {
+    "approvalReason": "승인 이유",
+    "approvedLabel": "승인",
+    "businessJustification": "비즈니스 정당화",
+    "declineReason": "거절된 이유",
+    "declinedLabel": "거부",
+    "for": "때문에",
+    "imageAlt": "요청된 자산",
+    "orderNumber": "주문 번호",
+    "price": "값",
+    "replacedDevice": "교체 된 장치",
+    "requestReason": "요청 이유",
+    "returnDate": "반환 날짜",
+    "submittedLabel": "제출"
+  },
+  "pending": "보류 중인",
+  "subtitle": "요청 보기 및 조치",
+  "title": "승인"
+}

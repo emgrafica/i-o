@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "Gerätenutzung",
+      "incidentNumber": "Vorfallnummer",
+      "message": "Das Ersatzgerät entspricht den allgemeinen Spezifikationen des zu ersetzenden Geräts. Es werden Ersatzlieferungen an verfügbare Lagerbestände vorgenommen, um die Kosten zu senken. Vielen Dank für Ihr Verständnis, während wir auf die Erreichung der finanziellen Ziele des Unternehmens hinarbeiten.",
+      "reasonForRequest": "Grund für die Anfrage",
+      "reasonForRequestValue": "Return Broken",
+      "reasonForReturn": "Grund für die Rückkehr",
+      "requestedFor": "Requested For",
+      "situationDetails": "Situation Details"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "Label herunterladen"
+  },
+  "secureLocationRestriction": {
+    "message": "Sichere Standortbeschränkung"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "konnte die eingegebene Adresse nicht überprüfen."
+    },
+    "label": "Ich bin zuversichtlich, dass die eingegebene Adresse korrekt ist",
+    "message": "Aktualisieren Sie die Adresse und senden Sie erneut, oder wenn Sie sicher sind, dass die eingegebene Adresse zuliefern ist, aktivieren Sie das Kontrollkästchen, um mit der nicht überprüften Adresse fortzufahren."
+  }
+}

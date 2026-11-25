@@ -1,0 +1,71 @@
+{
+  "approvals": {
+    "status": "Oczekujące",
+    "title": "Zatwierdzenia"
+  },
+  "comingSoon": "Wkrótce...",
+  "computer": {
+    "action": "komputer",
+    "subtitle": "Znajdź odpowiedni katalog, aby złożyć zamówienie.",
+    "title": "Chcesz coś poprosić?"
+  },
+  "error": {
+    "loadingError": "Błąd ładowania podglądu",
+    "quickLinksLoadingError": "Błąd ładowania szybkich łączy",
+    "retry": "Ponów próbę"
+  },
+  "explore": {
+    "action": "Zobacz technologię ",
+    "comingSoonMessage1": "Jak odbudować naszą platformę, będziemy stopniowo zwalniając każdy składnik narzędzia i <1>chcielibyśmy swoje wczesne opinie na temat nowego projektu.</1>",
+    "comingSoonMessage2": "W międzyczasie możesz nadal uzyskiwać dostęp do wszystkich funkcji i-o w <1>naszej istniejącej witrynie.</1> Czekamy na Twoją opinię na temat nowego doświadczenia, które pomogą nam kształtować i-o, aby jak najlepiej spełnić Twoje potrzeby!",
+    "subtitle": "Wyświetlanie przydzielonych zasobów i zarządzanie nimi w jednym miejscu",
+    "title": "Zarządzaj swoją technologią",
+    "titleComingSoon": "Witamy w nowym i-o!"
+  },
+  "feedback": {
+    "action": "Podziel się swoją opinią",
+    "subtitle": "Poinformuj nasz zespół, co działa dobrze i jak możemy ulepszyć korzystanie z i-o",
+    "title": "Podziel się swoją opinią"
+  },
+  "feedbackButton": {
+    "label": "sprzężenie zwrotne"
+  },
+  "getAssistance": {
+    "action": "Uzyskaj wsparcie",
+    "subtitle": "Znajdź rozwiązania typowych problemów lub skontaktuj się z Service Desk, aby porozmawiać z Agentem",
+    "title": "Uzyskaj pomoc techniczną"
+  },
+  "greeting": {
+    "afternoon": "Dzień dobry",
+    "evening": "Dobry wieczór",
+    "morning": "Dzień dobry"
+  },
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+  "incidents": {
+    "status": "Otwarte",
+    "title": "Incydenty"
+  },
+  "obo": {
+    "action": "Użytkownik odnośnika",
+    "title": "Zamów dla innego użytkownika"
+  },
+  "orders": {
+    "action": "Wyświetlanie żądań",
+    "status": "Otwarte",
+    "title": "Zamówienia"
+  },
+  "quickLinks": {
+    "subtitle": "Dostęp do przydatnych linków firmowych",
+    "title": "Szybkie linki"
+  },
+  "search": {
+    "action": "Szukaj teraz",
+    "title": "Wyszukiwanie zasobów i biletów innego użytkownika"
+  },
+  "title": "dom",
+  "userLookup": {
+    "description": "Pozwoli to na wykonywanie określonych działań w imieniu współpracownika. W ten sposób będziesz miał ograniczony dostęp do witryny.",
+    "impersonate": "Personifikować",
+    "title": "Kto chciałby działać w imieniu?"
+  }
+}

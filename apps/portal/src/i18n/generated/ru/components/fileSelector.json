@@ -1,0 +1,10 @@
+{
+  "browseButton": "Загрузите с компьютера",
+  "clearSelectionButton": "Удалить все файлы",
+  "fileNotSupportedErrorMessage": "Тип файла не поддерживается",
+  "fileNotSupportedHelpMessage": "Пожалуйста, загрузите типы файлов из одного из следующих:",
+  "fileSizeErrorMessage": "Файл превышает {{limit}}МБ",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Перетащите файл сюда или",
+  "maxNumberOfFilesExceededMessage": "Файлы превышают предел {{limit}}"
+}

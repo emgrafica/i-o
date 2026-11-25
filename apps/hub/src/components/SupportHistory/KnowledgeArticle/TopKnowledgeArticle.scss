@@ -1,0 +1,167 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+.top-article-ticket{
+    z-index: 99;
+    .title-link {margin-bottom: 15px !important;}
+    .title-content{
+        display: flex;
+        align-items: center;
+        margin: 25px 0;
+        .title{
+            color: $color-purple-main;
+            margin-bottom: 0 !important;
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .homepage-content-arrow {
+            margin-left: 15px;
+            width: 12px;
+        }
+    }
+    .ant-row {
+        margin-left: -$dls-s01-0;
+        margin-right: -$dls-s01-0;
+        .ant-col {
+            padding: $dls-s01-0;
+        }
+    }
+    .whatsnew-item {
+        height: 144px;
+        background: $color-white;
+        &:hover{
+            cursor: pointer;
+        }
+    
+        .item-status {
+            span {
+                @include eyebrow;
+                color: $color-purple-main;
+                padding: $dls-s00-5 $dls-s02-5;
+                background: $color-purple-tint;
+                border-radius: 21px;
+                display: inline-block;
+                text-transform: uppercase;
+                color: $color-red;
+                background: $color-red-tint;
+            }
+        }
+    
+        .item-status-generic{
+            @extend .item-status;
+        }
+        .item-status-support{
+            @extend .item-status;
+            color: $color-purple-main;
+            span {
+                padding: 8px;
+                background: $color-purple-tint;
+                border-radius: 21px;
+                
+            }
+        }
+    
+        .item-title {
+            font-size: 20px;
+            line-height: 22px;
+            color: $black;
+            font-weight: 500;
+            margin: 10px 0 15px 0;
+        }
+    
+        .item-title-generic {
+            @extend .item-title;
+            display: flex;
+            padding-top: 10px;
+            justify-content: space-between;
+        }
+    
+        .ticket-status-generic{
+            @extend .item-status;
+            span {
+                padding: 8px;
+                background: $color-purple-tint;
+                border-radius: 21px;
+                color: $color-purple-main;
+            }
+        }
+        .ticket-title-generic{
+            @extend .item-title-generic;
+        }
+    }
+    .article-item {
+        @extend .whatsnew-item;
+        display: flex;
+        padding: 0;
+        border: none;
+        .ant-card-body {
+            display: flex;
+            padding: 0;
+        }
+        .article-left {
+            min-width: 40%;
+            min-height: 144px;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(151, 125, 255, 0.2);
+            border-radius: 12px 0 0 12px;
+    
+            img {
+                width: 50px;
+            }
+    
+        }
+    
+        .article-right {
+            padding: 20px;
+    
+            .article-title {
+                @include eyebrow;
+                color: $color-gray-dark;
+            }
+    
+            .article-content {
+                @extend .item-title;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-medium-desktop {
+    .top-article-ticket{
+        .ant-row {
+            margin-left: -$dls-s02-0;
+            margin-right: -$dls-s02-0;
+            .ant-col {
+                padding: 0 $dls-s02-0;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-medium-desktop-1 {
+    .top-article-ticket{
+        .ant-row {
+            .ant-col:last-child {
+                padding-top: $dls-s03-0;
+            }
+        }
+    }
+    .supportHistorySection {
+        .custom_container_inner {
+            width: 100%;
+        }
+    }
+}
+
+@include media-breakpoint-medium-desktop-2 {
+    .top-article-ticket {
+        .ant-row {
+            .custom-ant-col-sm-8 {
+                flex: 0 0 33.33333333%;
+                max-width: 33.33333333%;
+            }
+        }
+    }
+}

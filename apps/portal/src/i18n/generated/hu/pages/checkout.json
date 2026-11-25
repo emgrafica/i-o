@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "Eszközhasználat",
+      "incidentNumber": "Incidens száma",
+      "message": "A csereeszköz megfelel a cserélt eszköz általános előírásainak. A költségek csökkentése érdekében a rendelkezésre álló készlettel pótolni kell. Köszönjük megértésüket, miközben a vállalat pénzügyi céljainak elérésén dolgozunk.",
+      "reasonForRequest": "A kérelem oka",
+      "reasonForRequestValue": "Vissza Törött",
+      "reasonForReturn": "A visszaküldés oka",
+      "requestedFor": "Kért",
+      "situationDetails": "Helyzet részletei"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "Címke letöltése"
+  },
+  "secureLocationRestriction": {
+    "message": "Biztonságos hely korlátozása"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "nem tudta ellenőrizni a megadott címet."
+    },
+    "label": "Biztos vagyok benne, hogy a megadott cím helyes.",
+    "message": "Kérjük, frissítse a címet, és küldje el újra, vagy ha biztos abban, hogy a megadott cím kézbesíthető, válassza ki a jelölőnégyzetet, hogy folytassa az ellenőrizetlen címet."
+  }
+}

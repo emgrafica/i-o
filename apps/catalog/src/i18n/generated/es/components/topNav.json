@@ -1,0 +1,17 @@
+{
+  "getSupport": "Obtener soporte técnico",
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "logOut": "Cerrar sesión",
+  "logOutMessage": "Esta acción cerrará la sesión de GE EXP.",
+  "manage": "gestionar",
+  "punchOutModal": {
+    "closeButton": "Cuadro de diálogo Cerrar",
+    "getSupportMessage": "El soporte en vivo de SOLV Desk está disponible para su negocio o región fuera de GE.",
+    "mobileMessage": "Solicitar móvil está disponible para su empresa o región fuera de GE Exp. Haga clic en Continuar para acceder a este servicio en una pestaña nueva.",
+    "remoteAccessMessage": "Solicitar acceso remoto está disponible para su empresa o región fuera de GE Exp. Haga clic en Continuar para acceder a este servicio en una pestaña nueva.",
+    "softwareMessage": "Solicitar software está disponible para su empresa o región fuera de GE Exp. Haga clic en Continuar para acceder a este servicio en una pestaña nueva.",
+    "title": "Información importante"
+  },
+  "request": "pedir",
+  "signOut": "cerrar sesión"
+}

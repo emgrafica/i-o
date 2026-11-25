@@ -1,0 +1,11 @@
+{
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+
+  "instructions": "Drag a file here or",
+  "browseButton": "Browse",
+  "clearSelectionButton": "Remove all files",
+  "maxNumberOfFilesExceededMessage": "Files exceed limit of {{limit}}",
+  "fileSizeErrorMessage" : "File exceeds {{limit}}MB",
+  "fileNotSupportedErrorMessage" : "File type is not supported",
+  "fileNotSupportedHelpMessage" : "Please upload file types from one of the following:"
+}

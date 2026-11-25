@@ -1,0 +1,299 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.my-stuff-divider-bar {
+  width: 2px;
+  height: 32px;
+}
+
+.eyebrown-item {
+  display: inline-block;
+  height: 20px;
+  margin: 0;
+  padding: 2px 8px;
+  background-color: $color-purple-tint;
+  color: $color-purple-main;
+  @include eyebrow;
+  border-radius: 21px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  z-index: 1;
+}
+
+.my-stuff-card {
+  .ant-card {
+    height: 280px;
+    padding: $dls-s02-0 $dls-s04-0 $dls-s03-0;
+  }
+
+  .ant-card-body {
+    padding: 10px 0 0;
+  }
+}
+
+.my-stuff-card-body {
+  .my-stuff-card-image-wrapper {
+    text-align: center;
+    height: 113px;
+    .my-stuff-card-image {
+      height: 100%;
+    }
+  }
+
+  .my-stuff-card-body-type {
+    @include captionRegular;
+    color: $color-gray-dark;
+    margin-bottom: $dls-s01-0;
+  }
+
+  .my-stuff-card-body-name {
+    margin-top: 0 !important;
+    margin-bottom: $dls-s01-0;
+    min-height: auto !important;
+    -webkit-line-clamp: 1 !important;
+  }
+
+  .my-stuff-card-body-status {
+    @include captionSemibold;
+    color: $color-gray-dark;
+  }
+
+  .my-stuff-card-body-status-successful {
+    color: $color-purple-light-1;
+  }
+  .REFRESH_AVAILABLE {
+    > div:first-child {
+      height: 6px;
+      margin: 0 0 $dls-s01-0;
+    }
+    .ant-progress-line {
+      line-height: normal !important;
+    }
+    .ant-progress-bg {
+      height: 6px !important;
+    }
+    .ant-progress-inner {
+      top: -10px;
+    }
+  }
+}
+
+.my-stuff-card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  position: absolute;
+  bottom: $dls-s03-0;
+  left: $dls-s04-0;
+  right: $dls-s04-0;
+}
+.my-stuff-card-link-text {
+  @include buttonLink;
+  color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: $dls-s05-0;
+  &:hover {
+    color: $color-gray-dark;
+    text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 769px) {
+  .my-stuff-card {
+    .ant-card {
+      height: 288px;
+    }
+  }
+}
+
+// mystuff empty card
+.my-stuff-empty-style {
+  .ant-card {
+    background: $color-white;
+    height: 280px;
+    .ant-card-body {
+      padding: $dls-s02-0 $dls-s02-0 $dls-s04-0 $dls-s04-0;
+    }
+  }
+}
+
+.my-stuff-end-card-header {
+  .my-stuff-end-card-tag {
+    padding: $dls-s02-0;
+    width: 60px;
+    height: $dls-s03-0;
+
+    .my-stuff-end-card-tag-content {
+      @include eyebrow;
+      border-radius: 21px;
+      display: inline-block;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.my-stuff-empty-card-body {
+  width: 70%;
+
+  .my-stuff-empty-card-icon {
+    width: $dls-s07-0;
+    height: $dls-s07-0;
+  }
+  .h4-cover {
+    min-height: 89px;
+    margin-top: $dls-s02-0 !important;
+    margin-bottom: $dls-s03-0 !important;
+  }
+  h4 {
+    margin: 0;
+    @include max2lines;
+  }
+}
+
+.my-stuff-empty-card-body-link-wrapper {
+  .my-stuff-empty-card-body-link {
+    @include bodySemibold;
+    margin: 0;
+    color: $color-gray-dark;
+  }
+  .my-stuff-empty-card-body-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 769px) {
+  .my-stuff-empty-style {
+    .ant-card {
+      height: 288px;
+    }
+  }
+}
+
+%my-stuff-small-card {
+  height: 136px;
+  background: $color-white;
+}
+
+.my-stuff-small-card {
+  .ant-card {
+    @extend %my-stuff-small-card;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.my-stuff-small-card-end {
+  .ant-card {
+    @extend %my-stuff-small-card;
+    background: $color-purple-tint;
+  }
+}
+
+// small card
+.my-stuff-small-card-icon {
+  height: 25px;
+  font-weight: bold;
+}
+
+.my-stuff-small-card-image {
+  height: 28px;
+  font-weight: bold;
+}
+.my-stuff-small-card-body-name {
+  margin: $dls-s02-0 0 0;
+  color: $black;
+  min-height: 36px;
+  @include max2lines;
+  -webkit-line-clamp: 2;
+}
+
+.my-stuff-small-card-body-link-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: $dls-s02-5 0 0;
+  .my-stuff-small-card-icon-link {
+    width: $dls-s02-5;
+    height: $dls-s02-5;
+    color: $color-gray-dark;
+    position: relative;
+    bottom: 0px;
+  }
+
+  .my-stuff-small-card-body-link {
+    @include captionSemibold;
+    @include max2lines;
+    -webkit-line-clamp: 1 !important;
+    color: $color-gray-dark;
+    margin-right: $dls-s01-0;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.my-stuff-small-card {
+  .ant-card-body {
+    padding: 20px 12px 20px 12px;
+  }
+}
+
+.my-stuff-small-card-body-link {
+  @include captionSemibold;
+  color: $color-gray-dark;
+  margin-right: $dls-s01-0;
+}
+
+.my-stuff-small-card {
+  .ant-card {
+    background: $color-white;
+    border-radius: 21px;
+  }
+}
+
+.my-stuff-small-card-end {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: $dls-s03-0;
+    right: 14px;
+    z-index: 5;
+    width: $dls-s04-0;
+    height: $dls-s04-0;
+    background: url("./../../assets/icons/arrow-right-purple.svg") no-repeat 50%
+      50%;
+  }
+  .ant-card {
+    background: $color-purple-tint;
+    border-radius: 21px;
+  }
+  .ant-card-body {
+    padding: $dls-s05-0 $dls-s02-5 $dls-s03-0;
+    height: 100%;
+  }
+
+  .my-stuff-small-card-end-body-link-content {
+    min-height: $dls-s07-0;
+    h5 {
+      color: $color-purple-main;
+      margin: 0;
+    }
+  }
+
+  .my-stuff-small-card-end-body-link-arrow {
+    color: $color-purple-main;
+    display: flex;
+    justify-content: flex-end;
+    .my-stuff-small-card-end-body-link-arrow-outline {
+      height: $dls-s03-0;
+      width: $dls-s03-5;
+    }
+  }
+}

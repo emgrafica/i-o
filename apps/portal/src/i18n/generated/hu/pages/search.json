@@ -1,0 +1,15 @@
+{
+  "id": "d7ab0c9d-b719-4d01-9323-ba6214c0961e",
+  "keywords": {
+    "placeholder": "Azonosító szám"
+  },
+  "searchBy": {
+    "criteria": {
+      "asset": "eszköz",
+      "user": "felhasználó"
+    },
+    "label": "Keresés szerint"
+  },
+  "subtitle": "Eszközök megtekintése és eljártatása & gt; jegyek",
+  "title": "keresés"
+}

@@ -1,0 +1,11 @@
+{
+  "department": "부서",
+  "email": "이메일",
+  "id": "a796400e-58b3-476e-84ce-e0a3ace88ee4",
+  "profile": "윤곽",
+  "profileInfo": "프로필 정보",
+  "supervisor": "감독자",
+  "title": "사용자 기본 설정",
+  "updateProfileInfo": "프로필 정보 업데이트",
+  "workAddress": "작업 주소"
+}

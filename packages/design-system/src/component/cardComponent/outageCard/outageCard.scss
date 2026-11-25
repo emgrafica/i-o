@@ -1,0 +1,63 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+
+.outage-card-container {
+  height: 145px;
+  width: 300px;
+  background: $color-white;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  .outage-icon {
+    img {
+      width: 30px;
+      margin: 0 5px;
+    }
+  }
+  .outage-title {
+    @include heading5;
+    @include max2lines;
+    -webkit-line-clamp: 1;
+    margin: 5px 0;
+    color: $black;
+    font-size: $font-size-h5-desktop;
+    line-height: $line-height-h5-mobile;
+  }
+  .outage-content {
+    @include max2lines;
+    -webkit-line-clamp: 1;
+    @include captionRegular;
+    color: $color-gray-dark;
+  }
+  .outage-link {
+    @include bodyBold;
+    color: $color-purple-main;
+    margin: 5px 0;
+    position: relative;
+    text-transform: initial;
+    padding: 6px 0;
+    &::after {
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      content: "";
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.3rem' height='1.3rem' fill='%235f249f' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: 16px;
+      width: 16px;
+      height: 23px;
+      position: absolute;
+      top: 50%;
+      right: -18px;
+      z-index: 4;
+      margin-top: -11px;
+    }
+    &:hover {
+      background-color: transparent;
+      text-decoration: none;
+      &::after {
+        -webkit-transform: translateX(0.5rem);
+        transform: translateX(0.5rem);
+      }
+    }
+  }
+}

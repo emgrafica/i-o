@@ -1,0 +1,43 @@
+{
+  "ReasonForRequest": {
+    "Additional": "추가",
+    "Broken": "깨진",
+    "DeviceBroken": "장치가 고장났습니다.",
+    "DeviceNotRequired": "장치가 더 이상 필요하지 않습니다.",
+    "Missing": "없어진",
+    "NewAccessory": "새로운 액세서리",
+    "Other": "다른",
+    "OwnerInactive": "소유자가 비활성 상태입니다.",
+    "Primary": "본래의",
+    "Replace": "갈다",
+    "Temporary": "일시적인"
+  },
+  "ReasonForRequestLabel": {
+    "additional": "추가",
+    "brokenReplacement": "깨진 교체",
+    "changeExistingService": "기존 서비스 변경",
+    "earlyReplacement": "조기 교체",
+    "missingReplacement": "누락된 교체",
+    "newAccessory": "새로운 액세서리",
+    "newGcomService": "새로운 GCom 서비스",
+    "primary": "본래의",
+    "reassign": "재할당",
+    "refreshReplacement": "새로 고침 교체",
+    "return": "돌아오다",
+    "specialChangeRequest": "특별 변경 요청",
+    "specialRequest": "특별 요청",
+    "temporary": "일시적인",
+    "terminateService": "서비스 종료"
+  },
+  "RequestStatusType": {
+    "Approval": "시인",
+    "Cancelled": "취소",
+    "Completed": "완료",
+    "Declined": "거부",
+    "Error": "오류",
+    "InProgress": "진행 중인 상황",
+    "OnHold": "보류 중",
+    "Pending": "보류 중인"
+  },
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271"
+}

@@ -1,0 +1,43 @@
+{
+  "ReasonForRequest": {
+    "Additional": "további",
+    "Broken": "törött",
+    "DeviceBroken": "Az eszköz meghibásodott",
+    "DeviceNotRequired": "Az eszközre már nincs szükség",
+    "Missing": "hiányzó",
+    "NewAccessory": "Új kiegészítő",
+    "Other": "más",
+    "OwnerInactive": "A tulajdonos inaktív",
+    "Primary": "elsődleges",
+    "Replace": "helyettesít",
+    "Temporary": "ideiglenes"
+  },
+  "ReasonForRequestLabel": {
+    "additional": "további",
+    "brokenReplacement": "Törött csere",
+    "changeExistingService": "Meglévő szolgáltatás módosítása",
+    "earlyReplacement": "Korai csere",
+    "missingReplacement": "Hiányzó csere",
+    "newAccessory": "Új kiegészítő",
+    "newGcomService": "Új GCom szolgáltatás",
+    "primary": "elsődleges",
+    "reassign": "Átcsoportosítás",
+    "refreshReplacement": "Frissítés csere",
+    "return": "visszatérés",
+    "specialChangeRequest": "Különleges módosítási kérelem",
+    "specialRequest": "Különleges kérés",
+    "temporary": "ideiglenes",
+    "terminateService": "Szolgáltatás megszüntetése"
+  },
+  "RequestStatusType": {
+    "Approval": "jóváhagyás",
+    "Cancelled": "Törölt",
+    "Completed": "Befejezett",
+    "Declined": "Csökkent",
+    "Error": "hiba",
+    "InProgress": "Folyamatban",
+    "OnHold": "Várakoztatva",
+    "Pending": "függő"
+  },
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "장치 사용",
+      "incidentNumber": "인시던트 번호",
+      "message": "교체 장치는 교체되는 장치의 일반적인 사양과 일치합니다. 비용을 완화하기 위해 사용 가능한 재고로 교체할 수 있습니다. 회사 재무 목표를 달성하기 위해 노력하면서 양해해 주셔서 감사합니다.",
+      "reasonForRequest": "요청 이유",
+      "reasonForRequestValue": "깨진 반환",
+      "reasonForReturn": "반환 이유",
+      "requestedFor": "요청",
+      "situationDetails": "상황 세부 정보"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "라벨 다운로드"
+  },
+  "secureLocationRestriction": {
+    "message": "안전한 위치 제한"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "주소를 입력한 것으로 확인할 수 없습니다."
+    },
+    "label": "입력한 주소가 정확하다고 확신합니다.",
+    "message": "주소를 업데이트하고 다시 제출하거나 입력된 주소가 결과물이 있다고 확신하는 경우 확인란을 선택하여 확인되지 않은 주소를 진행합니다."
+  }
+}

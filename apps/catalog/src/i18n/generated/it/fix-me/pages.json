@@ -1,0 +1,212 @@
+{
+  "accessoryDetails": {
+    "title": "accessorio"
+  },
+  "error": {
+    "defaultErrorMessage": "Si è verificato un errore."
+  },
+  "errorBoundary": {
+    "body": "Ma non c'è bisogno di farsi prendere dal panico. Riprova ora, torna più tardi o, se l'errore persiste, contatta il nostro team di supporto.",
+    "goBackHomeButton": "Torna a casa",
+    "refreshButton": "Pagina aggiorna",
+    "subtitle": "Qualcosa è andato storto,",
+    "title": "Oops!"
+  },
+  "id": "c513f062-c89f-4d37-8dc9-132dda32c6c2",
+  "request": {
+    "accessories": {
+      "accessoryDetails": {
+        "configuration": {
+          "keyboard": "tastiera",
+          "plugType": "Tipo di spina",
+          "title": "Dettagli di configurazione"
+        },
+        "requestReason": {
+          "title": "Motivo della richiesta"
+        },
+        "title": "Dettagli accessori"
+      },
+      "backButton": "Catalogo accessori",
+      "card": {
+        "viewButton": "vista"
+      },
+      "checkoutButton": "Procedere al checkout",
+      "header": {
+        "subtitle": "Dispositivi di supporto da utilizzare con il computer",
+        "title": "Catalogo accessori"
+      },
+      "subTitle": "Dispositivi per soddisfare tutte le esigenze aziendali",
+      "title": "accessoristica"
+    },
+    "checkout": {
+      "billedTo": "Fatturato a",
+      "cancelOrder": "Annulla ordine",
+      "deviceUsage": "Utilizzo del dispositivo",
+      "header": {
+        "accessoryTitleSubmit": "Pagamento accessori",
+        "computerTitleSubmit": "Estrazione computer",
+        "mobileTitleSubmit": "Pagamento per dispositivi mobili",
+        "standardSubtitle": "Esaminare e inviare un ordine",
+        "standardTitle": "cassa",
+        "subtitleSubmit": "Esaminare tutte le informazioni prima di inviare la richiesta",
+        "subtitleSuccess": "Esaminare i dettagli dell'ordine",
+        "titleSuccess": "Conferma ordine"
+      },
+      "modal": {
+        "cancel": {
+          "cancelOrder": "Annulla ordine",
+          "header": "Conferma annullamento ordine",
+          "message": "L'annullamento dell'ordine cancellerà le selezioni dei prodotti e ti restituirà alla {{returnTo}}.",
+          "stayOnPage": "Resta sulla pagina"
+        }
+      },
+      "productDetails": {
+        "header": {
+          "accessory": "accessorio",
+          "computer": "computer",
+          "mobileDevice": "Dispositivo mobile",
+          "standard": "dispositivo"
+        }
+      },
+      "reasonForRequest": "Motivo della richiesta",
+      "replacementMessage": "Il dispositivo sostitutivo corrisponderà alle specifiche generali del dispositivo sostituito. Le sostituzioni verranno effettuate con l'inventario disponibile per mitigare i costi. Grazie per la comprensione con cui lavoriamo per raggiungere gli obiettivi finanziari aziendali.",
+      "replacementOrderFor": "Ordine per <1>{{name}}</1> completo. Tornare a <3>CERCA</3> per cercare un'altra risorsa o biglietto.",
+      "requestedFor": "Richiesto per",
+      "submitOrder": "Invia ordine",
+      "title": {
+        "accessories": "Pagamento accessori",
+        "computers": "Estrazione computer",
+        "reportBroken": "cassa"
+      }
+    },
+    "computers": {
+      "card": {
+        "viewButton": "vista"
+      },
+      "computerDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Leggere il seguente messaggio",
+          "acknowledgementLabel": "Capisco",
+          "deviceUsage": "Selezionare l'utilizzo di un dispositivo",
+          "justificationHint": "Descrivere le esigenze aziendali per questo dispositivo"
+        },
+        "checkout": "Procedere al checkout",
+        "configurationStockMessage": "La configurazione per questo modello sarà determinata dal team di evasione in base alle scorte disponibili.",
+        "keyboard": "tastiera",
+        "keyboardLabel": "Selezionare la lingua della tastiera",
+        "language": "Lingua",
+        "modelSpecifications": "Specifiche del modello",
+        "os": "Sistema operativo",
+        "osLabel": "Selezionare sistema operativo",
+        "plugLabel": "Seleziona tipo di spina",
+        "plugType": "Tipo di spina",
+        "replaceDevice": {
+          "broken": "Dispositivo rotto",
+          "missing": "Dispositivo mancante",
+          "replaceLabel": "Selezionare un dispositivo da sostituire",
+          "replaceReason": "Selezionare un motivo per la sostituzione del dispositivo"
+        },
+        "replaceFlowRequestReasonTooltip": "Il valore è associato all'azione intrapresa e non può essere modificato",
+        "requestDetails": "Dettagli richiesta",
+        "requestReason": "Selezionare un motivo della richiesta",
+        "selectConfiguration": "Dettagli di configurazione",
+        "selectReturn": "Selezionare una data di reso",
+        "shortTermHint": "Impossibile selezionare una data di reso successiva a 90 giorni dalla data di richiesta",
+        "title": "Dettagli computer"
+      },
+      "header": {
+        "subtitle": "Dispositivi per soddisfare tutte le esigenze aziendali",
+        "title": "Catalogo computer"
+      }
+    },
+    "gcom": {
+      "accountInformation": {
+        "assignedTo": "In lavorazione da",
+        "assignedToDescription": "Persona che utilizzerà il servizio",
+        "banCheckError": "Errore durante il controllo dell'idoneità dell'utente. Riprova.",
+        "billedTo": "FATTURATO A",
+        "billedToDescription": "Persona che sarà responsabile della fatturazione nel paese in cui è stato utilizzato",
+        "changeUser": "CAMBIA UTENTE",
+        "hint": "Definire chi utilizzerà il servizio e chi verrà addebitato per il servizio",
+        "label": "Informazioni sull'account",
+        "notEligible": "L'utente fatturato non è idoneo"
+      },
+      "header": {
+        "subtitle": "Alternative moderne ai servizi telefonici tradizionali",
+        "title": "Catalogo GCom"
+      },
+      "helpMeDecide": {
+        "analogLine": "Linea analogica - Viene utilizzato per la connessione fax, le macchine per l'affrancatura, i portaore e gli ascensori. Questo prodotto non fornisce telefono. Selezionare l'opzione relativa alla segreteria telefonica (Sì/No).",
+        "conferenceRoomPhone": "Telefono sala conferenze - Questo prodotto è per sale riunioni.",
+        "deskPhone": "Telefono da tavolo: selezionare le opzioni relative alla segreteria telefonica (Sì/No) e al modulo di espansione (utilizzato per l'inoltro di chiamata).",
+        "predefinedSku": "USK predefinito : selezionare questa opzione se si è un utente di Power e si ha familiarità con lo SKU specifico richiesto dal team (ad esempio: call center). Utilizzare la casella di testo per fornire l'USK richiesto.",
+        "specialRequest": "Richiesta speciale: selezionare questa opzione quando è necessaria assistenza per selezionare un prodotto. Utilizzare la casella di testo per fornire dettagli sulla richiesta.",
+        "teamsDialtone": "Teams Dialtone - Questo prodotto consente di chiamare numeri di telefono esterni da Teams. Se disponibile, questo sarà il prodotto predefinito preselezione. Selezionare le opzioni tra le opzioni a discesa disponibili.",
+        "title": "Informazioni sul prodotto"
+      },
+      "locationOfService": {
+        "cityLabel": "città",
+        "countryLabel": "paese",
+        "countryTooltip": "Il paese è legato all'utente fatturato a, che deve trovarsi nel paese in cui verrà utilizzato il servizio.",
+        "hint": "Definire la posizione abilitata per GCom",
+        "label": "Ubicazione del servizio",
+        "noSiteAvailableMessage": "Non sono disponibili siti abilitati GCom per la posizione selezionata",
+        "selectCityPlaceholder": "Seleziona città",
+        "selectCityQueryError": "Siamo spiacenti, abbiamo avuto un problema a trovare città idonee. Riprova.",
+        "selectSitePlaceholder": "Indirizzo sito",
+        "selectSiteQueryError": "Siamo spiacenti, abbiamo avuto un problema a trovare siti idonei. Riprova.",
+        "selectStateLPlaceholder": "Seleziona stato",
+        "selectStateQueryError": "Siamo spiacenti, abbiamo avuto un problema a trovare stati idonei. Riprova.",
+        "siteLabel": "sito",
+        "stateLabel": "stato"
+      },
+      "productSelection": {
+        "helpMeDecide": "Aiutami a decidere",
+        "hint": "Definire un'offerta principale su ordinazione",
+        "label": "Selezione del prodotto",
+        "notEligible": "Non sei idoneo per questo prodotto.",
+        "productOptions": "Quale prodotto stai cercando?",
+        "productSelectionQueryError": "Siamo spiacenti, abbiamo avuto un problema a trovare prodotti idonei. Riprova.",
+        "selectProductOption": "selezionare",
+        "summaryTitle": "Nuovo prodotto da associarsi a questo servizio:"
+      },
+      "userLookup": {
+        "description": "Cercare un altro utente",
+        "title": "Cambia utente"
+      }
+    },
+    "leaveModal": {
+      "content": "Se si desidera continuare il processo di sostituzione in un secondo momento, tornare al menu Gestisci. Vuoi procedere?",
+      "title": "Si sta lasciando il processo di sostituzione"
+    },
+    "mobility": {
+      "header": {
+        "subtitle": "Dispositivi per soddisfare tutte le esigenze aziendali",
+        "title": "Catalogo dispositivi mobili"
+      },
+      "mobilityDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Leggere il seguente messaggio",
+          "acknowledgementLabel": "Capisco",
+          "deviceUsage": "Selezionare l'utilizzo di un dispositivo",
+          "justificationHint": "Descrivere le esigenze aziendali per questo dispositivo"
+        },
+        "carrier": "trasportatore",
+        "color": "Colore",
+        "configuration": {
+          "title": "Dettagli di configurazione"
+        },
+        "configurationStockMessage": "La configurazione per questo modello sarà determinata dal team di evasione in base alle scorte disponibili.",
+        "features": "tratti somatici",
+        "hardwareSelectionQueryError": "Siamo spiacenti, abbiamo avuto un problema a trovare hardware selezionato. Riprova.",
+        "plan": "piano",
+        "plans": "piani",
+        "requestReason": {
+          "title": "Motivo della richiesta"
+        },
+        "storage": "immagazzinamento",
+        "title": "Dettagli mobilità"
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+@import '../../styles/scss/variable.scss';
+@import '../../styles/scss/mixin.scss';
+
+.item-devices {
+  padding: 0 10px;
+  .state {
+    position: relative;
+    margin: 10px 50px 0;
+    padding-left: 8px;
+    text-transform: uppercase;
+    color: $color-green;
+    font-size: 10px;
+    font-weight: 700;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 4px;
+      height: 4px;
+      margin-top: -2px;
+      background-color: $color-green;
+      border-radius: 50%;
+    }
+  }
+  .image-block {
+    position: relative;
+    > img {
+      display: block;
+      margin: 0 auto;
+      width: 250px;
+    }
+    .label-refresh {
+      display: flex;
+      align-items: flex-end;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      z-index: 5;
+      font-size: 12px;
+      font-weight: 700;
+      color: $color-purple-main;
+      margin-top: -30px;
+      line-height: 1;
+      svg {
+        font-size: 30px;
+        position: relative;
+        top: 5px;
+      }
+    }
+  }
+
+  .info-device {
+    padding: 40px 20px 20px;
+    .option, .value {color: $color-gray-dark;}
+    .option {margin: 0;}
+    .ttl-device {
+      margin: 8px 0 0 0;;
+      color: #000;
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .content {
+      margin: 10px 0 0;
+      padding: 0 50px;
+      list-style-type: none;
+      li {
+        padding: 3px 0;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        svg {
+          color: #000;
+          font-size: 14px;
+        }
+      }
+      .icon-computer {width: 14px;}
+      .label {
+        margin-left: 5px;
+        font-weight: 700;
+        padding-right: 5px;
+        color: #000;
+      }
+    }
+  }
+  .detail-block {
+    padding: 10px 20px;
+    border-top: solid 1px $color-gray-dark;
+    h5 {
+      min-height: auto;
+      margin: 0;
+      color: #000;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .description-content {
+      margin-top: 10px;
+      color: #000;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+
+  .list-link {
+    padding: 20px 0;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 10px 10px;
+      button {   
+        font-size: 14px;
+        padding: 0;
+        min-width: auto;
+        text-transform: capitalize;
+      }
+    }
+    .item-link{
+      @include hyperlink();
+    }     
+  }
+  .devices-detail-horizontal-inner{
+    display: flex;
+    .info-device{
+      padding: 0;
+      flex: 1;
+      .content{
+        padding: 0;
+      }
+
+      .image-block {
+        > img {
+          width: 200px;
+        }
+      }
+    }
+    .info-device-detail{
+      flex: 1;
+      .detail-block{
+        border: none;
+      }
+    }
+  }
+  .info-device-horizontal{
+    display: flex;
+    .info-device-thumbnail{
+      flex: 1,
+    }
+    .content{
+      flex: 1,
+    }
+  }
+  .btn-copy {
+    border: 0;
+    background-color: transparent;
+    &:hover {cursor: pointer;}
+  }
+  .copy-txt {
+    width: 0;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media (max-width: $md-1-breakpoints) {
+  .item-devices .devices-detail-horizontal-inner{
+    display: block;
+    .info-device-horizontal{
+      display: block;
+    }
+  }
+}

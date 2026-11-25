@@ -1,0 +1,48 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+.ioCard {
+  cursor: pointer;
+  width: 100%;
+  .ant-card-body {
+    .general-title{
+      .heading6{
+        @include heading6;
+        min-height: 36px;
+        color: $black;
+        margin-top: 5px;
+      }
+      .heading4{
+        @include heading4;
+        min-height: 36px;
+        color: $black;
+        margin-top: 5px;
+      }          
+    }
+    .generalImg-cover {
+      svg {
+        color: $black;
+      }
+    }
+    .general-card-link {
+      .link-small-card {
+        @include captionSemibold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1 !important;
+        color: $color-gray-dark;
+        margin-right: 4px;
+      }
+      .link-large-card{
+        @include bodySemibold;
+      }
+      .general-card-icon-cover {
+        svg {
+          bottom: 2px;
+        }
+      }
+    }
+  }
+}

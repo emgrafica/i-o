@@ -1,0 +1,43 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.io-device-primary {
+  font-family: "opensans-semi-bold", Helvetica, Arial, sans-serif;
+  .device-card-header {
+    margin-top: 35px;
+  }
+  .device-card-content {
+    &-image {
+      margin-bottom: 10px;
+    }
+    .device-card-configuration {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 8px;
+      &-item-content,
+      &-item-header {
+        font-size: 12px;
+        margin-bottom: 4px;
+      }
+      .device-card-deviceBrand {
+        @include captionRegular;
+        color: $color-gray-dark;
+        margin-bottom: 5px;
+      }
+      .device-card-deviceName {
+        @include heading5;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+      .device-card-configuration-item{
+        .device-card-configuration-item-header{
+          @include captionSemibold;
+        }
+        .device-card-configuration-item-content{
+          color: $color-gray-dark;
+          @include captionRegular;
+        }
+      }
+    }
+  }
+}

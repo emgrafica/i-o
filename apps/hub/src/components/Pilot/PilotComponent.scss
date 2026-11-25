@@ -1,0 +1,351 @@
+@import '../../styles/scss/fonts.scss';
+@import "../../styles/scss/mixin.scss";
+
+
+.logout-Icon {
+    background-color: #fff;
+    background-image: url('../../assets/images/pilot/oval.png');
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pilot-container {
+    min-height: 400px;
+    background: linear-gradient(125.11deg, #3726B0 0.41%, #BE68D5 129.85%);
+    color: white;
+
+
+    .aus-bg {
+        /* Label */
+        position: absolute;
+        width: 1166px;
+        height: 344px;
+        left: -2%;
+        top: 126px;
+
+        font-family: GT Walsheim Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 304px;
+        line-height: 64px;
+        /* or 21% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -1.2px;
+
+        /* FAFAFF */
+
+        color: #FAFAFF;
+
+        opacity: 0.1;
+    }
+    
+}
+
+.pilot-card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+.pilot-card{
+    /* shape */
+    // position: absolute;
+    // left: 0%;
+    // right: 0%;
+    // top: 0%;
+    // bottom: 0%;
+
+    /* UI/white */
+    background: #FFFFFF;
+    box-shadow: 4px 10px 30px 4px rgba(36, 14, 47, 0.06);
+    border-radius: 12px;
+    height: 214px;
+    width: 440px;
+    // position: relative;
+    // top: 300px;
+
+}
+.pilot-card-header{
+    // position: absolute;
+    // width: 288px;
+    // height: 28px;
+    // left: 368px;
+    // top: 268px;
+    
+    /* Desktop/H4 */
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    
+    text-align: center;
+    
+    /* Brand/purple-main */
+    
+    color: #5F249F;
+    margin-bottom: 12px;
+    margin-top: 30px;
+    
+
+}
+
+.pilot-card-body{
+/* Desktop/Body - Regular */
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+text-align: center;
+
+/* UI/black */
+
+color: #1F2020;
+
+}
+
+
+//IphoneX display
+@media screen and (max-width: 376px)  {
+
+    .pilot-container{
+        min-height: 300px !important;
+
+        .aus-bg {
+            position: absolute;
+            width: 1166px;
+            height: 263px;
+            left: -10px;
+            top: 86px;
+            
+            font-family: 'GT Walsheim Pro';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 200px;
+            line-height: 64px;
+            /* or 32% */
+            
+            display: flex;
+            align-items: center;
+            letter-spacing: -1.2px;
+            
+            /* FAFAFF */
+            
+            color: #FAFAFF;
+            
+            opacity: 0.1;
+        }
+    }
+
+    .pilot-card{
+        /* UI/white */
+        background: #FFFFFF;
+        box-shadow: 4px 10px 30px 4px rgba(36, 14, 47, 0.06);
+        border-radius: 12px;
+        height: 224px;
+        width: 280px; 
+    }
+
+    .pilot-card-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 200px;
+    }
+}
+
+//Iphone5,6 display
+@media screen and (min-width: 376px)  and (max-width: 415px){
+
+    .pilot-container{
+        min-height: 300px !important;
+
+        .aus-bg {
+            position: absolute;
+            width: 1166px;
+            height: 263px;
+            left: -2px;
+            top: 93px;
+            font-family: 'GT Walsheim Pro';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 200px;
+            line-height: 64px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -1.2px;
+            color: #FAFAFF;
+            opacity: 0.1;
+            justify-content: left;
+        }
+    }
+
+    .pilot-card{
+        /* UI/white */
+        background: #FFFFFF;
+        box-shadow: 4px 10px 30px 4px rgba(36, 14, 47, 0.06);
+        border-radius: 12px;
+        height: 224px;
+        width: 280px; 
+    }
+
+    .pilot-card-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 200px;
+    }
+}
+
+
+
+
+//Ipad display
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .search-bar-group-button{
+        top: 100%
+    }
+
+    .pilot-container {
+        min-height: 370px !important;
+
+        .aus-bg {
+        /* Label */
+        position: absolute;
+        width: 1166px;
+        height: 344px;
+        left: -2%;
+        top: 69px;
+
+        font-family: GT Walsheim Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 304px;
+        line-height: 64px;
+        /* or 21% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -1.2px;
+
+        /* FAFAFF */
+
+        color: #FAFAFF;
+
+        opacity: 0.1;
+        }
+    }
+
+    .pilot-card-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 280px;
+    }
+
+}
+
+
+// @media screen and (min-width: 1025px){
+//     .pilot-container{
+//         .aus-bg{
+//             position: absolute;
+//             bottom: -500px;
+//             left: 10px;
+//             opacity: 0.1;
+//             font-weight: bold;
+//             font-family: 'GT Walsheim Pro Bold';
+//             width: 100%;
+//             font-size: 25vw;
+//             z-index: 0;
+//         }
+//     }
+// }
+
+
+
+
+.navigation-bar{
+    padding: 5px 50px;
+    height: 48px;
+}
+
+@include media-breakpoint-desktop {
+    .pilot-navigation-bar.custom_container {
+      position: absolute;
+    }
+  }
+
+.dropdown-toggle::after {
+    display: none;
+}
+.active-route{
+    border-bottom: 3px solid white;
+}
+
+.product-name{
+    margin-left: 20px;
+    font-weight: 550;
+    b{
+        font-family: 'GT Walsheim Pro Bold';
+    }
+}
+
+.title-content{
+    align-items: center;
+    display: flex;
+}
+
+.navbar-nav > .nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media(max-width: 768px){
+    .navigation-bar{
+        padding: 5px 10px;
+        .navigation-bar-end{
+            display: block;
+            flex-basis: auto;
+            .navbar-nav{
+                flex-direction: row;
+            }
+        }
+    }
+    .navbar-brand{
+        margin-right: 0;
+    }
+    .navbar-toggler{
+        border: none;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('../../assets/icons/navbar-hamburger.svg');
+    }
+
+    .navigation-bar{
+        padding: 5px 20px;
+    }
+}
+
+
+
+

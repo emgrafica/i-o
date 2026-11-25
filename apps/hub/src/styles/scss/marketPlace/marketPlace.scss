@@ -1,0 +1,295 @@
+@import './../variable.scss';
+@import './../mixin.scss';
+
+.clearfix {
+  *zoom: 1;
+  &:after {
+    display: table;
+    content: '';
+    clear: both;
+  }
+}
+
+.market-place {
+  .banner {
+    overflow: hidden;
+    height: 219px !important;
+    min-height: auto;
+    padding: 0;
+    .custom_container {
+      position: relative;
+      height: 100%;
+    }
+    .title-bg {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      -webkit-transform: translateY(-45%);
+         -moz-transform: translateY(-45%);
+              transform: translateY(-45%);
+      font-family: $font-gtwalsheim_pro_bold;
+      font-size: 40px !important;
+      line-height: 44px;
+      color: $color-white;
+    }
+    .title-shadow {
+      bottom: 15px;
+      font-size: 140px;
+      line-height: 64px;
+      letter-spacing: -1.2px;
+      left: -8px;
+      text-align: center;
+      height: auto;
+    }
+  }
+
+  .content-marketplace {padding: 32px 20px 20px;}
+  .line-breack {margin-bottom: 8px;}
+  .outer-software {
+    &:before {
+      content: '';
+      width: 148px;
+      height: 168px;
+      background: url('./../../../assets/images/marketPlace/MS-bg.png') no-repeat;
+      background-size: 100%;
+      position: absolute;
+      top: 50%;
+      right: -30px;
+      z-index: 5;
+      margin-top: -80px;
+    }
+    .link-support {margin-top: 10px;}
+  }
+  .outer-access {
+    &:before {
+      content: '';
+      width: 144px;
+      background: url('./../../../assets/images/marketPlace/acces-bg-mobile.png') no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+    }
+    &:after {
+      content: '';
+      mix-blend-mode: multiply;
+      width: 83px;
+      height: 119px;
+      background: url('./../../../assets/images/marketPlace/icon-laptop-holder-mobile.png') no-repeat;
+      background-size: 100% auto;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      z-index: 5;
+      margin-top: -50px;
+    }
+  }
+  .list-icon {
+    .ant-list-items {
+      @extend .clearfix;
+      margin-left: -10px;
+    }
+  }
+  .item-software {
+    width: 62px;
+    height: 59px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &:nth-child(3n + 1) {
+      clear: left;
+    }
+    &.item-ms-x {
+      background-image: url('./../../../assets/images/marketPlace/icon-ms-x-mobile.png');
+      background-size: 62px 59px;
+    }
+    &.item-ms-t {
+      background-image: url('./../../../assets/images/marketPlace/icon-ms-t-mobile.png');
+      background-size: 59px 59px;
+    }
+    &.item-ms-n {
+      background-image: url('./../../../assets/images/marketPlace/icon-ms-n-mobile.png');
+      background-size: 36px 33px;
+      background-position: 50% 9px;
+    }
+    &.item-ms-o {
+      background-image: url('./../../../assets/images/marketPlace/icon-ms-o-mobile.png');
+      background-size: 62px 59px;
+    }
+    &.item-ms-w {
+      background-image: url('./../../../assets/images/marketPlace/icon-ms-w-mobile.png');
+      background-size: 62px 59px;
+    }
+    &.item-ms-p {
+      background-image: url('./../../../assets/images/marketPlace/icon-ms-p-mobile.png');
+      background-size: 62px 59px;
+    }
+  }
+  .img-headphone {
+    mix-blend-mode: multiply;
+    .img-headphone-desktop {display: none;}
+    .ant-image {
+      width: 101px;
+      margin-left: 22%; 
+    }
+  }
+  @media (min-width: 768px) {
+    .outer-software {
+      padding: 45px !important;
+      &:before { content: none; }
+      .link-support {margin-top: -100px;}
+    }
+    .outer-access {
+      padding: 45px 45px 0 !important;
+      &:before {
+        width: 340px;
+        background-image: url('./../../../assets/images/marketPlace/acces-bg-desktop.png');
+      }
+      &:after {
+        width: 213px;
+        height: 183px;
+        background-image: url('./../../../assets/images/marketPlace/icon-laptop-holder-desktop.png');
+        right: 20px;
+        margin-top: -92px;
+      }
+      .link-support {margin-top: -150px;}
+    }
+    .list-icon {
+      position: relative;
+      z-index: 10;
+      &:before {
+        content: '';
+        width: 206px;
+        height: 234px;
+        background: url('../../../assets/images/marketPlace/MS-bg.png') no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 5;
+        margin-top: -120px;
+        margin-left: -103px;
+      }
+    }
+    .item-software {
+      width: 80px;
+      height: 73px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      &.item-ms-x {
+        background-image: url('./../../../assets/images/marketPlace/icon-ms-x-desktop.png');
+        background-size: 80px 73px;
+      }
+      &.item-ms-t {
+        background-image: url('./../../../assets/images/marketPlace/icon-ms-t-desktop.png');
+        background-size: 78px 75px;
+        background-position: 50% -6px;
+      }
+      &.item-ms-n {
+        background-image: url('./../../../assets/images/marketPlace/icon-ms-n-desktop.png');
+        background-size: 51px 48px;
+        background-position: 50% 5px;
+      }
+      &.item-ms-o {
+        background-image: url('./../../../assets/images/marketPlace/icon-ms-o-desktop.png');
+        background-size: 80px 75px;
+      }
+      &.item-ms-w {
+        background-image: url('./../../../assets/images/marketPlace/icon-ms-w-desktop.png');
+        background-size: 78px 76px;
+      }
+      &.item-ms-p {
+        background-image: url('./../../../assets/images/marketPlace/icon-ms-p-desktop.png');
+        background-size: 78px 75px;
+      }
+    }
+    .img-headphone {
+      .img-headphone-mobile {display: none;}
+      .img-headphone-desktop {display: block;}
+      
+      .ant-image {
+        width: 175px;
+        margin-top: -15px;
+        margin-left: -40%;
+      }
+    }
+
+    .banner {
+      &:before {
+        bottom: -80px;
+        font-size: 140px;
+      }
+    }
+  }
+  @media (min-width: 769px) {
+    .banner {
+      .title-shadow {
+        bottom: 10px;
+        font-size: 140px;
+        line-height: 135px;
+      }
+    }
+  }
+  @media (min-width: 960px) {
+    .outer-software .link-support {margin-top: -90px;}
+    .outer-access .link-support {margin-top: -135px;}
+  }
+
+  @media (min-width: 1024px) {
+    .content-marketplace {padding: 32px 64px 20px;}
+    .banner {
+      height: 336px !important;
+      .title-bg {
+        font-size: 64px !important;
+        line-height: 68px;
+        left: 96px;
+      }
+      &:before {
+        bottom: -110px;
+        font-size: 190px;
+      }
+      .title-shadow {
+        bottom: 40px;
+        font-size: 190px;
+      }
+    }
+    .outer-software .link-support {margin-top: -110px;}
+    .line-breack {
+      margin-top: 60px;
+      &.line-accessories {margin-top: 96px;}
+    }
+    .item-software {
+      margin-right: 40px;
+      margin-bottom: 30px;
+    }
+    .list-icon {
+      top: 5px;
+      &:before {margin-left: -118px;}
+    }
+    .img-headphone .ant-image {margin-left: -78px;}
+  }
+
+  @media (max-width: 769px){
+    .banner {
+      .title-shadow {
+        bottom: 40px;
+      }
+    }
+  }
+
+  @media (max-width: 480px){
+    .banner {
+      .title-shadow {
+        display: block;
+        font-size: 100px;
+        bottom: 20px;
+      }
+    }
+  }
+}

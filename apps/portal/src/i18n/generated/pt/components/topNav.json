@@ -1,0 +1,17 @@
+{
+  "getSupport": "Obter suporte",
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "logOut": "Log out",
+  "logOutMessage": "Esta ação irá tirá-lo de DXC EXP.",
+  "manage": "gerir",
+  "punchOutModal": {
+    "closeButton": "Diálogo próximo",
+    "getSupportMessage": "O suporte ao vivo da SOLV Desk está disponível para o seu negócio ou região fora de DXC.",
+    "mobileMessage": "Solicitar o Mobile está disponível para o seu negócio ou região fora de DXC Exp. Clique em Continuar a acessar este serviço em uma nova guia.",
+    "remoteAccessMessage": "Solicitar acesso remoto está disponível para sua empresa ou região fora de DXC Exp. Clique em Continuar acessando este serviço em uma nova guia.",
+    "softwareMessage": "O Software Solicitante está disponível para sua empresa ou região fora de DXC Exp. Clique em Continuar acessando este serviço em uma nova guia.",
+    "title": "Informações importantes"
+  },
+  "request": "pedir",
+  "signOut": "sair"
+}

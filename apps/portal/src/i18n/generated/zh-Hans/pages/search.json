@@ -1,0 +1,15 @@
+{
+  "id": "d7ab0c9d-b719-4d01-9323-ba6214c0961e",
+  "keywords": {
+    "placeholder": "身份证号码"
+  },
+  "searchBy": {
+    "criteria": {
+      "asset": "资产",
+      "user": "用户"
+    },
+    "label": "搜索由"
+  },
+  "subtitle": "查看和执行资产和门票",
+  "title": "搜索"
+}

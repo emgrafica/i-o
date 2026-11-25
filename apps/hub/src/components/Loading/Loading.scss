@@ -1,0 +1,9 @@
+@import "../App.scss";
+
+
+$primary-color: #512593;
+
+.loading-indicator{
+    z-index: 99999 !important;
+    color: $primary-color;
+}

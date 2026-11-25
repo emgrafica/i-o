@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "设备使用情况",
+      "incidentNumber": "事件编号",
+      "message": "更换设备将符合正在更换的设备的一般规格。将用可用的库存进行更换，以降低成本。感谢您在我们努力实现公司财务目标时所取得的理解。",
+      "reasonForRequest": "请求理由",
+      "reasonForRequestValue": "返回破碎",
+      "reasonForReturn": "返回原因",
+      "requestedFor": "请求",
+      "situationDetails": "情况详情"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "下载标签"
+  },
+  "secureLocationRestriction": {
+    "message": "安全位置限制"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "无法验证输入的地址。"
+    },
+    "label": "我相信我输入的地址是正确的",
+    "message": "请更新地址并再次提交，或者如果您确信输入的地址是可交付的，请选择复选框以处理未经验证的地址。"
+  }
+}

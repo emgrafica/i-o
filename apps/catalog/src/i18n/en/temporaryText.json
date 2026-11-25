@@ -1,0 +1,54 @@
+{
+  "id": "40bc9c50-1176-4162-bc49-0f75f775a4c4",
+
+  "comingSoon": {
+    "title": "Coming Soon!"
+  },
+  "showWipTopNav": {
+    "title": "Coming Soon"
+  },
+  "showWipGcom": {
+    "subtitle": "GCom ordering is almost ready!",
+    "content1": "Through this catalog you can view, compare, and order the right GCom service to optimize your collaboration. Our new catalog will have a cleaner order flow to help you make an informed decision.",
+    "content2": "Need GCom now? <1>Visit existing i-o Collaboration Catalog.</1>"
+  },
+  "showWipMobility": {
+    "subtitle": "Mobility ordering is almost ready!",
+    "description": "Through this catalog you can view, compare, and order the right Mobile device to help you get your job done. Our new catalog will have a cleaner product display, richer filtering, and an improved order flow to help you make an informed decision.",
+    "redirect": "Need Mobility now? ",
+    "redirectLink": "Visit existing i-o Mobility Catalog."
+  },
+  "showWipSoftware": {
+    "subtitle": "Software ordering is almost ready!",
+    "description": "Through this catalog you can view, compare, and order the right Software titles to get your job done. Our new catalog will have a more intuitive search process, richer filtering, and an improved order flow to help you make an informed decision.",
+    "redirect": "Need software now? ",
+    "redirectLink": "​Visit existing i-o Software Catalog."
+  },
+  "showWipApprovals": {
+    "title": "Coming Soon!",
+    "subtitle": "Approvals are almost ready!",
+    "content1": "Through this page you can action pending orders and view archived Approvals, with a redesigned card look that gives you needed context to make important approval decisions.",
+    "content2": "Need to approve an open order now? <1>Visit existing i-o My Actions.</1>"
+  },
+  "showWipAccessories": {
+    "title": "Coming Soon!",
+    "subtitle": "Accessory ordering is almost ready!",
+    "content1": "Through this catalog you can view, compare, and order items to support your individual productivity and collaboration needs.",
+    "content2": "Need an accessory now? <1>Visit existing i-o Accessories Catalog</1>."
+  },
+  "showWipComputers": {
+    "title": "Coming Soon!",
+    "subtitle": "Computer ordering is almost ready!",
+    "content1": "Through this catalog you can view, compare, and order the right computer to help you get your job done. Our new catalog will have a cleaner product display, richer filtering, and an improved order flow to help you make an informed decision.",
+    "content2": "Need a computer now? <1>​Visit existing i-o Computers Catalog.</1>"
+  },
+  "showWipCollaboration": {
+    "title": "Collaboration",
+    "description": "GE has recently introduced Microsoft Teams as its' next generation collaboration platform. Teams includes a variety of productivity tools, from chat to video conferencing to powerful app integrations.",
+    "content1": "Learn more about Teams",
+    "content2": "Sign up for a Teams training session",
+    "downloadTitle": "Download Teams",
+    "forWindows": "For Windows",
+    "forMac": "For Mac"
+  }
+}

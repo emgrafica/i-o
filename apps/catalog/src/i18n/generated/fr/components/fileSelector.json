@@ -1,0 +1,10 @@
+{
+  "browseButton": "parcourir",
+  "clearSelectionButton": "Supprimer tous les fichiers",
+  "fileNotSupportedErrorMessage": "Le type de fichier n’est pas pris en charge",
+  "fileNotSupportedHelpMessage": "Veuillez télécharger les types de fichiers à partir de l’un des éléments suivants :",
+  "fileSizeErrorMessage": "Le fichier dépasse {{limit}}Mo",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Faites glisser un fichier ici ou",
+  "maxNumberOfFilesExceededMessage": "Les fichiers dépassent la limite de {{limit}}"
+}

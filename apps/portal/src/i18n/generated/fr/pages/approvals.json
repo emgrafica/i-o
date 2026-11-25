@@ -1,0 +1,42 @@
+{
+  "approvalError": "Échec de l’approbation. Veuillez réessayer.",
+  "approve": "approuver",
+  "approved": "approuvé",
+  "decline": "décliner",
+  "declineModal": {
+    "label": "Veuillez indiquer la raison du refus.",
+    "placeholder": "Voici la raison du déclin.",
+    "title": "Raison du refus"
+  },
+  "declineSuccess": "Demande refusée avec succès.",
+  "declined": "décliné",
+  "filterBox": {
+    "accessories": "accessoires",
+    "computers": "Ordinateurs",
+    "mobility": "mobilité",
+    "title": "Catégories"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "Il n’y a pas de commandes approuvées.",
+  "noDeclinedOrders": "Il n’y a pas de commandes refusées.",
+  "noFilterResults": "Désolé, aucun résultat ne correspond à votre filtre.",
+  "noPendingOrders": "Aucune commande n’est actuellement en attente de votre approbation.",
+  "order": {
+    "approvalReason": "Raison de l’approbation",
+    "approvedLabel": "approuvé",
+    "businessJustification": "Justification commerciale",
+    "declineReason": "Raison refusée",
+    "declinedLabel": "décliné",
+    "for": "pour",
+    "imageAlt": "Actif demandé",
+    "orderNumber": "Numéro de commande",
+    "price": "prix",
+    "replacedDevice": "Appareil remplacé",
+    "requestReason": "Motif de la demande",
+    "returnDate": "Date de retour",
+    "submittedLabel": "soumis"
+  },
+  "pending": "en instance",
+  "subtitle": "Afficher les demandes et y donner suite",
+  "title": "Approbations"
+}

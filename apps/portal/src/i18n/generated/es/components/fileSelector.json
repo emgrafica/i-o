@@ -1,0 +1,10 @@
+{
+  "browseButton": "hojear",
+  "clearSelectionButton": "Eliminar todos los archivos",
+  "fileNotSupportedErrorMessage": "No se admite el tipo de archivo",
+  "fileNotSupportedHelpMessage": "Cargue los tipos de archivo de uno de los siguientes:",
+  "fileSizeErrorMessage": "El archivo supera los {{limit}}MB",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "Arrastre un archivo aquí o",
+  "maxNumberOfFilesExceededMessage": "Los archivos superan el límite de {{limit}}"
+}

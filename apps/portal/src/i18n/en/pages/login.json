@@ -1,0 +1,11 @@
+{  
+  "id": "ba8017df-0366-42c7-b728-5f0b70bf6c91",
+
+  "login": "Login",
+  "title": "Log in",
+  "subtitle": "Enter your details below",
+  "email": "Email",
+  "emailPlaceholder": "email@email.com",
+  "invalidEmail": "Enter a valid email address",
+  "invalidDomain": "We don't recognize your company email. Please contact your system administrator"
+}

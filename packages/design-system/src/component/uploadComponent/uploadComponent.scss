@@ -1,0 +1,54 @@
+@import "../../styles//scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.upload-container {
+  &.disabled {
+    opacity: 0.5;
+  }
+  .MuiDropzoneArea-root {
+    height: 120px;
+    min-height: initial;
+    border-radius: 20px;
+    .MuiDropzonePreviewList-root {
+      display: none;
+    }
+    .MuiDropzoneArea-textContainer {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .MuiDropzoneArea-icon {
+      width: 51px;
+      height: 51px;
+    }
+    p {
+      margin: 10px 0 0;
+      @include heading6;
+      color: black;
+      a {
+        color: #1890ff;
+      }
+    }
+  }
+  .upload-error {
+    @include captionRegular;
+    margin-top: 5px;
+    color: $color-red;
+    text-align: center;
+  }
+  .upload-config {
+    color: $color-gray-dark;
+    @include eyebrow;
+    font-weight: normal;
+    padding: 5px 0 0 10px;
+    line-height: 1.3;
+  }
+}
+
+.upload-container-full-width {
+  .MuiDropzoneArea-root {
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "アプリケーション名",
+  "backLink": "サポートの取得に戻る",
+  "businessLabel": "事",
+  "filesAlertMessageLong": "要求のタイムアウトのため、ファイルのアップロードに失敗しました。もう一度やり直してください。",
+  "filesAlertMessageLong_plural": "要求のタイムアウトのため、ファイルのアップロードに失敗しました。もう一度やり直してください。",
+  "filesAlertMessageShort": "ファイルのアップロードに失敗しました",
+  "filesAlertMessageShort_plural": "ファイルのアップロードに失敗しました",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "問題の詳細",
+  "incidentTitleLabel": "タイトル",
+  "pageAlertMessage": "インシデントが正常に作成されました!インシデント番号は {{tenantDisplayId}}",
+  "retryAllButton": "すべて再試行",
+  "retryButton": "リトライ",
+  "subtitle": "IT の問題に対するセルフサービス ソリューションへのアクセス",
+  "title": "サポートを受ける",
+  "uploadedFilesLabel": "アップロードされたファイル"
+}

@@ -1,0 +1,35 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.my-stuff-component-style {
+  .p-h4 {
+    line-height: 30px;
+    font-size: 25px;
+  }
+
+  .heading-text {
+    color: $color-purple-main;
+    padding-bottom: $dls-s03-0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .company-portal {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint-mobile-ipad {
+  .c-ant-col-md-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@include media-breakpoint-medium-desktop-1 {
+  .c-ant-col-md-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

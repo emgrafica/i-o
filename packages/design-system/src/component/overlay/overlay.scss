@@ -1,0 +1,115 @@
+@import "../../styles/scss/variable.scss";
+
+.container-overlay {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  position: absolute;
+  right: auto;
+  left: 25%;
+  top: 0;
+  background: #fff;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 10px 30px 4px rgba(0, 0, 0, 0.06);
+
+  &:before {
+    border-right: solid 5px transparent;
+    border-left: solid 5px transparent;
+    border-bottom: solid 5px #fff;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: -1;
+    content: "";
+    bottom: 100%;
+    right: 10%;
+    height: 0;
+    width: 0;
+    box-shadow: 4px 10px 30px 4px rgba(0, 0, 0, 0.06);
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #cacaca;
+    box-shadow: none;
+  }
+
+  .overlay-header {
+    display: flex;
+    padding: 16px;
+
+    .MuiAvatar-circular {
+      color: #000000;
+      background: #fff;
+      border: 2px solid #000000;
+      svg {
+        path {
+          fill: #000000;
+        }
+      }
+    }
+    &__right {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      color: #1f2020;
+      font-size: 22px;
+      text-transform: capitalize;
+
+      div {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .overlay-content {
+    display: flex;
+    padding: 0 16px 16px;
+    .overlay-line {
+      display: flex;
+      margin: 10px 0;
+      &__left {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: #1f2020;
+        font-weight: 500;
+        svg {
+          width: 22px;
+          height: 22px;
+          color: #1f2020;
+          padding-right: 8px;
+          display: flex;
+          path {
+            fill: #1f2020;
+          }
+        }
+      }
+      &__right {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        color: #737373;
+        font-weight: 400;
+      }
+      &__signout {
+        border: 1px solid #000000;
+        color: #000000;
+        width: 100%;
+        border-radius: 30px;
+        padding: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        background-color: #fff;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

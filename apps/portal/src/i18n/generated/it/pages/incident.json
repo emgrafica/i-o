@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "Applicatione:",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "({{count}} File allegato)",
+      "fileCount_plural": "({{count}} file allegati)",
+      "maxSizeInfo": "Dimensioni massime per file: {{limit}}.0 MB",
+      "optionalLabel": "(Facoltativo)",
+      "title": "Allegare file"
+    },
+    "instructions": "Puoi allegare fino a {{limit}} documenti inerenti il tuo problema ed aiutare il team di supporto a capire meglio ed accellerare la soluzione dello stesso"
+  },
+  "businessLabel": "Azienda:",
+  "descriptionSection": {
+    "details": {
+      "label": "Descrivi il problema in dettaglio",
+      "placeholder": "Descrivi il tuo problema in dettaglio in modo che i nostri agenti possano aiutarti il più rapidamente possibile"
+    },
+    "header": "descrizione",
+    "title": {
+      "label": "titolo",
+      "placeholder": "Descrizione Breve"
+    }
+  },
+  "directions": "Compilate il seguente modulo per richiedere l'apertura di un incidente e quindi notifcare il team di supporto specifico affinchè si prenda in carico il problema e lo risolva.",
+  "formTitle": "Modulo Apertura Ticket su Applicazione Aziendale",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "Creazione dell'incidente e caricamento dei file allegati",
+  "loadingMessageWithoutFiles": "Creazione dell'incidente",
+  "searchedTopicLabel": "Argomento:",
+  "subtitle": "Trova le soluzioni ai problemi IT in completa autonomia",
+  "title": "Richiedi supporto"
+}

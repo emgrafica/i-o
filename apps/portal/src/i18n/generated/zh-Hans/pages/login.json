@@ -1,0 +1,10 @@
+{
+  "email": "电子邮件",
+  "emailPlaceholder": "email@email.com",
+  "id": "ba8017df-0366-42c7-b728-5f0b70bf6c91",
+  "invalidDomain": "我们无法识别您的公司电子邮件。请联系您的系统管理员",
+  "invalidEmail": "输入有效的电子邮件地址",
+  "login": "登录",
+  "subtitle": "在下面输入您的详细信息",
+  "title": "登录"
+}

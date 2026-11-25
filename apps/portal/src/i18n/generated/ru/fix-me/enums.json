@@ -1,0 +1,43 @@
+{
+  "ReasonForRequest": {
+    "Additional": "дополнительный",
+    "Broken": "разбитый",
+    "DeviceBroken": "Устройство сломано",
+    "DeviceNotRequired": "Устройство больше не требуется",
+    "Missing": "недостающий",
+    "NewAccessory": "Новый аксессуар",
+    "Other": "другой",
+    "OwnerInactive": "Владелец неактивен",
+    "Primary": "первичный",
+    "Replace": "заменять",
+    "Temporary": "временный"
+  },
+  "ReasonForRequestLabel": {
+    "additional": "дополнительный",
+    "brokenReplacement": "Сломанная замена",
+    "changeExistingService": "Изменение существующего сервиса",
+    "earlyReplacement": "Ранняя замена",
+    "missingReplacement": "Отсутствует замена",
+    "newAccessory": "Новый аксессуар",
+    "newGcomService": "Новая услуга GCom",
+    "primary": "первичный",
+    "reassign": "переназначать",
+    "refreshReplacement": "Обновление Замены",
+    "return": "возвращать",
+    "specialChangeRequest": "Специальный запрос на изменение",
+    "specialRequest": "Специальный запрос",
+    "temporary": "временный",
+    "terminateService": "Прекращение службы"
+  },
+  "RequestStatusType": {
+    "Approval": "одобрение",
+    "Cancelled": "Отменен",
+    "Completed": "завершённый",
+    "Declined": "Отказался",
+    "Error": "ошибка",
+    "InProgress": "развиваться",
+    "OnHold": "На удержание",
+    "Pending": "ожидаемый"
+  },
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271"
+}

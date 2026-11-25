@@ -1,0 +1,212 @@
+{
+  "accessoryDetails": {
+    "title": "tartozék"
+  },
+  "error": {
+    "defaultErrorMessage": "Hiba történt."
+  },
+  "errorBoundary": {
+    "body": "De nem kell pánikba esni. Próbálkozzon újra most, jöjjön vissza később, vagy ha a hiba továbbra is fennáll, forduljon ügyfélszolgálatunkhoz.",
+    "goBackHomeButton": "Menj haza",
+    "refreshButton": "Oldal frissítése",
+    "subtitle": "Valami elromlott,",
+    "title": "hoppá!"
+  },
+  "id": "c513f062-c89f-4d37-8dc9-132dda32c6c2",
+  "request": {
+    "accessories": {
+      "accessoryDetails": {
+        "configuration": {
+          "keyboard": "billentyűzet",
+          "plugType": "Dugó típusa",
+          "title": "Konfiguráció részletei"
+        },
+        "requestReason": {
+          "title": "Kérésének oka"
+        },
+        "title": "Tartozékok Részletek"
+      },
+      "backButton": "Tartozékok katalógus",
+      "card": {
+        "viewButton": "Megtekintés"
+      },
+      "checkoutButton": "Tovább a pénztárhoz",
+      "header": {
+        "subtitle": "Támogató eszközök a számítógéphez",
+        "title": "Tartozékok katalógus"
+      },
+      "subTitle": "Eszközök az összes üzleti igény kielégítésére",
+      "title": "Kiegészítők"
+    },
+    "checkout": {
+      "billedTo": "Számlázott",
+      "cancelOrder": "Megrendelés törlése",
+      "deviceUsage": "Eszközhasználat",
+      "header": {
+        "accessoryTitleSubmit": "Tartozékok Pénztár",
+        "computerTitleSubmit": "Számítógépek pénztár",
+        "mobileTitleSubmit": "Mobilitási pénztár",
+        "standardSubtitle": "Megrendelés áttekintése és elküldése",
+        "standardTitle": "pénztár",
+        "subtitleSubmit": "A kérelem benyújtása előtt tekintse át az összes információt",
+        "subtitleSuccess": "Rendelési adatok áttekintése",
+        "titleSuccess": "Megrendelés visszaigazolása"
+      },
+      "modal": {
+        "cancel": {
+          "cancelOrder": "Megrendelés törlése",
+          "header": "Megrendelés törlésének megerősítése",
+          "message": "A megrendelés lemondása törli a termékválasztékot, és visszaküldi Önt a {{returnTo}}.",
+          "stayOnPage": "Marad az oldalon"
+        }
+      },
+      "productDetails": {
+        "header": {
+          "accessory": "tartozék",
+          "computer": "számítógép",
+          "mobileDevice": "Mobileszköz",
+          "standard": "eszköz"
+        }
+      },
+      "reasonForRequest": "A kérelem oka",
+      "replacementMessage": "A csereeszköz megfelel a cserélt eszköz általános előírásainak. A költségek csökkentése érdekében a rendelkezésre álló készlettel pótolni kell. Köszönjük megértésüket, miközben a vállalat pénzügyi céljainak elérésén dolgozunk.",
+      "replacementOrderFor": "Rendelje <1>meg a{{name}}.</1> Térjen <3></3> vissza a KERESÉS-hez, hogy keressen egy másik eszközt vagy jegyet.",
+      "requestedFor": "Részére igényelve",
+      "submitOrder": "Megrendelés elküldése",
+      "title": {
+        "accessories": "Tartozékok Pénztár",
+        "computers": "Számítógépek pénztár",
+        "reportBroken": "pénztár"
+      }
+    },
+    "computers": {
+      "card": {
+        "viewButton": "Megtekintés"
+      },
+      "computerDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Kérjük, olvassa el a következő üzenetet",
+          "acknowledgementLabel": "Értem",
+          "deviceUsage": "Eszközhasználat kiválasztása",
+          "justificationHint": "Ismertesse az eszközre vonatkozó üzleti igényét"
+        },
+        "checkout": "Tovább a pénztárhoz",
+        "configurationStockMessage": "A modell konfigurációját a teljesítési csapat határozza meg a rendelkezésre álló készlet alapján.",
+        "keyboard": "billentyűzet",
+        "keyboardLabel": "Billentyűzet nyelvének kiválasztása",
+        "language": "Nyelv",
+        "modelSpecifications": "Modell specifikációk",
+        "os": "operációs rendszer",
+        "osLabel": "Operációs rendszer kiválasztása",
+        "plugLabel": "Válassza a Dugó típusa lehetőséget",
+        "plugType": "Dugó típusa",
+        "replaceDevice": {
+          "broken": "Törött eszköz",
+          "missing": "Hiányzó eszköz",
+          "replaceLabel": "A cserélni kívánt eszköz kiválasztása",
+          "replaceReason": "Válassza ki az eszköz cseréjének okát"
+        },
+        "replaceFlowRequestReasonTooltip": "Az érték a megtett művelethez kapcsolódik, és nem szerkeszthető",
+        "requestDetails": "Kérelem részletei",
+        "requestReason": "A kérelem okának kiválasztása",
+        "selectConfiguration": "Konfiguráció részletei",
+        "selectReturn": "Visszatérési dátum kiválasztása",
+        "shortTermHint": "Nem választhatja ki a visszaküldés dátumát a kérelem dátumától számított 90 napnál később",
+        "title": "Számítógépek adatai"
+      },
+      "header": {
+        "subtitle": "Eszközök az üzleti igények kielégítésére",
+        "title": "Számítógépek katalógusa"
+      }
+    },
+    "gcom": {
+      "accountInformation": {
+        "assignedTo": "HOZZÁRENDELVE:",
+        "assignedToDescription": "A szolgáltatást igénybe vevő személy",
+        "banCheckError": "Hibaellenőrzés a felhasználók jogosultságában. Kérem, próbálkozzon újra.",
+        "billedTo": "SZÁMLÁZOTT",
+        "billedToDescription": "Az a személy, aki a számlázásért felelős azon az országban, ahol",
+        "changeUser": "FELHASZNÁLÓ MÓDOSÍTÁSA",
+        "hint": "Határozza meg, hogy ki fogja használni a szolgáltatást, és ki lesz a szolgáltatásért felszámítva",
+        "label": "Fiók adatai",
+        "notEligible": "A felhasználónak számlázott számla nem jogosult"
+      },
+      "header": {
+        "subtitle": "A hagyományos telefonszolgáltatások modern alternatívái",
+        "title": "GCom katalógus"
+      },
+      "helpMeDecide": {
+        "analogLine": "Analog Line - Faxcsatlakozáshoz, frankológépekhez, ajtótartókhoz és felvonókhoz használják. Ez a termék nem biztosít telefont. Válassza ki a hangpostához kapcsolódó opciót (Igen/Nem).",
+        "conferenceRoomPhone": "Konferenciaterem telefon - Ez a termék tárgyalókhoz készült.",
+        "deskPhone": "Asztali telefon - Válassza ki a hangpostához (Igen/Nem) és a kiegészítő modulhoz kapcsolódó lehetőségeket (hívásátutalóhoz).",
+        "predefinedSku": "Előre definiált cikkszám - Válassza ezt a lehetőséget, ha Power felhasználó, és ismeri a csapata által igényelt konkrét cikkszámot (pl. call center). A szövegmező segítségével adja meg a szükséges cikkszámot.",
+        "specialRequest": "Különleges kérés – Válassza ezt a beállítást, ha segítségre van szüksége a termék kiválasztásához. A szövegmező segítségével adja meg a kérés részleteit.",
+        "teamsDialtone": "Teams Dialtone - Ez a termék lehetővé teszi, hogy külső telefonszámokat hívjon a Teamstől. Ha rendelkezésre áll, ez lesz az alapértelmezett termék, amely előre kiválasztott. Válassza ki a lehetőségeket a rendelkezésre álló legördülő lehetőségek közül.",
+        "title": "termékismertető"
+      },
+      "locationOfService": {
+        "cityLabel": "város",
+        "countryLabel": "ország",
+        "countryTooltip": "Az ország a Számlázott felhasználóhoz van kötve, akinek abban az országban kell lennie, ahol a szolgáltatást használni fogják.",
+        "hint": "GCom-kompatibilis hely meghatározása",
+        "label": "A szolgáltatás helye",
+        "noSiteAvailableMessage": "A kiválasztott helyre nem állnak rendelkezésre GCom-kompatibilis webhelyek",
+        "selectCityPlaceholder": "Város kiválasztása",
+        "selectCityQueryError": "Elnézést, belefutottunk egy problémába, hogy megtaláljuk a megfelelő városokat. Kérem, próbálkozzon újra.",
+        "selectSitePlaceholder": "Webhely címe",
+        "selectSiteQueryError": "Sajnáljuk, belefutottunk egy problémába, amely alkalmas webhelyeket talált. Kérem, próbálkozzon újra.",
+        "selectStateLPlaceholder": "Állapot kiválasztása",
+        "selectStateQueryError": "Elnézést, belefutottunk egy problémába, ami alkalmas államokat talált. Kérem, próbálkozzon újra.",
+        "siteLabel": "telephely",
+        "stateLabel": "állam"
+      },
+      "productSelection": {
+        "helpMeDecide": "Segítsen dönteni",
+        "hint": "Alapvető ajánlat meghatározása a megrendeléshez",
+        "label": "Termék kiválasztása",
+        "notEligible": "Ön nem jogosult erre a termékre.",
+        "productOptions": "Milyen terméket keres?",
+        "productSelectionQueryError": "Sajnáljuk, belefutottunk egy problémába, hogy megtaláljuk a megfelelő termékeket. Kérem, próbálkozzon újra.",
+        "selectProductOption": "kiválaszt",
+        "summaryTitle": "A szolgáltatáshoz társítandó új termék:"
+      },
+      "userLookup": {
+        "description": "Keresés egy másik felhasználóra",
+        "title": "Felhasználó módosítása"
+      }
+    },
+    "leaveModal": {
+      "content": "Ha később szeretné folytatni a cserefolyamatot, lépjen vissza a Kezelés menübe. Szeretné folytatni?",
+      "title": "Elhagyja a cserefolyamatot"
+    },
+    "mobility": {
+      "header": {
+        "subtitle": "Eszközök az összes üzleti igény kielégítésére",
+        "title": "Mobilitás katalógus"
+      },
+      "mobilityDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Kérjük, olvassa el a következő üzenetet",
+          "acknowledgementLabel": "Értem",
+          "deviceUsage": "Eszközhasználat kiválasztása",
+          "justificationHint": "Ismertesse az eszközre vonatkozó üzleti igényét"
+        },
+        "carrier": "hordozó",
+        "color": "szín",
+        "configuration": {
+          "title": "Konfiguráció részletei"
+        },
+        "configurationStockMessage": "A modell konfigurációját a teljesítési csapat határozza meg a rendelkezésre álló készlet alapján.",
+        "features": "Funkciók",
+        "hardwareSelectionQueryError": "Sajnáljuk, belefutottunk egy problémába, hogy megtaláljuk a kiválasztott hardvert. Kérem, próbálkozzon újra.",
+        "plan": "terv",
+        "plans": "Tervek",
+        "requestReason": {
+          "title": "Kérésének oka"
+        },
+        "storage": "raktározás",
+        "title": "Mobilitás részletei"
+      }
+    }
+  }
+}

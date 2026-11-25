@@ -1,0 +1,49 @@
+{
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+
+  "title": "Approvals",
+  "subtitle": "View and take action on requests",
+
+  "pending": "Pending",
+  "approve": "Approve",
+  "approved": "Approved",
+  "decline": "Decline",
+  "declined": "Declined",
+
+  "noFilterResults": "Sorry, no results match your filter.",
+  "noPendingOrders": "There are no orders currently pending your approval.",
+  "noApprovedOrders": "There are no approved orders.",
+  "noDeclinedOrders": "There are no declined orders.",
+
+  "declineSuccess": "Request successfully declined.",
+  "approvalError": "Approval failed. Please try again.",
+
+  "declineModal": {
+    "title": "Decline Reason",
+    "label": "Please provide a reason for declining",
+    "placeholder": "Here is the decline reason."
+  },
+
+  "filterBox": {
+    "title": "Categories",
+    "computers":"Computers",
+    "accessories":"Accessories",
+    "mobility": "Mobility"
+  },
+
+  "order": {
+    "for": "For",
+    "requestReason": "Request Reason",
+    "submittedLabel": "Submitted",
+    "price": "Price",
+    "orderNumber": "Order Number",
+    "approvalReason": "Approval Reason",
+    "businessJustification": "Business Justification",
+    "approvedLabel": "Approved",
+    "declinedLabel": "Declined",
+    "declineReason": "Declined Reason",
+    "replacedDevice": "Replaced Device",
+    "returnDate": "Return Date",
+    "imageAlt": "Requested Asset"
+  }
+}

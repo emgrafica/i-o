@@ -1,0 +1,15 @@
+{
+  "disclaimer": "A visszajelzés önkéntes és egyéni.",
+  "dropdownFeedback": "Mi a véleményed?",
+  "feedbackPlaceholder": "Mondjon többet. Mi ment jól? Hogyan tudunk javítani?",
+  "id": "629e9640-f1c7-4dd9-a68f-b4ebf8404eea",
+  "inputFeedback": "Oszd meg a véleményed.",
+  "message": "Mindig arra törekszünk hogy javítsuk a i-o élményt. Tudasd velünk mi az ami jól működik és hogy tudnánk feljleszteni az oldalt.",
+  "pleaseSelect": "Kérjük, válassza ki a",
+  "submissionError": "A visszajelzések beküldése sikertelen volt. Kérem, próbálkozzon újra.",
+  "submit": "Visszajelzés küldése",
+  "subtitle": "Segíts hogy jobb szolgáltatást nyújthassunk...",
+  "successMessage": "Nagyra értékeljük az idődet és a véleményed fontos számunkra.",
+  "successTitle": "Köszönjük a visszajelzésed!",
+  "title": "Oszd meg a véleményed"
+}

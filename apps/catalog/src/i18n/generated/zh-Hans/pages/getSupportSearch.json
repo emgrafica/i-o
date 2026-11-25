@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "业务应用",
+  "businessFiltersLabel": "商",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "知识文章",
+  "noResults": "抱歉，没有结果与您的搜索词匹配。",
+  "punchOutModal": {
+    "action": "获取支持",
+    "message": "此业务应用程序的支持可在 i-o 的事件创建过程之外获得。请按照下面的链接操作，这将打开应用程序的相关外部网址，以便您继续获取支持。",
+    "title": "i-o 以外的业务应用支持"
+  },
+  "showingEnglishResults": "业务申请结果目前仅以英文提供",
+  "showingResultsFor": "显示\"{{keywords}}\"的{{totalItems}}条结果",
+  "subtitle": "访问 IT 问题的自助解决方案",
+  "title": "获取支持",
+  "viewAllLabel": "查看所有"
+}

@@ -1,0 +1,142 @@
+@import "../../styles/scss/variable.scss";
+@import "../../styles/scss/mixin.scss";
+
+.io-device {
+  padding: 7px 0;
+  .h-100 {
+    height: 100%;
+  }
+  .card {
+    display: flex;
+  }
+  .img-thumbnail{
+    min-width: 140px;
+
+  }
+  .card-wrap {
+    box-shadow: 4px 10px 30px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: $dls-s03-5 $dls-s03-0;
+  }
+  .cardDetails {
+    flex: 1;
+    position: relative;
+    padding: 0 0 0 40px;
+    @media (min-width: $md-1-breakpoints) {
+      padding-left: 0;
+    }
+  }
+  .cardMedia {
+    width: 130px;
+  }
+  .cardContent {
+    margin: 0 0 8px;
+  }
+
+  .cardAuto {
+    width: 140px;
+    position: relative;
+  }
+  .captionRegular {
+    @include captionRegular;
+  }
+  .heading5 {
+    @include heading5;
+  }
+  .eyebrow-ready-refresh {
+    margin: 0 0 8px;
+    .chip .eyebrow{
+      position: initial;
+    }
+   
+    // @include eyebrow;
+    // background: $color-purple-tint;
+    // border-radius: 21px;
+    // padding: $dls-s00-5 $dls-s02-5;
+    // color: $color-purple-main;
+    // text-transform: uppercase;
+    // display: inline-block;
+    // font-weight: 700;
+  
+    // svg {
+    //   font-size: 1rem;
+    //   vertical-align: middle;
+    // }
+  }
+  .captionRegular-primary-device {
+    @include captionRegular;
+    svg {
+      font-size: 1rem;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+    img {
+      width: 16px;
+      margin-right: 5px;
+    }
+  }
+  .buttonLink {
+    @include buttonLink;
+    color: #000000;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    min-width: auto;
+    display: block;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  img {
+    display: block;
+    height: 100px;
+  }
+  .cardButton {
+    .feature-button {
+      display: flex;
+      flex-wrap: wrap;
+      word-wrap: break-word;
+      color: white;
+      background: $color-purple-light-1;
+      margin: 5px 0;
+      position: relative;
+      font-size: 14px;
+      text-transform: capitalize;
+      width: 100%;
+      height: 40px;
+      align-items: center;
+      font-weight: bold;
+      line-height: 1.2;
+      border-radius: 8px;
+    }
+    @media (min-width: $md-1-breakpoints) {
+      display: flex;
+      justify-content: end;
+      .feature-button {max-width: 140px;}
+    }
+  }
+
+  @include media-breakpoint-medium-desktop {
+    .cardMedia {
+      width: 150px;
+    }
+    .w-140 {
+      width: 140px;
+    }
+  }
+  .vertical-card {
+    .cardMedia {
+      width: 100%;
+    }
+    img {
+      margin: auto;
+    }
+  }
+}
+.MuiCard-root.MuiPaper-rounded {
+  // height: auto;
+}
+.MuiPopover-paper.MuiPaper-rounded {
+  width: 185px;
+}

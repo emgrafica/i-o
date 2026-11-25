@@ -1,0 +1,19 @@
+{
+  "error": {
+    "catalogError": "Désolé, nous avons rencontré un problème lors de la récupération de vos résultats. Veuillez réessayer.",
+    "filtersError": "Erreur lors du chargement des filtres",
+    "retry": "réessayer"
+  },
+  "id": "8759acde-0e57-4c81-ace1-b6642fe55b88",
+  "sortBy": {
+    "nameAtoZ": "Nom : A à Z",
+    "nameZtoA": "Nom : Z à A",
+    "priceHighToLow": "Prix: Élevé à faible",
+    "priceLowToHigh": "Prix: Faible à élevé"
+  },
+  "unentitled": {
+    "contact": "Si vous pensez qu’il s’agit d’une erreur, veuillez contacter un agent du Service Desk.",
+    "goHome": "RETOUR À LA MAISON",
+    "noItems": "Aucun <1>élément{{catalog}}</1> n’est disponible pour{{name}}en fonction <3>d’une</3> règle de configuration métier."
+  }
+}

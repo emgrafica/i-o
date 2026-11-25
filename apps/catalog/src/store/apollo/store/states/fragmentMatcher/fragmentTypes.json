@@ -1,0 +1,1 @@
+{"__schema":{"types":[{"kind":"UNION","name":"RequestProduct","possibleTypes":[{"name":"RequestComputer"},{"name":"RequestAccessory"},{"name":"RequestGcom"}]},{"kind":"UNION","name":"RequestExistingProduct","possibleTypes":[{"name":"ExistingComputerProduct"}]}]}}

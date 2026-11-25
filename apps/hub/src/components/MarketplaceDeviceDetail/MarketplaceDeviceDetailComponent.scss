@@ -1,0 +1,377 @@
+
+@import "./../../styles/scss/mixin.scss";
+
+.my-device-image {
+    //width: 140px;
+    // width: 362px
+    height: 253px;
+    // left: 140px;
+    // top: 291px;
+    // padding-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.market-place-container{
+    .ant-spin{
+        position: relative;
+        left: 5%;
+        top: 90%;
+        z-index: 3000 !important;
+    }
+}
+// .my-device-slider-header{
+//     // margin-bottom: 48px;
+// }
+
+.my-device-manufacturer{
+    // position: absolute;
+    // left: 58.2%;
+    // right: 6.25%;
+    top: 17.19%;
+    bottom: 81.44%;
+
+    /* Desktop/Body - Regular */
+
+    // font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    /* UI/gray-dark */
+
+    color: #737373;
+}
+
+
+.my-device-refresh-available{
+    /* LABEL */
+    // position: absolute;
+    width: 240px;
+    height: 18px;
+    // left: 596px;
+    // top: 337px;
+
+    /* Desktop/Caption - Semibold */
+
+    // font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* Brand/purple-main */
+
+    color: #5F249F;
+}
+
+.my-device-configuration {
+    margin-top: 20px;
+
+    .my-device-configuration-wrapper{
+        margin-bottom: 8px;
+        display: flex;
+        align-items: flex-start;
+
+        .my-device-configuration-icon{
+            width:13.33px;
+            height:13.33px;
+            // top: 1.33px;
+            // left: 1.33px;
+            float: left;
+            margin-right: 10px;
+            position: relative;
+            top: -5px;
+        }
+        
+        
+        .my-device-configuration-content {
+            // position: absolute;
+            // width: 66px;
+            //height: 16px;
+            // left: 620px;
+            // top: 443px;
+        
+            /* Desktop/Caption - Regular */
+        
+            // font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            // /* identical to box height, or 133% */
+            // /* UI/gray-dark */
+            color: #737373;
+        }
+    }
+}
+
+
+.my-device-list-button{
+    display: flex;
+    align-items: center;
+    margin: 16px 0 8px;
+    // margin-bottom: 99px;
+
+    .my-device-list-button-refresh{
+        /* Button */
+       /* Auto Layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 24px;
+        margin-right: 33px;
+
+        // position: absolute;
+        width: 212px;
+        height: 40px;
+        // left: 598px;
+        // top: 540px;
+
+        /* Brand/purple-light-1 */
+
+        background: #7229C0;
+        border-radius: 100px;
+        color: #FFFFFF;
+        border-color: #d9d9d9;
+    }
+
+    .my-device-list-button-unrefresh {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 24px;
+        margin-right: 33px;
+        width: 212px;
+        height: 40px;
+        // background: #7229C0;
+        border-radius: 100px;
+        color: #7229C0;
+        border-color:#7229C0;
+    }
+
+    .my-device-list-button-get-help{
+        // position: static;
+        // left: 19.02%;
+        // right: 19.02%;
+        // top: 18.75%;
+        // bottom: 18.75%;
+
+        // font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-decoration-line: underline;
+
+        /* UI/black */
+
+        color: #1F2020;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 4px;
+    }
+}
+
+
+.my-devices-line {
+    margin-top: $dls-s06-5;
+    width: 898px;
+    height: 0px;
+    /* UI/gray-light */
+    border: 1px solid $color-gray-light;
+}
+
+.my-devices-header{
+    margin-top: 0px;
+    margin-bottom: $dls-s03-5;
+}
+
+
+.market-devices-go-home {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .ant-btn {
+        padding: 0;
+        img {
+            margin-right: 10px;
+            margin-bottom: 3px;
+        }
+        span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            align-items: center;
+            margin: 0px;
+            margin-top: 2px;
+            color: #7229C0;
+        }
+    }
+}
+
+.my-device-end-btn {
+    min-height: 24px;
+    .my-device-btn-refresh {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 16px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        background: #E9E0F7;
+        border-radius: 21px;
+        text-transform: uppercase;
+        // width: 159px;
+        height: 20px;
+        color: #5F249F;
+        border-color: #d9d9d9;
+        &:hover {
+            cursor: default;
+        }
+    }
+    .my-device-btn-refresh-unvailable {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 16px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        background: rgba(202, 202, 202, 0.5);
+        border-radius: 21px;
+        text-transform: uppercase;
+        // width: 159px;
+        height: 20px;
+        //color: rgba(0, 0, 0, 0.85);
+        color: #737373;
+        border-color: #d9d9d9;
+        &:hover {
+            cursor: default;
+        }
+    }
+  }
+
+.description {
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+  }
+.my-devices-description-content {
+    /* Desktop/Body - Regular */
+    font-family: $font-opensans-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-size-body-desktop;
+    line-height: $line-height-h5-desktop;
+    color:$black;
+
+    ul {
+        padding-inline-start: 1.1em;
+        margin-bottom: 0;
+        width: 50%;
+        float: left;
+        padding-right: 20px;
+        li {
+            padding-bottom: 8px;
+        }
+        li:last-child {
+            padding-bottom: 0px;
+        }
+    }
+}
+.market-detail-info{
+    width: 100%;
+}
+
+.market-place-container {
+    color: rgba(0, 0, 0, 0.85);
+    padding-top: 50px;
+}
+.market-place-content {
+    padding: 46px 0;
+}
+
+
+// //Ipad display
+@media screen and (max-width: 768px) {
+    .my-device-end-btn{
+        padding: 10px 0;
+    }
+    .market-devices-go-home {
+        margin-bottom: 30px;
+        .ant-btn {
+            img {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .my-devices-description-content{
+        ul {
+            width: 100%;
+            padding-right: 0px;
+        }
+    }
+    .description{
+        font-size: 10px;
+    }
+    .my-device-list-button {
+        .my-device-list-button-unrefresh{
+            width: 100% !important;
+        }
+        a{
+            width: 100%;
+        }
+        .my-device-list-button-refresh{
+            width: 100%;
+            margin: 0;
+        }
+        
+    }
+    
+    .my-device-configuration{
+        .my-device-configuration-wrapper{
+            margin-bottom: 3px;
+            .my-device-configuration-content {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .market-place-content {
+        padding: 20px;
+    }
+    .my-device-image {
+        height: auto;
+    }
+}

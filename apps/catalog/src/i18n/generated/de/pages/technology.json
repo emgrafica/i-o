@@ -1,0 +1,145 @@
+{
+  "card": {
+    "deviceBroken": "Gerät ist kaputt",
+    "editUsage": "Bearbeiten der Nutzung",
+    "issuedDate": "Ausgestellt",
+    "moreActions": "Weitere Aktionen",
+    "reassign": "Zuweisen",
+    "refresh": "Aktualisieren",
+    "refreshEligibleBadge": "Refresh-fähig",
+    "refreshEligibleLabel": "Refresh-fähig",
+    "registerOwnership": "Registerbesitz",
+    "reportBroken": "Bericht gebrochen",
+    "reportMissing": "Bericht fehlt",
+    "reportOwnershipError": "Berichtsbesitzfehler",
+    "return": "Rückgabe",
+    "usage": "Verwendung",
+    "wipeComputer": "Wipe Computer"
+  },
+  "checkout": {
+    "agreementTitle": "Bitte lesen Sie die folgende Meldung",
+    "cancelModal": {
+      "content": "Wenn Sie die Bestellung stornieren, werden Ihre Eingaben entfernt und Sie zur Technologieseite zurückkehren.",
+      "title": "Bestätigen Sie die Stornierung der Bestellung"
+    },
+    "failureMessage": "Die Übermittlung ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "leaveModal": {
+      "content": "Wenn Sie den Rückgabevorgang zu einem späteren Zeitpunkt fortsetzen möchten, kehren Sie zum Menü Verwalten zurück. Möchten Sie fortfahren?",
+      "title": "Sie verlassen den Rückgabeprozess"
+    },
+    "orderDetails": {
+      "asset": "Zurücksendendes Gerät",
+      "header": "Bestelldetails",
+      "reason": "Grund für die Rückkehr"
+    },
+    "subtitle": "Überprüfen und Absenden einer Bestellung",
+    "title": "Kasse"
+  },
+  "editUsage": {
+    "buttonLabel": "Wählen Sie Verwendungstyp",
+    "header": "Bearbeiten der Nutzung",
+    "label": "Gerätenutzung",
+    "update": "aktualisieren"
+  },
+  "id": "65ff299f-2c4d-4b0c-8f9f-45fa77a9feb8",
+  "noAssets": "Sie haben derzeit keine zugewiesene Technologie, überprüfen Sie bitte später noch einmal.",
+  "orderConfirmation": {
+    "subtitle": "Überprüfen Sie Ihre Bestelldetails",
+    "title": "Auftragsbestätigung"
+  },
+  "reassign": {
+    "header": "Gerät neu zuweisen",
+    "ineligibleUser": "Benutzer gefunden, aber nicht berechtigt.",
+    "lookupLabel": "Suchen Sie einen Kollegen, um diesen Computer neu zuzuweisen.",
+    "p1": "Computer können nur innerhalb desselben Landes neu zugewiesen werden.",
+    "p2": "Die dem Benutzer zugewiesene neue muss sich innerhalb desselben Geschäfts begeben.",
+    "p3": "Die dem Benutzer zugewiesene neue muss auf die i-o Computers-Funktionalität anspruchsberechtigt sein.",
+    "title": "Die Neuzuweisungen von Computern werden gemäß Ihren Geschäftsrichtlinien und den folgenden Regeln aktiviert.",
+    "warning": "Dieser Computer wird {{assignedTo}} unmittelbar nach der Übermittlung neu zugewiesen."
+  },
+  "recommendAsset": {
+    "altImage": "empfohlenes Gerät"
+  },
+  "registerOwnership": {
+    "acknowledgementMessage": "Ich bestätige, dass ich aktiv verlangen muss, dass dieser Computer mir zugewiesen bleibt.",
+    "alertMessage": {
+      "contactServiceDesk": "Wenden Sie sich an den ServiceDesk, um weitere Unterstützung zu erhalten.",
+      "reportComputerMissing": "Melden Sie den Computer als vermisst",
+      "reportOwnershipError": "Melden eines Besitzfehlers oder",
+      "title": "Sie sind nicht oder nicht mehr in Ihrem Besitz?"
+    },
+    "header": "Registerbesitz",
+    "instructions": "Aktivieren Sie das Kästchen unten und senden Sie Ihre Registrierung, um zu bestätigen, dass sich dieser Computer in Ihrem Besitz befindet und Sie ihn aktiv verwenden. Dadurch wird sichergestellt, dass ihnen der Computer ordnungsgemäß zugewiesen bleibt."
+  },
+  "replace": {
+    "businessRecommended": "Business empfohlenes Gerät",
+    "header": "Aktualisieren des Geräts",
+    "messageWithRecommended": "CONTINUE mit Business empfohlenes Gerät oder PROCEED TO CATALOG, um ein anderes Ersatzgerät auszuwählen",
+    "messageWithoutRecommended": "PROCEED TO CATALOG, um ein Ersatzgerät auszuwählen.",
+    "toCatalog": "Weiter zum Katalog"
+  },
+  "reportBroken": {
+    "agreementMessage": "Ich bestätige, dass OEM Dispatch durch Fehlerbehebung ausgeschlossen wurde und ein Ersatzgerät erforderlich ist.",
+    "details": {
+      "label": "Bitte geben Sie Details zum Computerproblem an.",
+      "placeholder": ""
+    },
+    "header": "Bericht Defektes Gerät",
+    "incident": {
+      "label": "Zugehörige Vorfallnummer",
+      "placeholder": "Vorfallnummer"
+    },
+    "p1": "Ein Antrag auf Ersatzvorrichtung sollte erst gestellt werden, nachdem eine Reparatur durch den OEM als mögliche Lösung ausgeschlossen ist. Wenn Sie fortfahren, bestätigen Sie, dass Sie den OEM-Dispatch-Prozess befolgt haben und in diesem Fall ein Ersatzgerät erforderlich ist. ",
+    "p2": "Wir überprüfen, ob Sie Mitglied der Zuordnungsgruppe sind, die dem Hardwarereparaturvorfall für den zugehörigen Computer zugewiesen ist. Alle anderen Bestellungen werden abgelehnt.",
+    "title": "Bitte lesen Sie die folgende Meldung"
+  },
+  "reportMissing": {
+    "alert": "Wenn Sie diesen Computer als fehlend melden, wird das Supportteam Ihres Unternehmens benachrichtigt, das Gerät zu finden. Der Computer bleibt Ihnen zugewiesen, bis das Supportteam die Untersuchung abgeschlossen hat.",
+    "caseNumber": {
+      "label": "GE Security iReport-Fallnummer",
+      "placeholder": "Z.B.: 900703471"
+    },
+    "details": {
+      "label": "Bitte geben Sie weitere Details an",
+      "placeholder": ""
+    },
+    "geSecurityLink": "Besuchen Sie GE Security.",
+    "header": "Fehlendes Gerät melden",
+    "p1": "Melden Sie fehlende Geräte zuerst bei GE Security, und kehren Sie dann mit Ihrer iReport-Fallnummer zu dieser Aktion zurück. ",
+    "replacementAlert": "Fahren Sie mit einem fehlenden Ersatzauftrag fort, der auch das Supportteam Ihres Unternehmens benachrichtigt, um zu versuchen, den fehlenden Computer zu finden.",
+    "replacementComputer": "Benötigen Sie einen Ersatzcomputer?"
+  },
+  "reportOwnershipError": {
+    "alert": "Durch diese Aktion wird ein Vorfall für das entsprechende Team erstellt, um das Problem zu untersuchen. Der Computer bleibt zugewiesen, bis die Support-Untersuchung abgeschlossen ist.",
+    "details": "Weitere Details",
+    "header": "Berichtsbesitzfehler"
+  },
+  "return": {
+    "deviceBroken": "Gerät ist defekt",
+    "header": "Rücknahmegerät",
+    "notRequired": "Nicht mehr erforderlich",
+    "other": "Andere",
+    "reasonDetails": "Bitte geben Sie weitere Details an",
+    "reasonForReturn": "Grund für die Rückkehr",
+    "userLeft": "Dem Benutzer zugewiesen, der das Unternehmen verlassen hat"
+  },
+  "submission": {
+    "failed": "Die Übermittlung ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "succeeded": "Aktion wurde erfolgreich übermittelt."
+  },
+  "subtitle": "Anzeigen und Verwalten zugewiesener Technologie",
+  "title": "Technologie",
+  "wipeComputer": {
+    "eraseContent": {
+      "acknowledgementStatement": "Ich verstehe und erkenne an",
+      "eraseDriveContentBodyOne": "Als Nächstes installieren Sie ein Softwarepaket, das Daten sicher von Ihrer Festplatte löscht. Nachdem die Software eine erfolgreiche Vorprüfung beim Öffnen durchgeführt hat, beginnen Sie den Prozess, der eine Stunde oder mehr dauern kann. In <1>diesem Artikel</1> finden Sie Schritt für Schritt Anweisungen zum Datenlöschvorgang.",
+      "eraseDriveContentBodyTwo": "Dieser Prozess, sobald er innerhalb des Softwarepakets initiiert wurde, kann nicht rückgängig gemacht werden, und Ihre Dateien können nicht wiederhergestellt werden. Klicken Sie nur auf <1>Prozess initiieren,</1> nachdem Sie das heruntergeladene Softwarepaket geöffnet haben, während sie auf dem oben aufgeführten Computer gelöscht werden müssen. Wenn der Vorgang abgeschlossen ist, ist Ihr Gerät für den Versand bereit.",
+      "initiate": "Herunterladen",
+      "thisArticle": "Dieser Artikel ",
+      "title": "Löschen von Festplattenanweisungen"
+    },
+    "header": "Wipe Computer",
+    "saveRequiredContent": "Um Geschäftsinformationen zu schützen, muss Ihre Festplatte vor dem Versand sicher löscht werden. Ein Selbsthilfe-Dienstprogramm <1>DATA TRANSFER GUIDE</1> steht Zur Verfügung, um Ihnen beim Entfernen aller erforderlichen Dateien von der Festplatte zu helfen, bevor Sie es löschen.",
+    "title": "Erforderliche Informationen speichern"
+  }
+}

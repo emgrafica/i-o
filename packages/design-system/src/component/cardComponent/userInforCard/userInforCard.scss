@@ -1,0 +1,39 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+
+.user-infor-card {
+  height: 145px;
+  width: 300px;
+  padding: $dls-s02-0;
+  background: $color-white;
+  box-sizing: border-box;
+    .user-infor-card-body {
+        .user-infor-card-image-wrapper {
+            text-align: left;
+            height: 60px;
+            .user-infor-card-image {
+                height: 100%;
+                border-radius: 10px;
+                margin-left: 0px;
+                color: $color-purple-light-1;
+            }
+        }
+        .MuiCardContent-root{
+          padding: 0px;        
+        .user-infor-card-body-name{
+          min-height: 30px;
+          margin-bottom: 10px;
+          span{
+            font-family: $font-gtwalsheim_pro_regular;
+            font-size: 20px;
+            line-height: 22px;
+          }
+
+        }
+      }
+    }
+    .user-infor-item-line {
+      @include bodyRegular;
+      margin-bottom: 0;
+  }
+}

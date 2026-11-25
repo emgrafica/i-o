@@ -1,0 +1,43 @@
+{
+  "ReasonForRequest": {
+    "Additional": "余分な",
+    "Broken": "壊れた",
+    "DeviceBroken": "デバイスが壊れています",
+    "DeviceNotRequired": "デバイスは不要になりました",
+    "Missing": "行方不明",
+    "NewAccessory": "新しいアクセサリー",
+    "Other": "他",
+    "OwnerInactive": "所有者が非アクティブです",
+    "Primary": "原発",
+    "Replace": "取り替える",
+    "Temporary": "一時的"
+  },
+  "ReasonForRequestLabel": {
+    "additional": "余分な",
+    "brokenReplacement": "壊れた交換",
+    "changeExistingService": "既存のサービスの変更",
+    "earlyReplacement": "早期交換",
+    "missingReplacement": "置換が見つかりません",
+    "newAccessory": "新しいアクセサリー",
+    "newGcomService": "新しいGComサービス",
+    "primary": "原発",
+    "reassign": "割り当て",
+    "refreshReplacement": "更新の置換",
+    "return": "帰る",
+    "specialChangeRequest": "特別変更依頼",
+    "specialRequest": "特別リクエスト",
+    "temporary": "一時的",
+    "terminateService": "サービスの終了"
+  },
+  "RequestStatusType": {
+    "Approval": "承認",
+    "Cancelled": "キャンセル",
+    "Completed": "完了",
+    "Declined": "減少",
+    "Error": "エラー",
+    "InProgress": "進行中で",
+    "OnHold": "保留中",
+    "Pending": "ペンディング"
+  },
+  "id": "dcc90a5b-02b7-4564-9a1d-4adff8aa5271"
+}

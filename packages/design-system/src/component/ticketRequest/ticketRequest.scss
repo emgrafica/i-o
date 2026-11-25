@@ -1,0 +1,127 @@
+@import '../../styles/scss/variable.scss';
+@import '../../styles/scss/mixin.scss';
+
+.ticket-item {
+  width: 100%;
+  margin-bottom: 10px;
+  @include cardItem;
+}
+.ticket-card {
+  box-shadow: 4px 10px 30px 4px rgba(0, 0, 0, 0.06);
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  p, h4 {margin: 0;}
+  .Open, .Reopen {color: $color-green;}
+  .Resolved, .color-perple {color: $color-purple-main;}
+  .Action-Required {color: $color-orange;}
+  .Cancelled {color: $color-red;}
+  .status {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .title-block {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0;
+    padding-right: 20px;
+    .image {
+      position: relative;
+      margin-right: 20px;
+      img {
+        display: block;
+        width: 60px;
+      }
+    }
+    .ttl-ticket {
+      margin: 0;
+      @include cardTitle;
+    }
+    .description {
+      @include cardDesc;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    .label {
+      position: absolute;
+      top: 32px;
+      z-index: 1;
+      font-weight: 700;
+      font-size: 13px;
+      text-transform: uppercase;
+      &.RITM {left: 5px;}
+      &.INC {left: 10px;}
+    }
+  }
+
+  .status-process {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    justify-content: space-between;
+    @media (min-width: $md-2-breakpoints) {
+      margin: 0;
+    }
+    p {
+      text-align: center;
+      img {height: 50px;}
+      .MuiSvgIcon-root {
+        height: 50px;
+        font-size: 40px;
+      }
+      .icon-disabled {
+        font-size: 50px;
+        color: #ccc;
+        + span {color: #ccc;}
+      }
+      .submitted {color: $color-green;}
+      .cancelled {color: $color-red;}
+    }
+    span {
+      display: block;
+      margin-top: -3px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .arrow {
+      margin-top: -16px;
+      .MuiSvgIcon-root {font-size: 30px;}
+      &.disabled {
+        .MuiSvgIcon-root {color: #ccc;}
+      }
+    }
+  }
+  .btn-detail {
+    @include hyperlink();
+    font-size: 15px;
+    text-transform: capitalize;    
+    padding: 6px 8px;
+
+  }
+  .number-ticket {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .last-date {
+    display: flex;
+    align-items: flex-end;
+    .MuiSvgIcon-root {
+      margin-right: 5px;
+      font-size: 25px;
+    }
+    p {line-height: 1;}
+    span {font-size: 10px;}
+    .name {font-weight: 700;}
+    .value {
+      padding-left: 5px;
+      color: $color-gray-dark;
+    }
+  }
+}

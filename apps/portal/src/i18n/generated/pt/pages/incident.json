@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "Nome da aplicação:",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "({{count}} arquivo anexado)",
+      "fileCount_plural": "({{count}} arquivos anexados)",
+      "maxSizeInfo": "Tamanho máximo por arquivo: {{limit}}.0 MB",
+      "optionalLabel": "(Opcional)",
+      "title": "Anexar arquivos"
+    },
+    "instructions": "Anexar-se a {{limit}} documentos relevantes que ajudarão os agentes de suporte na resolução de seu problema."
+  },
+  "businessLabel": "negócio:",
+  "descriptionSection": {
+    "details": {
+      "label": "Forneça detalhes para o seu problema",
+      "placeholder": "Descreva seu problema em detalhes para que nossos agentes possam ajudar o mais rápido possível"
+    },
+    "header": "descrição",
+    "title": {
+      "label": "título",
+      "placeholder": "Descrição curta"
+    }
+  },
+  "directions": "Preencha o formulário abaixo para enviar uma solicitação de incidente para que a equipe de suporte apropriada revise e trabalhe para resolver o problema.",
+  "formTitle": "Formulário de incidente de aplicação de negócios",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "Criando seu incidente e carregando arquivos anexados",
+  "loadingMessageWithoutFiles": "Criando seu incidente",
+  "searchedTopicLabel": "Tópico pesquisado:",
+  "subtitle": "Acesse soluções de autoatendimento para problemas de TI",
+  "title": "Obter suporte"
+}

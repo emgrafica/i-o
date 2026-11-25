@@ -1,0 +1,20 @@
+{
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "home": "Home",
+  "request": "Request",
+  "manage": "Manage",
+  "getSupport": "Get Support",
+  "knowledge": "Knowledge",
+  "signOut": "Sign Out",
+  "logOut": "Log out",
+  "logOutMessage": "Are you sure you want to log out of i-o?",
+  "punchOutModal": {
+    "title": "Important Information",
+    "closeButton": "Close dialog",
+    "getSupportMessage": "Live support from SOLV Desk is available for your business or region outside of DXC.",
+    "remoteAccessMessage": "Requesting Remote Access is available for your business or region outside of DXC Exp. Click Continue to access this service in a new tab.",
+    "softwareMessage": "Requesting Software is available for your business or region outside of DXC Exp. Click Continue to access this service in a new tab.",
+    "mobileMessage": "Requesting Mobile is available for your business or region outside of DXC Exp. Click Continue to access this service in a new tab."
+  },
+  "support": "Knowledge"
+}

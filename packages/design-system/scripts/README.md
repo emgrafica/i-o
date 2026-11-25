@@ -1,0 +1,2 @@
+- `build-tokens.mjs`: design/tokens.json → design/tokens.css (`--io-*` variables)
+- `check-brand.sh`: fails if any retired purple value reappears

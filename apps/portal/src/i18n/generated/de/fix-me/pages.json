@@ -1,0 +1,212 @@
+{
+  "accessoryDetails": {
+    "title": "Zubehör"
+  },
+  "error": {
+    "defaultErrorMessage": "Ein Fehler ist aufgetreten."
+  },
+  "errorBoundary": {
+    "body": "Aber kein Grund zur Panik. Versuchen Sie es jetzt erneut, kommen Sie später zurück, oder wenden Sie sich an unser Supportteam, wenn der Fehler weiterhin auftritt.",
+    "goBackHomeButton": "Zurück nach Hause",
+    "refreshButton": "Seite aktualisieren",
+    "subtitle": "Irgendetwas ist schief gelaufen,",
+    "title": "Oops!"
+  },
+  "id": "c513f062-c89f-4d37-8dc9-132dda32c6c2",
+  "request": {
+    "accessories": {
+      "accessoryDetails": {
+        "configuration": {
+          "keyboard": "Tastatur",
+          "plugType": "Steckertyp",
+          "title": "Konfigurationsdetails"
+        },
+        "requestReason": {
+          "title": "Grund für Ihre Anfrage"
+        },
+        "title": "Zubehör Details"
+      },
+      "backButton": "Zubehör Katalog",
+      "card": {
+        "viewButton": "ansehen"
+      },
+      "checkoutButton": "Fahren Sie zum Checkout fort",
+      "header": {
+        "subtitle": "Unterstützende Geräte für den Computer",
+        "title": "Zubehör Katalog"
+      },
+      "subTitle": "Geräte, die alle Ihre geschäftlichen Anforderungen erfüllen",
+      "title": "Zubehör"
+    },
+    "checkout": {
+      "billedTo": "Billed To",
+      "cancelOrder": "Storno-Bestellung",
+      "deviceUsage": "Gerätenutzung",
+      "header": {
+        "accessoryTitleSubmit": "Zubehör Checkout",
+        "computerTitleSubmit": "Computers Checkout",
+        "mobileTitleSubmit": "Mobilitäts-Checkout",
+        "standardSubtitle": "Überprüfen und Absenden einer Bestellung",
+        "standardTitle": "Kasse",
+        "subtitleSubmit": "Überprüfen Sie alle Informationen, bevor Sie Ihre Anfrage senden",
+        "subtitleSuccess": "Überprüfen Sie Ihre Bestelldetails",
+        "titleSuccess": "Auftragsbestätigung"
+      },
+      "modal": {
+        "cancel": {
+          "cancelOrder": "Storno-Bestellung",
+          "header": "Bestätigen Sie die Stornierung der Bestellung",
+          "message": "Wenn Sie die Bestellung stornieren, werden Sie Ihre Produktauswahl enimtorieren und sie zum {{returnTo}}zurückbringen.",
+          "stayOnPage": "Bleiben Sie auf Seite"
+        }
+      },
+      "productDetails": {
+        "header": {
+          "accessory": "Zubehör",
+          "computer": "Computer",
+          "mobileDevice": "Mobiles Gerät",
+          "standard": "Gerät"
+        }
+      },
+      "reasonForRequest": "Grund für die Anfrage",
+      "replacementMessage": "Das Ersatzgerät entspricht den allgemeinen Spezifikationen des zu ersetzenden Geräts. Es werden Ersatzlieferungen an verfügbare Lagerbestände vorgenommen, um die Kosten zu senken. Vielen Dank für Ihr Verständnis, während wir auf die Erreichung der finanziellen Ziele des Unternehmens hinarbeiten.",
+      "replacementOrderFor": "Bestellen Sie <1>{{name}}</1> abgeschlossen. Kehren Sie zu <3>SEARCH zurück,</3> um ein anderes Asset oder Ticket zu suchen.",
+      "requestedFor": "Erstellt für",
+      "submitOrder": "Bestellung einreichen",
+      "title": {
+        "accessories": "Zubehör Checkout",
+        "computers": "Computers Checkout",
+        "reportBroken": "Kasse"
+      }
+    },
+    "computers": {
+      "card": {
+        "viewButton": "ansehen"
+      },
+      "computerDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Bitte lesen Sie die folgende Meldung",
+          "acknowledgementLabel": "Ich verstehe",
+          "deviceUsage": "Auswählen einer Gerätenutzung",
+          "justificationHint": "Beschreiben Sie Ihren geschäftlichen Bedarf für dieses Gerät"
+        },
+        "checkout": "Fahren Sie zum Checkout fort",
+        "configurationStockMessage": "Die Konfiguration für dieses Modell wird vom Fulfillment-Team basierend auf dem verfügbaren Bestand bestimmt.",
+        "keyboard": "Tastatur",
+        "keyboardLabel": "Wählen Sie die Tastatursprache",
+        "language": "Sprache",
+        "modelSpecifications": "Modellspezifikationen",
+        "os": "Betriebssystem",
+        "osLabel": "Betriebssystem auswählen",
+        "plugLabel": "Plug-Typ auswählen",
+        "plugType": "Steckertyp",
+        "replaceDevice": {
+          "broken": "Zerbrochenes Gerät",
+          "missing": "Fehlendes Gerät",
+          "replaceLabel": "Wählen Sie ein zu ersetzendes Gerät aus.",
+          "replaceReason": "Wählen Sie einen Grund für den Austausch des Geräts"
+        },
+        "replaceFlowRequestReasonTooltip": "Wert ist der ausgeführten Aktion zugeordnet und kann nicht bearbeitet werden.",
+        "requestDetails": "Anfragedetails",
+        "requestReason": "Auswählen eines Grunds für die Anforderung",
+        "selectConfiguration": "Konfigurationsdetails",
+        "selectReturn": "Wählen Sie ein Rückgabedatum aus",
+        "shortTermHint": "Ein Rückgabedatum kann nicht später als 90 Tage ab Anforderungsdatum ausgewählt werden.",
+        "title": "Computerdetails"
+      },
+      "header": {
+        "subtitle": "Geräte, die alle Ihre geschäftlichen Anforderungen erfüllen",
+        "title": "Computerkatalog"
+      }
+    },
+    "gcom": {
+      "accountInformation": {
+        "assignedTo": "ZUGEORDNET ZU",
+        "assignedToDescription": "Person, die den Dienst nutzt",
+        "banCheckError": "Fehler beim Überprüfen der Benutzerberechtigung. Bitte versuchen Sie es erneut.",
+        "billedTo": "RECHNUNG AN",
+        "billedToDescription": "Person, die für die Abrechnung in dem Land verantwortlich ist, in dem",
+        "changeUser": "ÄNDERUNGSBENUTZER",
+        "hint": "Definieren, wer den Dienst nutzt und wer für den Dienst in Rechnung gestellt wird",
+        "label": "Kontoinformationen",
+        "notEligible": "Der dem Benutzer in Rechnung gestellte"
+      },
+      "header": {
+        "subtitle": "Moderne Alternativen zu herkömmlichen Telefondiensten",
+        "title": "GCom-Katalog"
+      },
+      "helpMeDecide": {
+        "analogLine": "Analog Line - Es wird für Fax-Anschluss, Frankiermaschinen, Türhalter und Aufzüge verwendet. Dieses Produkt bietet kein Telefon. Wählen Sie die Option für Voicemail (Ja/Nein).",
+        "conferenceRoomPhone": "Konferenzraum Telefon - Dieses Produkt ist für Tagungsräume.",
+        "deskPhone": "Schreibtischtelefon - Wählen Sie Optionen für Voicemail (Ja/Nein) und Erweiterungsmodul (für die Anrufweiterleitung verwendet).",
+        "predefinedSku": "Vordefinierte SKU – Wählen Sie diese Option aus, wenn Sie ein Power-Benutzer sind und mit der spezifischen SKU vertraut sind, die für Ihr Team erforderlich ist (z. B. Callcenter). Verwenden Sie das Textfeld, um die erforderliche SKU bereitzustellen.",
+        "specialRequest": "Spezielle Anfrage - Wählen Sie diese Option aus, wenn Sie Unterstützung benötigen, um ein Produkt auszuwählen. Verwenden Sie das Textfeld, um Details zu Ihrer Anfrage anzugeben.",
+        "teamsDialtone": "Teams Dialtone - Mit diesem Produkt können Sie externe Telefonnummern von Teams anrufen. Wenn verfügbar, ist dies das Standardprodukt, das vorab ausgewählt ist. Wählen Sie Optionen aus den verfügbaren Dropdown-Optionen aus.",
+        "title": "Produktinformationen"
+      },
+      "locationOfService": {
+        "cityLabel": "Stadt",
+        "countryLabel": "Land",
+        "countryTooltip": "Das Land ist an den Benutzer \"Rechnung an\" gebunden, der sich in dem Land befinden muss, in dem der Dienst verwendet wird.",
+        "hint": "GCom-aktivierten Speicherort definieren",
+        "label": "Standort des Dienstes",
+        "noSiteAvailableMessage": "Für den ausgewählten Speicherort sind keine GCom-fähigen Sites verfügbar.",
+        "selectCityPlaceholder": "Select City",
+        "selectCityQueryError": "Es tut uns leid, wir stießen auf ein Problem bei der Suche nach geeigneten Städten. Bitte versuchen Sie es erneut.",
+        "selectSitePlaceholder": "Websiteadresse",
+        "selectSiteQueryError": "Es tut uns leid, wir stießen auf ein Problem bei der Suche nach geeigneten Websites. Bitte versuchen Sie es erneut.",
+        "selectStateLPlaceholder": "Status auswählen",
+        "selectStateQueryError": "Es tut uns leid, wir stießen auf ein Problem bei der Suche nach förderfähigen Staaten. Bitte versuchen Sie es erneut.",
+        "siteLabel": "Website",
+        "stateLabel": "Staat"
+      },
+      "productSelection": {
+        "helpMeDecide": "Helfen Sie mir zu entscheiden",
+        "hint": "Definieren eines Zentralen Angebots für die Bestellung",
+        "label": "Produktauswahl",
+        "notEligible": "Sie sind nicht für dieses Produkt berechtigt.",
+        "productOptions": "Welches Produkt suchen Sie?",
+        "productSelectionQueryError": "Es tut uns leid, wir stießen auf ein Problem bei der Suche nach geeigneten Produkten. Bitte versuchen Sie es erneut.",
+        "selectProductOption": "Auswählen",
+        "summaryTitle": "Neues Produkt, das diesem Service zugeordnet werden soll:"
+      },
+      "userLookup": {
+        "description": "Suchen nach einem anderen Benutzer",
+        "title": "Benutzer ändern"
+      }
+    },
+    "leaveModal": {
+      "content": "Wenn Sie den Ersetzungsprozess zu einem späteren Zeitpunkt fortsetzen möchten, kehren Sie zum Menü Verwalten zurück. Möchten Sie fortfahren?",
+      "title": "Sie verlassen den Ersetzungsprozess"
+    },
+    "mobility": {
+      "header": {
+        "subtitle": "Geräte, die alle Ihre geschäftlichen Anforderungen erfüllen",
+        "title": "Mobilitätskatalog"
+      },
+      "mobilityDetails": {
+        "businessJustification": {
+          "acknowledgementHint": "Bitte lesen Sie die folgende Meldung",
+          "acknowledgementLabel": "Ich verstehe",
+          "deviceUsage": "Auswählen einer Gerätenutzung",
+          "justificationHint": "Beschreiben Sie Ihren geschäftlichen Bedarf für dieses Gerät"
+        },
+        "carrier": "Träger",
+        "color": "Farbe",
+        "configuration": {
+          "title": "Konfigurationsdetails"
+        },
+        "configurationStockMessage": "Die Konfiguration für dieses Modell wird vom Fulfillment-Team basierend auf dem verfügbaren Bestand bestimmt.",
+        "features": "Funktionen",
+        "hardwareSelectionQueryError": "Es tut uns leid, wir stießen auf ein Problem bei der Suche nach ausgewählter Hardware. Bitte versuchen Sie es erneut.",
+        "plan": "Plan",
+        "plans": "Pläne",
+        "requestReason": {
+          "title": "Grund für Ihre Anfrage"
+        },
+        "storage": "Speicher",
+        "title": "Mobilitätsdetails"
+      }
+    }
+  }
+}

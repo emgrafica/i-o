@@ -1,0 +1,10 @@
+{
+  "browseButton": "浏览",
+  "clearSelectionButton": "删除所有文件",
+  "fileNotSupportedErrorMessage": "不支持文件类型",
+  "fileNotSupportedHelpMessage": "请从以下内容之一上传文件类型：",
+  "fileSizeErrorMessage": "文件超过 {{limit}}MB",
+  "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+  "instructions": "把文件拖动到此处或者",
+  "maxNumberOfFilesExceededMessage": "文件超过{{limit}}的限制"
+}

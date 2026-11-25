@@ -1,0 +1,10 @@
+{
+  "browseButton": "둘러보기",
+  "clearSelectionButton": "모든 파일 제거",
+  "fileNotSupportedErrorMessage": "파일 형식이 지원되지 않음",
+  "fileNotSupportedHelpMessage": "다음 중 하나에서 파일 유형을 업로드하십시오.",
+  "fileSizeErrorMessage": "파일이 mb를 {{limit}}초과",
+  "id": "869cdb3f-280b-4489-824a-2c7da2bde12d",
+  "instructions": "여기에 파일을 끌어다 놓거나",
+  "maxNumberOfFilesExceededMessage": "파일은 {{limit}} 한도를 초과합니다."
+}

@@ -1,0 +1,225 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+
+.my-stuff-divider-bar {
+    width: 2px!important;
+  }
+  
+  .eyebrown-item {
+    display: inline-block;
+    font-weight: 400;
+    height: 20px;
+    margin: 0;
+    padding: 2px 8px;
+    background-color: $color-purple-tint;
+    color: $color-purple-main;
+    @include eyebrow;
+    border-radius: 21px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    z-index: 1;
+  }
+
+  .RotateFloatButtonWrapper {
+    float: right;
+    position: relative;
+    z-index: 10;
+    position: relative;
+    top: 10px;
+    right: 10px;
+  }
+
+  .my-stuff-card {
+    .device-card{
+      display: grid;
+      min-height: 300px;
+      height: 300px;
+    }
+
+    .device-card-header,  .device-card-content{
+      padding: 0px 16px;
+    }
+    .device-card-footer {
+      justify-content: space-between;
+      .my-stuff-card-link-text {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        > span {
+          @include buttonLink;
+          &:hover {
+            cursor: pointer;
+            color: $color-gray-dark;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .my-stuff-card-image-wrapper {
+    text-align: center;
+    height: 113px;
+    background-size: contain!important;
+    margin-top: 25px;
+  }
+  
+  .my-stuff-card-body {
+    font-family: $font-opensans;
+    .my-stuff-card-configuration-item{
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      font-size: $font-size-caption-desktop;
+      margin-bottom: $dls-s01-0;
+      .MuiSvgIcon-root {
+          display: inline-block;
+            width: $dls-s02-5;
+            height: $dls-s02-5;
+            margin-right: $dls-s02-0;
+         }
+
+         .my-stuff-card-configuration-item-header{
+          @include captionSemibold;
+          margin-right: $dls-s01-0;
+      }
+      .my-stuff-card-configuration-item-content{
+          color: $color-gray-dark;
+          @include captionRegular;
+      }
+    }
+   
+    .my-stuff-card-body-type {
+      @include captionRegular;
+      color: $color-gray-dark;
+      margin-bottom: $dls-s01-0;
+    }
+  }
+
+  .my-stuff-card-body-type {
+    @include captionRegular;
+    color: $color-gray-dark;
+    margin-bottom: $dls-s01-0;
+  }
+
+  .my-stuff-card-body-name {
+    margin-top: 0 !important;
+    margin-bottom: $dls-s01-0;
+    min-height: auto !important;
+    -webkit-line-clamp: 1 !important;
+    @include heading5;
+  }
+
+  .my-stuff-card-body-status {
+    @include captionSemibold;
+    color: $color-gray-dark;
+  }
+
+  .my-stuff-card-body-status-successful {
+    color: $color-purple-light-1;
+  }
+  .ELIGIBLE_FOR_REFRESH {
+    > div:first-child {
+      height: 6px;
+      margin: 0 0 $dls-s01-0;
+    }
+    .ant-progress-line {
+      line-height: normal !important;
+    }
+    .ant-progress-bg {
+      height: 6px !important;
+    }
+    .ant-progress-inner {
+      top: -10px;
+    }
+  }
+
+  .my-stuff-end-card-header {
+    .my-stuff-end-card-tag {
+      padding: $dls-s02-0;
+      width: 60px;
+      height: $dls-s03-0;
+
+      .my-stuff-end-card-tag-content {
+        @include eyebrow;
+        border-radius: 21px;
+        display: inline-block;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+
+.my-stuff-end-card-header {
+  .my-stuff-end-card-tag {
+    padding: $dls-s02-0;
+    width: 60px;
+    height: $dls-s03-0;
+
+    .my-stuff-end-card-tag-content {
+      @include eyebrow;
+      border-radius: 21px;
+      display: inline-block;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.my-stuff-empty-card-body {
+  width: 70%;
+  margin-top: $dls-s06-0;
+  padding-top: $dls-s00-5;
+  .my-stuff-empty-card-icon {
+    width: $dls-s07-0;
+    height: $dls-s07-0;
+  }
+  .h4-cover {
+    min-height: 89px;
+    margin-top: $dls-s02-0 !important;
+    margin-bottom: $dls-s03-0 !important;
+  }
+  h4 {
+    margin: 0;
+    @include max2lines;
+  }
+}
+
+.my-stuff-empty-card-body-link-wrapper {
+  .my-stuff-empty-card-body-link {
+    @include bodySemibold;
+    margin: 0;
+    color: $color-gray-dark;
+  }
+  .my-stuff-empty-card-body-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 769px) {
+  .my-stuff-empty-style {
+    .ant-card {
+      height: 288px;
+    }
+  }
+}
+
+%my-stuff-small-card {
+  height: 136px;
+  background: $color-white;
+}
+
+.my-stuff-small-card {
+  .ant-card {
+    @extend %my-stuff-small-card;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.my-stuff-small-card-end {
+  .ant-card {
+    @extend %my-stuff-small-card;
+    background: $color-purple-tint;
+  }
+}

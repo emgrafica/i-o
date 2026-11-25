@@ -1,0 +1,28 @@
+{
+  "id": "8c86fffe-4f50-4c22-aaf2-1adec86bcebe",
+  "reportBroken": {
+    "orderDetails": {
+      "deviceUsage": "Użycie urządzenia",
+      "incidentNumber": "Numer incydentu",
+      "message": "Urządzenie zastępcze będzie zgodne z ogólnymi specyfikacjami wymienianego urządzenia. Zamienniki zostaną dokonane z dostępnych zapasów w celu zmniejszenia kosztów. Dziękujemy za zrozumienie, jak pracujemy na rzecz osiągnięcia celów finansowych firmy.",
+      "reasonForRequest": "Powód żądania",
+      "reasonForRequestValue": "Zwrot uszkodzony",
+      "reasonForReturn": "Powód zwrotu",
+      "requestedFor": "Wniosek o",
+      "situationDetails": "Szczegóły sytuacji"
+    }
+  },
+  "returnLabelDownload": {
+    "submitActionButtonLabel": "Pobierz etykietę"
+  },
+  "secureLocationRestriction": {
+    "message": "Ograniczenie bezpiecznej lokalizacji"
+  },
+  "validationOverride": {
+    "carrier": {
+      "message": "nie można zweryfikować wprowadzonego adresu."
+    },
+    "label": "Jestem pewien, że wprowadzony przeze mnie adres jest poprawny",
+    "message": "Zaktualizuj adres i prześlij ponownie lub jeśli masz pewność, że wprowadzony adres jest dostarczany, zaznacz to pole wyboru, aby kontynuować niezweryfikowany adres."
+  }
+}

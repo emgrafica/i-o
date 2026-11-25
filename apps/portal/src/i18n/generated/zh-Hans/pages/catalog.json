@@ -1,0 +1,19 @@
+{
+  "error": {
+    "catalogError": "很抱歉，我们在检索您的结果时遇到了问题。请重试。",
+    "filtersError": "错误加载过滤器",
+    "retry": "重试"
+  },
+  "id": "8759acde-0e57-4c81-ace1-b6642fe55b88",
+  "sortBy": {
+    "nameAtoZ": "名称： A 到 Z",
+    "nameZtoA": "名称： Z 到 A",
+    "priceHighToLow": "价格：从高到低",
+    "priceLowToHigh": "价格：从低到高"
+  },
+  "unentitled": {
+    "contact": "如果您认为这是一个错误，请联系服务台代理。",
+    "goHome": "回家吧",
+    "noItems": "根据业务配置<1></1>规则<3>，没有可供{{name}}的{{catalog}}</3>项。"
+  }
+}

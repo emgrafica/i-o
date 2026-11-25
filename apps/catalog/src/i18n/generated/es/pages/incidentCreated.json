@@ -1,0 +1,18 @@
+{
+  "applicationNameLabel": "Nombre de la aplicación",
+  "backLink": "Volver a Obtener soporte",
+  "businessLabel": "negocio",
+  "filesAlertMessageLong": "El archivo no se pudo cargar debido a que se aprobó el tiempo de salida de la solicitud. Inténtelo de nuevo.",
+  "filesAlertMessageLong_plural": "Los archivos no se pudieron cargar debido a que se aprobó el tiempo de salida de la solicitud. Inténtelo de nuevo.",
+  "filesAlertMessageShort": "No se pudo cargar el archivo",
+  "filesAlertMessageShort_plural": "Los archivos no se pudieron cargar",
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+  "incidentDetailsLabel": "Detalles de su problema",
+  "incidentTitleLabel": "título",
+  "pageAlertMessage": "Incidente creado con éxito! Su número de incidente es {{tenantDisplayId}}",
+  "retryAllButton": "Reintentar todo",
+  "retryButton": "reintentar",
+  "subtitle": "Acceso a soluciones de autoservicio para problemas de TI",
+  "title": "Obtener soporte técnico",
+  "uploadedFilesLabel": "Archivos cargados"
+}

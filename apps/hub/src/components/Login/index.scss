@@ -1,0 +1,55 @@
+.bg-login{
+    background-image: url(https://ok12static.oktacdn.com/fs/bco/7/fs0tut9lfsbluDI8y5d5);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -5;
+
+}
+
+#okta-sign-in.auth-container .button-primary {
+    background-color: #6F2C91 !important;
+    background: linear-gradient(#6F2C91,#6F2C91) !important;
+}
+
+#legal-statement {
+    background: #3f4657;
+    color: white;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    opacity: 0.6;
+
+    a b{
+        color: #f1f1f3;
+        font-size: 12px !important;
+        text-decoration: underline;
+    }
+    #accordion{
+        max-width: 100% !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    #legal-statement {
+        width: auto;
+        position: relative;
+        bottom: 0;
+        clear: both;
+        opacity: 0.6;
+        margin-top: 30px;
+    }
+}
+
+
+#copyright{
+    max-width: 100% !important;
+}

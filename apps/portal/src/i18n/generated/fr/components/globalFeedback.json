@@ -1,0 +1,15 @@
+{
+  "disclaimer": "Les commentaires sont facultatifs et vous seront attribués.",
+  "dropdownFeedback": "Quel est l'objet de vos commentaires ?",
+  "feedbackPlaceholder": "Dites-nous en plus. Qu’est-ce qui s’est bien passé ? Comment pouvons-nous nous améliorer?",
+  "id": "629e9640-f1c7-4dd9-a68f-b4ebf8404eea",
+  "inputFeedback": "Partagez vos commentaires",
+  "message": "Nous travaillons en permanence pour améliorer votre expérience i-o. Faites savoir à notre équipe ce qui fonctionne bien et comment nous pouvons améliorer le site.",
+  "pleaseSelect": "Veuillez sélectionner",
+  "submissionError": "Échec de la soumission des commentaires. Veuillez réessayer.",
+  "submit": "Soumettre des commentaires",
+  "subtitle": "Aidez-nous à mieux vous servir...",
+  "successMessage": "Nous apprécions le temps consacré à cette tâche et nous attachons de l'importance à votre opinion.",
+  "successTitle": "Nous vous remercions de vos commentaires !",
+  "title": "Partagez vos commentaires"
+}

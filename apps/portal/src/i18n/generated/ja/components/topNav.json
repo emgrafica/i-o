@@ -1,0 +1,17 @@
+{
+  "getSupport": "サポートを受ける",
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "logOut": "ログアウトする",
+  "logOutMessage": "この操作を実行すると、 DXC EXP からログアウトします。",
+  "manage": "管理",
+  "punchOutModal": {
+    "closeButton": "ダイアログを閉じる",
+    "getSupportMessage": "SOLVデスクからのライブサポートは、 GE以外のビジネスまたは地域で利用できます。",
+    "mobileMessage": "モバイルの要求は、Exp 以外 DXC のビジネスまたは地域で利用できます。",
+    "remoteAccessMessage": "リモート アクセスの要求は、Exp 以外のビジネスまたは地域 DXC で利用できます。",
+    "softwareMessage": "ソフトウェアの要求は、 DXC Exp 以外のビジネスまたは地域で利用できます。",
+    "title": "重要な情報"
+  },
+  "request": "リクエスト",
+  "signOut": "サインアウト"
+}

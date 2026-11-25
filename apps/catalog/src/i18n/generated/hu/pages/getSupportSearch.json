@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "Üzleti alkalmazások",
+  "businessFiltersLabel": "üzlet",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "Tudás cikkek",
+  "noResults": "Sajnáljuk, egyetlen találat sem egyezik a keresési kifejezés.",
+  "punchOutModal": {
+    "action": "Támogatás kérése",
+    "message": "Ennek az alkalmazásnak a támogatása egy i-o-en kívüli jegykezelés alapján történik. Kövesd a lenti linket ami az alkalmazással kapcsolatos  weboldalra irányít, ahol segítséget kérhetsz.",
+    "title": "Üzleti alkalmazások támogatása a i-o-en kívül"
+  },
+  "showingEnglishResults": "A Business Application eredményei jelenleg csak angol nyelven érhetők el",
+  "showingResultsFor": "{{totalItems}}  eredmény a következőre: \"{{keywords}}\"",
+  "subtitle": "Önkiszolgáló megoldások keresése IT-problémákhoz",
+  "title": "Támogatás kérése",
+  "viewAllLabel": "Az összes megtekintése"
+}

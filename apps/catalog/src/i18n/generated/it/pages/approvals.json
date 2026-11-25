@@ -1,0 +1,42 @@
+{
+  "approvalError": "Approvazione non riuscita. Riprova.",
+  "approve": "approvare",
+  "approved": "approvato",
+  "decline": "declinare",
+  "declineModal": {
+    "label": "Si prega di fornire un motivo per rifiutare",
+    "placeholder": "Ecco la ragione del declino.",
+    "title": "Rifiuta motivo"
+  },
+  "declineSuccess": "Richiesta rifiutata correttamente.",
+  "declined": "Rifiutato",
+  "filterBox": {
+    "accessories": "accessoristica",
+    "computers": "elaboratori",
+    "mobility": "mobilità",
+    "title": "Categorie"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "Non ci sono ordini approvati.",
+  "noDeclinedOrders": "Non ci sono ordini rifiutati.",
+  "noFilterResults": "Siamo spiacenti, nessun risultato corrisponde al filtro.",
+  "noPendingOrders": "Al momento non ci sono ordini in attesa di approvazione.",
+  "order": {
+    "approvalReason": "Motivo approvazione",
+    "approvedLabel": "approvato",
+    "businessJustification": "Giustificazione aziendale",
+    "declineReason": "Motivo rifiutato",
+    "declinedLabel": "Rifiutato",
+    "for": "per",
+    "imageAlt": "Risorsa richiesta",
+    "orderNumber": "Numero ordine",
+    "price": "prezzo",
+    "replacedDevice": "Dispositivo sostituito",
+    "requestReason": "Motivo richiesta",
+    "returnDate": "Data reso",
+    "submittedLabel": "sommesso"
+  },
+  "pending": "In sospeso",
+  "subtitle": "Visualizzare e intervenire sulle richieste",
+  "title": "Approvazioni"
+}

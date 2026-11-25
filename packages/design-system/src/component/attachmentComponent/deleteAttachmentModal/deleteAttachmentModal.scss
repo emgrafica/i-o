@@ -1,0 +1,14 @@
+.delete-dialog{
+    z-index: 13000000000000 !important;
+    position: relative;
+    .title{
+        font-size: 24px;
+        color: #000000;
+        font-weight: bold ;
+    }
+    .customized-dialog-close-button{
+        position: absolute;
+        right:10px;
+        top:5px;
+    }
+}

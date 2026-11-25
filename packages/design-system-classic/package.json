@@ -1,0 +1,93 @@
+{
+  "name": "@i-o/design-system-classic",
+  "version": "0.0.1",
+  "private": true,
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "browser": "build/index.js",
+  "style": "build/index.css",
+  "author": "emgrafica (Michael Dempsey)",
+  "files": [
+    "build"
+  ],
+  "dependencies": {},
+  "scripts": {
+    "build": "npm i && rollup -c",
+    "rollup": "rollup -c",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "npm-install-peers && start-storybook -p 6008 --no-manager-cache",
+    "start-storybook": "start-storybook -p 6008 --no-manager-cache",
+    "build-storybook": "npm-install-peers && build-storybook -s public",
+    "test-lint": "eslint src/",
+    "lint-fix": "npm run test-lint -- --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "antd": "^4.12.3"
+  },
+  "resolutions": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-url": "^6.0.0",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/node-logger": "^6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.9",
+    "@svgr/rollup": "^5.5.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "node-sass": "^4.14.1",
+    "npm-install-peers": "^1.2.2",
+    "postcss": "^8.2.15",
+    "postcss-loader": "^5.3.0",
+    "react-avatar": "^3.10.0",
+    "react-icons": "^4.2.0",
+    "react-scripts": "4.0.1",
+    "rollup": "^2.48.0",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "storybook-addon-designs": "^6.0.0",
+    "web-vitals": "^1.0.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "license": "ISC"
+}

@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "Nazwa aplikacji:",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "({{count}} załączony plik)",
+      "fileCount_plural": "({{count}} dołączone pliki)",
+      "maxSizeInfo": "Maksymalny rozmiar na plik: {{limit}}.0 MB",
+      "optionalLabel": "(Opcjonalnie)",
+      "title": "Dołączanie plików"
+    },
+    "instructions": "Dołącz maksymalnie {{limit}} odpowiednich dokumentów, kóre pomogą agentom wsparcia w rozwiązaniu problemu."
+  },
+  "businessLabel": "biznes:",
+  "descriptionSection": {
+    "details": {
+      "label": "Podaj szczegółowe informacje dotyczące problemu",
+      "placeholder": "Szczegółowo opisz swój problem, aby nasi agenci mogli pomóc tak szybko, jak to możliwe"
+    },
+    "header": "opis",
+    "title": {
+      "label": "tytuł",
+      "placeholder": "Krótki opis"
+    }
+  },
+  "directions": "Wypełnij poniższy formularz, aby przesłać zgłoszenie do odpowiedniego zespołu pomocy technicznej, w celu rozwiązania problemu.",
+  "formTitle": "Formularz zgłoszenia incydentu dotyczącego Aplikacji Biznesowych",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "Tworzenie incydentu i przesyłanie załączonych plików",
+  "loadingMessageWithoutFiles": "Tworzenie incydentu",
+  "searchedTopicLabel": "Wyszukiwany temat",
+  "subtitle": "Dostęp do narzędzi umożliwiających samodzielne rozwiązanie problemów informatycznych",
+  "title": "Uzyskaj wsparcie"
+}

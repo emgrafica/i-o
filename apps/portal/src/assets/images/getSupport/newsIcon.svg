@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 42" style="enable-background:new 0 0 48 42;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5F249F;}
+</style>
+<g>
+	<path class="st0" d="M45,21h-2v13H5V11c0-0.6,0.4-1,1-1h9V8H6c-1.7,0-3,1.3-3,3v23H0v3c0,2.8,2.2,5,5,5h38c2.8,0,5-2.2,5-5v-3h-3
+		V21z M46,36v1c0,1.7-1.3,3-3,3H5c-1.7,0-3-1.3-3-3v-1H46z"/>
+	<rect x="22" y="37" class="st0" width="5" height="2"/>
+	<path class="st0" d="M44,0H20c-2.2,0-4,1.8-4,4v9h2V4c0-1.1,0.9-2,2-2h24c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2h-8.4L28,25.6V18h-5v2
+		h3v5.6c0,0.8,0.5,1.5,1.2,1.8c0.2,0.1,0.5,0.2,0.8,0.2c0.5,0,1-0.2,1.4-0.6l7-7H44c2.2,0,4-1.8,4-4V4C48,1.8,46.2,0,44,0z"/>
+	<path class="st0" d="M26,33v-1.6c0-3.8-6.8-5.4-9-5.4s-9,1.6-9,5.4V33h2v-1.6c0-1.8,4.8-3.4,7-3.4s7,1.6,7,3.4V33H26z"/>
+	<path class="st0" d="M17,14c-2.8,0-5,2.2-5,5v1c0,2.8,2.2,5,5,5s5-2.2,5-5v-1C22,16.2,19.8,14,17,14z M20,20c0,1.7-1.3,3-3,3
+		s-3-1.3-3-3v-1c0-1.7,1.3-3,3-3s3,1.3,3,3V20z"/>
+	<rect x="24" y="7" class="st0" width="16" height="2"/>
+	<rect x="24" y="11" class="st0" width="9" height="2"/>
+</g>
+</svg>

@@ -1,0 +1,261 @@
+@import './../../styles/scss/variable.scss';
+@import './../../styles/scss/mixin.scss';
+
+.homepage-content-support {
+  .ticket-footer {
+    .ant-row {
+      margin: 0;
+      .ant-col {padding: 0;}
+    }
+  }
+  .support-ticket-card {height: 136px;}
+}
+
+.largeCard .support-ticket-card {height: 280px;}
+
+.support-history-block {
+  h5 {
+    @include max2lines;
+    -webkit-line-clamp: 1;
+  }
+  h4 {
+    color: $black;
+    margin: 0 0 $dls-s03-5;
+  }
+
+  .support-list .ant-list-empty-text{padding: 0;}
+  .contact-block {padding: 12px 20px 20px;}
+  .item-sh {
+    padding: 0;
+    margin: $dls-s02-5 0 0 0;
+    border-bottom: 0 !important;
+  }
+  @include media-breakpoint-desktop {
+    .ant-list-pagination {margin-top: 56px;}
+  }
+}
+
+.contact-block {
+  .title-contact {
+    margin-top: 8px;
+    font-family: $font-gtwalsheim_pro_medium;
+    font-weight: normal;
+  }
+  .txt-desc {font-family: $font-opensans-semi-bold;}
+}
+
+// support-history-detail
+.item-state {
+  display: inline-block;
+  .ant-descriptions-item-container {
+    display: block;
+  }
+  .ant-descriptions-item-content {
+    display: -webkit-box;
+    padding: 3px 8px;
+    background-color: #e9e0f7;
+    border-radius: 21px;
+    color: $color-purple-main;
+    font-size: $font-size-eyebrow-desktop !important;
+    font-family: $font-opensans-bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+  }
+  &.state-awaiting-customer {
+    .ant-descriptions-item-content {
+      background-color: #ffe5cd;
+      color: $color-orange;
+    }
+  }
+  &.state-rejected {
+    .ant-descriptions-item-content {
+      background-color: #fddee2;
+      color: $color-red;
+    }
+  }
+}
+
+.support-history-detail {
+  padding: 50px 20px 20px;
+  .inner > div {padding: 0 !important;}
+  .title-card {margin-top: 10px !important;}
+  .info-ticket {
+    .ant-descriptions-item-label {
+      margin-top: 16px;
+      font-size: $font-size-eyebrow-desktop;
+      line-height: $line-height-caption-mobile;
+      font-family: $font-opensans-bold;
+    }
+    .ant-descriptions-item {
+      padding-bottom: 0 !important;
+      &:not(.item-state) {
+        .ant-descriptions-item-content {
+          font-size: $font-size-body-mobile;
+          line-height: $line-height-body-desktop;
+          font-family: $font-opensans-regular;
+        }
+      }
+    }
+  }
+  .linkstyle {   
+    .go-back-link {
+      @include bodyRegular;
+      font-weight: bold;
+      margin: 30px 0 30px 0;
+      letter-spacing: 0.342857px;
+      color: $color-purple-light-1;
+      padding: 4px 0;
+    }
+  }
+  
+  @include media-breakpoint-medium-desktop {
+    .inner > div {
+      padding-left: 10px !important;
+      &:first-child {
+        padding-left: 0 !important;
+        padding-right: 40px !important;
+      }
+    }
+    .info-ticket {
+      margin-top: 20px;
+      padding: 0 15px 16px;
+      background-color: $color-gray-container;
+      border-radius: 20px;
+    }
+  }
+  @include media-breakpoint-desktop {
+    &.custom_container {
+      padding-top: 47px;
+      padding-bottom: 20px;
+    }
+  }
+
+}
+
+@include media-breakpoint-medium-desktop {
+  .custom_container .custom_container_inner .support-history-block {margin-top: 60px !important;}
+  .largeCard {
+    .support-ticket-card {
+      // width: 288px;
+      height: 288px;
+    }
+  }
+}
+
+// modal-method-custom
+.modal-method-custom.ant-modal {
+  width: 744px !important;
+  .ant-modal-content {
+    width: 100%;
+    top: 0;
+    left: 0;
+    .ant-modal-body {
+      position: relative;
+      padding: 0;
+      text-align: center;
+    }
+  }
+  .ant-modal-close-x {height: 74px;}
+  .ant-modal-close-icon {
+    font-size: 20px;
+    vertical-align: -9px;
+  }
+  .ant-modal-confirm-body {
+    > .anticon {display: none;}
+    .ant-modal-confirm-title {
+      padding: 25px 50px;
+      color: $color-purple-main;
+      @include heading4;
+    }
+  }
+  .ant-modal-confirm-content {
+    padding: 20px;
+    border-top: solid 1px $color-gray-medium;
+    margin: 0 !important;
+    @include bodyRegular;
+  }
+  .ant-modal-confirm-btns {
+    margin-top: 0;
+    padding: 25px 0;
+    border-top: solid 1px $color-gray-medium;
+    float: none;
+    .ant-btn {
+      min-width: 168px;
+      height: auto;
+      padding: 10px;
+      @include button-default-1;
+    }
+  }
+}
+
+//modal-basic-custom
+.modal-basic-custom.ant-modal {
+  width: 744px !important;
+  .ant-modal-content {
+    width: 100%;
+    .ant-modal-body {
+      padding: 0;
+      text-align: left;
+    }
+  }
+  .ant-modal-close-x {
+    height: 74px;
+    > .anticon {
+      font-size: 20px;
+      vertical-align: -8px;
+    }
+  }
+  .ttl-modal {
+    margin: 0;
+    padding: 25px 50px;
+    color: $color-purple-main;
+    @include heading4;
+    text-align: center;
+    border-bottom: solid 1px $color-gray-medium;
+  }
+  .inner {
+    padding: 20px;
+    text-align: left;
+    .txt-comment {
+      margin: 32px 0 8px;
+      color: $color-gray-dark;
+      text-transform: uppercase;
+      @include eyebrow;
+    }
+    .input-comment {
+      height: 96px;
+      border-radius: 4px;
+      color: $black;
+      font-family: $font-opensans-regular;
+    }
+  }
+  .ant-modal-footer {
+    border-top: solid 1px $color-gray-medium;
+    padding: 25px 0;
+    text-align: center;
+    .btn-add-comment {min-width: 168px;}
+  }
+  @include media-breakpoint-desktop {
+    .inner {padding: 50px 76px 45px;}
+  }
+
+  .bad-words-comment{
+    /* Desktop/Caption - Regular */
+    font-family: $font-opensans-regular;
+    font-size: $font-size-caption-desktop;
+    line-height: $line-height-eyebrow-desktop;
+    /* identical to box height, or 133% */
+  
+    /* Semantic/bad */
+    color: $color-red;
+  
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+  }
+}

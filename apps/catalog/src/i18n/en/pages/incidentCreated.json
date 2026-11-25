@@ -1,0 +1,19 @@
+{
+  "id": "1a4d27fa-6936-494f-8823-183c22b51d4a",
+
+  "title": "Get Support",
+  "subtitle": "Access self-service solutions to IT issues",
+  "pageAlertMessage": "Incident successfully created! Your incident number is {{tenantDisplayId}}",
+  "filesAlertMessageLong": "File failed to upload due to the request timing out. Please try again.",
+  "filesAlertMessageLong_plural": "Files failed to upload due to the request timing out. Please try again.",
+  "filesAlertMessageShort": "File failed to upload",
+  "filesAlertMessageShort_plural": "Files failed to upload",
+  "backLink": "Return to Get Support",
+  "applicationNameLabel": "Application Name",
+  "businessLabel": "Business",
+  "incidentTitleLabel": "Title",
+  "incidentDetailsLabel": "Details for your issue",
+  "uploadedFilesLabel" : "Uploaded Files",
+  "retryAllButton" : "Retry All",
+  "retryButton" : "Retry"
+}

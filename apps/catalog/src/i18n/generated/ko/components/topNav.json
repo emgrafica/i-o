@@ -1,0 +1,17 @@
+{
+  "getSupport": "지원 받기",
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "logOut": "로그아웃",
+  "logOutMessage": "이 작업은 GE EXP에서 로그아웃합니다.",
+  "manage": "관리하다",
+  "punchOutModal": {
+    "closeButton": "대화 상자 닫기",
+    "getSupportMessage": "SOLV Desk의 라이브 지원은 GE이외의 비즈니스 또는 지역에 사용할 수 있습니다.",
+    "mobileMessage": "모바일 을 요청하는 것은 GE Exp 이외의 비즈니스 또는 지역에 사용할 수 있습니다.",
+    "remoteAccessMessage": "원격 액세스 요청은 GE Exp 이외의 비즈니스 또는 지역에 사용할 수 있습니다.",
+    "softwareMessage": "소프트웨어 요청은 GE Exp 이외의 비즈니스 또는 지역에 사용할 수 있습니다.",
+    "title": "중요 정보"
+  },
+  "request": "요청",
+  "signOut": "로그인"
+}

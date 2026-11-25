@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "Nom de l'application :",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "({{count}} fichier joint)",
+      "fileCount_plural": "({{count}} fichiers joints)",
+      "maxSizeInfo": "Taille maximale par fichier : {{limit}}.0 Mo",
+      "optionalLabel": "(Facultatif)",
+      "title": "Joindre des fichiers"
+    },
+    "instructions": "Joignez jusqu'à {{limit}} documents pertinents qui aideront les agents de support à résoudre votre problème."
+  },
+  "businessLabel": "Secteur d'activité :",
+  "descriptionSection": {
+    "details": {
+      "label": "Fournissez des détails sur le problème que vous rencontrez",
+      "placeholder": "Décrivez votre problème en détail afin que nos agents puissent vous aider le plus rapidement possible"
+    },
+    "header": "description",
+    "title": {
+      "label": "titre",
+      "placeholder": "Description rapide"
+    }
+  },
+  "directions": "Remplissez le formulaire ci-dessous pour soumettre une demande d'incident afin que l'équipe de support appropriée puisse l'examiner et travailler à la résolution du problème.",
+  "formTitle": "Formulaire d'incident concernant une application métier",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "Création de votre incident et téléchargement de fichiers joints",
+  "loadingMessageWithoutFiles": "Création de votre incident",
+  "searchedTopicLabel": "Thème recherché :",
+  "subtitle": "Accéder à des solutions en libre-service aux problèmes informatiques",
+  "title": "Obtenir de l’aide"
+}

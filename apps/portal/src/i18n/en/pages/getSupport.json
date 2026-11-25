@@ -1,0 +1,100 @@
+{
+  "id": "8789354f-4f68-43d4-8238-fdcf68f0266d",
+
+  "title": "Support",
+  "topSectionHeader": "Hi, how can we help?",
+  "middleSectionHeader": "Browse Top Categories",
+
+  "middleSection": {
+    "header": "Browse Top Categories",
+    "businessAppLabel": "Business Applications",
+    "secretKeyLabel": "Password & ID",
+    "laptopsLabel": "Laptops & Desktops",
+    "RemoteAccessLabel": "Remote Access & Network",
+    "emailLabel": "Email",
+    "chatToolsLabel": "Chat & Meeting Tools",
+    "phoneServicesLabel": "Mobile & Phone Services",
+    "fileSharingLabel": "File Sharing & Storage",
+    "resultsInEnglish": "Category selection will display matches in English for best results",
+
+    "teamcenterLabel": "Teamcenter",
+    "powermaxLabel": "Powermax",
+    "racesLabel": "Races",
+    "plmLabel": "PLM",
+    "tableauLabel": "Tableau",
+    "sapLabel": "SAP",
+    "oracleLabel": "Oracle",
+    "secretKeyResetLabel": "SSO password reset",
+    "functionalSSOsLabel": "Functional SSOs",
+    "contractorsAccountsLabel": "Contractors accounts",
+    "digitalCertificatesLabel": "Digital Certificates",
+    "orderRefreshLabel": "Order & Refresh",
+    "setupLabel": "Setup",
+    "pcReturnLabel": "Device Return",
+    "accessoriesLabel": "Accessories",
+    "windowsConfigLabel": "Windows configuration",
+    "macConfigLabel": "MacOS configuration",
+    "myAppsLabel": "MyApps",
+    "vpnLabel": "F5 VPN",
+    "rsaLabel": "Tokens: RSA",
+    "pingIdLabel": "PingID",
+    "wiFiLabel": "BlueSSO & Guest WiFi",
+    "outlookLabel": "Outlook",
+    "dlLabel": "Distribution Lists",
+    "sharedMailboxLabel": "Shared Mailbox",
+    "spamLabel": "Spam and Phishing",
+    "teamsLabel": "Teams",
+    "skypeLabel": "Skype",
+    "liveEventsLabel": "Live Events",
+    "mobileOrderEnrollLabel": "Order and enroll a mobile phone",
+    "geAppsLabel": "DXC apps",
+    "refreshLabel": "Refresh",
+    "returnLabel": "Return",
+    "gcomLabel": "Gcom",
+    "dialToneLabel": "Skype DialTone",
+    "boxLabel": "Box",
+    "sharepointLabel": "Sharepoint",
+    "oneDriveLabel": "OneDrive",
+    "redShareLabel": "REDShare"
+  },
+
+  "bottomSection": {
+    "header": "We are here to help",
+    "serviceDesk": {
+      "title": "Service Desk",
+      "body": "Need further assistance after searching for self-service solutions above? Contact a Service Desk agent for live 24/7 IT support no matter where you are located.",
+      "secondaryAction": "Learn more",
+      "modal": {
+        "header": "Contact the Service Desk",
+        "title": "Did you know?",
+        "recommendedLabel": "Recommended",
+        "searchArticleContent": "i-o offers hundreds of helpful articles and solutions.",
+        "searchArticleAction": "Search Articles",
+        "chatNowContent": "Chatting with an agent has lower queue times and is quicker than a phone call.",
+        "viewNumberLabel": "View Service Desk Phone Number",
+        "supportedLanguangesLabel": "Supported Languages:",
+        "numberLabel": "Number:",
+        "operationHoursLabel": "Hours of Operation:"
+      }
+    },
+    "lounge": {
+      "title": "i-o Lounge",
+      "body": "Need on-site support? i-o Lounge provides dedicated IT support at selected sites worldwide. Users at these sites can either walk-up to a lounge or schedule an appointment.",
+      "action": "Find Lounge"
+    },
+    "mdp": {
+      "title": "i-o District Partner",
+      "body": "Have a business IT or workplace technology need? Your i-o District Partner supports CoreTech managed products and services at your site. Contact your MDP for end-to-end IT support, training, and escalations at the site level.",
+      "action": "Contact Info",
+      "modal": {
+        "header": "MDP Contact",
+        "title": "Before contacting your MDP, try these i-o support options to get a quick answer",
+        "searchLabel": "Search for knowledge articles or business applications",
+        "checkStatusLabel": "Check the status of an order or incident",
+        "chatLabel": "Chat with a Service Desk agent",
+        "bookApptLabel": "Book an appointment at your nearest i-o Lounge",
+        "mdpContactTitle": "View MDP Contact Information"
+      }
+    }
+  }
+}

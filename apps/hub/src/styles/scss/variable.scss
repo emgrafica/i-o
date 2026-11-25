@@ -1,0 +1,133 @@
+
+$font-size-base: 14px;
+
+// Fonts
+$font-opensans-regular: 'opensans-regular', Helvetica, Arial, sans-serif;
+$font-opensans-bold: 'opensans-bold', Helvetica, Arial, sans-serif;
+$font-opensans-semi-bold: 'opensans-semi-bold', Helvetica, Arial, sans-serif;
+$font-gtwalsheim_pro_regular: 'gtwalsheim_pro_regular', Helvetica, Arial, sans-serif;
+$font-gtwalsheim_pro_medium: 'gtwalsheim_pro_medium', Helvetica, Arial, sans-serif;
+$font-gtwalsheim_pro_bold: 'gtwalsheim_pro_bold', Helvetica, Arial, sans-serif;
+
+// Font-size / Desktop Theme
+$font-size-h1-desktop: 64px;
+$font-size-h2-desktop: 40px;
+$font-size-h3-desktop: 32px;
+$font-size-h4-desktop: 24px;
+$font-size-h5-desktop: 20px;
+$font-size-h6-desktop: 16px;
+$font-size-eyebrow-desktop: 10px;
+$font-size-body-desktop: 14px;
+$font-size-caption-desktop: 12px;
+$font-size-buttonLink-desktop: 14px;
+
+// Font-size / Mobile Theme
+$font-size-h1-mobile: 40px;
+$font-size-h2-mobile: 32px;
+$font-size-h3-mobile: 26px;
+$font-size-h4-mobile: 20px;
+$font-size-h5-mobile: 20px;
+$font-size-h6-mobile: 16px;
+$font-size-eyebrow-mobile: 10px;
+$font-size-body-mobile: 14px;
+$font-size-caption-mobile: 12px;
+$font-size-buttonLink-mobile: 14px;
+
+// line-height / Desktop Theme
+$line-height-h1-desktop: 68px;
+$line-height-h2-desktop: 46px;
+$line-height-h3-desktop: 40px;
+$line-height-h4-desktop: 28px;
+$line-height-h5-desktop: 22px;
+$line-height-h6-desktop: 20px;
+$line-height-eyebrow-desktop:16px;
+$line-height-body-desktop: 22px;
+$line-height-caption-desktop: 18px;
+$line-height-buttonLink-desktop: 20px;
+
+// line-height / Mobile Theme
+$line-height-h1-mobile: 44px;
+$line-height-h2-mobile: 36px;
+$line-height-h3-mobile: 30px;
+$line-height-h4-mobile: 24px;
+$line-height-h5-mobile: 24px;
+$line-height-h6-mobile: 20px;
+$line-height-body-mobile: 20px;
+$line-height-caption-mobile: 18px;
+$line-height-buttonLink-mobile: 20px;
+
+$line-height-24: 24px;
+
+// letter-spacing / Desktop Theme
+$letter-spacing-h1-desktop: -.5px;
+$letter-spacing-h2-desktop: -.5px;
+$letter-spacing-h3-desktop: -.5px;
+$letter-spacing-eyebrow-desktop: .2px;
+
+// letter-spacing / Mobile Theme
+$letter-spacing-h1-mobile: -.5px;
+$letter-spacing-h2-mobile: -.5px;
+$letter-spacing-h3-mobile: -.5px;
+$letter-spacing-eyebrow-mobile: .2px;
+$letter-spacing-4: -0.4px;
+// Color 
+$main: #4b30b5;
+$color-purple-main: #5f249f;
+$color-purple-tone: #3e037d;
+$color-purple-light-1: #7229c0;
+$color-purple-light-2: #977dff;
+$color-purple-light-3: #e5deef;
+$color-purple-light-4: #f6f3fc;
+
+$black: #1f2020;
+$color-gray-dark: #737373;
+$color-gray-medium: #cacaca;
+$color-gray-container: #f5f5ff;
+$color-gray-light: #f0f0f0;
+
+$color-green: #62c370;
+
+$bg-header:#3726b0;
+$bg-header-gradient: #be68d5;
+
+$body-bg-color: #1d2028;
+$color-white-tone: #fafaff;
+$color-white: #fff;
+$default-text-color: #00c9ff;
+$footer-bg-color: #222823;
+
+$color-green-tint: #e0f3e2;
+$color-orange: #f57803;
+$color-orange-tint: #ffe5cd;
+$color-purple-tint: #e9e0f7;
+$color-red: #d81e5b;
+$color-red-tint: #fddee2;
+$color-blue-tone: #07539f;
+$color-blue: #197fe5;
+$color-red: #EF233C;
+
+
+// config pixel
+$dls-s00-5: 2px;
+$dls-s01-0: 4px;
+$dls-s02-0: 8px;
+$dls-s02-5: 12px;
+$dls-s03-0: 16px;
+$dls-s03-5: 20px;
+$dls-s04-0: 24px;
+$dls-s05-0: 32px;
+$dls-s06-0: 40px;
+$dls-s06-5: 48px;
+$dls-s07-0: 64px;
+$dls-s08-0: 80px;
+
+// breakpoints for Typography
+
+$typography-min-breakpoint: 960px;
+$sm-1-breakpoints: 608px;
+$md-1-breakpoints: 769px;
+$md-2-breakpoints: 959px;
+$lg-1-breakpoints: 960px;
+$lg-2-breakpoints: 1023px;
+$xlg-breakpoints: 1024px;
+$xxlg-breakpoints: 1440px;

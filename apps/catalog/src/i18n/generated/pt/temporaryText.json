@@ -1,0 +1,53 @@
+{
+  "comingSoon": {
+    "title": "Em breve!"
+  },
+  "id": "40bc9c50-1176-4162-bc49-0f75f775a4c4",
+  "showWipAccessories": {
+    "content1": "Através deste catálogo você pode visualizar, comparar e encomendar itens para apoiar suas necessidades individuais de produtividade e colaboração.",
+    "content2": "Precisa de um acessório agora? <1>Visite o Catálogo de Acessórios i-o existente</1>.",
+    "subtitle": "O pedido de acessórios está quase pronto!",
+    "title": "Em breve!"
+  },
+  "showWipApprovals": {
+    "content1": "Através desta página você pode agir com pedidos pendentes e visualizar aprovações arquivadas, com um visual de cartão redesenhado que lhe dá contexto necessário para tomar decisões importantes de aprovação.",
+    "content2": "Precisa aprovar uma ordem aberta agora? <1>Visite io my actions existentes.</1>",
+    "subtitle": "As aprovações estão quase prontas!",
+    "title": "Em breve!"
+  },
+  "showWipCollaboration": {
+    "content1": "Saiba mais sobre Equipes",
+    "content2": "Inscreva-se para uma sessão de treinamento de equipes",
+    "description": "GE apresentou recentemente o Microsoft Teams como sua plataforma de colaboração de próxima geração. As equipes incluem uma variedade de ferramentas de produtividade, desde chat até videoconferência até poderosas integrações de aplicativos.",
+    "downloadTitle": "Equipes de download",
+    "forMac": "Para Mac",
+    "forWindows": "Para Windows",
+    "title": "colaboração"
+  },
+  "showWipComputers": {
+    "content1": "Através deste catálogo você pode visualizar, comparar e encomendar o computador certo para ajudá-lo a fazer seu trabalho. Nosso novo catálogo terá uma tela de produto mais limpa, filtragem mais rica e um fluxo de pedidos melhorado para ajudá-lo a tomar uma decisão informada.",
+    "content2": "Precisa de um computador agora? <1>Visite o catálogo de computadores i-o existente.</1>",
+    "subtitle": "O pedido de computador está quase pronto!",
+    "title": "Em breve!"
+  },
+  "showWipGcom": {
+    "content1": "Através deste catálogo você pode visualizar, comparar e solicitar o serviço GCom certo para otimizar sua colaboração. Nosso novo catálogo terá um fluxo de pedidos mais limpo para ajudá-lo a tomar uma decisão informada.",
+    "content2": "Precisa da GCom agora? <1>Visite o Catálogo de Colaboração i-o existente.</1>",
+    "subtitle": "O pedido gcom está quase pronto!"
+  },
+  "showWipMobility": {
+    "description": "Através deste catálogo você pode visualizar, comparar e encomendar o dispositivo móvel certo para ajudá-lo a fazer seu trabalho. Nosso novo catálogo terá uma tela de produto mais limpa, filtragem mais rica e um fluxo de pedidos melhorado para ajudá-lo a tomar uma decisão informada.",
+    "redirect": "Precisa de Mobilidade agora? ",
+    "redirectLink": "Visite o Catálogo de Mobilidade i-o existente.",
+    "subtitle": "O pedido de mobilidade está quase pronto!"
+  },
+  "showWipSoftware": {
+    "description": "Através deste catálogo você pode visualizar, comparar e encomendar os títulos de Software certos para fazer seu trabalho. Nosso novo catálogo terá um processo de pesquisa mais intuitivo, filtragem mais rica e um fluxo de pedidos melhorado para ajudá-lo a tomar uma decisão informada.",
+    "redirect": "Precisa de software agora? ",
+    "redirectLink": "Visite o catálogo de software i-o existente.",
+    "subtitle": "O pedido de software está quase pronto!"
+  },
+  "showWipTopNav": {
+    "title": "Em breve"
+  }
+}

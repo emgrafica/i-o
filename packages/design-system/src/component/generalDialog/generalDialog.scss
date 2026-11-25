@@ -1,0 +1,45 @@
+@import "../../styles/scss/variable.scss";
+
+    .general-dialog{
+        font-family: $font-opensans; 
+        z-index: 13000000000 !important;       
+        .MuiPaper-rounded{
+            border-radius: 12px;
+        }       
+        .general-dialog-button-close{
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            padding: 12px;
+            border-radius: 50%;
+            color: $color-purple-main;
+        }
+        .general-dialog-title{
+            font-size: $font-size-h5-desktop;
+            .title-header{
+                font-weight: bold;
+                color: $color-purple-main;
+            }
+        }
+        .general-dialog-content{
+            font-size: $font-size-base;    
+        }
+        .general-dialog-actions{
+            justify-content: end ;
+            .dialog-button-component{
+                padding: 6px 16px;
+                border-radius: 4px;
+                color: $color-white;
+                background: $color-purple-main;
+                &:hover {
+                    background: $color-purple-main;
+                }
+                &.Mui-disabled {
+                    background-color: $color-gray-medium !important;
+                  }     
+            }
+            .MuiButton-outlined {
+                border: 1px solid $color-purple-main;
+            }
+        }
+    }    

@@ -1,0 +1,12 @@
+@import "../../styles/scss/variable.scss";
+
+.delete-comment-dialog {
+  .general-dialog-content {
+    display: flex;
+    svg {
+      fill: $color-gray-dark;
+      margin-right: 10px;
+      font-size: 2.5rem;
+    }
+  }
+}

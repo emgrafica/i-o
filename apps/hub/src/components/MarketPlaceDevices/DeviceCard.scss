@@ -1,0 +1,57 @@
+@import './../../styles/scss/variable.scss';
+
+.list-card-device {
+  .card-content {
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+    .end-btn {
+      min-height: 21px;
+    }
+  }
+  .ant-card-body {
+    padding: 0;
+  }
+  .image-devices {
+    margin: 10px auto 0;
+    width: 106px;
+    img {
+      width: 100%;
+    }
+  }
+  .btn-refresh {
+    background: rgba(110, 50, 201, 0.15);
+    color: #6e32c9;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    line-height: 16px !important;
+    border-radius: 21px;
+    border: none;
+    height: auto;
+    padding: 2px 8px;
+    font-family: $font-opensans-bold;
+  }
+  .profile {
+    margin: 8px 0 0;
+  }
+  .description {
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-gray-dark;
+    font-family: $font-opensans-regular;
+    > b {
+      font-family: $font-opensans-bold;
+    }
+  }
+  @media (min-width: 500px) {
+    .profile {
+      min-height: auto;
+    }
+  }
+  @media (min-width: 768px) {
+    .image-devices {
+      width: 212px;
+    }
+  }
+}
+

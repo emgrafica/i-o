@@ -1,0 +1,17 @@
+{
+  "getSupport": "获取支持",
+  "id": "ed39d9e5-6bda-4f8d-adfe-736506fde033",
+  "logOut": "注销",
+  "logOutMessage": "此操作将记录您退出 GE EXP。",
+  "manage": "管理",
+  "punchOutModal": {
+    "closeButton": "关闭对话",
+    "getSupportMessage": "SOLV 服务台为您的业务或 GE以外的地区提供实时支持。",
+    "mobileMessage": "请求移动适用于您的业务或 GE Exp以外的区域。 点击继续以新选项卡访问此服务。",
+    "remoteAccessMessage": "请求远程访问适用于您的业务或 GE Exp以外的区域。 点击继续以新选项卡访问此服务。",
+    "softwareMessage": "请求软件适用于您的业务或 GE Exp以外的区域。 点击继续以新选项卡访问此服务。",
+    "title": "重要信息"
+  },
+  "request": "请求",
+  "signOut": "登出"
+}

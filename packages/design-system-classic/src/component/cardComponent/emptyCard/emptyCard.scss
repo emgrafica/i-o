@@ -1,0 +1,40 @@
+@import './../../../styles/variable.scss';
+
+.io-empty-card {
+  width: 100%;
+  margin: 10px 0 0 !important;
+  background: $color-gray-container;
+  border-radius: 12px;
+  padding: 64px 10px;
+  .ant-empty-image {
+    height: 24px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+  .ant-empty-description {
+    margin-top: 24px;
+    span, .txt-desc {
+      display: block;
+      color: $color-gray-dark;
+      font-size: $font-size-eyebrow-desktop;
+      line-height: $line-height-eyebrow-desktop;
+      font-family: $font-opensans-bold;
+      text-transform: uppercase;
+    }
+    .sub-desc {
+      margin-top: 4px;
+      color: $color-gray-dark;
+      font-size: $font-size-caption-desktop;
+      line-height: $line-height-caption-desktop;
+      font-family: $font-opensans-regular;
+      text-transform: initial;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    margin-top: 16px !important;
+  }
+}

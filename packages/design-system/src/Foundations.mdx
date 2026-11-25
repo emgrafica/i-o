@@ -1,0 +1,54 @@
+import { Meta, ColorPalette, ColorItem, Typeset } from '@storybook/blocks';
+
+<Meta title="Foundations/Tokens" />
+
+# i-o design system: foundations
+
+These tokens are generated from `design/tokens.json`. The brand is **monochrome**: the former DXC purple palette now maps to black (#000000) and greys.
+
+## Colour
+
+<ColorPalette>
+  <ColorItem title="brand" subtitle="color.brand.*" colors={{"default": "#000000", "strong": "#000000", "hover": "#333333", "muted": "#666666", "plum": "#4D4D4D", "subtle": "#E5E5E5", "wash": "#F5F5F5", "tint": "#EBEBEB"}} />
+  <ColorItem title="neutral" subtitle="color.neutral.*" colors={{"black": "#1F2020", "gray-dark": "#737373", "gray-medium": "#CACACA", "gray-light": "#F0F0F0", "container": "#F5F5F5", "white": "#FFFFFF", "white-tone": "#FAFAFA"}} />
+  <ColorItem title="feedback" subtitle="color.feedback.*" colors={{"success": "#62C370", "success-tint": "#E0F3E2", "warning": "#F57803", "warning-tint": "#FFE5CD", "danger": "#EF233C", "danger-alt": "#D81E5B", "danger-tint": "#FDDEE2", "info": "#197FE5", "info-strong": "#07539F", "info-light": "#5E98DB"}} />
+  <ColorItem title="surface" subtitle="color.surface.*" colors={{"header": "#000000", "header-gradient": "#333333", "body-dark": "#1D2028", "footer": "#222823", "accent-cyan": "#00C9FF"}} />
+</ColorPalette>
+
+## Type scale (desktop)
+
+<Typeset fontSizes={[64, 40, 32, 24, 20, 16, 10, 14, 12, 14]} fontWeight={400} sampleText="i-o: help when you need it" fontFamily='"Open Sans", Helvetica, Arial, sans-serif' />
+
+## Type scale (mobile)
+
+<Typeset fontSizes={[40, 32, 26, 20, 20, 16, 10, 14, 12, 14]} fontWeight={400} sampleText="i-o: help when you need it" fontFamily='"Open Sans", Helvetica, Arial, sans-serif' />
+
+## Spacing
+
+| Token | Value |
+|---|---|
+| `space.s00-5` | 2px |
+| `space.s01-0` | 4px |
+| `space.s02-0` | 8px |
+| `space.s02-5` | 12px |
+| `space.s03-0` | 16px |
+| `space.s03-5` | 20px |
+| `space.s04-0` | 24px |
+| `space.s05-0` | 32px |
+| `space.s06-0` | 40px |
+| `space.s06-5` | 48px |
+| `space.s07-0` | 64px |
+| `space.s08-0` | 80px |
+
+## Breakpoints
+
+| Token | Value |
+|---|---|
+| `breakpoint.sm-1` | 608px |
+| `breakpoint.md-1` | 768px |
+| `breakpoint.md-2` | 959px |
+| `breakpoint.lg-1` | 960px |
+| `breakpoint.lg-2` | 1023px |
+| `breakpoint.xlg` | 1024px |
+| `breakpoint.xxlg` | 1440px |
+| `breakpoint.typography-min` | 960px |

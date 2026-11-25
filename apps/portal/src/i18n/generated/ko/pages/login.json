@@ -1,0 +1,10 @@
+{
+  "email": "이메일",
+  "emailPlaceholder": "email@email.com",
+  "id": "ba8017df-0366-42c7-b728-5f0b70bf6c91",
+  "invalidDomain": "당사는 귀하의 회사 이메일을 인식하지 못합니다. 시스템 관리자에게 문의하십시오.",
+  "invalidEmail": "유효한 이메일 주소 입력",
+  "login": "로그인",
+  "subtitle": "아래 세부 정보를 입력하십시오.",
+  "title": "로그인"
+}

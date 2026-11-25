@@ -1,0 +1,17 @@
+{
+  "businessApplicationsTabTitle": "비즈니스 애플리케이션",
+  "businessFiltersLabel": "비지니스:",
+  "id": "2affa7bf-6b56-4a9c-a415-b7e7b124c3ec",
+  "knowledgeArticlesTabTitle": "지식 기사",
+  "noResults": "죄송합니다, 어떤 결과 검색어와 일치하지 않습니다.",
+  "punchOutModal": {
+    "action": "지원 받기",
+    "message": "이 비즈니스 애플리케이션에 대한 지원은 i-o의 장애 접수 프로세스와 별개로 운영됩니다. 애플리케이션 지원 관련 외부 URL을 여는 아래 링크를 클릭해 지원요청을 계속해서 진행하십시오.",
+    "title": "i-o 외부의 비즈니스 응용 프로그램 지원"
+  },
+  "showingEnglishResults": "비즈니스 응용 프로그램 결과는 현재 영어로만 제공됩니다.",
+  "showingResultsFor": "\"{{keywords}}\"에 대한 {{totalItems}} 결과 표시 \"",
+  "subtitle": "IT 문제에 대한 셀프 서비스 솔루션 액세스",
+  "title": "지원 받기",
+  "viewAllLabel": "모두 보기"
+}

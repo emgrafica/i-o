@@ -1,0 +1,20 @@
+@import "../../../styles/scss/variable.scss";
+@import "../../../styles/scss/mixin.scss";
+.accordion-icon {
+  width: 24px;
+  height: 24px;
+}
+.accordion-count {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  border: solid 1px $color-purple-light-1;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    @include heading5;
+    font-weight: 500;
+  }
+}

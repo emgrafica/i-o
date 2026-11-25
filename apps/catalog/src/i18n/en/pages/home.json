@@ -1,0 +1,73 @@
+{
+  "id": "64471f46-f15e-4a4a-8eaf-4f595637e2f8",
+
+  "title": "Home",
+  "greeting": {
+    "morning": "Good Morning",
+    "afternoon": "Good Afternoon",
+    "evening": "Good Evening"
+  },
+  "approvals": {
+    "title": "Approvals",
+    "status": "pending"
+  },
+  "computer": {
+    "title": "Need to Request Something?",
+    "subtitle": "Find the right catalog to place an order request.",
+    "action": "computer"
+  },
+  "obo": {
+    "title": "Order For Another User",
+    "action": "Lookup User"
+  },
+  "orders": {
+    "title": "Orders",
+    "status": "open",
+    "action": "View Requests"
+  },
+  "incidents": {
+    "title": "Incidents",
+    "status": "open"
+  },
+  "search": {
+    "title": "Search For Another User's Assets and Tickets",
+    "action": "Search Now"
+  },
+  "userLookup": {
+    "title": "Who would you like to act on behalf of?",
+    "description": "This will allow you to perform specific actions on behalf of a colleague. In doing so you will have limited access to the site.",
+    "impersonate": "Impersonate"
+  },
+  "explore": {
+    "title": "Manage Your Technology",
+    "subtitle": "View and manage your assigned assets in one place",
+    "action": "View Technology ",
+    "titleComingSoon": "Welcome to the new i-o!",
+    "comingSoonMessage1": "As we rebuild our platform, we will be incrementally releasing each component of the tool and we would <1>love your early feedback on the new design</1>.",
+    "comingSoonMessage2": "In the meantime, you can continue to access all i-o functionality in <1>our existing site</1>. We look forward to your feedback on the new experience to help us shape i-o to best meet your needs!"
+
+  },
+  "feedback": {
+    "title": "Share Your Feedback",
+    "subtitle": "Let our team know what is working well and how we can improve your i-o experience",
+    "action": "SHARE FEEDBACK"
+  },
+  "getAssistance": {
+    "title": "Get Tech Support",
+    "subtitle": "Find solutions to common issues or get in touch with the {{helpdeskName}} for live support",
+    "action": "GET SUPPORT"
+  },
+  "quickLinks": {
+    "title": "Quick Links",
+    "subtitle": "Access helpful internal company links"
+  },
+  "feedbackButton": {
+    "label": "Feedback"
+  },
+  "comingSoon": "Coming Soon...",
+  "error": {
+    "retry": "RETRY",
+    "loadingError": "Error Loading Preview",
+    "quickLinksLoadingError": "Error Loading Quick Links"
+  }
+}

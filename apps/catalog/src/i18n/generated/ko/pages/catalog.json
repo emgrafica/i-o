@@ -1,0 +1,19 @@
+{
+  "error": {
+    "catalogError": "죄송합니다, 우리는 당신의 결과를 검색하는 문제에 달렸다. 다시 시도하십시오.",
+    "filtersError": "오류 로드 필터",
+    "retry": "재시도"
+  },
+  "id": "8759acde-0e57-4c81-ace1-b6642fe55b88",
+  "sortBy": {
+    "nameAtoZ": "이름: A ~ Z",
+    "nameZtoA": "이름: Z ~ A",
+    "priceHighToLow": "가격: 높음에서 낮음",
+    "priceLowToHigh": "가격: 낮음에서 높음"
+  },
+  "unentitled": {
+    "contact": "이 오류라고 생각되는 경우 서비스 데스크 상담원에게 문의하십시오.",
+    "goHome": "집으로 돌아가기",
+    "noItems": "비즈니스 구성 규칙에 따라 <3>{{name}}</3> 사용할 수 있는 <1>{{catalog}}</1> 항목은 없습니다."
+  }
+}

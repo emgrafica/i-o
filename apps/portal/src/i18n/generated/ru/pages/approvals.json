@@ -1,0 +1,42 @@
+{
+  "approvalError": "Утверждение не удалось. Пожалуйста, попробуйте еще раз.",
+  "approve": "одобрять",
+  "approved": "одобренный",
+  "decline": "отклонять",
+  "declineModal": {
+    "label": "Просьба представить причину снижения",
+    "placeholder": "Вот причина упадка.",
+    "title": "Причина упадка"
+  },
+  "declineSuccess": "Запрос успешно отклонен.",
+  "declined": "Отказался",
+  "filterBox": {
+    "accessories": "принадлежности",
+    "computers": "Компьютеры",
+    "mobility": "мобильность",
+    "title": "Категории"
+  },
+  "id": "740e55ca-4881-425c-ab95-b0e83d805572",
+  "noApprovedOrders": "Утвержденных заказов нет.",
+  "noDeclinedOrders": "Отклоненных заказов нет.",
+  "noFilterResults": "К сожалению, результаты не соответствуют вашему фильтру.",
+  "noPendingOrders": "В настоящее время нет заказов до вашего утверждения.",
+  "order": {
+    "approvalReason": "Причина утверждения",
+    "approvedLabel": "одобренный",
+    "businessJustification": "Бизнес-обоснование",
+    "declineReason": "Отклоненная причина",
+    "declinedLabel": "Отказался",
+    "for": "для",
+    "imageAlt": "Запрошенный актив",
+    "orderNumber": "Номер заказа",
+    "price": "цена",
+    "replacedDevice": "Замененное устройство",
+    "requestReason": "Причина запроса",
+    "returnDate": "Дата возвращения",
+    "submittedLabel": "Представлены"
+  },
+  "pending": "ожидаемый",
+  "subtitle": "Просмотр и действие запросов",
+  "title": "Утверждения"
+}

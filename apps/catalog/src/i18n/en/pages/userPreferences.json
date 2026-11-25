@@ -1,0 +1,12 @@
+{
+  "id": "a796400e-58b3-476e-84ce-e0a3ace88ee4",
+
+  "title": "User Preferences",
+  "profile": "Profile",
+  "profileInfo": "Profile Info",
+  "department": "Department",
+  "supervisor": "Supervisor",
+  "email": "Email",
+  "workAddress": "Work Address",
+  "updateProfileInfo": "Update Profile Info"
+}

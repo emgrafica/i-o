@@ -1,0 +1,33 @@
+{
+  "applicationNameLabel": "Nombre de la aplicación:",
+  "attachFilesSection": {
+    "header": {
+      "fileCount": "(archivo{{count}} adjunto)",
+      "fileCount_plural": "({{count}} archivos adjuntos)",
+      "maxSizeInfo": "Tamaño máximo por archivo: {{limit}}.0 MB",
+      "optionalLabel": "(Opcional)",
+      "title": "Adjuntar archivos"
+    },
+    "instructions": "Adjunte a {{limit}} documentos relevantes que ayudarán a los agentes de apoyo a resolver su problema."
+  },
+  "businessLabel": "negocio:",
+  "descriptionSection": {
+    "details": {
+      "label": "Proporcione detalles para su problema",
+      "placeholder": "Describa su problema en detalle para que nuestros agentes puedan ayudarlo lo más rápido posible"
+    },
+    "header": "descripción",
+    "title": {
+      "label": "título",
+      "placeholder": "Breve descripción"
+    }
+  },
+  "directions": "Complete el siguiente formulario para enviar una solicitud de incidente para que el equipo de soporte adecuado revise y trabaje para resolver el problema.",
+  "formTitle": "Formulario de incidente de solicitud comercial",
+  "id": "943ce07c-b69d-4e43-85ac-90d0e86f10fb",
+  "loadingMessageWithFiles": "Creación de incidentes y carga de archivos adjuntos",
+  "loadingMessageWithoutFiles": "Creación de su incidente",
+  "searchedTopicLabel": "Tema buscado:",
+  "subtitle": "Acceso a soluciones de autoservicio para problemas de TI",
+  "title": "Obtener soporte técnico"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "@i-o/catalog",
+  "version": "0.3.7",
+  "private": true,
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/__mocks__/fileMock.js",
+      "config/auth": "<rootDir>/src/config/__mocks__/auth.js"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!@lumos/core)"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  },
+  "dependencies": {
+    "@apollo/react-common": "^3.1.4",
+    "@apollo/react-hooks": "^3.1.5",
+    "@azure/msal-browser": "^2.9.0",
+    "@azure/msal-react": "^1.0.0-alpha.2",
+    "@lumos/core": "^1.5.1-rc1",
+    "@material-ui/icons": "^4.11.2",
+    "react-scripts": "4.0.0",
+    "@types/node": "12.7.10",
+    "@types/query-string": "^6.3.0",
+    "@types/react": "16.9.4",
+    "@types/react-dom": "16.9.1",
+    "@types/react-gtm-module": "^2.0.0",
+    "@types/react-helmet": "^5.0.15",
+    "@types/react-router-dom": "^5.1.4",
+    "@types/styled-components": "^4.4.3",
+    "apollo-boost": "^0.4.7",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.19.2",
+    "date-fns": "^2.12.0",
+    "fs-extra": "^8.1.0",
+    "graphql": "^14.6.0",
+    "graphql-anywhere": "^4.2.6",
+    "i18next": "^17.3.1",
+    "jwt-decode": "^3.1.2",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.4",
+    "react-gtm-module": "^2.0.10",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^10.13.2",
+    "react-loading-skeleton": "^2.1.1",
+    "react-modal": "^3.11.2",
+    "react-router-dom": "^5.1.2",
+    "react-router-navigation-prompt": "^1.8.11",
+    "react-spring": "^8.0.27",
+    "react-table": "^6.11.5",
+    "styled-components": "^4.4.1",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "cross-env HTTPS=true react-scripts start",
+    "pretest:ci": "npm run lint",
+    "build": "react-scripts build && node config/copyServer.js",
+    "build:analyze": "npx source-map-explorer ./build/static/js/*.js",
+    "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
+    "test:ci": "cross-env CI=true && react-scripts test --env=jest-environment-jsdom-sixteen --watchAll=false --all --reporters=default --reporters=jest-junit --coverage",
+    "eject": "react-scripts eject",
+    "i18n": "node scripts/i18n",
+    "apollo:generate": "node ./scripts/apollo-generate-types",
+    "apollo:fragments": "node ./scripts/apollo-generate-fragments",
+    "format": "prettier \"src/**/*.+(ts|tsx)\" --write --loglevel silent",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings 0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "devDependencies": {
+    "@io/azure-translator": "^1.0.7",
+    "@apollo/react-testing": "^3.1.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^10.0.3",
+    "@testing-library/react-hooks": "^3.2.1",
+    "@testing-library/user-event": "^10.1.0",
+    "@types/jest": "^25.2.1",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/lolex": "^3.1.1",
+    "apollo": "^2.30.1",
+    "dotenv": "^8.2.0",
+    "husky": "^4.2.5",
+    "jest": "^24.9.0",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "json-stable-stringify": "^1.0.1",
+    "lolex": "^5.1.2",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.13.1",
+    "shelljs": "^0.8.4",
+    "ts-jest": "^25.4.0"
+  }
+}

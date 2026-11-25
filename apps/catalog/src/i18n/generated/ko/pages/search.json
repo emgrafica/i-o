@@ -1,0 +1,15 @@
+{
+  "id": "d7ab0c9d-b719-4d01-9323-ba6214c0961e",
+  "keywords": {
+    "placeholder": "ID 번호"
+  },
+  "searchBy": {
+    "criteria": {
+      "asset": "자산",
+      "user": "사용자"
+    },
+    "label": "검색"
+  },
+  "subtitle": "자산 및 티켓 보기 및 행동",
+  "title": "검색"
+}

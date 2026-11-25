@@ -1,0 +1,37 @@
+REACT_APP_API_SUBSCRIPTION_KEY=<value>
+REACT_APP_AUTH_ENDPOINT=https://example.com
+REACT_APP_CLIENT_ID=123
+REACT_APP_API_SCOPE=https://graph.microsoft.com/User.Read
+REACT_APP_API_GRAPH_ENDPOINT=http://localhost:4000/graphql
+REACT_APP_ENV=<value>
+REACT_APP_GTM_ID=12
+# The value of this key is generated automatically by the release pipeline during deployment.
+# This key can be set to any number for dev purposes.
+REACT_APP_BUILD_NUMBER=<any_number>
+REACT_APP_AUTH_BASE_URL=<value>
+REACT_APP_AUTH_DEFAULT_SCOPE=<value>
+REACT_APP_ISSUER=<value>
+REACT_APP_CLIENT_SECRET=<value>
+REACT_APP_GRANT_TYPE=<value>
+REACT_APP_TOKEN_ENDPOINT=<value>
+# This key can be set to your sso for dev purposes.
+LOCAL_USER_ID=11111111-1111-1111-1111-111111111111
+REACT_APP_BOLD_ACCOUNT_ID=<value>
+REACT_APP_BOLD_CHAT_BUTTON_ID=<value>
+REACT_APP_BOLD_INVITATION_ID_STAGE=<value>
+REACT_APP_BOLD_WEBSITE_ID_STAGE=<value>
+REACT_APP_LOUNGE_URL=<value>
+
+#These keys are needed to run `npm run i18n` which is used to translate the UI content
+I18N_TRANSLATOR_ENDPOINT=<value>
+I18N_APIM_SUBSCRIPTION_KEY=<value>
+I18N_AUTH_URL=<value>
+I18N_APIM_CLIENT_ID=<value>
+I18N_APIM_CLIENT_SECRET=<value>
+I18N_APIM_GRANT_TYPE=<value>
+I18N_APIM_SCOPE=<value>
+
+REACT_APP_SHOW_WORK_IN_PROGRESS=<value>
+REACT_APP_SERVICE_NOW_CHAT_URL=<value>
+REACT_APP_SHOW_WELCOME_MODAL_TIMESTAMP=<value>
+REACT_APP_FILE_UPLOADER_URL=<value>

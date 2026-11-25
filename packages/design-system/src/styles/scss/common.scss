@@ -1,0 +1,132 @@
+@import 'variable.scss';
+
+body {
+  font-family: 'Open Sans' !important;
+  background-image: linear-gradient(135deg,#eceef1,#eceef1) !important;
+  // background-color: #eceef1;
+}
+
+.izDfGw, .sc-gVgoRu {
+  background-color: rgba(0, 0, 0, .5) !important;
+  z-index: 500;
+  + div {z-index: 10000000000;}
+}
+.button-default-1 {
+  cursor: pointer;
+  height: 40px;
+  padding: 4px 15px;
+  background-color: $color-purple-light-1;
+  border: solid 1px $color-purple-light-1;
+  border-radius: 100px;
+  color: $color-white;
+  font-weight: 600;
+  @media screen and (min-width: 1024px) {
+    &:hover {
+      background-color: $color-purple-main;
+      border-color: $color-purple-main;
+    }
+  }
+}
+.go-back-btn {
+  background-color: transparent !important;
+  font-weight: bold !important;
+  margin-top: 54px !important;
+  color: #000000 !important;
+  padding: 4px 0 !important;
+  text-transform: capitalize !important;
+  text-decoration: none;
+}
+.wrapper-container {
+  padding: 0 20px;
+  @media (min-width: 1280px) {
+    padding: 0 152px;
+  }
+  @media (min-width: 1920px) {
+    padding: 0;
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+.modal-basic-custom {
+  outline: none;
+  position: relative;
+  background-color: $color-white;
+  margin: 20px;
+  overflow-y: scroll;
+  height: 93%;
+  @media (min-width: 960px) {
+    width: 520px;
+    margin: 20px auto;
+  }
+  .ttl-modal {
+    margin: 0;
+    padding: 25px 50px;
+    color: $color-purple-main;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: solid 1px $color-gray-medium;
+  }
+  .inner {
+    padding: 20px 30px;
+    text-align: left;
+  }
+  .modal-footer {
+    border-top: solid 1px $color-gray-medium;
+    padding: 25px 0;
+    text-align: center;
+  }
+  .icon-close {
+    position: absolute;
+    top: 29px;
+    right: 10px;
+    z-index: 1;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+.icons{
+  width: 16px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.iWBHQN {
+  > button {
+    padding: 2px 15px;
+    font-size: 17px;
+    text-align: left;
+    > span {
+      color: #ccc;
+      text-transform: capitalize;
+    }
+    &:first-child {padding-left: 0;}
+    &:hover {background-color: transparent;}
+  }
+  > button[aria-selected="true"] {
+    border-bottom: 4px solid $color-purple-main;
+    span {color: #000;}
+  }
+}
+
+.show-result-ticket {
+  margin: 0 0 20px;
+  font-style: italic;
+  span {font-weight: 700;}
+}
+.lumos-modal-overlay {z-index: 10000000000;}
+.minimizable-web-chat>.chat-box.right {
+  right: 65px;
+}
+.fUvdGo > .minimizable-web-chat > button.maximize {right: 60px;}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: "white 9999s ease-out, white 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
